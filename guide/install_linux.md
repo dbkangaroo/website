@@ -16,6 +16,7 @@ sudo apt install libgda-5.0-postgtes
 sudo apt install libgtksourceview-4-0
 ```
 
+
 # Fedaro
 the follow install script assumption tha glibc / gtk+-3.0 / gdk-pixbuf-2.0 have installed by default.
 ``` bash
