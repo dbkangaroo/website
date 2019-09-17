@@ -26,14 +26,14 @@ footer: Private property | Copyright © 2018-present Kangaroo development team
 </div>
 
 # Support database
-Database support capability level: __Planned__ / __Partial__ / __Full__
+Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 
 | Database       | Version   | Query     | Editing   | Designer    | Intellisense | Modeling | Export/Import | Data & Structure Sync | 
 |----------------|-----------|-----------|-----------|-------------|--------------|----------|---------------|-----------------------|
-| SQLite         | 3.x       | Full      | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
-| MySQL          | 8.0       | Full      | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
-| MariaDB        | 10.x      | Full      | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
-| PostgreSQL     | 11.x      | Full      | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
+| SQLite         | 3.x       | Full:100: | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
+| MySQL          | 8.0       | Full:100: | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
+| MariaDB        | 10.x      | Full:100: | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
+| PostgreSQL     | 11.x      | Full:100: | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
 | Redis          |           | Planned   | Planned   | Planned     | Planned      | Planned  | Planned       | Planned               |
 | TBD            |           |           |           |             |              |          |               |                       |
 
