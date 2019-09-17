@@ -35,7 +35,7 @@ Database support capability level: __Planned__ / __Partial__ / __Full__
 | MariaDB        | 10.x      | Full      | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
 | PostgreSQL     | 11.x      | Full      | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
 | Redis          |           | Planned   | Planned   | Planned     | Planned      | Planned  | Planned       | Planned               |
-| TBD            |           | Planned   | Planned   | Planned     | Planned      | Planned  | Planned       | Planned               |
+| TBD            |           |           |           |             |              |          |               |                       |
 
 
 
