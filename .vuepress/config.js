@@ -1,4 +1,9 @@
 module.exports = {
+    plugins: {
+        'sitemap': {
+            hostname: 'https://dbkangaroo.github.io/'
+        }
+    },
     base: '/',
     locales: {
         '/': {
@@ -34,34 +39,18 @@ module.exports = {
                     },
                 ],
                 sidebar: {
-                    '/guide/': getGuideSidebar('Guide'),
-                    '/download/': getGuideSidebar('Download'),
+                    '/guide/': [
+                        '',
+                        'install_linux',
+                        'install_windows',
+                        'install_macos',
+                    ],
+                    '/download/': [
+                        '',
+                        'v0.7.2.190916',
+                    ],
                 }
             },
         }
-    }
-}
-
-function getGuideSidebar(title) {
-    if ("Guide" == title) {
-        return [{
-            title,
-            collapsable: false,
-            children: [
-                '',
-                'install_linux',
-                'install_windows',
-                'install_macos',
-            ]
-        }]
-    } else {
-        return [{
-            title,
-            collapsable: false,
-            children: [
-                '',
-                'v0.7.2.190916',
-            ]
-        }]
     }
 }
