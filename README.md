@@ -25,13 +25,25 @@ footer: Private property | Copyright © 2018-present Kangaroo development team
   </div>
 </div>
 
+# Support database
+Database support capability level: __Planned__ / __Partial__ / __Full__
+| Database       | Version   | Query     | Editing   | Designer    | Intellisense | Modeling | Export/Import | Data & Structure Sync | 
+|----------------|-----------|-----------|-----------|-------------|--------------|----------|---------------|-----------------------|
+| SQLite         | 3.x       | Full      | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
+| MySQL          | 8.0       | Full      | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
+| MariaDB        | 10.x      | Full      | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
+| PostgreSQL     | 11.x      | Full      | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
+| Redis          |           | Planned   | Planned   | Planned     | Planned      | Planned  | Planned       | Planned               |
+| TBD            |           | Planned   | Planned   | Planned     | Planned      | Planned  | Planned       | Planned               |
+
+
+
 # Release
 Development version will be released weekly, Stable and LTS(Long-term Support) version depend on test result and stabilization.
 
 | Platform            | Linux(64 bit) 	                   | Windows(64 bit)       	            | MacOS(64 bit) 	                   |
 |---------------------|------------------------------------|------------------------------------|------------------------------------|
-| Support databases   | SQLite 3 / MySQL 8.0 / PostgreSQL 11   | SQLite 3 / MySQL 8.0 / PostgreSQL 11   | SQLite 3 / MySQL 8.0 / PostgreSQL 11       |
-| Development         | [v0.7.2.190916](/download.html)  | [v0.7.21.190916](/download.html)  | Comming Soon!           |
+| Development         | [v0.7.2.190916](./download)        | [v0.7.21.190916](./download)       | Comming Soon!                      |
 | Stable              | On going......                     | On going......                     | On going......                     |
 
 

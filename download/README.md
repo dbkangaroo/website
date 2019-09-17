@@ -4,11 +4,9 @@ lang: en-US
 ---
 
 # Development version
-Development version will be released weekly, 
-
+Development version will be released weekly, talent be changed daily, keep your eyes on it. 
 | Platform            | Linux(64 bit) 	                   | Windows(64 bit)       	            | MacOS(64 bit) 	                 |
 |---------------------|------------------------------------|------------------------------------|------------------------------------|
-| Support databases   | SQLite 3 / MySQL 8.0 / PostgreSQL 11   | SQLite 3 / MySQL 8.0 / PostgreSQL 11   | SQLite 3 / MySQL 8.0 / PostgreSQL 11       |
 | 2019-09-16          | [v0.7.2.190916](./v0.7.2.190916)   | [v0.7.2.190916](./v0.7.2.190916)   | Comming Soon!                      |
 |                     |                                    |                                    |                                    |
 
@@ -16,7 +14,6 @@ Development version will be released weekly,
 Stable and LTS(Long-term Support) version depend on test result and stabilization.
 | Platform            | Linux(64 bit) 	                   | Windows(64 bit)       	            | MacOS(64 bit) 	                 |
 |---------------------|------------------------------------|------------------------------------|------------------------------------|
-| Support databases   | SQLite 3 / MySQL 8.0 / PostgreSQL 11   | SQLite 3 / MySQL 8.0 / PostgreSQL 11   | SQLite 3 / MySQL 8.0 / PostgreSQL 11       |
 | TBD                 |                                    |                                    |                                    |
 |                     |                                    |                                    |                                    |
 
