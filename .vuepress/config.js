@@ -48,6 +48,10 @@ module.exports = {
                     },
                 ],
                 sidebar: {
+                    '/document/': [
+                        '',
+                        'why-choose-vala',
+                    ],
                     '/guide/': [
                         '',
                         'install_linux',
