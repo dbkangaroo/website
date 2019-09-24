@@ -1,0 +1,208 @@
+---
+title: How to deploy GTK based app on windows?
+lang: en-US
+---
+
+# Background
+Since developing SQL client tool Kangaroo, I met the major trouble is how to deploy Kangaroo app to user, then searched all of solutions from internet, finally, I found a great article [GTK+3 Installation Tutorial for Windows](http://www.tarnyko.net/repo/gtk3_build_system/tutorial/gtk3_tutorial.htm), it provides clear guide to deploy GTK based app, so the honor belongs to the author of article.
+
+# Precondition
+The app must be compiled and executed in environment: [MSYS2](https://www.msys2.org/)
+
+# Solution
+## Prepare app directory structure
+To deploy GTK based app, the app must follow the directory structure like linux:
+```
+[App Home]
+    ├─bin
+    ├─etc
+    │  └─gtk-3.0
+    ├─lib
+    └─share
+        ├─doc
+        ├─glib-2.0
+        │  └─schemas
+        ├─icons
+        │  ├─Adwaita
+        │  └─hicolor
+        ├─locale
+        └─themes
+            ├─Default
+            ├─MS-Windows
+            └─Windows10
+```
+
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
+
+## Copy dependent libraries of app
+__List of GTK dependencies__
+GTK depends on several libraries:
++ GLib
++ cairo
++ Pango
++ ATK
++ gdk-pixbuf
+
+To run GTK programs you will also need:
++ gettext-runtime
++ fontconfig
++ freetype
++ expat
++ libpng
++ zlib
+
+__How to get the file list and copy them to target dir?__
+
+the solution is a series of linux commands combination like this:
+```bash
+ldd "${SOURCEDIR}/build/src/kangaroo.exe" | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
+```
+
+__Done the commands above is all right?   No!!!__
+
+Some components in the GTK framework have plugins like gdk-pixbuf / libgda, so we must use the commands to copy them one by one.
+```bash
+ldd /mingw64/bin/libpq.dll | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
+```
+
+
+## Copy app resource file
++ /etc
+  - /gtk-3.0/settings.ini : applications-wide settings.
+  - *: miscellaneous files.
+
++ /lib
+  - /gdk-pixbuf-2.0 : GDK-Pixbuf modules. SVG support.
+  - /gtk-3.0 : GTK+-IM modules.
+  - /pango : Pango modules.
+  - *: import libraries, headers, pkg-config files... only needed for development.
+
++ /share
+  - /doc : license and copyleft.
+  - /gtk-3.0 : resource files for gtk3-demo program.
+  - /gtk-doc : documentation in HTML format.
+  - /icons : icon themes, used by gtk3-demo and gtk3-widget-factory.
+  - /locale : localization files. Internationalized text support.
+  - /themes : graphical themes.
+  - *: miscellaneous files.
+
+## Validae the runtime dependency view
+execute the app under user ENV and the app under dev ENV, compare the runtime dependency view, check the count of dll file and dll file name. make sure they are same.
+
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
+## Full source code
+```bash
+#!/usr/bin/env sh
+
+#
+# Copyright(C) 2018-2019 taozuhong(https://github.com/taozuhong)
+# Important:
+#   These functions are a part of the Kangaroo tool suite;
+#   copyright taozuhong. 2018, 2019.  All rights reserved.
+#
+# Author:    taozuhong
+# Created:   1.8.2019
+#
+SOURCEDIR="$( cd "$(dirname "$0")/../" ; pwd -P )"
+TARGETDIR="${SOURCEDIR}/build/windows"
+VERSION="0.7.2.$(date +%y%m%d)"
+
+# check target directory exist and make it
+echo -n "Check and make target directory......"
+if [ ! -d "$TARGETDIR" ]; then
+  mkdir $TARGETDIR
+  mkdir "${TARGETDIR}/bin/"
+  mkdir "${TARGETDIR}/lib/"
+  mkdir "${TARGETDIR}/share/"
+  mkdir "${TARGETDIR}/share/doc"
+  mkdir "${TARGETDIR}/share/themes"
+  mkdir "${TARGETDIR}/share/glib-2.0"
+  mkdir "${TARGETDIR}/etc/"
+else 
+  if [ ! -d "${TARGETDIR}/bin" ]; then
+    mkdir "${TARGETDIR}/bin/"
+  fi
+
+  if [ ! -d "${TARGETDIR}/lib" ]; then
+    mkdir "${TARGETDIR}/lib/"
+  fi
+
+  if [ ! -d "${TARGETDIR}/share" ]; then
+    mkdir "${TARGETDIR}/share/"
+    mkdir "${TARGETDIR}/share/doc"
+    mkdir "${TARGETDIR}/share/themes"
+    mkdir "${TARGETDIR}/share/glib-2.0"
+  fi
+
+  if [ ! -d "${TARGETDIR}/etc" ]; then
+    mkdir "${TARGETDIR}/etc/"
+  fi
+fi
+echo "[done]"
+
+# copy app dependency library to target dir
+echo -n "Copy app dependency library......"
+ldd "${SOURCEDIR}/build/src/kangaroo.exe" | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
+ldd /mingw64/bin/libjson-glib-1.0-0.dll | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
+ldd /mingw64/bin/libsoup-2.4-1.dll | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
+ldd /mingw64/bin/libgtksourceview-4-0.dll | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
+
+cp -f "${SOURCEDIR}/build/src/kangaroo.exe" "${TARGETDIR}/bin/"
+cp -f /mingw64/bin/librsvg-2-2.dll "${TARGETDIR}/bin/"
+cp -f /mingw64/bin/libgthread-2.0-0.dll "${TARGETDIR}/bin/"
+cp -f /mingw64/bin/libcroco-0.6-3.dll "${TARGETDIR}/bin/"
+
+# libgda providers required library(MySQL/PostgreSQL/JDBC/...)
+cp -f /mingw64/bin/libpq.dll "${TARGETDIR}/bin/"
+cp -f /mingw64/bin/mariadb.dll "${TARGETDIR}/bin/"
+
+ldd /mingw64/bin/libpq.dll | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
+ldd /mingw64/bin/mariadb.dll | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
+
+echo "[done]"
+
+# copy GTK runtime resource
+echo -n "Copy GTK runtime resource......"
+cp -rf /mingw64/lib/gdk-pixbuf-2.0 "${TARGETDIR}/lib/"
+cp -rf /mingw64/lib/libgda-5.0 "${TARGETDIR}/lib/"
+cp -rf /mingw64/etc/gtk-3.0 "${TARGETDIR}/etc/"
+cp -rf /mingw64/share/icons "${TARGETDIR}/share/"
+cp -rf /mingw64/share/locale "${TARGETDIR}/share/"
+cp -rf /mingw64/share/glib-2.0/schemas "${TARGETDIR}/share/glib-2.0/"
+cp -rf /mingw64/share/themes/Default "${TARGETDIR}/share/themes/"
+cp -rf /mingw64/share/themes/MS-Windows "${TARGETDIR}/share/themes/"
+find "${TARGETDIR}/lib" -type f -path '*.dll.a' -exec rm '{}' \;
+echo "[done]"
+
+# download license file to local
+echo -n "Downloading the remote license file......"
+if [ ! -f "${TARGETDIR}/share/doc/lgpl-3.0.txt" ]; then
+  curl "https://www.gnu.org/licenses/lgpl-3.0.txt" -o "${TARGETDIR}/share/doc/lgpl-3.0.txt"
+fi
+echo "[done]"
+```
+

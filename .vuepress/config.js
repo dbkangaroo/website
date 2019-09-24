@@ -51,6 +51,7 @@ module.exports = {
                     '/document/': [
                         '',
                         'why-choose-vala',
+                        'how-to-deploy-gtk-app-on-windows',
                     ],
                     '/guide/': [
                         '',
