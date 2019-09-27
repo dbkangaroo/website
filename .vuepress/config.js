@@ -24,7 +24,6 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/kangaroo_small.png' }]
     ],
-    theme: '@vuepress/vue',
     themeConfig: {
         repo: 'dbkangaroo/kangaroo',
         editLinks: true,
