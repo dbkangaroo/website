@@ -57,7 +57,7 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 
 | Platform   | Linux(64 bit)   | Windows(64 bit)   | MacOS(64 bit)   |
 |------------|-----------------|-------------------|-----------------|
-| Development | [v0.8.0.190923](./download/v0.8.0.190923) | [v0.8.0.190923](./download/v0.8.0.190923) | Comming Soon! |
+| Development | [v0.8.1.190930](./download/v0.8.1.190930) | [v0.8.1.190930](./download/v0.8.1.190930) | Comming Soon! |
 | Stable      | On going...... | On going......    | On going......  |
 
 
@@ -69,7 +69,6 @@ If you like Kangaroo and you want to support its development, pls scan QR code t
 
 # Screenshots
 ![Start page of connection](./images/kangaroo-02.jpg)
-<!--Adsense data-ad-client="ca-pub-3975819313740938" data-ad-slot="6760827895"/-->
 ![Select columns](./images/kangaroo-05.png)
 ![Where statement](./images/kangaroo-06.png)
 ![Order statement](./images/kangaroo-07.png)
