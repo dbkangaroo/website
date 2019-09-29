@@ -34,6 +34,10 @@ module.exports = {
                 editLinkText: 'Edit this page on GitHub',
                 lastUpdated: 'Last Updated',
                 nav: [{
+                        text: 'Technologies',
+                        link: '/document/'
+                    },
+                    {
                         text: 'Guide',
                         link: '/guide/'
                     },

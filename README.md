@@ -28,15 +28,15 @@ footer: Private property | Copyright © 2018-present Kangaroo development team
 # Support database
 Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 
-| Database       | Version   | Query     | Editing   | Designer    | Intellisense | Modeling | Export/Import | Data & Structure Sync | 
-|----------------|-----------|-----------|-----------|-------------|--------------|----------|---------------|-----------------------|
-| SQLite         | 3.x       | Full:100: | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
-| MySQL          | 8.0       | Full:100: | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
-| MariaDB        | 10.x      | Full:100: | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
-| PostgreSQL     | 11.x      | Full:100: | Partial   | Partial     | Planned      | Planned  | Partial       | Planned               |
-| Redis          |           | Planned   | Planned   | Planned     | Planned      | Planned  | Planned       | Planned               |
-| TBD            |           |           |           |             |              |          |               |                       |
-
+| Database       | Version   | Query     | Editing   | Designer    | Intellisense | Modeling | Export<br/>Import | DB Sync   | 
+|----------------|-----------|-----------|-----------|-------------|--------------|----------|---------------|---------------|
+| SQLite         | 3.x       | Full:100: | Full:100: | Partial(50%) | Planned     | Planned  | Partial       | Planned       |
+| MySQL          | 8.0       | Full:100: | Full:100: | Partial(50%) | Planned     | Planned  | Partial       | Planned       |
+| MariaDB        | 10.x      | Full:100: | Full:100: | Partial(50%) | Planned     | Planned  | Partial       | Planned       |
+| PostgreSQL     | 11.x      | Full:100: | Full:100: | Partial(50%) | Planned     | Planned  | Partial       | Planned       |
+| Redis          | 5.x       | Planned   | Planned   | Planned      | Planned     | Planned  | Planned       | Planned       |
+| Oracle         |           |           |           |             |              |          |               |               |
+| SQL Server     |           |           |           |             |              |          |               |               |
 
 <div>
     <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
@@ -55,10 +55,10 @@ Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 # Release
 Development version will be released weekly, Stable and LTS(Long-term Support) version depend on test result and stabilization.
 
-| Platform   | Linux(64 bit)   | Windows(64 bit)   | MacOS(64 bit)   |
-|------------|-----------------|-------------------|-----------------|
-| Development | [v0.8.1.190930](./download/v0.8.1.190930) | [v0.8.1.190930](./download/v0.8.1.190930) | Comming Soon! |
+| Platform    | Linux(64 bit)   | Windows(64 bit)   | MacOS(64 bit)   |
+|-------------|-----------------|-------------------|-----------------|
 | Stable      | On going...... | On going......    | On going......  |
+| Development | [v0.8.1.190930](./download/v0.8.1.190930) | [v0.8.1.190930](./download/v0.8.1.190930) | Comming Soon! |
 
 
 # Support the Project

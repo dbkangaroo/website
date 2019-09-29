@@ -1,16 +1,19 @@
 ---
 title: How to deploy GTK based app on windows?
 lang: en-US
+sidebarDepth: 2
 ---
 
-# Background
+# How to deploy GTK based app on windows?
+
+## Background
 Since developing SQL client tool Kangaroo, I met the major trouble is how to deploy Kangaroo app to user, then searched all of solutions from internet, finally, I found a great article [GTK+3 Installation Tutorial for Windows](http://www.tarnyko.net/repo/gtk3_build_system/tutorial/gtk3_tutorial.htm), it provides clear guide to deploy GTK based app, so the honor belongs to the author of article.
 
-# Precondition
+## Precondition
 The app must be compiled and executed in environment: [MSYS2](https://www.msys2.org/)
 
-# Solution
-## Prepare app directory structure
+## Solution
+### Prepare app directory structure
 To deploy GTK based app, the app must follow the directory structure like linux:
 ```
 [App Home]
@@ -46,7 +49,7 @@ To deploy GTK based app, the app must follow the directory structure like linux:
 </div>
 
 
-## Copy dependent libraries of app
+### Copy dependent libraries of app
 __List of GTK dependencies__
 GTK depends on several libraries:
 + GLib
@@ -78,7 +81,7 @@ ldd /mingw64/bin/libpq.dll | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f 
 ```
 
 
-## Copy app resource file
+### Copy app resource file
 + /etc
   - /gtk-3.0/settings.ini : applications-wide settings.
   - *: miscellaneous files.
@@ -98,7 +101,7 @@ ldd /mingw64/bin/libpq.dll | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f 
   - /themes : graphical themes.
   - *: miscellaneous files.
 
-## Validae the runtime dependency view
+### Validae the runtime dependency view
 execute the app under user ENV and the app under dev ENV, compare the runtime dependency view, check the count of dll file and dll file name. make sure they are same.
 
 <div>
@@ -114,7 +117,7 @@ execute the app under user ENV and the app under dev ENV, compare the runtime de
     </script2>
 </div>
 
-## Full source code
+### Full source code
 ```bash
 #!/usr/bin/env sh
 

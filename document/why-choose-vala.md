@@ -3,6 +3,8 @@ title: Why choose Vala to build Kangaroo?
 lang: en-US
 ---
 
+# Why choose Vala to build Kangaroo?
+
 ## Some thoughts about building Kangaroo
 While I decide to build my own app, giving the talent to app is the most important thing, what kind of talent the new app must have? I think they are:
 1. __Performance__: native app's speed is the best.
