@@ -57,7 +57,7 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 
 | Platform    | Linux(64 bit)   | Windows(64 bit)   | MacOS(64 bit)   |
 |-------------|-----------------|-------------------|-----------------|
-| Stable      | On going...... | On going......    | On going......  |
+| Stable(Current) | On going...... | On going......    | On going......  |
 | Development | [v0.8.2.191014](./download/v0.8.2.191014) | [v0.8.2.191014](./download/v0.8.2.191014) | Comming Soon! |
 
 

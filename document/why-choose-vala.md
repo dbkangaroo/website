@@ -34,7 +34,7 @@ finally, I chosen GTK / Vala combination to  be the Kangaroo's tech stack.
 ## Benefits and strength from Vala
 1. __语法兼容C#和Java，表达能力强，生产力高__
 
-语法干净、简洁、表达能力强，没有让人晕菜的 ->/&/:，点号(.）搞定一切；
+语法干净、简洁、表达能力强，没有让人晕菜的表达式和怪异语法，点号(.）搞定一切；
 
 2. __内存所有权和使用引用计数管理，内存使用安全无烦恼__
 
@@ -62,9 +62,10 @@ finally, I chosen GTK / Vala combination to  be the Kangaroo's tech stack.
 8. __有丰富且完善的文档支持（valadoc.org）也有大量开源项目可供参考学习__
 
 9. __有多种语言服务器【LSP】实现，支持各种编辑器和IDE__
+
 https://gitlab.gnome.org/esodan/gvls <br/>
 https://github.com/benwaffle/vala-language-server
 
 10. __Gnome 和 Elementary OS官方钦定语言，并获得IBM公司研究机构采用__
 
-有大型机构和大公司采用 Vala 能给予普通开发者更大的信息加持，相信有更多开发者会加入 Vala 语言社区；
+有大型机构和大公司采用 Vala 能给予普通开发者更大的信心加持，相信有更多开发者成为 Vala 语言用户；
