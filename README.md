@@ -68,7 +68,7 @@ If you like Kangaroo and you want to support its development, pls scan QR code t
 
 
 # Screenshots
-![Start page of connection](./images/kangaroo-start.jpg)
+![Start page of connection](./images/kangaroo-start.png)
 ![Kangaroo grid view in table with custom columns](./images/kangaroo-grid.png)
 ![Kangaroo grid view in table with where statement](./images/kangaroo-grid2.png)
 ![Kangaroo grid view in form](./images/kangaroo-form.png)
