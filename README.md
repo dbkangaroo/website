@@ -68,10 +68,10 @@ If you like Kangaroo and you want to support its development, pls scan QR code t
 
 
 # Screenshots
-![Start page of connection](./images/kangaroo-02.jpg)
-![Select columns](./images/kangaroo-05.png)
-![Where statement](./images/kangaroo-06.png)
-![Order statement](./images/kangaroo-07.png)
-![Limit statement](./images/kangaroo-08.png)
-![Export data](./images/kangaroo-09.png)
-![Preview sql](./images/kangaroo-10.png)
+![Start page of connection](./images/kangaroo-start.jpg)
+![Kangaroo grid view in table with custom columns](./images/kangaroo-grid.png)
+![Kangaroo grid view in table with where statement](./images/kangaroo-grid2.png)
+![Kangaroo grid view in form](./images/kangaroo-form.png)
+![Kangaroo query view](./images/kangaroo-query.png)
+![Kangaroo schema designer form](./images/kangaroo-designer.png)
+![Kangaroo schema designer form with preview](./images/kangaroo-designer2.png)
