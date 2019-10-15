@@ -3,19 +3,20 @@ title: Guide
 lang: en-US
 ---
 
-# Install
+## Install Kangaroo
+Kangaroo has full function support on Windows, the user experience of installing is best:<br/>
+[Install Kangaroo on Windows](install_windows.md)
+
 Kangaroo has full function support on linux, install on linux OS is easy:<br/>
 [Install Kangaroo on Ubuntu](install_linux.md)
 
-Windows install and full support will coming:<br/>
-[Install Kangaroo on Windows](install_windows.md)
-
-Windows install and full support will coming:<br/>
+Kangaroo have limited support on MacOS:<br/>
 [Install Kangaroo on MacOS](install_macos.md)
 
-# Dependencies
+
+## Dependencies
 Kangaroo build on GLib / GTK3 / Vala, so we must install them first, here's the list of dependencies required:
- - `gtk+-3.0>=3.18`
+ - `gtk+-3.0 >= 3.18`
  - `gdk-pixbuf-2.0`
  - `glib-2.0`
  - `gee-0.8`

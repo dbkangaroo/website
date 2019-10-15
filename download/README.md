@@ -3,7 +3,7 @@ title: Download
 lang: en-US
 ---
 
-# Stable version
+## Stable version
 Stable and LTS(Long-term Support) version depend on test result and stabilization.
 
 | Release date | Linux(64 bit)   | Windows(64 bit)   | MacOS(64 bit)   |
@@ -12,7 +12,7 @@ Stable and LTS(Long-term Support) version depend on test result and stabilizatio
 |              |                 |                   |                 |
 
 
-# Development version
+## Development version
 Development version will be released weekly, talent be changed daily, keep your eyes on it. 
 
 | Release date | Linux(64 bit)   | Windows(64 bit)   | MacOS(64 bit)   |

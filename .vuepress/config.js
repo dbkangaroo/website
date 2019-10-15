@@ -58,9 +58,9 @@ module.exports = {
                     ],
                     '/guide/': [
                         '',
-                        'install_linux',
                         'install_windows',
                         'install_macos',
+                        'install_linux',
                     ],
                     '/download/': [
                         '',
