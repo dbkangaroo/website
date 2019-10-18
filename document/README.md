@@ -1,10 +1,10 @@
 ---
-title: Kangaroo builtin Technologies
+title: Kangaroo's blog 
 lang: en-US
 ---
 
-# Technologies, skills and notes
+# Techs, skills and notes
 
-[How to deploy GTK based app on windows?](./how-to-deploy-gtk-app-on-windows.md)
+[How to deploy GTK based app on windows?](./002-how-to-deploy-gtk-app-on-windows)
 
-[Why choose Vala to build Kangaroo?](./why-choose-vala)
+[Why choose Vala to build Kangaroo?](./001-why-choose-vala)
