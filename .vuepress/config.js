@@ -34,7 +34,7 @@ module.exports = {
                 editLinkText: 'Edit this page on GitHub',
                 lastUpdated: 'Last Updated',
                 nav: [{
-                        text: 'Technologies',
+                        text: 'Blog',
                         link: '/document/'
                     },
                     {
@@ -53,8 +53,8 @@ module.exports = {
                 sidebar: {
                     '/document/': [
                         '',
-                        'why-choose-vala',
-                        'how-to-deploy-gtk-app-on-windows',
+                        '002-how-to-deploy-gtk-app-on-windows',
+                        '001-why-choose-vala',
                     ],
                     '/guide/': [
                         '',
