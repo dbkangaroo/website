@@ -53,6 +53,7 @@ module.exports = {
                 sidebar: {
                     '/document/': [
                         '',
+                        '003-serialize-glib-object',
                         '002-how-to-deploy-gtk-app-on-windows',
                         '001-why-choose-vala',
                     ],
