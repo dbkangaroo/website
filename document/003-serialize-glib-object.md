@@ -7,7 +7,7 @@ sidebarDepth: 2
 # How to serialize / deserialize GLib object(Will update later)
 
 ## Background
-How to compare two objects and generate the patch of them? It is a important step to forward Kangaroo 1.0.
+How to compare two objects and generate the patch for them? It is a important step to forward Kangaroo 1.0.
 I don't know which library is the best way to solve this problem,  So I start to study this problem.
 
 ## Solution
