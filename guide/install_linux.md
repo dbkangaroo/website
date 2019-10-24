@@ -3,7 +3,12 @@ title: Install on Linux
 lang: en-US
 ---
 
-## Ubuntu
+## Download Kangaroo
+
+Download the latest version of Kangaroo from [Download](../download).
+
+
+## Install on Ubuntu
 the follow install script assumption tha glibc / gtk+-3.0 / gdk-pixbuf-2.0 have installed by default.
 ``` bash
 sudo apt install libgtk-3-0
@@ -17,7 +22,7 @@ sudo apt install libgtksourceview-4-0
 ```
 
 
-## Fedaro
+## Install on Fedaro
 the follow install script assumption tha glibc / gtk+-3.0 / gdk-pixbuf-2.0 have installed by default.
 ``` bash
 sudo dnf install gtk3 libgee json-glib libsoup
@@ -26,7 +31,7 @@ sudo dnf install gtksourceview4
 ```
 
 
-## RHEL/CentOS
+## Install on RHEL/CentOS
 the follow install script assumption tha glibc / gtk+-3.0 / gdk-pixbuf-2.0 have installed by default.
 ``` bash
 sudo yum install libgee json-glib libsoup

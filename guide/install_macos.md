@@ -3,6 +3,11 @@ title: Install on MacOS
 lang: en-US
 ---
 
+## Download Kangaroo
+
+Download the latest version of Kangaroo from [Download](../download).
+
+
 ## Install via Brew
 ``` bash
 brew install gtksourceview4 adwaita-icon-theme

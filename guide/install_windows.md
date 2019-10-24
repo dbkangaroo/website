@@ -11,7 +11,7 @@ Download the latest version of Kangaroo from [Download](../download), recommend 
 
 __Windows Installer__
 
-Double click and follow the guide to install Kangaroo on your windows directly.
+Double click the installer and follow the guide to install Kangaroo on your windows directly.
 
 __Windows Portable__
 1. Create folder to put the Kangaroo app, ex: D:\Program Files\Kangaroo\
