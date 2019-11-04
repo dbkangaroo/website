@@ -14,6 +14,10 @@ module.exports = {
         ]
     ],
     base: '/',
+    head: [
+        ['link', { rel: 'icon', href: '/kangaroo_small.png' }],
+        ['meta', { name: 'keywords', content: 'KangarooDB, 袋鼠数据库管理, MySQL, MariaDB, SQLite, PostgreSQL, Redis' }]
+    ],
     locales: {
         '/': {
             lang: 'English',
@@ -21,12 +25,11 @@ module.exports = {
             description: 'a database management tool for everyone',
         },
     },
-    head: [
-        ['link', { rel: 'icon', href: '/kangaroo_small.png' }]
-    ],
     themeConfig: {
         repo: 'dbkangaroo/kangaroo',
-        editLinks: true,
+        editLinks: false,
+        search: true,
+        searchMaxSuggestions: 10,
         locales: {
             '/': {
                 label: 'English',
@@ -65,6 +68,7 @@ module.exports = {
                     ],
                     '/download/': [
                         '',
+                        'v0.8.5.191104',
                         'v0.8.4.191028',
                         'v0.8.3.191021',
                         'v0.8.2.191014',

@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /kangaroo.png
-actionText: Get Started →
-actionLink: /guide/
+actionText: Download v0.8.5
+actionLink: /download/
 footer: Private property | Copyright © 2018-present Kangaroo development team
 ---
 
@@ -21,7 +21,7 @@ footer: Private property | Copyright © 2018-present Kangaroo development team
   </div>
   <div class="feature">
     <h2>Performance</h2>
-    <p>GTK and Vala based native application, more responsible speed than others.</p>
+    <p>Vala, GTK and Libgda based native application, more responsible speed than others.</p>
   </div>
 </div>
 
@@ -30,10 +30,10 @@ Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 
 | Database       | Version   | Query     | Editing   | Designer    | Intellisense | Modeling | Export<br/>Import | DB Sync   | 
 |----------------|-----------|-----------|-----------|-------------|--------------|----------|---------------|---------------|
-| SQLite         | 3.x       | Full:100: | Full:100: | Partial(50%) | Planned     | Planned  | Partial       | Planned       |
-| MySQL          | 8.0       | Full:100: | Full:100: | Partial(50%) | Planned     | Planned  | Partial       | Planned       |
-| MariaDB        | 10.x      | Full:100: | Full:100: | Partial(50%) | Planned     | Planned  | Partial       | Planned       |
-| PostgreSQL     | 11.x      | Full:100: | Full:100: | Partial(50%) | Planned     | Planned  | Partial       | Planned       |
+| SQLite         | 3.x       | Full:100: | Full:100: | Full:100: | Planned     | Planned  | Partial(30%)       | Planned       |
+| MySQL          | 8.0       | Full:100: | Full:100: | Full:100: | Planned     | Planned  | Partial(30%)       | Planned       |
+| MariaDB        | 10.x      | Full:100: | Full:100: | Full:100: | Planned     | Planned  | Partial(30%)       | Planned       |
+| PostgreSQL     | 11.x      | Full:100: | Full:100: | Full:100: | Planned     | Planned  | Partial(30%)       | Planned       |
 | Redis          | 5.x       | Planned   | Planned   | Planned      | Planned     | Planned  | Planned       | Planned       |
 | Oracle         |           |           |           |             |              |          |               |               |
 | SQL Server     |           |           |           |             |              |          |               |               |
@@ -58,7 +58,7 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 | Platform    | Linux(64 bit)   | Windows(64 bit)   | MacOS(64 bit)   |
 |-------------|-----------------|-------------------|-----------------|
 | Stable(Current) | On going...... | On going......    | On going......  |
-| Development | [v0.8.4.191028](./download/v0.8.4.191028) | [v0.8.4.191028](./download/v0.8.4.191028) | [v0.8.4.191028](./download/v0.8.4.191028) |
+| Development | [v0.8.5.191104](./download/v0.8.5.191104) | [v0.8.5.191104](./download/v0.8.5.191104) | [v0.8.5.191104](./download/v0.8.5.191104) |
 
 
 # Support the Project
