@@ -37,16 +37,20 @@ module.exports = {
                 editLinkText: 'Edit this page on GitHub',
                 lastUpdated: 'Last Updated',
                 nav: [{
-                        text: 'Blog',
+                        text: 'Download',
+                        link: '/download/'
+                    },
+                    {
+                        text: 'License',
+                        link: '/document/license'
+                    },
+                    {
+                        text: 'Documents',
                         link: '/document/'
                     },
                     {
-                        text: 'Guide',
-                        link: '/guide/'
-                    },
-                    {
-                        text: 'Download',
-                        link: '/download/'
+                        text: 'Blog',
+                        link: '/blog/'
                     },
                     {
                         text: 'New Feature',
@@ -54,20 +58,23 @@ module.exports = {
                     },
                 ],
                 sidebar: {
-                    '/document/': [
+                    '/blog/': [
                         '',
                         '003-serialize-glib-object',
                         '002-how-to-deploy-gtk-app-on-windows',
                         '001-why-choose-vala',
                     ],
-                    '/guide/': [
+                    '/document/': [
                         '',
+                        'license',
+                        'faq',
                         'install_windows',
                         'install_macos',
                         'install_linux',
                     ],
                     '/download/': [
                         '',
+                        'v0.9.0.191111',
                         'v0.8.5.191104',
                         'v0.8.4.191028',
                         'v0.8.3.191021',
