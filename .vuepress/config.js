@@ -68,6 +68,7 @@ module.exports = {
                         '',
                         'license',
                         'faq',
+                        'news',
                         'install_windows',
                         'install_macos',
                         'install_linux',

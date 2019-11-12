@@ -4,8 +4,14 @@ lang: en-US
 ---
 
 # Documents for Kangaroo
+## License
+[KangarooDB's license](license.md)
+
 ## Frequently Asked Questions
 [General frequently asked questions](faq.md)
+
+## News Timeline
+[KangarooDB's news timeline](news.md)
 
 ## Install Kangaroo
 Kangaroo has full function support on Windows, the user experience of installing is best:<br/>
