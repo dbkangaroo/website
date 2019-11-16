@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /kangaroo.png
-actionText: Download v0.9.0
-actionLink: /download/v0.9.0.191111
+actionText: Download v0.9.1
+actionLink: /download/v0.9.1.191118
 footer: Private property | Copyright © 2018-present Kangaroo development team
 ---
 
@@ -58,7 +58,7 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 | Platform    | Linux(64 bit)   | Windows(64 bit)   | MacOS(64 bit)   |
 |-------------|-----------------|-------------------|-----------------|
 | Stable(Current) | On going...... | On going......    | On going......  |
-| Development | [v0.9.0.191111](./download/v0.9.0.191111) | [v0.9.0.191111](./download/v0.9.0.191111) | [v0.9.0.191111](./download/v0.9.0.191111) |
+| Development | [v0.9.1.191118](./download/v0.9.1.191118) | [v0.9.1.191118](./download/v0.9.1.191118) | [v0.9.1.191118](./download/v0.9.1.191118) |
 
 
 # Support the Project
@@ -71,6 +71,7 @@ If you like Kangaroo and you want to support its development, pls scan QR code t
 ![Start page of connection](./images/kangaroo-start.png)
 ![Kangaroo grid view in table with custom columns](./images/kangaroo-grid.png)
 ![Kangaroo grid view in table with where statement](./images/kangaroo-grid2.png)
+![Kangaroo grid view in table with export support](./images/kangaroo-export.png)
 ![Kangaroo grid view in form](./images/kangaroo-form.png)
 ![Kangaroo query view](./images/kangaroo-query.png)
 ![Kangaroo schema designer form](./images/kangaroo-designer.png)

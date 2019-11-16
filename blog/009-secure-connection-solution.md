@@ -11,6 +11,7 @@ Sometimes, database server use secure connection to keep security, so client mus
 ## Connection over secure shell tunnel(SSH)
 
 __Windows__
+https://gist.github.com/siggibjarna/0da65bd0d3f2b82d3752
 Kangaroo connnect to database over secure shell tunnel via [plink.exe](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) on windows, examples: HeidiSQL
 
 __Linux__
