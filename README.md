@@ -28,15 +28,16 @@ footer: Private property | Copyright © 2018-present Kangaroo development team
 # Support database
 Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 
-| Database       | Version   | Query     | Editing   | Designer    | Intellisense | Modeling | Export<br/>Import | DB Sync   | 
-|----------------|-----------|-----------|-----------|-------------|--------------|----------|---------------|---------------|
-| SQLite         | 3.x       | Full:100: | Full:100: | Full:100: | Planned     | Planned  | Partial(50%)       | Planned       |
-| MySQL          | 8.0       | Full:100: | Full:100: | Full:100: | Planned     | Planned  | Partial(50%)       | Planned       |
-| MariaDB        | 10.x      | Full:100: | Full:100: | Full:100: | Planned     | Planned  | Partial(50%)       | Planned       |
-| PostgreSQL     | 11.x      | Full:100: | Full:100: | Full:100: | Planned     | Planned  | Partial(50%)       | Planned       |
-| Redis          | 5.x       | Planned   | Planned   | Planned      | Planned     | Planned  | Planned       | Planned       |
-| Oracle         |           |           |           |             |              |          |               |               |
-| SQL Server     |           |           |           |             |              |          |               |               |
+| Database    | Version | Query     | Editing   | Designer  | Export    | Import  | Intellisense | Modeling | DB Sync |
+|-------------|---------|-----------|-----------|-----------|-----------|---------|--------------|----------|---------|
+| SQLite      | 3.x     | Full:100: | Full:100: | Full:100: | Full:100: | Planned | Planned      | Planned  | Planned |
+| MySQL       | 8.0     | Full:100: | Full:100: | Full:100: | Full:100: | Planned | Planned      | Planned  | Planned |
+| MariaDB     | 10.x    | Full:100: | Full:100: | Full:100: | Full:100: | Planned | Planned      | Planned  | Planned |
+| PostgreSQL  | 11.x    | Full:100: | Full:100: | Full:100: | Full:100: | Planned | Planned      | Planned  | Planned |
+| Redis       | 5.x     | Planned   | Planned   | Planned   | Planned   | Planned | Planned      | Planned  | Planned |
+| Oracle      |         |           |           |           |           |         |              |          |         |
+| SQL Server  |         |           |           |           |           |         |              |          |         |
+
 
 <div>
     <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
