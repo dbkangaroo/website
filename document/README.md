@@ -34,6 +34,6 @@ Kangaroo build on GLib / GTK3 / Vala, so we must install them first, here's the 
  - `gtksourceview-4.0`
  - `libjson-glib-1.0`
  - `libsoup-2.4`
- - `libgda-5.0`
+ - `libgda-5.0 >= 5.2.9`
 
 
