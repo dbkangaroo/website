@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /kangaroo.png
-actionText: Download v0.9.1
-actionLink: /download/v0.9.1.191118
+actionText: Download v0.9.2(Preview)
+actionLink: /download/v0.9.2.191125
 footer: Private property | Copyright © 2018-present Kangaroo development team
 ---
 
@@ -30,10 +30,10 @@ Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 
 | Database    | Version | Query     | Editing   | Designer  | Export    | Import  | Intellisense | Modeling | DB Sync |
 |-------------|---------|-----------|-----------|-----------|-----------|---------|--------------|----------|---------|
-| SQLite      | 3.x     | Full:100: | Full:100: | Full:100: | Full:100: | Planned | Planned      | Planned  | Planned |
-| MySQL       | 8.0     | Full:100: | Full:100: | Full:100: | Full:100: | Planned | Planned      | Planned  | Planned |
-| MariaDB     | 10.x    | Full:100: | Full:100: | Full:100: | Full:100: | Planned | Planned      | Planned  | Planned |
-| PostgreSQL  | 11.x    | Full:100: | Full:100: | Full:100: | Full:100: | Planned | Planned      | Planned  | Planned |
+| SQLite      | 3.x     | Full:100: | Full:100: | Full:100: | Full:100: | Partial(50%) | Planned      | Planned  | Planned |
+| MySQL       | 8.0     | Full:100: | Full:100: | Full:100: | Full:100: | Partial(50%) | Planned      | Planned  | Planned |
+| MariaDB     | 10.x    | Full:100: | Full:100: | Full:100: | Full:100: | Partial(50%) | Planned      | Planned  | Planned |
+| PostgreSQL  | 11.x    | Full:100: | Full:100: | Full:100: | Full:100: | Partial(50%) | Planned      | Planned  | Planned |
 | Redis       | 5.x     | Planned   | Planned   | Planned   | Planned   | Planned | Planned      | Planned  | Planned |
 | Oracle      |         |           |           |           |           |         |              |          |         |
 | SQL Server  |         |           |           |           |           |         |              |          |         |
@@ -59,7 +59,7 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 | Platform    | Linux(64 bit)   | Windows(64 bit)   | MacOS(64 bit)   |
 |-------------|-----------------|-------------------|-----------------|
 | Stable(Current) | On going...... | On going......    | On going......  |
-| Development | [v0.9.1.191118](./download/v0.9.1.191118) | [v0.9.1.191118](./download/v0.9.1.191118) | [v0.9.1.191118](./download/v0.9.1.191118) |
+| Development | [v0.9.2.191125](./download/v0.9.2.191125) | [v0.9.2.191125](./download/v0.9.2.191125) | [v0.9.2.191125](./download/v0.9.2.191125) |
 
 
 # Support the Project

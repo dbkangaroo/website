@@ -5,6 +5,25 @@ lang: en-US
 
 # KangarooDB News Timeline
 
+## [KangarooDB v0.9.2.191125](/download/v0.9.2.191125)
+1. Import data from file(dsv/xml/json) #19
+    - implement the import UI(format, encoding and preview)
+    - implement the import UI(DSV format option)
+    - implement the import UI(data preview)
+    - implement the import UI(column mapping)
+    - implement the import UI(process progress)
+    - implement DSV format parse and preview
+
+## [KangarooDB v0.9.1.191118](/download/v0.9.1.191118)
+1. Export data to file(dsv(csv/tsv/...)/xml/json/sql/md/html) #18
+    - Export data to DSV format(CSV/TSV/...)
+    - Export data to JSON format
+    - Export data to XML format
+    - Export data to HTML format
+    - Export data to SQL format(INSERT)
+    - Export data to Markdown format
+2. Improve file filter of save dialog
+
 ## [KangarooDB v0.9.0.191111](/download/v0.9.0.191111)
 1. Edit table schema and save to database #5
 2. Export data to JSON and DSV format
