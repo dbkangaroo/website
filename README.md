@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /kangaroo.png
-actionText: Download v0.9.2(Preview)
-actionLink: /download/v0.9.2.191125
+actionText: Download v0.9.2(Preview 2)
+actionLink: /download/v0.9.2.191202
 footer: Private property | Copyright © 2018-present Kangaroo development team
 ---
 
@@ -59,7 +59,7 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 | Platform    | Linux(64 bit)   | Windows(64 bit)   | MacOS(64 bit)   |
 |-------------|-----------------|-------------------|-----------------|
 | Stable(Current) | On going...... | On going......    | On going......  |
-| Development | [v0.9.2.191125](./download/v0.9.2.191125) | [v0.9.2.191125](./download/v0.9.2.191125) | [v0.9.2.191125](./download/v0.9.2.191125) |
+| Development | [v0.9.2.191202](./download/v0.9.2.191202) | [v0.9.2.191202](./download/v0.9.2.191202) | [v0.9.2.191202](./download/v0.9.2.191202) |
 
 
 # Support the Project
