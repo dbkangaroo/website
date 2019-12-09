@@ -1,24 +1,24 @@
 {
     "development": {
         "windows": {
-            "timestamp": "2019-10-14 10:00:00",
-            "version": "0.8.2.191014",
+            "timestamp": "2019-12-09 10:00:00",
+            "version": "0.9.4.191209",
             "force": "false",
-            "package": "https://github.com/dbkangaroo/kangaroo/releases/download/v0.8.2.191014/Kangaroo_0.8.2.191014_win64.exe",
+            "package": "https://github.com/dbkangaroo/kangaroo/releases/download/v0.9.4.191209/Kangaroo_0.9.4.191209_win64.exe",
             "hash": ""
         },
         "linux": {
-            "timestamp": "2019-09-16 10:00:00",
-            "version": "0.8.2.191014",
+            "timestamp": "2019-12-09 10:00:00",
+            "version": "0.9.4.191209",
             "force": "false",
-            "package": "https://github.com/dbkangaroo/kangaroo/releases/download/v0.8.2.191014/Kangaroo_0.8.2.191014_ubuntu.zip",
+            "package": "https://github.com/dbkangaroo/kangaroo/releases/download/v0.9.4.191209/Kangaroo_0.9.4.191209_ubuntu.zip",
             "hash": ""
         },
         "macos": {
-            "timestamp": "2019-09-16 10:00:00",
-            "version": "0.8.2.191014",
+            "timestamp": "2019-12-09 10:00:00",
+            "version": "0.9.4.191209",
             "force": "false",
-            "package": "https://github.com/dbkangaroo/kangaroo/releases/download/v0.8.2.191014/Kangaroo_0.8.2.191014_macos.zip",
+            "package": "https://github.com/dbkangaroo/kangaroo/releases/download/v0.9.4.191209/Kangaroo_0.9.4.191209_macos.zip",
             "hash": ""
         }
     },

@@ -43,6 +43,9 @@ module.exports = {
                     {
                         text: 'License',
                         link: '/document/license'
+                    }, {
+                        text: 'News',
+                        link: '/document/news'
                     },
                     {
                         text: 'Documents',
@@ -75,7 +78,8 @@ module.exports = {
                     ],
                     '/download/': [
                         '',
-                        'v0.9.2.191202',
+                        'v0.9.4.191209',
+                        'v0.9.3.191202',
                         'v0.9.2.191125',
                         'v0.9.1.191118',
                         'v0.9.0.191111',

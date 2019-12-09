@@ -5,6 +5,35 @@ lang: en-US
 
 # KangarooDB News Timeline
 
+## [KangarooDB v0.9.4.191209](/download/v0.9.4.191209)
+1. Implement tools page to support import function
+2. Import data from file(dsv/xml/json) #19
+    - implement the import UI(format, encoding and preview)
+    - implement the import UI(DSV format option)
+    - implement the import UI(data preview)
+    - implement the import UI(column mapping)
+    - implement the import UI(process progress)
+    - implement DSV format parse and preview
+    - implement data column mapping function
+    - implement the import UI(process summary) (<span style="color:red;">new</span>)
+    - add five kinds of mode to import data to table (<span style="color:red;">new</span>)
+    - implement import csv format data to table (<span style="color:red;">new</span>)
+3. add ide framework interfaces for refactor
+4. refactor the about dialog, add translators, artists and license, <br/>
+   fixed logo can't show on linux and macos platform. (<span style="color:red;">new</span>)
+
+## [KangarooDB v0.9.3.191202](/download/v0.9.3.191202)
+1. Implement tools page to support import function
+2. Import data from file(dsv/xml/json) #19
+    - implement the import UI(format, encoding and preview)
+    - implement the import UI(DSV format option)
+    - implement the import UI(data preview)
+    - implement the import UI(column mapping)
+    - implement the import UI(process progress)
+    - implement DSV format parse and preview
+    - implement data column mapping function (<span style="color:red;">new</span>)
+3. add ide framework interfaces for refactor
+
 ## [KangarooDB v0.9.2.191125](/download/v0.9.2.191125)
 1. Import data from file(dsv/xml/json) #19
     - implement the import UI(format, encoding and preview)
