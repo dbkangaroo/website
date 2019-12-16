@@ -4,35 +4,22 @@ lang: en-US
 ---
 
 # KangarooDB News Timeline
+## [KangarooDB v0.9.5.191216](/download/v0.9.5.191216)
+1. import data from DSV format
+2. import data from JSON format
+3. import data from XML format
+4. Rewritten export data as XML format with libxml2;
+5. add export modules assistant UI
+6. implement export format and table selection page
 
 ## [KangarooDB v0.9.4.191209](/download/v0.9.4.191209)
-1. Implement tools page to support import function
-2. Import data from file(dsv/xml/json) #19
-    - implement the import UI(format, encoding and preview)
-    - implement the import UI(DSV format option)
-    - implement the import UI(data preview)
-    - implement the import UI(column mapping)
-    - implement the import UI(process progress)
-    - implement DSV format parse and preview
-    - implement data column mapping function
-    - implement the import UI(process summary) (<span style="color:red;">new</span>)
-    - add five kinds of mode to import data to table (<span style="color:red;">new</span>)
-    - implement import csv format data to table (<span style="color:red;">new</span>)
-3. add ide framework interfaces for refactor
-4. refactor the about dialog, add translators, artists and license, <br/>
-   fixed logo can't show on linux and macos platform. (<span style="color:red;">new</span>)
+1. add import summary page
+2. add five kinds of import mode
+3. import csv format data to table
+4. fixed logo can't show on linux and macos platform
 
 ## [KangarooDB v0.9.3.191202](/download/v0.9.3.191202)
-1. Implement tools page to support import function
-2. Import data from file(dsv/xml/json) #19
-    - implement the import UI(format, encoding and preview)
-    - implement the import UI(DSV format option)
-    - implement the import UI(data preview)
-    - implement the import UI(column mapping)
-    - implement the import UI(process progress)
-    - implement DSV format parse and preview
-    - implement data column mapping function (<span style="color:red;">new</span>)
-3. add ide framework interfaces for refactor
+1. implement column mapping function
 
 ## [KangarooDB v0.9.2.191125](/download/v0.9.2.191125)
 1. Import data from file(dsv/xml/json) #19

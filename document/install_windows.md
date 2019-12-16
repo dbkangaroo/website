@@ -15,5 +15,6 @@ Double click the installer and follow the guide to install Kangaroo on your wind
 
 __Windows Portable__
 1. Create folder to put the Kangaroo app, ex: D:\Program Files\Kangaroo\
-2. Uncompress Kangaroo package with 7-Zip (7z.exe)
-3. Double click shortcut to run Kangaroo app.
+2. Uncompress Kangaroo package to target folder with 7-Zip (7z.exe)
+3. Create shortcut on desktop for Kangaroo app(bin\kangaroo.exe).
+4. Double click the shortcut to run Kangaroo
