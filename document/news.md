@@ -4,6 +4,12 @@ lang: en-US
 ---
 
 # KangarooDB News Timeline
+## [KangarooDB v0.10.0.191223](/download/v0.10.0.191223)
+1. add export assistant UI
+2. batch export table to file.
+3. support data formats(DSV/JSON/XML/HTML/Markdown/SQL)
+4. support title for column(rename)
+
 ## [KangarooDB v0.9.5.191216](/download/v0.9.5.191216)
 1. import data from DSV format
 2. import data from JSON format
@@ -11,6 +17,19 @@ lang: en-US
 4. Rewritten export data as XML format with libxml2;
 5. add export modules assistant UI
 6. implement export format and table selection page
+
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
 
 ## [KangarooDB v0.9.4.191209](/download/v0.9.4.191209)
 1. add import summary page
