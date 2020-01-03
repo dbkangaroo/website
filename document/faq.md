@@ -27,7 +27,7 @@ English, Chinese will be support default, other languages depend on user contrib
 ## Support
 ### How track the changes?
 you can put your eyes on follow ways:
-[Twitter](https://twitter.com/KangarooDb)
+[Twitter](https://twitter.com/Kangaroo)
 [Github](https://github.com/dbkangaroo/kangaroo)
 [Official (here)](https://dbkangaroo.github.io/)
 

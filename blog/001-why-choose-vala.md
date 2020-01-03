@@ -48,7 +48,7 @@ finally, I chosen GTK / Vala combination to  be the Kangaroo's tech stack.
 
 4. __点分名字空间支持大型应用开发__
 
-KangarooDB 工具编写了 190 个源码模块，至今用起来很顺，一个点(.)搞定；
+DBKangaroo 工具编写了 210 多个源码模块，至今用起来很顺，一个点(.)搞定；
 
 5. __语言级别的正则表达式支持__
 
@@ -81,7 +81,7 @@ KangarooDB 工具编写了 190 个源码模块，至今用起来很顺，一个�
 [Vala Language Server on Github by Ben Iofel](https://github.com/benwaffle/vala-language-server)<br/>
 正在开发中，还未发布版本，已支持跳转到定义，代码自动完成正在实现中......
 
-[Visual Studio Code](https://code.visualstudio.com/Download)<br/>
+[Visual Studio Code](https://code.visualstudio.com/Download) + Vala Code<br/>
 VSCode 仍然是最值得推荐的IDE
 
 10. __Gnome 和 Elementary OS官方钦定语言，并获得IBM公司研究机构采用__
