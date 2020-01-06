@@ -18,7 +18,7 @@ Kangaroo has full function support on Windows, the user experience of installing
 [Install Kangaroo on Windows](install_windows.md)
 
 Kangaroo has full function support on linux, install on linux OS is easy:<br/>
-[Install Kangaroo on Ubuntu](install_linux.md)
+[Install Kangaroo on Linux](install_linux.md)
 
 Kangaroo have limited support on MacOS:<br/>
 [Install Kangaroo on MacOS](install_macos.md)
@@ -35,5 +35,6 @@ Kangaroo build on GLib / GTK3 / Vala, so we must install them first, here's the 
  - `libjson-glib-1.0`
  - `libsoup-2.4`
  - `libgda-5.0 >= 5.2.9`
+ - `webkit2gtk >= 2.26`
 
 
