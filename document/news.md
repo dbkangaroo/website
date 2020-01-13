@@ -5,6 +5,13 @@ lang: en-US
 
 # Kangaroo News Timeline
 
+## [Kangaroo v0.11.1.200113](/download/v0.11.1.200113)
+1. redesign connection dialog to support SSH and SSL
+2. add donate icon on home page(Paypal/Wechat/Alipay)
+3. redesign configuration model and file(init --> json)
+4. Use symbolic icons in the Header Bar(#25)
+5. fixed: edit data in grid will update all rows
+
 ## [Kangaroo v0.11.0.200106](/download/v0.11.0.200106)
 1. add app home page
 2. reimplement DSV format engine
