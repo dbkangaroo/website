@@ -1,5 +1,11 @@
 ##DBKangaroo News Timeline
 
+#Kangaroo v0.12.1.200120
+1. add setting dialog
+2. add dark theme support
+3. bind connection dialog with new setting model
+4. update start view with new setting model
+
 #Kangaroo v0.11.1.200113
 1. redesign connection dialog to support SSH and SSL
 2. add donate icon on home page(Paypal/Wechat/Alipay)

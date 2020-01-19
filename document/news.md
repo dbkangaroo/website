@@ -5,6 +5,25 @@ lang: en-US
 
 # Kangaroo News Timeline
 
+## [Kangaroo v0.12.1.200120](/download/v0.12.1.200120)
+1. add setting dialog
+2. add dark theme support
+3. bind connection dialog with new setting model
+4. update start view with new setting model
+
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [Kangaroo v0.11.1.200113](/download/v0.11.1.200113)
 1. redesign connection dialog to support SSH and SSL
 2. add donate icon on home page(Paypal/Wechat/Alipay)
@@ -82,6 +101,19 @@ lang: en-US
 1. Edit table schema and save to database #5
 2. Export data to JSON and DSV format
 
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [Kangaroo v0.8.5.191104](/download/v0.8.5.191104)
 1. Edit table schema and save to database(SQLite and PostgreSQL preview) #5
 2. Add export data formats UI and interfaces
@@ -106,6 +138,19 @@ Load plugin failed while create new connection #12
 4. fixed: missing windows shortcut icon(start menu and desktop) (#7)
 5. fixed: missing syntax highlighting support(#8)
 6. fixed: load data in form view failed(#11)
+
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
 
 ## [Kangaroo v0.8.1.190930](/download/v0.8.1.190930)
 1. improve: generate exact correct editing sql
