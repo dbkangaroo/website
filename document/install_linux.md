@@ -20,6 +20,7 @@ sudo apt install libgda-5.0-mysql
 sudo apt install libgda-5.0-postgtes
 sudo apt install libgtksourceview-4-0
 sudo apt install libwebkit2gtk-4.0
+sudo apt install libssh2-1
 ```
 
 
@@ -28,7 +29,7 @@ the follow install script assumption tha glibc / gtk+-3.0 / gdk-pixbuf-2.0 have 
 ``` bash
 sudo dnf install gtk3 libgee json-glib libsoup
 sudo dnf install libgda libgda-mysql libgda-postgres
-sudo dnf install gtksourceview4 webkit2gtk3
+sudo dnf install gtksourceview4 webkit2gtk3 libssh2
 ```
 
 
@@ -37,7 +38,7 @@ the follow install script assumption tha glibc / gtk+-3.0 / gdk-pixbuf-2.0 have 
 ``` bash
 sudo yum install libgee json-glib libsoup
 sudo yum install libgda libgda-mysql libgda-postgres 
-sudo yum install gtksourceview4 webkit2gtk3
+sudo yum install gtksourceview4 webkit2gtk3 libssh2
 ```
 
 
