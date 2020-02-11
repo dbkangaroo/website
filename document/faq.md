@@ -10,7 +10,7 @@ lang: en-US
 Yes, Kangaroo is free for private or commercial use. See the [product license](license.md) for details.
 
 ### Is Kangaroo open source?
-Yet not now, open source is an option on the desktop.
+Not yet now, open source is an option on the desktop.
 
 ## Version
 ### How do I find the version?

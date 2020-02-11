@@ -8,7 +8,7 @@ lang: en-US
 1. apply data grid style setting
 2. apply sql editor style setting
 3. windows 32bit version support
-4. implement SSH tunnel support(yet not integrate)
+4. implement SSH tunnel support(not yet integrate)
 5. minor change for connection dialog UI
 6. fixed: tool's icon incorrect on release version
 
