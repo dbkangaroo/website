@@ -4,6 +4,14 @@ lang: en-US
 ---
 
 # Kangaroo News Timeline
+
+## [Kangaroo v0.14.0.200217](/download/v0.14.0.200217)
+1. SQLite: support to create new database
+2. refactor database tree context menu
+3. integrated with openssl to keep user's password safe
+4. add pointer cursor for right panel icon
+5. fixed: update workbench default size while first run
+
 ## [Kangaroo v0.13.0.200210](/download/v0.13.0.200210)
 1. apply data grid style setting
 2. apply sql editor style setting
