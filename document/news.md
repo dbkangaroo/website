@@ -5,6 +5,14 @@ lang: en-US
 
 # Kangaroo News Timeline
 
+## [Kangaroo v0.15.0.200302](/download/v0.15.0.200302)
+1. Update and share openssl.vapi to keep user data safe. 
+2. Improve language support(kangaroo.pot, zh_Hans and zh_Hant)
+3. Improve home view's web resource load performance
+4. Apply proxy setting for loading web resource
+5. Linux: change browser view to timeline text view
+6. Use combobox widget instead entry for log file size
+
 ## [Kangaroo v0.14.0.200217](/download/v0.14.0.200217)
 1. SQLite: support to create new database
 2. refactor database tree context menu
