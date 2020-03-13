@@ -3,7 +3,7 @@ title: License
 lang: en-US
 ---
 
-Copyright (c) 2019 ZUHONG TAO
+Copyright (c) 2020 ZUHONG TAO
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software(Binary version, not include source code) and associated documentation files (the "Software"), 

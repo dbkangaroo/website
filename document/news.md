@@ -4,6 +4,11 @@ lang: en-US
 ---
 
 # Kangaroo News Timeline
+## [Kangaroo v0.16.0.200316](/download/v0.16.0.200316)
+1. Add SSH tunnel support(Windows not yet pass test). 
+2. Improve: update layout of switch widget on dialog
+3. Fixed: can't open link on windows
+4. Fixed: log file index error
 
 ## [Kangaroo v0.15.0.200302](/download/v0.15.0.200302)
 1. Update and share openssl.vapi to keep user data safe. 

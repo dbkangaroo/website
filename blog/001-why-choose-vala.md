@@ -76,14 +76,15 @@ DBKangaroo 工具编写了 210 多个源码模块，至今用起来很顺，一�
 9. __有多种语言服务器【LSP】实现，支持各种编辑器和IDE__
 
 [Vala Language Server on GNOME by Daniel Espinosa](https://gitlab.gnome.org/esodan/gvls)<br/>
-最新版本为0.12，已实现Vala 语言服务器（LSP 1.4） ，支持代码自动完成，并快速演进中......
+最新版本为0.14.1，已实现Vala 语言服务器（LSP 1.4） ，支持代码自动完成，并快速演进中......
 
 [Vala Language Server on Github by Ben Iofel](https://github.com/benwaffle/vala-language-server)<br/>
 正在开发中，还未发布版本，已支持跳转到定义，代码自动完成正在实现中......
 
-[Visual Studio Code](https://code.visualstudio.com/Download) + Vala Code<br/>
+[Visual Studio Code](https://code.visualstudio.com/Download) + [Vala](https://github.com/Prince781/vala-vscode)<br/>
 VSCode 仍然是最值得推荐的IDE
 
 10. __Gnome 和 Elementary OS官方钦定语言，并获得IBM公司研究机构采用__
 
-有大型机构和大公司采用 Vala 能给予普通开发者更大的信心加持，相信有更多开发者成为 Vala 语言用户；
+有大型机构和大公司采用 Vala 能给予普通开发者更大的信心加持，
+[采用 Vala 的完整公司列表](https://wiki.gnome.org/Projects/Vala/Documentation#Companies_that_use.2Fhave_used__Vala)
