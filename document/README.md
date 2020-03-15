@@ -26,15 +26,21 @@ Kangaroo have limited support on MacOS:<br/>
 
 ## Dependencies
 Kangaroo build on GLib / GTK3 / Vala, so we must install them first, here's the list of dependencies required:
- - `gtk+-3.0 >= 3.18`
- - `gdk-pixbuf-2.0`
- - `glib-2.0`
- - `gee-0.8`
- - `gobject-2.0`
- - `gtksourceview-4.0`
- - `libjson-glib-1.0`
- - `libsoup-2.4`
- - `libgda-5.0 >= 5.2.9`
- - `webkit2gtk >= 2.26`
+```Text
+gdk-pixbuf-2.0
+gee-0.8 > 0.20.0
+gio-2.0 > 2.64
+glib-2.0 >= 2.64
+gtk+-3.0 >= 3.24
+gtksourceview-4
+json-glib-1.0
+libgda-5.0 >= 5.2.9
+libsoup-2.4 >= 2.64
+libssh2 >= 1.8
+libxml-2.0 >= 2.9
+openssl >= 1.1.0
+posix
 
-
+libgda-mysql
+libgda-postgres
+```
