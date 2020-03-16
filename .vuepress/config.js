@@ -26,7 +26,7 @@ module.exports = {
         },
     },
     themeConfig: {
-        logo: 'kangaroo_small.png',
+        logo: '/kangaroo_small.png',
         repo: 'dbkangaroo/kangaroo',
         editLinks: false,
         search: true,
