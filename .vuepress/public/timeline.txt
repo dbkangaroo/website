@@ -1,4 +1,10 @@
 ##DBKangaroo News Timeline
+##Kangaroo v0.17.0.200323
+1. Support SSH tunnel fully (Windows and Linux)
+2. Add testing support for connection dialog
+3. Refactor context menu for datagrid
+4. Add dump sql (file and text) menu for dbtree
+5. Fixed: switch grid to form crashed.
 
 ##Kangaroo v0.16.0.200316
 1. Support SSH tunnel(Windows not yet pass test). 

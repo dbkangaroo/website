@@ -4,12 +4,32 @@ lang: en-US
 ---
 
 # Kangaroo News Timeline
+## [Kangaroo v0.17.0.200323](/download/v0.17.0.200323)
+1. Support SSH tunnel fully (Windows and Linux)
+2. Add testing support for connection dialog
+3. Refactor context menu for datagrid
+4. Add dump sql (file and text) menu for dbtree
+5. Fixed: switch grid to form crashed.
+
 ## [Kangaroo v0.16.0.200316](/download/v0.16.0.200316)
 1. Support SSH tunnel(Windows not yet pass test). 
 2. Support input page number to switch page
 3. Improve: update layout of switch widget on dialog
 4. Fixed: can't open link on windows
 5. Fixed: log file index error
+
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
 
 ## [Kangaroo v0.15.0.200302](/download/v0.15.0.200302)
 1. Update and share openssl.vapi to keep user data safe. 
