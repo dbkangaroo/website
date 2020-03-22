@@ -74,8 +74,8 @@ module.exports = {
                         'faq',
                         'news',
                         'install_windows',
-                        'install_macos',
                         'install_linux',
+                        'install_macos',
                     ],
                     '/download/': [
                         '',
