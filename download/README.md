@@ -8,14 +8,17 @@ Stable and LTS(Long-term Support) version depend on test result and stabilizatio
 
 | Release date | Windows(32 bit) | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |--------------|-----------------|-------------------|-----------------|-----------------|
+| 2020-05-01 | | [v0.20.1.200501](./v0.20.1.200501) | [v0.20.1.200501](./v0.20.1.200501) | [v0.20.1.200501](./v0.20.1.200501) |
 | TBD          |                 |                   |                 |                 |
 
 
 ## Development version
-Development version will be released weekly, talent be changed daily, keep your eyes on it. 
+Development version will be released weekly, talent be changed daily, keep your eyes on it. <br/>
+__Notice: only 5 latest versions available for downloading.__
 
 | Release date | Windows(32 bit) | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |--------------|-----------------|-------------------|-----------------|-----------------|
+| 2020-04-06   | | [v0.18.1.200406](./v0.18.1.200406) | [v0.18.1.200406](./v0.18.1.200406) | [v0.18.1.200406](./v0.18.1.200406) |
 | 2020-03-23   | | [v0.17.0.200323](./v0.17.0.200323) | [v0.17.0.200323](./v0.17.0.200323) | [v0.17.0.200323](./v0.17.0.200323) |
 | 2020-03-16   | | [v0.16.0.200316](./v0.16.0.200316) | [v0.16.0.200316](./v0.16.0.200316) |  |
 | 2020-03-02   | | [v0.15.0.200302](./v0.15.0.200302) | [v0.15.0.200302](./v0.15.0.200302) | [v0.15.0.200302](./v0.15.0.200302) |

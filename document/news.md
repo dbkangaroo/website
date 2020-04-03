@@ -4,6 +4,17 @@ lang: en-US
 ---
 
 # Kangaroo News Timeline
+
+## [Kangaroo v0.18.1.200406](/download/v0.18.1.200406)
+1. encrypt user password to save user password.
+2. Implement insert, clone and delete functionality in the datagrid.
+3. Implement connection clone functionality in the start view
+4. Implement dump sql functionality on the dbtree
+5. Implement table schema editor on the dbtree
+6. Implement refresh functionality on the dbtree
+7. fixed: return key behavior invalid on the dbtree
+8. fixed: crashed while open table with null value
+
 ## [Kangaroo v0.17.0.200323](/download/v0.17.0.200323)
 1. Support connection over SSH tunnel (Windows, Linux/Unix and MacOS)
 2. Add testing support for connection dialog
