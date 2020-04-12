@@ -16,13 +16,13 @@ module.exports = {
     base: '/',
     head: [
         ['link', { rel: 'icon', href: '/kangaroo_small.png' }],
-        ['meta', { name: 'keywords', content: 'Kangaroo,DBKangaroo,Kangaroo,MySQL,MariaDB,SQLite,PostgreSQL,Redis,袋鼠数据库,数据库袋鼠,袋鼠数据库管理工具,袋鼠数据库工具,袋鼠数据库系统,袋鼠数据库客户端' }]
+        ['meta', { name: 'keywords', content: 'KangarooDB,DBKangaroo,MySQL,MariaDB,SQLite,PostgreSQL,Redis,袋鼠数据库,数据库袋鼠,袋鼠数据库管理工具,袋鼠数据库工具,袋鼠数据库系统,袋鼠数据库客户端' }]
     ],
     locales: {
         '/': {
             lang: 'English',
             title: 'Kangaroo',
-            description: 'a database management tool for everyone',
+            description: 'SQL client and admin tool for popular databases',
         },
     },
     themeConfig: {
@@ -79,6 +79,7 @@ module.exports = {
                     ],
                     '/download/': [
                         '',
+                        'v0.19.1.200413',
                         'v0.18.1.200406',
                         'v0.17.0.200323',
                         'v0.16.0.200316',

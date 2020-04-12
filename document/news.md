@@ -5,6 +5,16 @@ lang: en-US
 
 # Kangaroo News Timeline
 
+## [Kangaroo v0.19.1.200413](/download/v0.19.1.200413)
+1. Implement copy object name menu on dbtree.
+2. Implement copy as SQL(Insert/Update/Delete) in the datagrid.
+3. Implement copy as TSV in the datagrid
+4. Implement copy as CSV in the datagrid
+5. Implement copy as PHP array in the datagrid
+6. Implement copy as JSON in the datagrid
+7. Improve paned widget border style.
+8. fixed: crashed while stringize the blob column
+
 ## [Kangaroo v0.18.1.200406](/download/v0.18.1.200406)
 1. encrypt user password to keep user passwords safe.
 2. Implement insert, clone and delete functionality in the datagrid.

@@ -108,10 +108,10 @@ execute the app under user ENV and the app under dev ENV, compare the runtime de
 #!/usr/bin/env sh
 
 #
-# Copyright(C) 2018-2019 taozuhong(https://github.com/taozuhong)
+# Copyright(C) 2018-2020 taozuhong(https://github.com/taozuhong)
 # Important:
 #   These functions are a part of the Kangaroo tool suite;
-#   copyright taozuhong. 2018, 2019.  All rights reserved.
+#   copyright taozuhong. 2018-2020.  All rights reserved.
 #
 # Author:    taozuhong
 # Created:   1.8.2019
