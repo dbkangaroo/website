@@ -9,6 +9,10 @@
 6. Implement copy as JSON in the datagrid
 7. Improve paned widget border style.
 8. fixed: crashed while stringize the blob column
+9. fixed: crashed while no primary key
+10. fixed: crashed while primary key contain character(_)
+11. fixed: warning message while column with empty value
+12. fixed: warning message while invalid calling(to_string)
 
 ##Kangaroo v0.18.1.200406
 1. encrypt user password to keep user passwords safe.
