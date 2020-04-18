@@ -5,6 +5,29 @@ lang: en-US
 
 # Kangaroo News Timeline
 
+## [Kangaroo v0.20.1.200420](/download/v0.20.1.200420)
+1. Implement copy function in the datagrid.
+2. refactor context menu of structure designer.
+3. Implement clone function for designer form.
+4. Implement append function for designer form.
+5. Support multi rows of delete/move up/move down function.
+6. Implement copy function for designer form.
+7. Implement paste function for designer form.
+8. Improve text performance of datagrid.
+
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [Kangaroo v0.19.1.200413](/download/v0.19.1.200413)
 1. Implement copy object name menu on dbtree.
 2. Implement copy as SQL(Insert/Update/Delete) in the datagrid.

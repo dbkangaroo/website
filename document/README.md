@@ -7,25 +7,33 @@ lang: en-US
 ## License
 [Kangaroo's license](license.md)
 
-## Frequently Asked Questions
-[General frequently asked questions](faq.md)
-
 ## News Timeline
 [Kangaroo's news timeline](news.md)
 
+## Frequently Asked Questions
+[General frequently asked questions](faq.md)
+
+## Connect to database
+[Make a connection](connection.md)
+
+## Create a new table
+[Table schema designer](schema.md)
+
+## Browse and edit data
+[Data grid in content view](datagrid.md)
+
 ## Install Kangaroo
-Kangaroo has full function support on Windows, the user experience of installing is best:<br/>
+Kangaroo has full function support on Windows, the user experience is best:<br/>
 [Install Kangaroo on Windows](install_windows.md)
 
-Kangaroo has full function support on linux, install on linux OS is easy:<br/>
+Kangaroo has full function support on linux, installation on linux OS is easy:<br/>
 [Install Kangaroo on Linux](install_linux.md)
 
-Kangaroo have limited support on MacOS:<br/>
+Kangaroo has full function support on MacOS:<br/>
 [Install Kangaroo on MacOS](install_macos.md)
 
-
 ## Dependencies
-Kangaroo build on GLib / GTK3 / Vala, so we must install them first, here's the list of dependencies required:
+Kangaroo build on GLib / GTK3 / Libgda / Vala, so we must install them first, here's the list of dependencies required:
 ```Text
 gdk-pixbuf-2.0
 gee-0.8 > 0.20.0
