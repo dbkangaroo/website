@@ -12,8 +12,9 @@ lang: en-US
 4. Implement append function for designer form.
 5. Support multi rows of delete/move up/move down function.
 6. Implement copy function for designer form.
-7. Implement paste function for designer form.
-8. Improve text performance of datagrid.
+7. Implement cut function for designer form.
+8. Implement paste function for designer form.
+9. Improve text performance of datagrid.
 
 <div>
     <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
