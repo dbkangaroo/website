@@ -5,6 +5,12 @@ lang: en-US
 
 # Kangaroo News Timeline
 
+## [Kangaroo v0.21.1.200501](/download/v0.21.1.200501)
+1. Refactor the entire datagrid to make great experience.
+2. Support 3 kind of mode: LIVE / CACHE / TRANSACTION
+3. Support copy and paste multi rows in data grid.
+4. Chnage mode automatically while paste multi rows.
+
 ## [Kangaroo v0.20.1.200420](/download/v0.20.1.200420)
 1. Implement copy function in the datagrid.
 2. refactor context menu of structure designer.
@@ -276,3 +282,23 @@ Load plugin failed while create new connection #12
 3. refactor content of Kangaroo repo
 4. create new site: dbkangaroo.github.io
 5. add windows installer script
+
+## Kangaroo v0.6.0.190601
+1. support edit and save in table
+2. support edit and save in form 
+3. support i18n and l10n
+4. support chinese language
+ 
+## Kangaroo v0.4.0.190501
+1. support data pagination
+2. implemtnt query builder and apply it
+3. export data to file(.csv)
+4. show system log in output view
+5. edit and execute sql
+6. support multiple results
+
+## Kangaroo v0.2.0.190401
+1. add connection setup ui
+2. add connection manager
+3. show database structure tree in data panel
+4. show data in tree view
