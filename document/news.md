@@ -5,7 +5,7 @@ lang: en-US
 
 # Kangaroo News Timeline
 
-## [Kangaroo v0.21.1.200501](/download/v0.21.1.200501)
+## [Kangaroo v0.21.1.200504](/download/v0.21.1.200504)
 1. Refactor the entire datagrid to make great experience.
 2. Support 3 kind of mode: LIVE / CACHE / TRANSACTION
 3. Support copy and paste multi rows in data grid.

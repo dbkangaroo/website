@@ -25,11 +25,11 @@ MySQL / PostgreSQL connnection is more complicate, because it support multi auth
 4) ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password';
 ```
 After that, you could make a connection easily:
-![Make a MySQL connection](../images/connection-mysql.png)
+![Make a MySQL connection](../images/kangaroo-connection-mysql.png)
 
 __Follow the label and tooltip__, fill the data as right place, then test connection. Every thing will be ok if the data is valid.
 
-![Make a MySQL connection with SSH](../images/connection-ssh.png)
+![Make a MySQL connection with SSH](../images/kangaroo-connection-ssh.png)
 
 Your connection could through the private network over SSH(and over proxy), the built-in SSH client could help you done it.
 
