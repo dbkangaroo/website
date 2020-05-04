@@ -1,10 +1,14 @@
-##Kangaroo News Timeline
+#Kangaroo News Timeline
 
 ##Kangaroo v0.21.1.200504
 1. Refactor the entire datagrid to make great experience.
 2. Support 3 kind of mode: LIVE / CACHE / TRANSACTION
 3. Support copy and paste multi rows in data grid.
 4. Chnage mode automatically while paste multi rows.
+5. fixed: where statement error in query builder
+
+Important notice
+due to MariaDB client library change it's name, libgda not yet update its dependency, so can't connect to MySQL / MariaDB
 
 ##Kangaroo v0.20.1.200420
 1. Implement copy function in the datagrid.
@@ -66,14 +70,14 @@
 5. Linux: change browser view to timeline text view
 6. Use combobox widget instead entry for log file size
 
-#Kangaroo v0.14.0.200217
+##Kangaroo v0.14.0.200217
 1. SQLite: support to create new database
 2. refactor database tree context menu
 3. integrated with openssl to keep user's password safe
 4. add pointer cursor for right panel icon
 5. fixed: update workbench default size while first run
 
-#Kangaroo v0.13.0.200210
+##Kangaroo v0.13.0.200210
 1. apply data grid style setting
 2. apply sql editor style setting
 3. windows 32bit version support
@@ -81,20 +85,20 @@
 5. minor change for connection dialog UI
 6. fixed: tool's icon incorrect on release version
 
-#Kangaroo v0.12.1.200120
+##Kangaroo v0.12.1.200120
 1. add setting dialog
 2. add dark theme support
 3. bind connection dialog with new setting model
 4. update start view with new setting model
 
-#Kangaroo v0.11.1.200113
+##Kangaroo v0.11.1.200113
 1. redesign connection dialog to support SSH and SSL
 2. add donate icon on home page(Paypal/Wechat/Alipay)
 3. redesign configuration model and file(init --> json)
 4. Use symbolic icons in the Header Bar(#25)
 5. fixed: edit data in grid will update all rows
 
-#Kangaroo v0.11.0.200106
+##Kangaroo v0.11.0.200106
 1. add app home page
 2. reimplement DSV format engine
 3. improve DSV compatible with other tools.
@@ -105,13 +109,13 @@
 8. fixed: can't save data while editting on data grid
 9. fixed: warning message about db tree
 
-#Kangaroo v0.10.0.191223
+##Kangaroo v0.10.0.191223
 1. add export assistant UI
 2. batch export table to file.
 3. support data formats(DSV/JSON/XML/HTML/Markdown/SQL)
 4. support title for column(rename)
 
-#Kangaroo v0.9.5.191216
+##Kangaroo v0.9.5.191216
 1. import data from DSV format
 2. import data from JSON format
 3. import data from XML format
@@ -119,16 +123,16 @@
 5. add export modules assistant UI
 6. implement export format and table selection page
 
-#Kangaroo v0.9.4.191209
+##Kangaroo v0.9.4.191209
 1. add import summary page
 2. add five kinds of import mode
 3. import csv format data to table
 4. fixed logo can't show on linux and macos platform
 
-#Kangaroo v0.9.3.191202
+##Kangaroo v0.9.3.191202
 1. implement column mapping function
 
-#Kangaroo v0.9.2.191125
+##Kangaroo v0.9.2.191125
 1. Import data from file(dsv/xml/json) #19
 o implement the import UI(format, encoding and preview)
 o implement the import UI(DSV format option)
@@ -137,7 +141,7 @@ o implement the import UI(column mapping)
 o implement the import UI(process progress)
 o implement DSV format parse and preview
 
-#Kangaroo v0.9.1.191118
+##Kangaroo v0.9.1.191118
 1. Export data to file(dsv(csv/tsv/...)/xml/json/sql/md/html) #18
 o Export data to DSV format(CSV/TSV/...)
 o Export data to JSON format
@@ -147,28 +151,28 @@ o Export data to SQL format(INSERT)
 o Export data to Markdown format
 2. Improve file filter of save dialog
 
-#Kangaroo v0.9.0.191111
+##Kangaroo v0.9.0.191111
 1. Edit table schema and save to database #5
 2. Export data to JSON and DSV format
 
-#Kangaroo v0.8.5.191104
+##Kangaroo v0.8.5.191104
 1. Edit table schema and save to database(SQLite and PostgreSQL preview) #5
 2. Add export data formats UI and interfaces
 3. Update tab's title while save the new table
 
-#Kangaroo v0.8.4.191028
+##Kangaroo v0.8.4.191028
 1. Rearrange db tree and UI #17
 2. Add refresh menu on db tree
 3. Implement multiple databases support
 4. Edit table schema and save to database(MySQL Preview) #5
 
-#Kangaroo v0.8.3.191021
+##Kangaroo v0.8.3.191021
 1. 新建连接时出现插件未加载错误 #12 
 Load plugin failed while create new connection #12
 2. Add MacOS compilation support #13
 3. refactor database model to improve interoperability
 
-#Kangaroo v0.8.2.191014
+##Kangaroo v0.8.2.191014
 1. improve: field selection dialog support to select fields by value(#9)
 2. improve: schema designer support to navigate with Tab key(#3)
 3. fixed: fields expression dialog reload value failed(#10)
@@ -176,7 +180,7 @@ Load plugin failed while create new connection #12
 5. fixed: missing syntax highlighting support(#8)
 6. fixed: load data in form view failed(#11)
 
-#Kangaroo v0.8.1.190930
+##Kangaroo v0.8.1.190930
 1. improve: generate exact correct editing sql
 2. refactor: add source code editor module
 3. improve SQLite schema sql builder
@@ -184,7 +188,7 @@ Load plugin failed while create new connection #12
 5. fixed: get string failed while create data row(console)
 6. fixed: console critical message while editing schema
 
-#Kangaroo v0.8.0.190923
+##Kangaroo v0.8.0.190923
 1. implement the builder of PostgreSQL(11.0)
 2. save table schema to database(create only)
 3. update build script: hide app console window
@@ -193,7 +197,7 @@ Load plugin failed while create new connection #12
 6. improve single line edit control(auto focus)
 7. update gui cursor while busy
 
-#Kangaroo v0.7.2.190916
+##Kangaroo v0.7.2.190916
 1. Implement loader of PostgreSQL 11(full version)
 2. Improve designer form of PostgreSQL 11
 3. refactor content of Kangaroo repo
