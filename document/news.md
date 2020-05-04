@@ -11,8 +11,6 @@ lang: en-US
 3. Support copy and paste multi rows in data grid.
 4. Chnage mode automatically while paste multi rows.
 5. fixed: where statement error in query builder
-### Important notice
-due to MariaDB client library change it's name, libgda not yet update its dependency, so can't connect to MySQL / MariaDB
 
 ## [Kangaroo v0.20.1.200420](/download/v0.20.1.200420)
 1. Implement copy function in the datagrid.
