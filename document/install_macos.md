@@ -21,3 +21,4 @@ brew install libxml libssh2 openssl
 # brew install libgda-mysql libgda-postgtes libgda-jdbc
 brew install mysql-connector-c mariadb-connector-c libpq
 ```
+<Vssue :issue-id="6" :title="$title" />

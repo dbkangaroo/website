@@ -52,3 +52,5 @@ posix
 libgda-mysql
 libgda-postgres
 ```
+
+<Vssue :issue-id="2" :title="$title" />

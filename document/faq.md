@@ -35,3 +35,5 @@ you can put your eyes on follow ways:
 You can ask questions and search for answers on Stack Overflow and enter issues and feature requests directly in our GitHub repository.
 
 If you'd like to contact author, you can join the QQ group: [袋鼠宝宝交流群 - 706676886](//shang.qq.com/wpa/qunwpa?idkey=90d913b2da6cd408f4f2fbec5c9167c5f1aea36eafbd3cf01ca9fd715e123f88), he will be there every week.
+
+<Vssue :issue-id="3" :title="$title" />

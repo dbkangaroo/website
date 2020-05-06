@@ -34,3 +34,6 @@ click __SQL builder tools__ icon in the lower left corner of workspace, then __B
 ## Change edit mode
 - step 1: click mode icon on the datagrid toolbar
 - step 2: then choose mode on the pop over gui;
+
+
+<Vssue :issue-id="9" :title="$title" />

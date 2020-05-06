@@ -36,3 +36,5 @@ Your connection could through the private network over SSH(and over proxy), the 
 
 ## PostgreSQL
 Just refer MySQL connection setting.
+
+<Vssue :issue-id="7" :title="$title" />

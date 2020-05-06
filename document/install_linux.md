@@ -49,3 +49,5 @@ sudo pacman -S libgee json-glib libsoup
 sudo pacman -S libgda libgda-mysql libgda-postgres 
 sudo pacman -S gtksourceview4 webkit2gtk3 libssh2 openssl
 ```
+
+<Vssue :issue-id="5" :title="$title" />

@@ -18,3 +18,5 @@ __Windows Portable__
 2. Uncompress Kangaroo package to target folder with 7-Zip (7z.exe)
 3. Create shortcut on desktop for Kangaroo app(bin\kangaroo.exe).
 4. Double click the shortcut to run Kangaroo
+
+<Vssue :issue-id="4" :title="$title" />

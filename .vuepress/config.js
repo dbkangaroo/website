@@ -1,18 +1,20 @@
 module.exports = {
-    plugins: [
-        [
-            'sitemap',
-            {
-                hostname: 'https://dbkangaroo.github.io/'
-            }
-        ],
-        [
-            '@vuepress/google-analytics',
-            {
-                'ga': 'UA-149848419-1'
-            }
-        ]
-    ],
+    plugins: {
+        'sitemap': {
+            hostname: 'https://dbkangaroo.github.io/'
+        },
+        '@vuepress/google-analytics': {
+            'ga': 'UA-149848419-1'
+        },
+        '@vssue/vuepress-plugin-vssue': {
+            platform: 'github',
+            owner: 'dbkangaroo',
+            repo: 'comments',
+            admins: ['taozuhong'],
+            clientId: 'f5f19bd32a82283b7570',
+            clientSecret: '2c3a55d0763abd0abde569e17ba5c40b2134b5de',
+        },
+    },
     base: '/',
     head: [
         ['link', { rel: 'icon', href: '/kangaroo_small.png' }],
