@@ -5,6 +5,18 @@ lang: en-US
 
 # Kangaroo News Timeline
 
+## [Kangaroo v0.22.1.200511](/download/v0.22.1.200511)
+1. Add Chinese(zh-CN/zh-TW/zh-HK/zh-SG) translation.
+2. SQLite: add file extension(.sqlite) for new database.
+3. Improve experience for designer / fresh / delete operation
+4. Improve deploy and installer script for automation.
+5. Fixed: crash while renaming object.
+6. Fixed: crash while deleting object.
+7. Fixed: crash while saving schema for sqlite
+8. Fixed: can't append row on the empty table
+9. Fixed: can't save appended row in live mode
+
+
 ## [Kangaroo v0.21.1.200504](/download/v0.21.1.200504)
 1. Refactor the entire datagrid to make great experience.
 2. Support 3 kind of mode: LIVE / CACHE / TRANSACTION
