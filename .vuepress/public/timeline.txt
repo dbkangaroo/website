@@ -1,4 +1,16 @@
-#Kangaroo News Timeline
+#Kangaroo change timeline
+
+##Kangaroo v0.23.1.200518
+1. Improve date / datetime picker widget.
+2. Improve app title bar to add background image(color).
+3. Improve data grid column title.
+4. Improve Chinese translations.
+5. Fixed: can't update date/time/datetime type.
+6. Fixed: can't update float value
+7. Fixed: can't update numeric value
+8. Fixed: MySQL: can't save char column data
+9. Fixed: PostgreSQL: invalid object name in sql
+10. Fixed: invalid toolbar state while swtich to grid.
 
 ##Kangaroo v0.22.1.200511
 1. Add Chinese(zh-CN/zh-TW/zh-HK/zh-SG) translation.
@@ -10,7 +22,6 @@
 7. Fixed: crash while saving schema for sqlite
 8. Fixed: can't append row on the empty table
 9. Fixed: can't save appended row in live mode
-
 
 ##Kangaroo v0.21.1.200504
 1. Refactor the entire datagrid to make great experience.

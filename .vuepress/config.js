@@ -47,8 +47,8 @@ module.exports = {
                         text: 'License',
                         link: '/document/license'
                     }, {
-                        text: 'News',
-                        link: '/document/news'
+                        text: 'Changelog',
+                        link: '/document/changelog'
                     },
                     {
                         text: 'Documents',
@@ -73,7 +73,7 @@ module.exports = {
                     '/document/': [
                         '',
                         'license',
-                        'news',
+                        'changelog',
                         'faq',
                         'connection',
                         'schema',
@@ -84,6 +84,7 @@ module.exports = {
                     ],
                     '/download/': [
                         '',
+                        'v0.23.1.200518',
                         'v0.22.1.200511',
                         'v0.21.1.200504',
                         'v0.20.1.200420',

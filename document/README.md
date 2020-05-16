@@ -7,8 +7,8 @@ lang: en-US
 ## License
 [Kangaroo's license](license.md)
 
-## News Timeline
-[Kangaroo's news timeline](news.md)
+## Change timeline
+[Kangaroo's change timeline](changelog.md)
 
 ## Frequently Asked Questions
 [General frequently asked questions](faq.md)
