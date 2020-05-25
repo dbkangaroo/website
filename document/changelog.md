@@ -5,6 +5,11 @@ lang: en-US
 
 # Kangaroo change timeline
 
+## [Kangaroo v0.24.1.200525](/download/v0.24.1.200525)
+1. Add SQL Formatter to beautify and minify sql code.
+2. Add archlinux installer(based on HowardZorn's working).
+3. Add macos installer
+
 ## [Kangaroo v0.23.1.200518](/download/v0.23.1.200518)
 1. Improve date / datetime picker widget.
 2. Improve app title bar to add background image(color).

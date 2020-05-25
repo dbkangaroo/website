@@ -42,9 +42,16 @@ sudo yum install gtksourceview4 webkit2gtk3 libssh2 openssl
 ```
 
 ## Install on ArchLinux
+There are two ways to install Kangaroo on your system, the first way is installer, the second way is install manually.
+
+### Installer
+1. Download the installer form website;
+2. Execute command to install it: `pacman -U <package>`
+
+### Manaual
 the follow install script assumption that glibc / gtk+-3.0 / gdk-pixbuf-2.0 have installed by default.
 ```bash
-sudo pacman -Syy
+sudo pacman -Syu
 sudo pacman -S libgee json-glib libsoup
 sudo pacman -S libgda libgda-mysql libgda-postgres 
 sudo pacman -S gtksourceview4 webkit2gtk3 libssh2 openssl
