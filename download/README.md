@@ -12,6 +12,18 @@ Stable and LTS(Long-term Support) version depend on test result and stabilizatio
 | 2020-05-11 | | [v0.22.1.200511](./v0.22.1.200511) | [v0.22.1.200511](./v0.22.1.200511) | [v0.22.1.200511](./v0.22.1.200511) |
 | 2020-05-04 | | [v0.21.1.200504](./v0.21.1.200504) | [v0.21.1.200504](./v0.21.1.200504) | [v0.21.1.200504](./v0.21.1.200504) |
 
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
 
 ## Development version
 Development version will be released weekly, talent be changed daily, keep your eyes on it. <br/>

@@ -10,6 +10,19 @@ lang: en-US
 2. Add archlinux installer(based on HowardZorn's working).
 3. Add macos installer
 
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [Kangaroo v0.23.1.200518](/download/v0.23.1.200518)
 1. Improve date / datetime picker widget.
 2. Improve app title bar to add background image(color).

@@ -64,8 +64,7 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 
 
 # Support the Project
-If you like Kangaroo and you want to support its development, pls scan QR code to donate via PayPal / Wechat / Alipay.
-
+If you like Kangaroo and you want to support its development, pls scan QR code to donate via PayPal / Wechat / Alipay.<br/>
 ![Support project](./images/pay_wide.png)
 
 
@@ -74,10 +73,38 @@ If you like Kangaroo and you want to support its development, pls scan QR code t
 ![Tools page of connection](./images/kangaroo-tools.png)
 ![Kangaroo grid view in table with custom columns](./images/kangaroo-grid.png)
 ![Kangaroo grid view in table with where statement](./images/kangaroo-grid2.png)
+
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ![Kangaroo grid view in form](./images/kangaroo-form.png)
 ![Kangaroo query view](./images/kangaroo-query.png)
 ![Kangaroo schema designer form](./images/kangaroo-designer.png)
 ![Kangaroo schema designer form with preview](./images/kangaroo-designer2.png)
+
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ![Kangaroo export assistant](./images/kangaroo-export.png)
 ![Kangaroo import assistant](./images/kangaroo-import.png)
 ![Kangaroo setting dialog with dark theme](./images/kangaroo-setting.png)
