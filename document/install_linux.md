@@ -15,7 +15,7 @@ sudo apt install libgtk-3-0
 sudo apt install libgee-0.8
 sudo apt install libsoup2.4
 sudo apt install libjson-glib-1.0
-sudo apt install libgda-5.0-common
+sudo apt install libgda-5.0-4
 sudo apt install libgda-5.0-mysql
 sudo apt install libgda-5.0-postgtes
 sudo apt install libgtksourceview-4-0

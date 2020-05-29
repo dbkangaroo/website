@@ -29,8 +29,10 @@ module.exports = {
     },
     themeConfig: {
         logo: '/kangaroo_small.png',
-        repo: 'dbkangaroo/kangaroo',
-        editLinks: false,
+        // repo: 'dbkangaroo/kangaroo',
+        docsRepo: 'dbkangaroo/dbkangaroo.github.io',
+        docsBranch: 'dev',
+        editLinks: true,
         search: true,
         searchMaxSuggestions: 10,
         locales: {
@@ -60,7 +62,19 @@ module.exports = {
                     },
                     {
                         text: 'New Feature',
-                        link: 'https://github.com/dbkangaroo/kangaroo/issues/new'
+                        ariaLabel: 'New Feature',
+                        items: [
+                            { text: 'New Feature', link: 'https://github.com/dbkangaroo/kangaroo/issues/new' },
+                            { text: '新功能或Bug', link: 'https://gitee.com/dbkangaroo/kangaroo/issues/new' }
+                        ]
+                    },
+                    {
+                        text: 'Github',
+                        ariaLabel: 'Project Repository',
+                        items: [
+                            { text: 'Github.com(English)', link: 'https://github.com/dbkangaroo/kangaroo' },
+                            { text: 'Gitee.com(简体中文)', link: 'https://gitee.com/dbkangaroo/kangaroo' }
+                        ]
                     },
                 ],
                 sidebar: {
