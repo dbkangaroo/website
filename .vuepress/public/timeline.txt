@@ -1,5 +1,18 @@
 #Kangaroo change timeline
 
+##Kangaroo v0.25.1.200601
+1. Add context menu for workspace notebook widget
+2. Add new query menu for object tree item(database/schema).
+3. Update Chinese translation(zh-CN/zh-TW/zh-HK/zh-SG).
+5. Fixed: PostgreSQL 12: tables not visible #46
+6. Fixed: MariaDB 10.5: Unknown column 'cons.ENFORCED' in 'field list' #47
+7. Fixed: PostgreSQL 12: column c.consrc does not exist #48
+8. Fixed: PostgreSQL 11.7 / 9.6: row 1 out of range(0-0) #49
+9. Fixed: MySQL 5.7.30: Unknown table 'CHECK_CONSTRAINTS' in information_schema #50
+10. Fixed: PostgreSQL 9.6: column c.relispartition does not exist #51
+11. Fixed: PostgreSQL: invalid schemas in database
+12. Fixed: display invalid while column name has underline(_)
+
 ##Kangaroo v0.24.1.200525
 1. Add SQL Formatter to beautify and minify sql code.
 2. Add archlinux installer(based on HowardZorn's working).
