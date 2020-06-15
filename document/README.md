@@ -22,6 +22,10 @@ lang: en-US
 ## Browse and edit data
 [Data grid in content view](datagrid.md)
 
+## SQL programming
+[Editing sql in code view](editor.md)
+
+
 ## Install Kangaroo
 Kangaroo has full function support on Windows, the user experience is best:<br/>
 [Install Kangaroo on Windows](install_windows.md)
