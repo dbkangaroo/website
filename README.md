@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /kangaroo.png
-actionText: Download v0.25.1
-actionLink: /download/v0.25.1.200601
+actionText: Download v0.26.1
+actionLink: /download/v0.26.1.200615
 footer: Private property | Copyright © 2018-present Kangaroo development team
 ---
 
@@ -30,10 +30,10 @@ Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 
 | Database    | Version | Query     | Editing   | Designer  | Export    | Import    | Hint      | Modeling | DB Sync |
 |-------------|---------|-----------|-----------|-----------|-----------|-----------|-----------|----------|---------|
-| SQLite      | 3.x     | Full:100: | Full:100: | Full:100: | Full:100: | Full:100: | Planned   | Planned  | Planned |
-| MySQL       | 8.0     | Full:100: | Full:100: | Full:100: | Full:100: | Full:100: | Planned   | Planned  | Planned |
-| MariaDB     | 10.x    | Full:100: | Full:100: | Full:100: | Full:100: | Full:100: | Planned   | Planned  | Planned |
-| PostgreSQL  | 11.x    | Full:100: | Full:100: | Full:100: | Full:100: | Full:100: | Planned   | Planned  | Planned |
+| SQLite      | 3.x     | Full:100: | Full:100: | Full:100: | Full:100: | Full:100: | Partial(80%) | Planned  | Planned |
+| MySQL       | 8.0     | Full:100: | Full:100: | Full:100: | Full:100: | Full:100: | Partial(80%) | Planned  | Planned |
+| MariaDB     | 10.x    | Full:100: | Full:100: | Full:100: | Full:100: | Full:100: | Partial(80%) | Planned  | Planned |
+| PostgreSQL  | 11.x    | Full:100: | Full:100: | Full:100: | Full:100: | Full:100: | Partial(80%) | Planned  | Planned |
 | Redis       | 5.x     | Planned   | Planned   | Planned   | Planned   | Planned   | Planned   | Planned  | Planned |
 | Oracle      |         |           |           |           |           |           |           |          |         |
 | SQL Server  |         |           |           |           |           |           |           |          |         |
@@ -60,7 +60,7 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 | Platform    | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |-------------|-------------------|-------------------|-----------------|
 | Stable | [v0.25.1.200601](./download/v0.25.1.200601) | [v0.25.1.200601](./download/v0.25.1.200601) | [v0.25.1.200601](./download/v0.25.1.200601) |
-| Development | [v0.24.1.200525](./download/v0.24.1.200525) | [v0.24.1.200525](./download/v0.24.1.200525) | [v0.24.1.200525](./download/v0.24.1.200525) |
+| Development | [v0.26.1.200615](./download/v0.26.1.200615) | [v0.26.1.200615](./download/v0.26.1.200615) | [v0.26.1.200615](./download/v0.26.1.200615) |
 
 
 # Support the Project

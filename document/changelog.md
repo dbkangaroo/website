@@ -5,6 +5,10 @@ lang: en-US
 
 # Kangaroo change timeline
 
+## [Kangaroo v0.26.1.200615](/download/v0.26.1.200615)
+1. Add intellisense data support(SQLite/MySQL/PostgreSQL)
+2. Add auto completion for code view(v1)
+
 ## [Kangaroo v0.25.1.200601](/download/v0.25.1.200601)
 1. Add context menu for workspace notebook widget
 2. Add new query menu for object tree item(database/schema).
