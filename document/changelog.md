@@ -5,6 +5,14 @@ lang: en-US
 
 # Kangaroo change timeline
 
+## [Kangaroo v0.27.1.200622](/download/v0.27.1.200622)
+1. Improve intellisense data for PostgreSQL
+2. Improve auto-completion style(icon/filter by input)
+3. Add function's call tip(highlighting/bold/auto location/data)
+4. Implement copy focused column name(short/full)
+5. Implement copy datagrid column name(TSV/CSV)
+6. Renaming package name.
+
 ## [Kangaroo v0.26.1.200615](/download/v0.26.1.200615)
 1. Add intellisense data support(SQLite/MySQL/PostgreSQL)
 2. Add auto completion for code view(v1)
