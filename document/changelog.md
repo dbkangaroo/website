@@ -11,7 +11,8 @@ lang: en-US
 3. Add function's call tip(highlighting/bold/auto location/data)
 4. Implement copy focused column name(short/full)
 5. Implement copy datagrid column name(TSV/CSV)
-6. Renaming package name.
+6. Update package name
+7. Update Chinese translation
 
 ## [Kangaroo v0.26.1.200615](/download/v0.26.1.200615)
 1. Add intellisense data support(SQLite/MySQL/PostgreSQL)
