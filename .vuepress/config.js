@@ -1,8 +1,5 @@
 module.exports = {
     plugins: {
-        'sitemap': {
-            hostname: 'https://dbkangaroo.github.io/'
-        },
         '@vuepress/google-analytics': {
             'ga': 'UA-149848419-1'
         },
