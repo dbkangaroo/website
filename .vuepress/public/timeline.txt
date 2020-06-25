@@ -1,5 +1,9 @@
 #Kangaroo change timeline
 
+##Kangaroo v0.28.1.200629
+1. Implement search and replace function
+2. Update Chinese translation
+
 ##Kangaroo v0.27.1.200622
 1. Improve intellisense data for PostgreSQL
 2. Improve auto-completion style(icon/filter by input)
