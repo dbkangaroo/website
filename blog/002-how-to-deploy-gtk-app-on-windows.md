@@ -100,8 +100,8 @@ ldd /mingw64/bin/libpq.dll | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f 
   - /themes : graphical themes.
   - *: miscellaneous files.
 
-### Validae the runtime dependency view
-execute the app under user ENV and the app under dev ENV, compare the runtime dependency view, check the count of dll file and dll file name. make sure they are same.
+### Compare the runtime dependency view
+execute the app under user environment and the app under dev environment, compare the runtime dependency view, check the count of dll file and dll file name. make sure they are same.
 
 <div>
     <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />

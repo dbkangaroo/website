@@ -9,6 +9,19 @@ lang: en-US
 1. Implement search and replace function
 2. Update Chinese translation
 
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [Kangaroo v0.27.1.200622](/download/v0.27.1.200622)
 1. Improve intellisense data for PostgreSQL
 2. Improve auto-completion style(icon/filter by input)

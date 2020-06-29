@@ -21,7 +21,7 @@ footer: Private property | Copyright © 2018-present Kangaroo development team
   </div>
   <div class="feature">
     <h2>Performance</h2>
-    <p>Vala, GTK and Libgda based native application, more responsible speed than others.</p>
+    <p><a target="_blank" href="https://gitlab.gnome.org/GNOME/vala">Vala</a>, <a target="_blank" href="https://www.gtk.org/">GTK3</a> and <a target="_blank" href="https://gitlab.gnome.org/GNOME/libgda">libgda</a> based native application, more responsible speed than others.</p>
   </div>
 </div>
 

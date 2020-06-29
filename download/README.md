@@ -29,7 +29,7 @@ Stable and LTS(Long-term Support) version depend on test result and stabilizatio
 
 ## Development version
 Development version will be released weekly, talent be changed daily, keep your eyes on it. <br/>
-__Notice: only 5 latest versions available for downloading.__
+__Notice: only 5 latest versions available for download.__
 
 | Release date | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |--------------|-------------------|-----------------|-----------------|

@@ -24,7 +24,7 @@ There are two ways to install Kangaroo on your system, the first way is DMG imag
 ``` bash
 brew install gtksourceview4 adwaita-icon-theme
 brew install libgee libsoup json-glib libgda
-brew install libxml libssh2 openssl
+brew install libxml2 libssh2 openssl
 # brew install libgda-mysql libgda-postgtes libgda-jdbc
 brew install mysql-connector-c mariadb-connector-c libpq
 ```
