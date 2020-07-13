@@ -5,6 +5,12 @@ lang: en-US
 
 # Kangaroo change timeline
 
+## [Kangaroo v0.29.1.200713](/download/v0.29.1.200713)
+1. Implement plugin system
+2. Implement a example plugin
+3. Update ArchLinux and MacOSX installer
+4. Update protable package(more *nixable)
+
 ## [Kangaroo v0.28.1.200629](/download/v0.28.1.200629)
 1. Implement search and replace function
 2. Update Chinese translation

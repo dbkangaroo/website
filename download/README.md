@@ -4,7 +4,8 @@ lang: en-US
 ---
 
 ## Stable version
-Stable and LTS(Long-term Support) version depend on test result and stabilization.
+Stable and LTS(Long-term Support) version depend on test result and stabilization. <br/>
+__Notice: only the latest versions available for download.__
 
 | Release date | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |--------------|-------------------|-----------------|-----------------|
@@ -29,10 +30,11 @@ Stable and LTS(Long-term Support) version depend on test result and stabilizatio
 
 ## Development version
 Development version will be released weekly, talent be changed daily, keep your eyes on it. <br/>
-__Notice: only 5 latest versions available for download.__
+__Notice: only the latest versions available for download.__
 
 | Release date | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |--------------|-------------------|-----------------|-----------------|
+| 2020-07-13   | [v0.29.1.200713](./v0.29.1.200713) | [v0.29.1.200713](./v0.29.1.200713) | [v0.29.1.200713](./v0.29.1.200713) |
 | 2020-06-29   | [v0.28.1.200629](./v0.28.1.200629) | [v0.28.1.200629](./v0.28.1.200629) | [v0.28.1.200629](./v0.28.1.200629) |
 | 2020-06-15   | [v0.26.1.200615](./v0.26.1.200615) | [v0.26.1.200615](./v0.26.1.200615) | [v0.26.1.200615](./v0.26.1.200615) |
 | 2020-05-25   | [v0.24.1.200525](./v0.24.1.200525) | [v0.24.1.200525](./v0.24.1.200525) | [v0.24.1.200525](./v0.24.1.200525) |
