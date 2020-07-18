@@ -1,39 +1,37 @@
 ---
-title: Frequently Asked Questions
+title: 常用问题列表
 lang: zh-CN
 ---
 
-# Frequently Asked Questions
+# 常用问题列表
 
-## License
-### Is Kangaroo free?
-Yes, Kangaroo is free for private or commercial use. See the [product license](license.md) for details.
+## 关于许可证
+### 袋鼠数据库工具是否免费?
+是的，根据袋鼠数据库工具当前的许可证，个人和商业可以免费试用. 详情请阅读[产品许可证](license.md) 获得更多明细.
 
-### Is Kangaroo open source?
-Not yet now, open source is an option on the desktop.
+### 袋鼠数据库工具是否开放源码?
+目前未开放源码, 开放源码始终是工具发展过程中的一个候选项。
 
-## Version
-### How do I find the version?
-You can find the Kangaroo version information in the About dialog box.
+## 关于版本
+### 如何获得工具的当前版本？
+您可以从工具的关于对话框窗口中获取版本信息：
+第一步： 从__主菜单__进入__帮助__子菜单，然后点击__关于__菜单项，打开关于对话框
+第二步：关于对话框文本的第二行即为当前版本，版本格式为：主版本.次版本.发布版本.构建日期，例如：'0.8.5.191108'
 
-On right of Kangaroo title bar, click the main menu button, then go to Help > About.
+## 关于多语言
+### 袋鼠数据库工具支持哪些语言？
+袋鼠数据库工具官方支持英语和中文，其它语言得依靠社区支持；
 
-The Kangaroo version is the first Version number listed and has the version format 'major.minor.release.build', for example '0.8.5.191108'
-
-## Language
-### What languages does Kangaroo support?
-English, Chinese will be support default, other languages depend on user contributation.
-
-## Support
-### How track the changes?
-you can put your eyes on follow ways:
+## 技术支持
+### 如何获得袋鼠数据库工具的最新进展？
+您可以从以下渠道获得袋鼠数据库工具的最新信息:
 [Twitter](https://twitter.com/Kangaroo)
 [Github](https://github.com/dbkangaroo/kangaroo)
-[Official (here)](https://dbkangaroo.github.io/)
+[官方网站](https://dbkangaroo.github.io/zh/)
 
-### Technical Support
-You can ask questions and search for answers on Stack Overflow and enter issues and feature requests directly in our GitHub repository.
+### 如何获得技术支持？
+您可以在 StackOverflow 之类的平台提问和搜索答案，也可以在项目仓库提交缺陷和需求来获得官方支持；
 
-If you'd like to contact author, you can join the QQ group: [袋鼠宝宝交流群 - 706676886](//shang.qq.com/wpa/qunwpa?idkey=90d913b2da6cd408f4f2fbec5c9167c5f1aea36eafbd3cf01ca9fd715e123f88), he will be there every week.
+如果您试图联系作者以获得支持，您可以加入官方 QQ 群： [袋鼠宝宝交流群 - 706676886](//shang.qq.com/wpa/qunwpa?idkey=90d913b2da6cd408f4f2fbec5c9167c5f1aea36eafbd3cf01ca9fd715e123f88), 他每周都会在群里回答宝宝们的问题。
 
 <Vssue :issue-id="3" :title="$title" />

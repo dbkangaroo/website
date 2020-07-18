@@ -4,9 +4,9 @@ lang: zh-CN
 ---
 
 ## Show the top builder pane
-![Datagrid Builder](../images/kangaroo-grid-builder.png)
+![Datagrid Builder](../../images/kangaroo-grid-builder.png)
 click __SQL builder tools__ icon in the lower left corner of workspace, then __Builder__ pane will show on the top
-![Datagrid toolbar](../images/kangaroo-grid-toolbar.png)
+![Datagrid toolbar](../../images/kangaroo-grid-toolbar.png)
 
 ## Select columns
 - step 1: click __Column__ button to switch to column tab
