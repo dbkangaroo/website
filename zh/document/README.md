@@ -1,43 +1,43 @@
 ---
-title: Documents
+title: 使用文档
 lang: zh-CN
 ---
 
-# Documents for Kangaroo
-## License
-[Kangaroo's license](license.md)
+# 袋鼠数据库工具使用文档
+## 许可证
+[袋鼠数据库工具许可证](license.md)
 
-## Change timeline
-[Kangaroo's change timeline](changelog.md)
+## 发布更新时间线
+[袋鼠数据库工具更新时间线](changelog.md)
 
-## Frequently Asked Questions
-[General frequently asked questions](faq.md)
+## 常用问题列表
+[常用问题列表](faq.md)
 
-## Connect to database
-[Make a connection](connection.md)
+## 连接数据库
+[建立一个数据库连接](connection.md)
 
-## Create a new table
-[Table schema designer](schema.md)
+## 创新新数据表
+[表结构设计器](schema.md)
 
-## Browse and edit data
-[Data grid in content view](datagrid.md)
+## 浏览并编辑数据
+[数据内容浏览视图](datagrid.md)
 
-## SQL programming
-[Editing sql in code view](editor.md)
+## SQL 编程
+[SQL 编辑查询视图](editor.md)
 
 
-## Install Kangaroo
-Kangaroo has full function support on Windows, the user experience is best:<br/>
-[Install Kangaroo on Windows](install_windows.md)
+## 安装袋鼠数据库工具
+Windows 版本袋鼠数据库工具具有完整的功能支持，且具有最佳用户体验：<br/>
+[Windows 平台安装袋鼠数据库工具](install_windows.md)
 
-Kangaroo has full function support on linux, installation on linux OS is easy:<br/>
-[Install Kangaroo on Linux](install_linux.md)
+Linux 版本袋鼠数据库工具具有完整的功能支持，安装很轻松：<br/>
+[Linux 平台安装袋鼠数据库工具](install_linux.md)
 
-Kangaroo has full function support on MacOS:<br/>
-[Install Kangaroo on MacOS](install_macos.md)
+MacOS 版本袋鼠数据库工具具有完整的功能支持，安装体验正在完善中:<br/>
+[MacOS 平台安装袋鼠数据库工具](install_macos.md)
 
 ## Dependencies
-Kangaroo build on GLib / GTK3 / Libgda / Vala, so we must install them first, here's the list of dependencies required:
+袋鼠数据库工具构建在 GLib / GTK3 / Libgda / Vala 基础上, Linux 平台上需要先安装他们, 详细的依赖库及版本列表如下:
 ```Text
 posix
 gio-2.0 > 2.64
