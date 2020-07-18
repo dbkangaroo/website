@@ -1,6 +1,6 @@
 ---
 title: Install on Linux
-lang: en-US
+lang: zh-CN
 ---
 
 ## Download Kangaroo

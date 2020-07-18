@@ -1,6 +1,6 @@
 ---
 title: Table schema designer
-lang: en-US
+lang: zh-CN
 ---
 
 <Vssue :issue-id="8" :title="$title" />

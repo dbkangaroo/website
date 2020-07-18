@@ -1,6 +1,6 @@
 ---
 title: Install on MacOS
-lang: en-US
+lang: zh-CN
 ---
 
 ## Notice(Need your help)

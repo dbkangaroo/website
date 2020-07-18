@@ -1,13 +1,13 @@
 ---
-title: Download
-lang: en-US
+title: 下载
+lang: zh-CN
 ---
 
-## Stable version
-Stable and LTS(Long-term Support) version depend on test result and stabilization. <br/>
-__Notice: only the latest versions available for download.__
+## 稳定版
+稳定版本和长周期支持版本(LTS) 根据版本质量评估情况不定期发布。 <br/>
+__注意__: 由于项目空间限制，只有最新的版本支持下载。
 
-| Release date | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
+| 发布日期 | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |--------------|-------------------|-----------------|-----------------|
 | 2020-06-22 | [v0.27.1.200622](./v0.27.1.200622) | [v0.27.1.200622](./v0.27.1.200622) | [v0.27.1.200622](./v0.27.1.200622) |
 | 2020-06-01 | [v0.25.1.200601](./v0.25.1.200601) | [v0.25.1.200601](./v0.25.1.200601) | [v0.25.1.200601](./v0.25.1.200601) |
@@ -28,11 +28,11 @@ __Notice: only the latest versions available for download.__
     </script2>
 </div>
 
-## Development version
-Development version will be released weekly, talent be changed daily, keep your eyes on it. <br/>
-__Notice: only the latest versions available for download.__
+## 开发版
+开发版本按周发布，一周或两周发布一个。工具支持能力每天都在变强，敬请关注。<br/>
+__注意__: 由于项目空间限制，只有最新的版本支持下载。
 
-| Release date | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
+| 发布日期      | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |--------------|-------------------|-----------------|-----------------|
 | 2020-07-13   | [v0.29.1.200713](./v0.29.1.200713) | [v0.29.1.200713](./v0.29.1.200713) | [v0.29.1.200713](./v0.29.1.200713) |
 | 2020-06-29   | [v0.28.1.200629](./v0.28.1.200629) | [v0.28.1.200629](./v0.28.1.200629) | [v0.28.1.200629](./v0.28.1.200629) |

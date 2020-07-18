@@ -1,6 +1,6 @@
 ---
 title: Why choose Vala to build Kangaroo?
-lang: en-US
+lang: zh-CN
 ---
 
 # Why choose Vala to build Kangaroo?

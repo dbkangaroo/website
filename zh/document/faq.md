@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions
-lang: en-US
+lang: zh-CN
 ---
 
 # Frequently Asked Questions

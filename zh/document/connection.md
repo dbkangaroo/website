@@ -1,6 +1,6 @@
 ---
 title: Connection management
-lang: en-US
+lang: zh-CN
 ---
 
 ## Connection limitations

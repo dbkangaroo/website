@@ -1,6 +1,6 @@
 ---
 title: MySQL security and authentication
-lang: en-US
+lang: zh-CN
 ---
 
 # MySQL security and authentication

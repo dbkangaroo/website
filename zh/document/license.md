@@ -1,6 +1,6 @@
 ---
 title: License
-lang: en-US
+lang: zh-CN
 ---
 
 Copyright (c) 2020 ZUHONG TAO

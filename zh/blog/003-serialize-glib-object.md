@@ -1,6 +1,6 @@
 ---
 title: How to serialize / deserialize GLib object
-lang: en-US
+lang: zh-CN
 sidebarDepth: 2
 ---
 

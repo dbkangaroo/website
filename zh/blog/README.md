@@ -1,6 +1,6 @@
 ---
 title: Kangaroo's blog 
-lang: en-US
+lang: zh-CN
 ---
 
 # Techs, skills and notes

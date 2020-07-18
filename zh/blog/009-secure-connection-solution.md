@@ -1,6 +1,6 @@
 ---
 title: Kangaroo secure connection solution
-lang: en-US
+lang: zh-CN
 ---
 
 # Kangaroo Secure connection (SSL or SSH) solution

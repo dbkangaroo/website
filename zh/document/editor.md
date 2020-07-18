@@ -1,6 +1,6 @@
 ---
 title: Code editor
-lang: en-US
+lang: zh-CN
 ---
 
 ## Why auto-completion window show messy code on the button?

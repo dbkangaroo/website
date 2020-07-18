@@ -1,6 +1,6 @@
 ---
 title: Documents
-lang: en-US
+lang: zh-CN
 ---
 
 # Documents for Kangaroo

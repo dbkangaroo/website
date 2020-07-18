@@ -1,6 +1,6 @@
 ---
 title: Data grid in content view
-lang: en-US
+lang: zh-CN
 ---
 
 ## Show the top builder pane
