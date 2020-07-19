@@ -1,26 +1,27 @@
 ---
-title: Install on MacOS
+title: MacOS 平台安装
 lang: zh-CN
 ---
 
-## Notice(Need your help)
-DBKangaroo is not ready on MacOS, because libgda 5.2.9 providers(MySQL / PostgreSQL / JDBC) are still missing, and crashed while exeuting the SQL, even internal provider: sqlite, they are all verified.
+## 注意(需要您的帮助)
+MacOS 版袋鼠数据库工具还未准备好，因为依赖库 libgda 5.2.9 的提供程序缺失的原因导致(MySQL / PostgreSQL / JDBC), libgda 内置的SQLite提供程序也会在执行SQL时奔溃......
 
-libgda need our help to improve quality, pls pay more attentions on it, [libgda website](https://gitlab.gnome.org/GNOME/libgda)
+libgda 需要您的帮助以提升质量，需要更多信息请参考项目官方网站 [libgda website](https://gitlab.gnome.org/GNOME/libgda)
 
-## Download Kangaroo
+## 下载袋鼠数据库工具
+点击链接下载最新版的袋鼠数据库工具 [下载](../download)
 
-Download the latest version of Kangaroo from [Download](../download).
+## 安装袋鼠数据库工具
+MacOS 平台提供了两种安装方式：安装程序 和 手工安装，您可以根据您的喜好安装；
 
-## Install Kangaroo
-There are two ways to install Kangaroo on your system, the first way is DMG image, the second way is install manually.
+### 安装程序
+1. 在文件管理器中打开 DMG 安装器
+2. 在显示的界面中拖动袋鼠图标到右边的应用图标上即可完成安装。
+3. 检查应用中心是否存在袋鼠数据库工具图标
 
-### Installer
-1. Download the DMG image form website;
-2. Open the DMG image in Finder, drag the kangaroo's icon to Application's icon to finish installation.
-<Badge text="warning" type="warning"/>the dependency libraries not include now, you shoud install third-party libraries manually.
 
-## Manual (install via brew)
+## 手工安装
+1. 安装第三方依赖库
 ``` bash
 brew install gtksourceview4 adwaita-icon-theme
 brew install libgee libsoup json-glib libgda
@@ -28,4 +29,10 @@ brew install libxml2 libssh2 openssl
 # brew install libgda-mysql libgda-postgtes libgda-jdbc
 brew install mysql-connector-c mariadb-connector-c libpq
 ```
+
+2. 解压缩便携式安装包到制定目录中
+```bash
+tar -xvf <Kangaroo-......tar.gz>
+```
+
 <Vssue :issue-id="6" :title="$title" />

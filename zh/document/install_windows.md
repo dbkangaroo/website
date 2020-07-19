@@ -1,22 +1,23 @@
 ---
-title: Install on Windows
+title: Windows 平台安装
 lang: zh-CN
 ---
 
-## Download Kangaroo
+## 下载 袋鼠数据库工具
+点击链接下载最新版的袋鼠数据库工具 [下载](../download)
 
-Download the latest version of Kangaroo from [Download](../download), recommend **installer** for normal users.
+## 安装 袋鼠数据库工具
+Windows 版提供了两种安装方式：安装程序 和 手工安装，您可以根据您的需要选择安装。
 
-## Install Kangaroo
+### 安装程序
+1. 双击安装程序启动安装，根据安装指导完成安装即可，使用默认设置安装方式即可；
+3. 检查开始菜单中是否存在袋鼠数据库工具图标
 
-__Windows Installer__
 
-Double click the installer and follow the guide to install Kangaroo on your windows directly.
-
-__Windows Portable__
-1. Create folder to put the Kangaroo app, ex: D:\Program Files\Kangaroo\
-2. Uncompress Kangaroo package to target folder with 7-Zip (7z.exe)
-3. Create shortcut on desktop for Kangaroo app(bin\kangaroo.exe).
-4. Double click the shortcut to run Kangaroo
+### 手工安装
+1. 创建存放袋鼠数据库工具的最终安装目录, 例如: C:\Program Files\Kangaroo\
+2. 解压袋鼠数据库工具便携式压缩包到该目录中 (7-Zip 7z.exe)
+3. 右键拖动 袋鼠数据库工具 执行文件到桌面创建快捷键 (bin\kangaroo.exe).
+4. 双击快捷键启动工具
 
 <Vssue :issue-id="4" :title="$title" />
