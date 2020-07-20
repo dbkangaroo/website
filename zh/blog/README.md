@@ -1,9 +1,9 @@
 ---
-title: Kangaroo's blog 
+title: 博客文章 
 lang: zh-CN
 ---
 
-# Techs, skills and notes
+# 技术/技巧和笔记
 
 [2019-10-19: How to serialize / deserialize GLib object](./003-serialize-glib-object)
 

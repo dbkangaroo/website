@@ -128,6 +128,7 @@ function get_sidebar_documents()
         'connection',
         'schema',
         'datagrid',
+        'editor',
         'install_windows',
         'install_linux',
         'install_macos',

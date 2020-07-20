@@ -1,5 +1,5 @@
 ---
-title: Table schema designer
+title: 对象设计器
 lang: zh-CN
 ---
 

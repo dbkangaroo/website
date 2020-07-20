@@ -1,40 +1,37 @@
 ---
-title: Connection management
+title: 连接管理器
 lang: zh-CN
 ---
 
-## Connection limitations
-The connection have some limitations as follow:
-- connection with SSL not yet support.
-- connection with SSH with pass phrase not yet support
+## 数据库连接限制
+目前版本的数据库连接具有如下限制：
+- 安全套接字连接(SSL) 暂未支持
+- 安全外壳协议连接(SSH) 暂不支持加密密匙
 
 ## SQLite
-Make a SQLite connection is easy, just do as follow:
-* step 1: click __New connection__ icon and name it
-* step 2: click left icon to create an new database, then click __Test connection__ to test it
-* step 3: click right icon to load an exist database, then click __Test connection__ to test it
-* step 4: make sure you have done these steps, then click __Save__ icon to save it.
-* step 5: open your new connection to perform operations.
+连接 SQLite 数据库是很容易的，只需按照如下步骤操作：
+* 第一步: 点击标题栏上加号(+)按钮或者主菜单的__连接数据库__
+* 第二步: 在连接起始页中选择__新建连接__，打开连接对话框。
+* 第三步: 输入连接名字、选择数据库类型为 SQLite，然后选择左边加号创建或右边打开图标加载数据库文件。
+* 第四步: 点击__测试连接__按钮测试连接可用性，然后点击__保存__按钮保存连接。
+* 第五步: 连接起始页中选择点击新建的数据库连接，即可打开数据库。
 
 ## MySQL / MariaDB
-MySQL / PostgreSQL connnection is more complicate, because it support multi authentication methods, so you should prepare material before making connection, the best way is choose mysql native password plugin(mysql_native_password), just follow the guide:
+MySQL / MariaDB 数据库连接类似于SQLite数据库连接，稍微复杂一些，因为它支持多种登录认证方式。所以您需要提前准备好连接所需相关素材,最顺畅的连接方式是使用原生密码认证登录方式(mysql_native_password), 原生密码认证登录方式可按如下步骤设置：
 ```sql
-1) Open terminal
+1) 打开控制台终端，执行命令
 2) mysql -u root -p
-3) Enter your password
+3) 输入密码
 4) ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password';
 ```
-After that, you could make a connection easily:
+更新登录认证方式后，连接数据库就很容易了，请参考下图:
 ![Make a MySQL connection](../../images/kangaroo-connection-mysql.png)
 
-__Follow the label and tooltip__, fill the data as right place, then test connection. Every thing will be ok if the data is valid.
-
+如果您的数据库系统架设在私有网络或防火墙后面，集成 SSH2 客户端可帮助您轻松建立连接，请参考下图：
 ![Make a MySQL connection with SSH](../../images/kangaroo-connection-ssh.png)
-
-Your connection could through the private network over SSH(and over proxy), the built-in SSH client could help you done it.
 
 
 ## PostgreSQL
-Just refer MySQL connection setting.
+PostgreSQL 数据库连接和MySQL数据库连接的差异性很少，参考 MySQL 连接即可；
 
 <Vssue :issue-id="7" :title="$title" />

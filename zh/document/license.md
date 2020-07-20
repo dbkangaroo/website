@@ -1,5 +1,5 @@
 ---
-title: License
+title: 许可证
 lang: zh-CN
 ---
 
@@ -17,9 +17,9 @@ copies of the Software.
 THE SOFTWARE IS PROVIDED “AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-## Third-party libraries license
-| Library     | Official website  | License  |
-|-------------|-------------------|----------|
+## 第三方依赖库许可证
+| 第三方库名称 | 官方网站           | 许可证协议  |
+|-------------|-------------------|------------|
 | GLib        | [GTK3](https://gitlab.gnome.org/GNOME/glib) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/glib/-/blob/master/COPYING) |
 | GTK3        | [GTK3](https://gitlab.gnome.org/GNOME/gtk) | [LGPL 2](https://gitlab.gnome.org/GNOME/gtk/-/blob/master/COPYING) |
 | GtkSourceView | [GtkSourceView 4](https://gitlab.gnome.org/GNOME/gtksourceview) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/gtksourceview/-/blob/master/COPYING) |

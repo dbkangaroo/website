@@ -7,7 +7,7 @@ lang: zh-CN
 ## 许可证
 [袋鼠数据库工具许可证](license.md)
 
-## 发布更新时间线
+## 发布更新记录
 [袋鼠数据库工具更新时间线](changelog.md)
 
 ## 常用问题列表
@@ -36,7 +36,7 @@ Linux 版本袋鼠数据库工具具有完整的功能支持，安装很轻松�
 MacOS 版本袋鼠数据库工具具有完整的功能支持，安装体验正在完善中:<br/>
 [MacOS 平台安装袋鼠数据库工具](install_macos.md)
 
-## Dependencies
+## 第三方依赖库
 袋鼠数据库工具构建在 GLib / GTK3 / Libgda / Vala 基础上, Linux 平台上需要先安装他们, 详细的依赖库及版本列表如下:
 ```Text
 posix
