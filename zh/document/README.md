@@ -16,13 +16,13 @@ lang: zh-CN
 ## 连接数据库
 [建立一个数据库连接](connection.md)
 
-## 创新新数据表
-[表结构设计器](schema.md)
+## 新建数据表
+[表对象设计器](schema.md)
 
-## 浏览并编辑数据
-[数据内容浏览视图](datagrid.md)
+## 数据编辑器
+[数据浏览及编辑视图](datagrid.md)
 
-## SQL 编程
+## 查询分析器
 [SQL 编辑查询视图](editor.md)
 
 

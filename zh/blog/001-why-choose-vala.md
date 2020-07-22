@@ -1,22 +1,21 @@
 ---
-title: Why choose Vala to build Kangaroo?
+title: 为什么选择 Vala 语言打造袋鼠数据库工具？
 lang: zh-CN
 ---
 
-# Why choose Vala to build Kangaroo?
+# 为什么选择 Vala 语言打造袋鼠数据库工具？
 
-## Some thoughts about building Kangaroo
-While I decide to build my own app, giving the talent to app is the most important thing, what kind of talent the new app must have? I think they are:
-1. __Performance__: native app's speed is the best.
-2. __Keep code safe__: the app must have capability to against reverse-engineering or modification, by making it difficult for a third-party to access your source code.
-3. __Platform independent__: one copy of code can compile all of platforms.
-4. __Technology maturity__: the technology stack could support to gain the business purpose, I need the money to continue the work.
-5. __Master it easily__: Language must be simple and powerful, sure it is musts familiar by me. 
+## 打造袋鼠数据库工具时的一些思考
+当我决定开发袋鼠数据库工具时，为应用赋能力是最重要的考虑项，袋鼠数据库工具应赋予哪些持续的能力？我认为应该赋予：
+1. __性能优先__: 应用程序应具有无与伦比的性能表现和响应能力， 最好是打造成原生应用。
+2. __代码安全__: 应用程序有能力应对逆向工程，从而避免被破解和直接修改，保持持续的商业运营能力。
+3. __跨平台__: 应用程序实现一份代码可以编译成所有平台兼容的应用；
+4. __技术栈成熟度__: 技术栈成熟度能支持实现商业目标，因为工具需要利润支持持续发展。
+5. __快速掌握__: 开发语言必须是语法简洁和强大，也应该是熟悉易上手的。
 
-I had reviewed some kind of framework and languages like: 
+经过评估了如下几种技术栈和编程语言组合后，最终我选择了 GTK + Vala 技术栈组合来实现袋鼠数据库工具。
 QT / C++ vs WxWidget / C++ vs GTK-mm / C++ vs GTK-rs / Rust / Go-GTK / Go vs GTK / Vala
 
-finally, I chosen GTK / Vala combination to  be the Kangaroo's tech stack.
 
 <div>
     <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
@@ -31,7 +30,7 @@ finally, I chosen GTK / Vala combination to  be the Kangaroo's tech stack.
     </script2>
 </div>
 
-## Benefits and strength from Vala
+## Vala 语言的优势和好处
 1. __语法兼容C#和Java，表达能力强，生产力高__
 
 有C#/Java 的强大表达能力，又有原生编译的性能和速度，更有接地气的独特特性；
