@@ -1,5 +1,11 @@
 #Kangaroo change timeline
 
+##Kangaroo v0.30.1.200727
+1. Add app relate plugin search path
+2. Add data viewer pane and button
+3. Implement text and image vierer
+4. Update button with flat style
+
 ##Kangaroo v0.29.1.200713
 1. Implement plugin system
 2. Implement a example plugin
