@@ -5,6 +5,14 @@ lang: en-US
 
 # Kangaroo change timeline
 
+## [Kangaroo v0.31.1.200803](/download/v0.31.1.200803)
+1. Implement BLOB content identity
+2. Implement SQLite BLOB column handle(import / export / set null)
+3. Implement MySQL BLOB column handle(import / export / set null)
+4. Implement PostgreSQL BLOB column handle(import / export / set null)
+5. Implement view BLOB data as string
+6. Apply tight style for find and replace box
+
 ## [Kangaroo v0.30.1.200727](/download/v0.30.1.200727)
 1. Add app relate plugin search path
 2. Add data viewer pane and button
