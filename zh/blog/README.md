@@ -7,6 +7,6 @@ lang: zh-CN
 
 [2019-10-19: How to serialize / deserialize GLib object](./003-serialize-glib-object)
 
-[2019-10-08: How to deploy GTK based app on windows?(Updated at 03/15/2020)](./002-how-to-deploy-gtk-app-on-windows)
+[2019-10-08: 如何快速有效部署GTK应用程序到Windows平台？(03/15/2020 更新)](./002-how-to-deploy-gtk-app-on-windows)
 
-[2019-09-20: Why choose Vala to build Kangaroo?](./001-why-choose-vala)
+[2019-09-20: 为什么选择 Vala 语言打造袋鼠数据库工具？?](./001-why-choose-vala)

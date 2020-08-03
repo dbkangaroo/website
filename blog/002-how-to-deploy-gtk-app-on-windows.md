@@ -1,10 +1,10 @@
 ---
-title: How to deploy GTK based app on windows?(Updated at 03/15/2020)
+title: How to deploy GTK based app on windows?(Updated at 08/03/2020)
 lang: en-US
 sidebarDepth: 2
 ---
 
-# How to deploy GTK based app on windows?(Updated at 03/15/2020)
+# How to deploy GTK based app on windows?(Updated at 08/03/2020)
 
 ## Background
 Since developing SQL client tool Kangaroo, I met the major trouble is how to deploy Kangaroo app to user, then searched all of solutions from internet, finally, I found a great article [GTK+3 Installation Tutorial for Windows](http://www.tarnyko.net/repo/gtk3_build_system/tutorial/gtk3_tutorial.htm), it provides clear guide to deploy GTK based app, so the honor belongs to the author of article.
@@ -101,7 +101,9 @@ ldd /mingw64/bin/libpq.dll | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f 
   - *: miscellaneous files.
 
 ### Compare the runtime dependency view
-execute the app under user environment and the app under dev environment, compare the runtime dependency view, check the count of dll file and dll file name. make sure they are same.
+Execute the app under user environment and the app under dev environment in full function mode, compare the runtime dependency view, check the count of dll file and dll file name. make sure they are the same.
+
+Runtime dependency dll view tool [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 
 <div>
     <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />

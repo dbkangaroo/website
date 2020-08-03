@@ -1,22 +1,22 @@
 ---
-title: How to deploy GTK based app on windows?(Updated at 03/15/2020)
+title: 如何快速有效部署GTK应用程序到Windows平台？(08/03/2020 更新)
 lang: zh-CN
 sidebarDepth: 2
 ---
 
-# How to deploy GTK based app on windows?(Updated at 03/15/2020)
+# 如何快速有效部署GTK应用程序到Windows平台？(08/03/2020 更新)
 
-## Background
-Since developing SQL client tool Kangaroo, I met the major trouble is how to deploy Kangaroo app to user, then searched all of solutions from internet, finally, I found a great article [GTK+3 Installation Tutorial for Windows](http://www.tarnyko.net/repo/gtk3_build_system/tutorial/gtk3_tutorial.htm), it provides clear guide to deploy GTK based app, so the honor belongs to the author of article.
+## 背景介绍
+自从启动开发 __袋鼠数据库工具__ 以来，我遇到的最大困难就是如何打包 __袋鼠数据库工具__ 应用给用户，经借用强大的谷歌寻找解决方案，最终寻找到了一位日本友人分享的文章[Windows平台 GTK+3 安装包教程](http://www.tarnyko.net/repo/gtk3_build_system/tutorial/gtk3_tutorial.htm)，文章提供了一份最清晰的 Windows 平台 GTK3 应用部署目录结构，一切问题迎刃而解，所以成功部署 GTK 应用的荣耀应该属于该文章作者。
 
-## Precondition
-The app must be compiled and executed in environment: [MSYS2](https://www.msys2.org/)
+## 前置条件
+文本所介绍的 GTK 应用打包教程基于构建环境 [MSYS2](https://www.msys2.org/)，请提前准备好构建环境。
 
-## Solution
-### Prepare app directory structure
-To deploy GTK based app, the app must follow the directory structure like linux:
+## 解决方案
+### 准备应用目录结构
+为了成功部署 GTK 应用，应用的最终安装目录结构必须参考 Linux 系统目录结构，目录结构如下：
 ```
-[App Home]
+[安装目录]
     ├─bin
     ├─etc
     │  └─gtk-3.0
@@ -48,16 +48,16 @@ To deploy GTK based app, the app must follow the directory structure like linux:
     </script2>
 </div>
 
-### Copy dependent libraries of app
+### 复制第三方依赖库
 __List of GTK dependencies__
-GTK depends on several libraries:
+GTK 框架依赖的第三方库:
 + GLib
 + cairo
 + Pango
 + ATK
 + gdk-pixbuf
 
-To run GTK programs you will also need:
+为了启动 GTK 应用，您也需要如下第三方库：
 + gettext-runtime
 + fontconfig
 + freetype
@@ -65,43 +65,42 @@ To run GTK programs you will also need:
 + libpng
 + zlib
 
-__How to get the file list and copy them to target dir?__
+__如何获取依赖库列表并复制到打包目录？__
 
-the solution is a series of linux commands combination like this:
+解决方案就是一系列 Linux 命令工具组合，详细如下：
 ```bash
 ldd "${SOURCEDIR}/build/src/kangaroo.exe" | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
 ```
 
-__Done the commands above is all right?   No!!!__
+__执行完上述命令就够了吗？ 不够!!!__
 
-Some components in the GTK framework have plugins like gdk-pixbuf / libgda, so we must use the commands to copy them one by one.
+GTK 框架中一些地三方依赖库，比如 gdk-pixbuf / libgda，通过插件扩展的方式实现其功能，所以我们必须找出它们来，并把它们的插件文件和依赖库都找到并复制到打包目录：
 ```bash
 ldd /mingw64/bin/libpq.dll | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
 ```
 
-
-### Copy app resource file
+### 复制应用资源文件
 + /etc
-  - /gtk-3.0/settings.ini : applications-wide settings.
-  - *: miscellaneous files.
+  - /gtk-3.0/settings.ini : 应用级别的配置文件
+  - *: 其它未列出的文件
 
 + /lib
-  - /gdk-pixbuf-2.0 : GDK-Pixbuf modules. SVG support.
-  - /gtk-3.0 : GTK+-IM modules.
-  - /pango : Pango modules.
-  - *: import libraries, headers, pkg-config files... only needed for development.
+  - /gdk-pixbuf-2.0 : GDK-Pixbuf 模块： SVG 支持库
+  - /gtk-3.0 : GTK+-IM 模块
+  - /pango : Pango 模块
+  - *: 扩展开发需要导入的库、头文件、pkg-config(*.pc)配置文件等... 仅用于开发用途
 
 + /share
-  - /doc : license and copyleft.
-  - /gtk-3.0 : resource files for gtk3-demo program.
-  - /gtk-doc : documentation in HTML format.
-  - /icons : icon themes, used by gtk3-demo and gtk3-widget-factory.
-  - /locale : localization files. Internationalized text support.
-  - /themes : graphical themes.
-  - *: miscellaneous files.
+  - /doc : 应用文档，如许可证和版权协议等
+  - /gtk-3.0 : GTK3 相关的资源文件（gkt3-demo）
+  - /gtk-doc : gtk-doc 生存的网页文档
+  - /icons : 框架和应用的图标文件
+  - /locale : 框架和应用的本地化文件（用于支持多语言）
+  - /themes : 架和应用的样式文件
+  - *: 其它未列出的文件
 
-### Compare the runtime dependency view
-execute the app under user environment and the app under dev environment, compare the runtime dependency view, check the count of dll file and dll file name. make sure they are same.
+### 通过运行时依赖视图比较打包完整性
+在全功能模式下，分别在用户环境和测试环境启动应用，用工具 [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) 查看运行时依赖视图（加载的DLL清单），对比依赖库数量是否一致，通过比较打包目录内的dll查漏补缺；
 
 <div>
     <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
@@ -116,7 +115,7 @@ execute the app under user environment and the app under dev environment, compar
     </script2>
 </div>
 
-### Full source code
+### 袋鼠数据库的完整打包脚本，可微调直接复用
 ```bash
 #!/usr/bin/env sh
 
@@ -133,8 +132,8 @@ SOURCEDIR="$( cd "$(dirname "$0")/../" ; pwd -P )"
 TARGETDIR="${SOURCEDIR}/build/windows"
 VERSION="0.7.2.$(date +%y%m%d)"
 
-# check target directory exist and make it
-echo -n "Check and make target directory......"
+# 检查并创建打包目录
+echo -n "检查并创建打包目录......"
 if [ ! -d "$TARGETDIR" ]; then
   mkdir $TARGETDIR
   mkdir "${TARGETDIR}/bin/"
@@ -163,10 +162,10 @@ else
     mkdir "${TARGETDIR}/etc/"
   fi
 fi
-echo "[done]"
+echo "[完成]"
 
-# copy app dependency library to target dir
-echo -n "Copy app dependency library......"
+# 复制应用第三方依赖库
+echo -n "复制应用第三方依赖库......"
 ldd "${SOURCEDIR}/build/src/kangaroo.exe" | grep "$MSYSTEM_PREFIX\/bin\/.*dll" -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
 ldd $MSYSTEM_PREFIX/bin/libjson-glib-1.0-0.dll | grep "$MSYSTEM_PREFIX\/bin\/.*dll" -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
 ldd $MSYSTEM_PREFIX/bin/libsoup-2.4-1.dll | grep "$MSYSTEM_PREFIX\/bin\/.*dll" -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
@@ -184,18 +183,18 @@ cp -f $MSYSTEM_PREFIX/bin/libnettle-7.dll "${TARGETDIR}/bin/"
 cp -f $MSYSTEM_PREFIX/bin/libhogweed-5.dll "${TARGETDIR}/bin/"
 cp -f $MSYSTEM_PREFIX/bin/libgnutls-30.dll "${TARGETDIR}/bin/"
 cp -f $MSYSTEM_PREFIX/bin/libgmp-10.dll "${TARGETDIR}/bin/"
-echo "[done]"
+echo "[完成]"
 
-# copy GDBus/Helper and dependencies files
-echo -n "Copy GDBus/Helper and dependencies......"
+# 复制 GDBus/Helper 及其依赖库
+echo -n "复制 GDBus/Helper 及其依赖库......"
 cp -f $MSYSTEM_PREFIX/bin/gdbus.exe "${TARGETDIR}/bin/"
 ldd $MSYSTEM_PREFIX/bin/gdbus.exe | grep "$MSYSTEM_PREFIX\/bin\/.*dll" -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
 cp -f $MSYSTEM_PREFIX/bin/gspawn-win64-helper.exe "${TARGETDIR}/bin/"
 ldd $MSYSTEM_PREFIX/bin/gspawn-win64-helper.exe | grep "$MSYSTEM_PREFIX\/bin\/.*dll" -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
-echo "[done]"
+echo "[完成]"
 
-# libgda providers required library(MySQL/PostgreSQL/JDBC/...)
-echo -n "Copy database client library for libgda......"
+# 复制 libgda / 提供者及其依赖库(MySQL/PostgreSQL/JDBC/...)
+echo -n "复制 libgda / 提供者及其依赖库......"
 cp -f $MSYSTEM_PREFIX/bin/libpq.dll "${TARGETDIR}/bin/"
 cp -f $MSYSTEM_PREFIX/bin/mariadb.dll "${TARGETDIR}/bin/"
 ldd $MSYSTEM_PREFIX/bin/libpq.dll | grep "$MSYSTEM_PREFIX\/bin\/.*dll" -o | xargs -I{} cp -f "{}" "${TARGETDIR}/bin/"
@@ -203,10 +202,10 @@ ldd $MSYSTEM_PREFIX/bin/mariadb.dll | grep "$MSYSTEM_PREFIX\/bin\/.*dll" -o | xa
 if [ -d "${SOURCEDIR}/libs/plugin" ]; then
   cp -rf "${SOURCEDIR}/libs/plugin" "${TARGETDIR}/lib"
 fi
-echo "[done]"
+echo "[完成]"
 
-# copy GTK runtime dependencies resource
-echo -n "Copy GTK runtime resource......"
+# 复制 GTK 运行时依赖资源
+echo -n "复制 GTK 运行时依赖资源......"
 cp -rf $MSYSTEM_PREFIX/lib/gdk-pixbuf-2.0 "${TARGETDIR}/lib/"
 cp -rf $MSYSTEM_PREFIX/lib/libgda-5.0 "${TARGETDIR}/lib/"
 cp -rf $MSYSTEM_PREFIX/lib/gio "${TARGETDIR}/lib/"
@@ -219,17 +218,17 @@ cp -f $MSYSTEM_PREFIX/share/glib-2.0/schemas/gschema* "${TARGETDIR}/share/glib-2
 cp -rf $MSYSTEM_PREFIX/share/themes/Default "${TARGETDIR}/share/themes/"
 cp -rf $MSYSTEM_PREFIX/share/themes/MS-Windows "${TARGETDIR}/share/themes/"
 find "${TARGETDIR}/lib" -type f -path '*.dll.a' -exec rm '{}' \;
-echo "[done]"
+echo "[完成]"
 
-# download license file: LGPL-3.0
-echo -n "Downloading the remote license file......"
+# 下载许可证文件: LGPL-3.0
+echo -n "下载许可证文件......"
 if [ ! -f "${TARGETDIR}/share/doc/lgpl-3.0.txt" ]; then
   curl "https://www.gnu.org/licenses/lgpl-3.0.txt" -o "${TARGETDIR}/share/doc/lgpl-3.0.txt"
 fi
 if [ -f "${TARGETDIR}/share/doc/lgpl-3.0.txt" ]; then
-  echo "[done]"
+  echo "[完成]"
 else
-  echo "[failed]"
+  echo "[失败]"
 fi
 ```
 
