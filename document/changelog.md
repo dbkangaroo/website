@@ -5,6 +5,24 @@ lang: en-US
 
 # Kangaroo change timeline
 
+## [Kangaroo v0.32.1.200810](/download/v0.32.1.200810)
+1. Implement to generate W3C html document
+1. Implement to generate markdown document
+3. Update import/export icon image
+
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [Kangaroo v0.31.1.200803](/download/v0.31.1.200803)
 1. Implement BLOB content identity
 2. Implement SQLite BLOB column handle(import / export / set null)

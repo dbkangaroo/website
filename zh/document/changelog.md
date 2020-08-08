@@ -5,6 +5,24 @@ lang: zh-CN
 
 # 袋鼠数据库工具 版本更新记录
 
+## [袋鼠数据库工具 v0.32.1.200810](/zh/download/v0.32.1.200810)
+1. 实现生成网页格式的数据库设计文档
+2. 实现生成 Markdown 格式的数据库设计文档
+3. 更新导入 / 导出 功能图标
+
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [袋鼠数据库工具 v0.31.1.200803](/zh/download/v0.31.1.200803)
 1. 实现 BLOB 内容识别（文件类型识别）
 2. 实现 SQLite BLOB 类型数据处理(导入 / 导出 / 置空)

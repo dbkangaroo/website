@@ -1,5 +1,10 @@
 #Kangaroo change timeline
 
+##Kangaroo v0.32.1.200810
+1. Implement to generate W3C html document
+2. Implement to generate markdown document
+3. Update import/export icon image
+
 ##Kangaroo v0.31.1.200803
 1. Implement BLOB content identity
 2. Implement SQLite BLOB column handle(import / export / set null)

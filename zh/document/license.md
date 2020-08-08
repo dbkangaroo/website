@@ -20,14 +20,17 @@ THE SOFTWARE IS PROVIDED “AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMP
 ## 第三方依赖库许可证
 | 第三方库名称 | 官方网站           | 许可证协议  |
 |-------------|-------------------|------------|
+| Vala        | [Vala](https://gitlab.gnome.org/GNOME/vala) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/vala/-/blob/master/COPYING) |
 | GLib        | [GTK3](https://gitlab.gnome.org/GNOME/glib) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/glib/-/blob/master/COPYING) |
 | GTK3        | [GTK3](https://gitlab.gnome.org/GNOME/gtk) | [LGPL 2](https://gitlab.gnome.org/GNOME/gtk/-/blob/master/COPYING) |
+| libgda      | [libgda](https://gitlab.gnome.org/GNOME/libgda) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/libgda/-/blob/master/COPYING.LIB) |
+| libhandy    | [libhandy](https://gitlab.gnome.org/GNOME/libhandy) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/libhandy/-/blob/master/COPYING) |
 | GtkSourceView | [GtkSourceView 4](https://gitlab.gnome.org/GNOME/gtksourceview) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/gtksourceview/-/blob/master/COPYING) |
-| libgee | [libgee](https://gitlab.gnome.org/GNOME/libgee) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/libgee/-/blob/master/COPYING) |
-| json-glib | [json-glib](https://gitlab.gnome.org/GNOME/json-glib) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/json-glib/-/blob/master/COPYING) |
-| libsoup | [libsoup](https://gitlab.gnome.org/GNOME/libsoup) | [LGPL 2](https://gitlab.gnome.org/GNOME/libsoup/-/blob/master/COPYING) |
-| libssh2 | [libssh2](https://github.com/libssh2/libssh2) | [BSD-3-Clause License](https://github.com/libssh2/libssh2/blob/master/COPYING) |
-| libxml2 | [libxml2](https://gitlab.gnome.org/GNOME/libxml2) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/libxml2/-/blob/master/Copyright) |
-| OpenSSL | [OpenSSL](https://www.openssl.org/) | [Apache License v2](https://www.openssl.org/source/license.html) |
-| libpeas | [libpeas](https://gitlab.gnome.org/GNOME/libpeas) | [LGPL 2.1+](https://gitlab.gnome.org/GNOME/libpeas/-/blob/master/COPYING) |
-| libgda | [libgda](https://gitlab.gnome.org/GNOME/libgda) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/libgda/-/blob/master/COPYING.LIB) |
+| libgee      | [libgee](https://gitlab.gnome.org/GNOME/libgee) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/libgee/-/blob/master/COPYING) |
+| json-glib   | [json-glib](https://gitlab.gnome.org/GNOME/json-glib) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/json-glib/-/blob/master/COPYING) |
+| libsoup     | [libsoup](https://gitlab.gnome.org/GNOME/libsoup) | [LGPL 2](https://gitlab.gnome.org/GNOME/libsoup/-/blob/master/COPYING) |
+| libssh2     | [libssh2](https://github.com/libssh2/libssh2) | [BSD-3-Clause License](https://github.com/libssh2/libssh2/blob/master/COPYING) |
+| libxml2     | [libxml2](https://gitlab.gnome.org/GNOME/libxml2) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/libxml2/-/blob/master/Copyright) |
+| OpenSSL     | [OpenSSL](https://www.openssl.org/) | [Apache License v2](https://www.openssl.org/source/license.html) |
+| libpeas     | [libpeas](https://gitlab.gnome.org/GNOME/libpeas) | [LGPL 2.1+](https://gitlab.gnome.org/GNOME/libpeas/-/blob/master/COPYING) |
+| template-glib | [template-glib](https://gitlab.gnome.org/GNOME/json-glib) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/template-glib/-/blob/master/COPYING) |
