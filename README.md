@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /kangaroo.png
-actionText: Download v0.32.1
+actionText: Download Kangaroo 2020(Alpha)
 actionLink: /download/v0.32.1.200810
 footer: Private property | Copyright © 2018-present Kangaroo development team
 ---
@@ -57,9 +57,9 @@ Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 # Release
 Development version will be released weekly, Stable and LTS(Long-term Support) version depend on test result and stabilization.
 
-| Platform    | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
+| Platform    | Windows(64 bit)   | Linux(64 bit)     | MacOS(64 bit)   |
 |-------------|-------------------|-------------------|-----------------|
-| Stable | [v0.27.1.200622](./download/v0.27.1.200622) | [v0.27.1.200622](./download/v0.27.1.200622) | [v0.27.1.200622](./download/v0.27.1.200622) |
+| Stable      | [v0.27.1.200622](./download/v0.27.1.200622) | [v0.27.1.200622](./download/v0.27.1.200622) | [v0.27.1.200622](./download/v0.27.1.200622) |
 | Development | [v0.32.1.200810](./download/v0.32.1.200810) | [v0.32.1.200810](./download/v0.32.1.200810) | [v0.32.1.200810](./download/v0.32.1.200810) |
 
 

@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /kangaroo.png
-actionText: 下载 v0.32.1
+actionText: 下载 袋鼠数据库工具 2020(Alpha)
 actionLink: /zh/download/v0.32.1.200810
 footer: 私有财产 | 版权所有 ©2018-present 袋鼠开发组
 ---
