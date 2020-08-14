@@ -5,6 +5,15 @@ lang: en-US
 
 # Kangaroo change timeline
 
+## [Kangaroo v0.33.1.200817](/download/v0.33.1.200817)
+1. Update title bar and tab bar CSS style
+2. Improve date&time picker
+3. Improve date&time renderer
+4. Implement date&time editing in grid and form
+5. Update windows deploy script to include libpeas loaders
+6. Update meson script to add dependencies(pdf/draw/map)
+7. Update meson script to improve debug support
+
 ## [Kangaroo v0.32.1.200810](/download/v0.32.1.200810)
 1. Implement to generate W3C html document
 1. Implement to generate markdown document
