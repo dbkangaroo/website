@@ -8,6 +8,7 @@
 5. Update windows deploy script to include libpeas loaders
 6. Update meson script to add dependencies(pdf/draw/map)
 7. Update meson script to improve debug support
+8. Fixed: can't show animation image(.gif)
 
 ##Kangaroo v0.32.1.200810
 1. Implement to generate W3C html document
