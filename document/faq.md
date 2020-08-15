@@ -24,6 +24,23 @@ The Kangaroo version is the first Version number listed and has the version form
 ### What languages does Kangaroo support?
 English, Chinese will be support default, other languages depend on user contributation.
 
+## Verify package
+### How to verify the downloaded package?
+Follow the steps:
+1. Download SHA256SUM and SHA256SUM.asc
+2. Get the key used for the signature<br/>
+The key ID is: 702F717E0A17659D (generated in 2020, current)<br/>
+The public key is: 33E5119C5781C1B37E56E580702F717E0A17659D <br/>
+`gpg --keyserver hkp://hkps.pool.sks-keyservers.net --receive-keys 702F717E0A17659D`
+3. Verify the signature<br/>
+`gpg --verify kangaroo-0.32.1.sha256sum.asc`
+4. Check the package with sha256sum<br/>
+run the following command from within the download directory to get SHA256 hash:<br/>
+`sha256sum kangaroo-0.32.1.<else>` <br/>
+then search the hash in the SHA256SUM file:<br/>
+`grep <sha256sum output> kangaroo-0.32.1.sha256sum`
+
+
 ## Support
 ### How track the changes?
 you can put your eyes on follow ways:

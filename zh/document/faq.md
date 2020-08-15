@@ -22,6 +22,23 @@ lang: zh-CN
 ### 袋鼠数据库工具支持哪些语言？
 袋鼠数据库工具官方支持英语和中文，其它语言得依靠社区支持；
 
+## 安装包校验
+### 如何校验下载的安装包是否完整？
+您可以按如下步骤对安装包进行校验：
+1. 下载 SHA256 哈希值文件和签名文件(SHA256SUM and SHA256SUM.asc)
+2. 获取签名用的公匙<br/>
+签名用公匙ID: 702F717E0A17659D (当前有效，生成于 2020)<br/>
+签名用公匙: 33E5119C5781C1B37E56E580702F717E0A17659D <br/>
+`gpg --keyserver hkp://hkps.pool.sks-keyservers.net --receive-keys 702F717E0A17659D`
+3. 校验哈希值文件签名<br/>
+`gpg --verify kangaroo-0.32.1.sha256sum.asc`
+4. 校验安装包文件哈希值<br/>
+在安装包下载目录内执行命令行获得安装包文件哈希：<br/>
+`sha256sum kangaroo-0.32.1.<else>` <br/>
+然后在 SHA256SUM 文件内搜索是否存在相同的哈希：<br/>
+`grep <sha256sum output> kangaroo-0.32.1.sha256sum`
+
+
 ## 技术支持
 ### 如何获得袋鼠数据库工具的最新进展？
 您可以从以下渠道获得袋鼠数据库工具的最新信息:
