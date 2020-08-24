@@ -34,3 +34,5 @@ THE SOFTWARE IS PROVIDED “AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMP
 | OpenSSL     | [OpenSSL](https://www.openssl.org/) | [Apache License v2](https://www.openssl.org/source/license.html) |
 | libpeas     | [libpeas](https://gitlab.gnome.org/GNOME/libpeas) | [LGPL 2.1+](https://gitlab.gnome.org/GNOME/libpeas/-/blob/master/COPYING) |
 | template-glib | [template-glib](https://gitlab.gnome.org/GNOME/json-glib) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/template-glib/-/blob/master/COPYING) |
+| goocanvas | [goocanvas](https://gitlab.gnome.org/GNOME/goocanvas) | [LGPL 2](https://gitlab.gnome.org/GNOME/goocanvas/-/blob/master/COPYING) |
+| libshumate | [libshumate](https://gitlab.gnome.org/GNOME/libshumate) | [LGPL 2](https://gitlab.gnome.org/GNOME/libshumate/-/blob/master/COPYING) |

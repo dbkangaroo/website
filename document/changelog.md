@@ -5,6 +5,14 @@ lang: en-US
 
 # Kangaroo change timeline
 
+## [Kangaroo 2020(Beta)](/download/v0.99.1.200824)
+1. Improve designer to notify user save change
+2. Improve message dialog to show title
+3. Improve preview tab to show change only
+4. Update SQLite/MySQL/PostgreSQL meta model
+5. Improve windows installer to add license and language support
+6. Make kangaroo portable #59
+
 ## [Kangaroo v0.33.1.200817](/download/v0.33.1.200817)
 1. Update title bar and tab bar CSS style
 2. Improve date&time picker
