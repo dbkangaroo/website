@@ -4,9 +4,9 @@ lang: zh-CN
 ---
 
 ## 显示顶部的SQL构建面板
-![Datagrid Builder](../../images/kangaroo-grid-builder.png)
+![Datagrid Builder](../images/kangaroo-grid-builder.png)
 点击视图底部工具栏的 __SQL构建工具__ 图标, 可显示或隐藏 __SQL构建__ 面板，如图所示。
-![Datagrid toolbar](../../images/kangaroo-grid-toolbar.png)
+![Datagrid toolbar](../images/kangaroo-grid-toolbar.png)
 
 ##  选择数据列(字段)
 - 第一步: 点击 __数据列__ 按钮切换到数据列选择视图。

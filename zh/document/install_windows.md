@@ -13,6 +13,9 @@ Windows 版提供了两种安装方式：安装程序 和 手工安装，您可�
 1. 双击安装程序启动安装，根据安装指导完成安装即可，使用默认设置安装方式即可；
 3. 检查开始菜单中是否存在袋鼠数据库工具图标
 
+如果您想要 袋鼠 更具便携性，例如想要安装和运行在 USB 设备上，您需要在安装程序里勾选安装组件 **Profile in app directory** ，如下图所示：
+![Make Kangaroo portable](../images/installer-windows-portable.png)
+
 
 ### 手工安装
 1. 创建存放袋鼠数据库工具的最终安装目录, 例如: C:\Program Files\Kangaroo\

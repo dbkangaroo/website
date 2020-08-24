@@ -25,10 +25,11 @@ MySQL / MariaDB 数据库连接类似于SQLite数据库连接，稍微复杂一�
 4) ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password';
 ```
 更新登录认证方式后，连接数据库就很容易了，请参考下图:
-![Make a MySQL connection](../../images/kangaroo-connection-mysql.png)
+![Make a MySQL connection](../images/kangaroo-connection-mysql.png)
 
 如果您的数据库系统架设在私有网络或防火墙后面，集成 SSH2 客户端可帮助您轻松建立连接，请参考下图：
-![Make a MySQL connection with SSH](../../images/kangaroo-connection-ssh.png)
+
+![Make a MySQL connection with SSH](../images/kangaroo-connection-ssh.png)
 
 
 ## PostgreSQL

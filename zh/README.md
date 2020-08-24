@@ -3,7 +3,7 @@ home: true
 heroImage: /kangaroo.png
 actionText: 下载 袋鼠数据库工具 2020(Beta)
 actionLink: /zh/download/v0.99.1.200824
-footer: 私有财产 | 版权所有 ©2018-present 袋鼠开发组
+footer: 版权所有 ©2018-present 袋鼠开发组
 ---
 
 <div style="text-align: center">
@@ -64,14 +64,14 @@ footer: 私有财产 | 版权所有 ©2018-present 袋鼠开发组
 
 # 支持和赞助项目
 如果您觉得袋鼠数据库工具有用且愿意支持它持续丰富功能，您可以通过如下方式支持和赞助项目（点击链接或扫码即可通过 PayPal / 微信支持 / 支付宝付款）.<br/>
-![支持项目](../images/pay_wide.png) [![../images/pay_wide.png](../images/buymeacoffee.png)](https://www.buymeacoffee.com/dbkangaroo) 
+![支持项目](./images/pay_wide.png) [![./images/pay_wide.png](./images/buymeacoffee.png)](https://www.buymeacoffee.com/dbkangaroo) 
 
 
 # 工具界面快照
-![链接首页](../images/kangaroo-start.png)
-![链接登录后页面](../images/kangaroo-tools.png)
-![数据网格（自定义列）](../images/kangaroo-grid.png)
-![数据网格（条件查询）](../images/kangaroo-grid2.png)
+![链接首页](./images/kangaroo-start.png)
+![链接登录后页面](./images/kangaroo-tools.png)
+![数据网格（自定义列）](./images/kangaroo-grid.png)
+![数据网格（条件查询）](./images/kangaroo-grid2.png)
 
 <div>
     <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
@@ -86,10 +86,10 @@ footer: 私有财产 | 版权所有 ©2018-present 袋鼠开发组
     </script2>
 </div>
 
-![数据编辑表单](../images/kangaroo-form.png)
-![查询界面](../images/kangaroo-query.png)
-![表设计器](../images/kangaroo-designer.png)
-![表设计器代码预览](../images/kangaroo-designer2.png)
+![数据编辑表单](./images/kangaroo-form.png)
+![查询界面](./images/kangaroo-query.png)
+![表设计器](./images/kangaroo-designer.png)
+![表设计器代码预览](./images/kangaroo-designer2.png)
 
 <div>
     <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
@@ -104,6 +104,6 @@ footer: 私有财产 | 版权所有 ©2018-present 袋鼠开发组
     </script2>
 </div>
 
-![数据导出界面](../images/kangaroo-export.png)
-![数据导入界面](../images/kangaroo-import.png)
-![工具配置界面](../images/kangaroo-setting.png)
+![数据导出界面](./images/kangaroo-export.png)
+![数据导入界面](./images/kangaroo-import.png)
+![工具配置界面](./images/kangaroo-setting.png)

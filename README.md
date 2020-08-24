@@ -3,7 +3,7 @@ home: true
 heroImage: /kangaroo.png
 actionText: Download Kangaroo 2020(Beta)
 actionLink: /download/v0.99.1.200824
-footer: Private property | Copyright © 2018-present Kangaroo development team
+footer: Copyright © 2018-present Kangaroo development team
 ---
 
 <div style="text-align: center">
