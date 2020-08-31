@@ -5,6 +5,8 @@ lang: zh-CN
 
 # 技术/技巧和笔记
 
+[2020-08-31: 苹果系统上 GTK 应用打包的新思路](./004-how-to-deploy-gtk-app-on-mac)
+
 [2019-10-19: How to serialize / deserialize GLib object](./003-serialize-glib-object)
 
 [2019-10-08: 如何快速有效部署GTK应用程序到Windows平台？(03/15/2020 更新)](./002-how-to-deploy-gtk-app-on-windows)
