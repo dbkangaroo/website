@@ -9,12 +9,15 @@ sidebarDepth: 2
 ## Background
 Many friends ask me to provide the official installer package(.dmg) for Mac OS X, I do want to implement it. But there is a big stone on the way, because I don't have physical machine and landed OS X just a short time, have many dark hole on it.
 
-Face it, resolve it, things will be done, I think.<br/>
+Face it, solve it, things will be done, I think.
+
 Tried again and again, 8 days later, found the right way finally.
 
 ## Precondition and environment
-Using the [Homebrew package manager](https://brew.sh/) to install all app dependency libraries.<br/>
-Install GTK and app dependency libraries, GCC toolchain and other tools.
+Using the package manager tool[Homebrew](https://brew.sh/) to install all app dependency libraries.
+
+You need to install GTK、libgda、GtkSourceView4、Vala、GCC toolchain / etc.
+
 
 ## Solution
 ### Prepare app directory structure
@@ -93,9 +96,9 @@ There are some core components in the GTK app as follow:
 |:--------------:|----------------|
 | GTK | GTK libraries like GTK / GDK / Pango / ... |
 | launcher.sh | app start point script, set environments for app like gdk-pixbuf plugins / GTK input modules and print backends / libgda's providers / ... |
-| \<Real app\> | your app start point |
-| Info.plist | Bundler package info list file, contain app entry point information, like GtkOSXLaunchScriptFile / CFBundleExecutable / CFBundleIconFiles |
-| \<app\>.icns | app's icons |
+| Real app | your real app  |
+| Info.plist | bundler package info list file, contain app entry point information, like GtkOSXLaunchScriptFile / CFBundleExecutable / CFBundleIconFiles |
+| app.icns | app's icons |
 
 
 ### prepare app resource
@@ -105,7 +108,7 @@ Your should make app resources before start compiling and packing your app:
 3. Info.plist
 
 
-### deploy your app
+### deploy your app as linux app
 First, compile and install app to the target dir:
 ```bash
 meson --prefix=$TARGETDIR --buildtype=release build
@@ -170,7 +173,7 @@ echo "[done]"
 ```
 
 
-### Bundle your app
+### Bundle your app as OS X app
 Convert the full linux app to Mac OS X .app structure, just make the structure folder and copy files.
 
 **How to verify the app and dependency libraries are self-dependency?**<br/>
@@ -233,6 +236,7 @@ export LIBMYSQL_PLUGIN_DIR="$bundle_lib/plugin"
 export LIBMYSQL_ENABLE_CLEARTEXT_PLUGIN=Y
 ```
 
+### Verify your app(.app)
 There are two ways to verify the app:<br/>
 1. Start and debug your app<br/>
 `GTK_DEBUG_LAUNCHER=yes MyApp.app/Contents/MacOS/MyApp`<br/>
@@ -286,6 +290,8 @@ fi
 </div>
 
 ## Script source files
+You can download the complete packaging tool script source files from here, welcome to use and share with your friends.
+
 [Info.plist](/sources/Info.plist)<br/>
 [mac_launcher.sh](/sources/mac_launcher.sh)<br/>
 [mac_app_path.sh](/sources/mac_app_path.sh)<br/>
@@ -293,6 +299,8 @@ fi
 [deploy_macos.sh](/sources/deploy_macos.sh)
 
 ## Reference
+There are many resources helped me to find the final solution, thank for you all, the major resources are:
+
 [node-appdmg](https://github.com/LinusU/node-appdmg)<br/>
 [oubiwann's appify.sh](https://gist.github.com/oubiwann/453744744da1141ccc542ff75b47e0cf)<br/>
 [inkscape packaging: lib_.sh](https://gitlab.com/inkscape/inkscape/-/blob/master/packaging/macos/bash_d/lib_.sh)<br/>

@@ -1,24 +1,26 @@
 ---
-title: How to deploy GTK based app on Mac OS X?
+title: 苹果系统 GTK 应用打包新思路
 lang: zh-CN
 sidebarDepth: 2
 ---
 
-# How to deploy GTK based app on Mac OS X?
+# 苹果系统 GTK 应用打包新思路
 
-## Background
-Many friends ask me to provide the official installer package(.dmg) for Mac OS X, I do want to implement it. But there is a big stone on the way, because I don't have physical machine and landed OS X just a short time, have many dark hole on it.
+## 背景介绍
+好多苹果系统用户通过各种方式联系本人，期望提供正式的可直接安装使用的安装包(.dmg)；我非常愿意做这件事情，但又觉得困难重重，因为目前没有可供使用的物理机器、且接触使用苹果系统时间不长，对系统了解不够，恐遇到难以解决的问题。
 
-Face it, resolve it, things will be done, I think.<br/>
-Tried again and again, 8 days later, found the right way finally.
+多年的职业素养告诉我：面对它、解决它，事情会逐步得到解决的。
 
-## Precondition and environment
-Using the [Homebrew package manager](https://brew.sh/) to install all app dependency libraries.<br/>
-Install GTK and app dependency libraries, GCC toolchain and other tools.
+于是我集中精力投入这个事情，尝试了一个有一个的办法，经过8天的持续努力后，终于寻找到了最终解决办法，打包后的应用跑起来了。
 
-## Solution
-### Prepare app directory structure
-To deploy GTK based app, the app must follow the structure of OS X bundle structure and Linux platform structure, and the final structure as follow:
+## 前置条件和环境
+本解决方案使用包管理工具 [Homebrew](https://brew.sh/) 来安装和管理应用需要的 GTK 及相关的第三方依赖库；
+
+您需要安装 GTK、libgda、GtkSourceView4、Vala、GCC 编译器工具链等；
+
+## 打包解决方案
+### 梳理应用目录结构
+为了顺利部署 GTK 应用，应用需要遵循 Linux 应用目录结构，也要遵循 Mac OS X 应用目录结构，组合形成最终的应用目录结构如下：
 ```
 [Kangaroo.app]
     └─Contents
@@ -87,37 +89,38 @@ To deploy GTK based app, the app must follow the structure of OS X bundle struct
 </div>
 
 
-### Key components of app bundler
-There are some core components in the GTK app as follow:
-| Key components | Comment        |
+### 苹果应用关键组件
+Mac OS X 应用程序有几个关键组件，他们是：
+| 关键组件        | 说明           |
 |:--------------:|----------------|
-| GTK | GTK libraries like GTK / GDK / Pango / ... |
-| launcher.sh | app start point script, set environments for app like gdk-pixbuf plugins / GTK input modules and print backends / libgda's providers / ... |
-| \<Real app\> | your app start point |
-| Info.plist | Bundler package info list file, contain app entry point information, like GtkOSXLaunchScriptFile / CFBundleExecutable / CFBundleIconFiles |
-| \<app\>.icns | app's icons |
+| GTK | GTK 库，例如 GTK / GDK / Pango / ... |
+| launcher.sh | 应用启动脚本，用于设置环境变量，如多语言支持、 Gdk 图形插件 / GTK 输入和打印模块 / libgda 提供插件 / ... |
+| 应用程序 | 您的应用程序 |
+| Info.plist | 苹果应用字典文件，包含程序启动需要的配置信息，例如 GtkOSXLaunchScriptFile / CFBundleExecutable / CFBundleIconFiles |
+| 图标文件 | 苹果应用图标文件(*.icns) |
 
 
-### prepare app resource
-Your should make app resources before start compiling and packing your app:
-1. App script: launcher.sh
-2. App icon(image or .icns)
-3. Info.plist
+### 准备应用资源
+您应该在编译打包前提前准备好应用所需的资源，他们是：
+1. 应用启动脚本：launcher.sh
+2. 应用图标文件：image or .icns
+3. 应用字典文件：Info.plist
 
 
-### deploy your app
-First, compile and install app to the target dir:
+### 部署应用为 Linux 应用格式
+我们的打包思路的第一步是先在 Mac OS X 上部署为完整的 Linux 应用；
+
+首先请编译并安装应用到指定目录（TARGETDIR）：
 ```bash
 meson --prefix=$TARGETDIR --buildtype=release build
 ninja -C "${PROJECTDIR}/build" install
 ```
 
-Then copy all dependency libraries and resources to the target dir, make a full and standalone linux app.
+然后分析应用及其依赖库，复制所有的依赖库文件到前面指定的安装目录（TARGETDIR），构建出一个独立并完整的 Linux 应用；
 ```bash
 function lib_dependency_copy
 {
-  # This function use otool to analyze library dependency.
-  # then copy the dependency libraries to destination path
+  # 这个函数使用 otool 分析库依赖关系，然后复制所有依赖库到目标目录
 
   local target=$1
   local folder=$2
@@ -132,8 +135,8 @@ function lib_dependency_copy
 
 function lib_dependency_analyze
 {
-  # This function use otool to analyze library directory.
-  # then copy the dependency libraries to destination path
+  # 这个函数使用 otool 分析库依赖关系，
+  # 逐个分析指定目录内的所有库，然后复制所有依赖库到目标目录
 
   local library_dir=$1
   local targets_dir=$2
@@ -144,7 +147,7 @@ function lib_dependency_analyze
   done
 }
 
-# copy app dependency library to target dir
+# 复制应用依赖库到目标目录
 echo -n "Copy app dependency library......"
 cp -f "${PROJECTDIR}/build/src/kangaroo" "${TARGETDIR}/bin"
 cp -f "${TARGETDIR}/lib/libkangaroo.dylib" "${TARGETDIR}/bin"
@@ -170,11 +173,11 @@ echo "[done]"
 ```
 
 
-### Bundle your app
-Convert the full linux app to Mac OS X .app structure, just make the structure folder and copy files.
+### 封装 Linux 应用为苹果应用
+转换完整且独立的 Linux 应用为 Mac OS X 应用结构，只需要遵循 Mac OS X 应用目录结构调整即可；
 
-**How to verify the app and dependency libraries are self-dependency?**<br/>
-Can't verify so far, We must entry next step to solve the library locating problem.
+**如何校验转换后的应用及依赖库是否是自包含和自我依赖的？**<br/>
+目前还不能校验，需要完成下一阶段的工作解决库定位问题才能校验，否则会无法启动，依赖库路径也不相符；
 
 <div>
     <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
@@ -189,9 +192,9 @@ Can't verify so far, We must entry next step to solve the library locating probl
     </script2>
 </div>
 
-### Update app and library link path
-On the Mac OS X platform, the most important problem is the app how to find the library while running, We can solve this problem by two ways:
-1. Using lib tool(otool and install_name_tool) to add or replace link path
+### 更新应用及依赖库链接路径
+经过几天的折腾，发现苹果系统上打包最重要的问题是在运行时如何解决库查找定位的问题，即以什么顺序查找依赖库、在哪里找到依赖库；经过查阅资料，发现有两种途径可以解决上述问题：
+1. 使用库分析处理工具（otool and install_name_tool）来添加或替换库链接路径
 ```bash
 # Gdk-pixbuf plugins
 pixbuf_plugins="$(find $APP_LIB_DIR/gdk-pixbuf-2.0/2.10.0/loaders/ -name \*.dylib -o -name \*.so -type f)"
@@ -210,7 +213,7 @@ lib_change_paths \
 lib_change_siblings $APP_LIB_DIR @loader_path
 ```
 
-2. Using environments to tell app or library to find its dependency libraries.
+2. 使用环境变量来告诉加载库如何找到它需要的库
 ```bash
 export DYLD_LIBRARY_PATH="$bundle_lib"
 export XDG_CONFIG_DIRS="$bundle_etc"/xdg
@@ -233,20 +236,21 @@ export LIBMYSQL_PLUGIN_DIR="$bundle_lib/plugin"
 export LIBMYSQL_ENABLE_CLEARTEXT_PLUGIN=Y
 ```
 
-There are two ways to verify the app:<br/>
-1. Start and debug your app<br/>
+### 验证应用是否打包成功(.app)
+目前有两种方法可以帮助我们验证应用的完整性：<br/>
+1. 启动并调试应用进行验证<br/>
 `GTK_DEBUG_LAUNCHER=yes MyApp.app/Contents/MacOS/MyApp`<br/>
-This will print out the steps performed by the launcher script before the application executable is started.<br/><br/>
-To run the application under gdb:<br/>
+这个命令可以打印出详细的脚本步骤和输出，输出日志到控制台供分析查看；<br/><br/>
+发现问题需要调试，可以执行下面的命令进入调试状态调试应用<br/>
 `GTK_DEBUG_GDB=yes MyApp.app/Contents/MacOS/MyApp`
 
-2. Using lib tool to list its dependency libraries<br/>
+2. 使用动态库分析工具列出库的详细依赖库进行验证<br/>
 `otool -L MyApp.app/Contents/MacOS/MyApp`<br/>
-this command will list all dependency libraries with full link path
+这个命令可以列出应用的详细依赖库及其链接库位置
 
 
-### Create app package(.dmg)
-There are many tool support make dmg package, I choose [node-appdmg](https://github.com/LinusU/node-appdmg) to create app package, because it using JSON configuration file and output step detail into console.
+### 创建DMG安装包（.dmg）
+创建DMG安装包有非常多的工具，我选择了 [node-appdmg](https://github.com/LinusU/node-appdmg) 来创建DMG安装包，因为它提供了 JSON 配置文件且有详细的处理步骤和日志输出，用户体验比较好；
 ```json
 {
     "title": "Kangaroo installer",
@@ -285,14 +289,18 @@ fi
     </script2>
 </div>
 
-## Script source files
+## 打包脚本源代码
+本着回馈社区、与 [GNOME](https://www.gnome.org/) 桌面共成长的良好愿景，在此把袋鼠数据库工具的完整打包脚本分享出来，供大家自由使用和分发；
+
 [Info.plist](/sources/Info.plist)<br/>
 [mac_launcher.sh](/sources/mac_launcher.sh)<br/>
 [mac_app_path.sh](/sources/mac_app_path.sh)<br/>
 [mac_app_pack.sh](/sources/mac_app_pack.sh)<br/>
 [deploy_macos.sh](/sources/deploy_macos.sh)
 
-## Reference
+## 参考资源
+在寻找解决方案的过程中，从以下项目和资源中获得了灵感，有的甚至直接提取其源代码加以修改实现，详细列出供大家参考
+
 [node-appdmg](https://github.com/LinusU/node-appdmg)<br/>
 [oubiwann's appify.sh](https://gist.github.com/oubiwann/453744744da1141ccc542ff75b47e0cf)<br/>
 [inkscape packaging: lib_.sh](https://gitlab.com/inkscape/inkscape/-/blob/master/packaging/macos/bash_d/lib_.sh)<br/>

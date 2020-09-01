@@ -5,7 +5,7 @@ lang: en-US
 
 # Techs, skills and notes
 
-[2020-08-31: How to deploy GTK based app on Mac OS X?](./004-how-to-deploy-gtk-app-on-mac)
+[2020-09-01: How to deploy GTK based app on Mac OS X?](./004-how-to-deploy-gtk-app-on-mac)
 
 [2019-10-19: How to serialize / deserialize GLib object](./003-serialize-glib-object)
 

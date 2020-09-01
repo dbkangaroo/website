@@ -1,11 +1,11 @@
 ---
-title: 博客文章 
+title: 博客文章
 lang: zh-CN
 ---
 
 # 技术/技巧和笔记
 
-[2020-08-31: 苹果系统上 GTK 应用打包的新思路](./004-how-to-deploy-gtk-app-on-mac)
+[2020-09-01: 苹果系统 GTK 应用打包新思路](./004-how-to-deploy-gtk-app-on-mac)
 
 [2019-10-19: How to serialize / deserialize GLib object](./003-serialize-glib-object)
 
