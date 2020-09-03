@@ -1,5 +1,12 @@
 #袋鼠数据库工具 版本更新记录
 
+##袋鼠数据库工具 v0.99.2.200907
+1. 修复: 提示 MySQL server has done away 后，没有自动\手动重连 #63
+2. 修复: plugin caching sha2 password could not be loaded #64
+3. 更新打包脚本: 制作 Mac OS X 安装程序包和便携式安装包
+4. 改进工具页面本地化支持
+5. 更新中文语言包(zh-CN/zh-TW/zh-HK/zh-SG)
+
 ##袋鼠数据库工具 v0.99.1.200824
 1. 改进表设计器通知用户保存修改
 2. 改进消息对话框标题显示

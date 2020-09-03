@@ -11,10 +11,7 @@ else
 fi
 
 name=`basename "$0"`
-tmp="$0"
-tmp=`dirname "$tmp"`
-tmp=`dirname "$tmp"`
-bundle_app=`dirname "$tmp"`
+bundle_app="$( cd "$( dirname "$0" )/../.." >/dev/null 2>&1 && pwd )"
 bundle_contents="$bundle_app"/Contents
 bundle_res="$bundle_contents"/Resources
 bundle_lib="$bundle_res"/lib
@@ -34,9 +31,15 @@ export PANGO_RC_FILE="$bundle_etc/pango/pangorc"
 export PANGO_SYSCONFDIR="$bundle_etc"
 export PANGO_LIBDIR="$bundle_lib"
 
-# Pixbuf plugins
+# GIO modules
+export GIO_MODULE_DIR="$bundle_lib/gio/modules"
+
+# Pixbuf plugins and update cache
 export GDK_PIXBUF_MODULEDIR="$bundle_lib/gdk-pixbuf-2.0/2.10.0/loaders"
 export GDK_PIXBUF_MODULE_FILE="$bundle_lib/gdk-pixbuf-2.0/2.10.0/loaders.cache"
+$bundle_contents/MacOS/gdk-pixbuf-query-loaders --update-cache $GDK_PIXBUF_MODULEDIR/*.so
+#sed -i -e "s#/usr/local/lib/#$bundle_lib/#g" $GDK_PIXBUF_MODULE_FILE
+#sed -i -e "s#/usr/local/Cellar/gdk-pixbuf/2.40.0/lib/#$bundle_lib/#g" $GDK_PIXBUF_MODULE_FILE
 if [ `uname -r | cut -d . -f 1` -ge 10 ]; then
     export GTK_IM_MODULE_FILE="$bundle_etc/gtk-3.0/gtk.immodules"
 fi
@@ -179,4 +182,4 @@ if /bin/expr "x$1" : '^x-psn_' > /dev/null; then
     shift 1
 fi
 
-$EXEC "$bundle_contents/MacOS/kangaroo" "$@" $EXTRA_ARGS
+$EXEC "$bundle_contents/MacOS/kangaroo-real" "$@" $EXTRA_ARGS

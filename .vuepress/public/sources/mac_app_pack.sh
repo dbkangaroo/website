@@ -16,6 +16,7 @@ Options:
   -h, --help 		Prints this help message, then exits
   -p, --path    Name of the path to 'appify' (required)
   -n, --name 		Name of the application (default "$APP_NAME")
+  -o, --info    Name of the Info.plist
   -i, --icons		Name of the icons file to use when creating the app
                         (defaults to $APP_ICONS)
   -v, --version		Prints the version of this script, then exits
@@ -53,6 +54,7 @@ while :; do
     -h | --help )    usage;;
     -p | --path )    APP_BUILD="$2"; shift ;;
     -n | --name )    APP_NAME="$2"; shift ;;
+    -o | --info )    APP_INFO="$2"; shift ;;
     -i | --icons )   APP_ICONS="$2"; shift ;;
     -v | --version ) version;;
     -- )             shift; break ;;
@@ -85,17 +87,20 @@ APP_LIB_DIR=$APP_RES_DIR/lib
 
 # Copy kangaroo.app resource
 mkdir -vp "$APP_CON_DIR"/{MacOS,Resources}
-cp "$APP_ICONS" "$APP_RES_DIR/$APP_NAME.icns"
+cp -f "$APP_INFO" "$APP_CON_DIR/Info.plist"
+cp -f "$APP_ICONS" "$APP_RES_DIR/$APP_NAME.icns"
 cp -rf "$APP_BUILD/etc" "$APP_RES_DIR"
 cp -rf "$APP_BUILD/include" "$APP_RES_DIR"
 cp -rf "$APP_BUILD/lib" "$APP_RES_DIR"
 cp -rf "$APP_BUILD/share" "$APP_RES_DIR"
 cp $APP_BUILD/bin/gdbus $APP_EXE_DIR
-cp $APP_BUILD/bin/kangaroo $APP_EXE_DIR
-cp $APP_BUILD/bin/launcher.sh $APP_EXE_DIR
+cp $APP_BUILD/bin/kangaroo $APP_EXE_DIR/kangaroo-real
+cp $APP_BUILD/bin/launcher.sh $APP_EXE_DIR/kangaroo
+cp $APP_BUILD/bin/gdk-pixbuf-query-loaders $APP_EXE_DIR
 chmod 766 "$APP_EXE_DIR/gdbus"
 chmod 766 "$APP_EXE_DIR/kangaroo"
-chmod 766 "$APP_EXE_DIR/launcher.sh"
+chmod 766 "$APP_EXE_DIR/kangaroo-real"
+chmod 766 "$APP_EXE_DIR/gdk-pixbuf-query-loaders"
 
 # Copy dependency libraries and update their search path
 source $SCRIPT_PATH/mac_app_path.sh
@@ -110,12 +115,17 @@ chmod -R 766 $APP_LIB_DIR
 lib_change_paths \
   @executable_path/../Resources/lib \
   $APP_LIB_DIR \
-  $APP_EXE_DIR/kangaroo
+  $APP_EXE_DIR/kangaroo-real
 
 lib_change_paths \
   @executable_path/../Resources/lib \
   $APP_LIB_DIR \
   $APP_EXE_DIR/gdbus
+
+lib_change_paths \
+  @executable_path/../Resources/lib \
+  $APP_LIB_DIR \
+  $APP_EXE_DIR/gdk-pixbuf-query-loaders
 
 lib_change_siblings $APP_LIB_DIR @loader_path
 

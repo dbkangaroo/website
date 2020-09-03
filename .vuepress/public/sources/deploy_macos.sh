@@ -32,10 +32,19 @@ function lib_dependency_copy
   local target=$1
   local folder=$2
 
+  lib_dir="$( cd "$( dirname "$1" )" >/dev/null 2>&1 && pwd )"
   libraries="$(otool -L $target | grep "/*.*dylib" -o | xargs)"
   for lib in $libraries; do
     if [[ '/usr/lib/' != ${lib:0:9} && '/System/Library/' != ${lib:0:16} ]]; then
-      cp -n $lib $folder
+      if [[ '@' == ${lib:0:1} ]]; then
+        if [[ '@loader_path' == ${lib:0:12} ]]; then
+          cp -n "${lib/@loader_path/$lib_dir}" $folder
+        else
+          echo "Unsupport path: $lib"
+        fi
+      else
+        cp -n $lib $folder
+      fi
     fi  
   done
 }
@@ -69,9 +78,12 @@ lib_dependency_copy ${TARGETDIR}/bin/libgtksourceview-4.0.dylib "${TARGETDIR}/bi
 
 lib_dependency_copy /usr/local/lib/libgnutls-dane.0.dylib "${TARGETDIR}/bin"
 lib_dependency_copy ${TARGETDIR}/bin/libunistring.2.dylib "${TARGETDIR}/bin"
-lib_dependency_copy /usr/local/lib/libharfbuzz-icu.0.dylib "${TARGETDIR}/bin"
 lib_dependency_copy /usr/local/lib/libcairo-script-interpreter.2.dylib "${TARGETDIR}/bin"
 lib_dependency_copy /usr/local/lib/libgettextsrc-0.20.1.dylib "${TARGETDIR}/bin"
+lib_dependency_copy /usr/local/lib/libharfbuzz-icu.0.dylib "${TARGETDIR}/bin"
+icu_version="$(pkg-config icu-io --modversion)"
+lib_dependency_copy "/usr/local/Cellar/icu4c/$icu_version/lib/libicuio.${icu_version:0:2}.dylib" "${TARGETDIR}/bin"
+lib_dependency_copy "/usr/local/Cellar/icu4c/$icu_version/lib/libicutu.${icu_version:0:2}.dylib" "${TARGETDIR}/bin"
 
 cp -f "${PROJECTDIR}/build/src/kangaroo" "${TARGETDIR}/bin"
 cp -f "${TARGETDIR}/lib/libkangaroo.dylib" "${TARGETDIR}/bin"
@@ -88,7 +100,9 @@ echo "[done]"
 # copy GDBus/Helper and dependencies files
 echo -n "Copy GDBus/Helper and dependencies......"
 cp -f /usr/local/bin/gdbus "${TARGETDIR}/bin"
+cp -f /usr/local/bin/gdk-pixbuf-query-loaders "${TARGETDIR}/bin"
 lib_dependency_copy ${TARGETDIR}/bin/gdbus "${TARGETDIR}/bin"
+lib_dependency_copy ${TARGETDIR}/bin/gdk-pixbuf-query-loaders "${TARGETDIR}/bin"
 echo "[done]"
 
 # libgda providers required library(MySQL/PostgreSQL/JDBC/...)
@@ -149,7 +163,7 @@ echo "make macos executable file(.app)......"
 cd "${PROJECTDIR}/build"
 cp "${PROJECTDIR}/tools/installers/Info.plist" "${PROJECTDIR}/build"
 cp "${PROJECTDIR}/tools/installers/mac.icns" "${PROJECTDIR}/build/kangaroo.icns"
-../tools/mac_app_pack.sh --path "${TARGETDIR}" --name "kangaroo" --icons "kangaroo.icns"
+../tools/mac_app_pack.sh --path "${TARGETDIR}" --name "kangaroo" --info "Info.plist" --icons "kangaroo.icns"
 if [ $? -eq 0 ]; then
   echo "[done]"
   else
