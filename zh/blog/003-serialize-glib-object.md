@@ -1,40 +1,40 @@
 ---
-title: How to serialize / deserialize GLib object
+title: GLib 对象序列化和反序列化
 lang: zh-CN
 sidebarDepth: 2
 ---
 
-# How to serialize / deserialize GLib object(Will update later)
+# GLib 对象序列化和反序列化
 
-## Background
-How to compare two objects and generate the patch for them? It is a important step to forward Kangaroo 1.0.
-I don't know which library is the best way to solve this problem,  So I start to study this problem.
+## 背景介绍
+如何比较两个对象是否一致及生成差异化补丁？
 
-## Solution
-In GLib framework, there are two libraries support to serialize / deserialize object, there are:
-| Library        | Latest version | Description        | Website    |
+这是袋鼠数据库工具 1.0 版要面临的重要课题，由于之前没接触过这个问题，所以不知道它的最佳解决方案是啥，于是开始研究这个问题的解决方案。
+
+## 解决方案
+在 GLib 框架体系里，有两个库可支持对象序列化和反序列化，他们分别是 JSON-GLib / GXML:
+| 名称           | 最新版本        | 官方网站        | 说明           |
 |----------------|----------------|----------------|----------------|
-| json-glib | 1.44 | JSON-GLib implements a full JSON parser and generator using GLib and GObject, and integrates JSON with GLib data types. | [json-glib](https://gitlab.gnome.org/GNOME/json-glib) |
-| GXML    | 0.16 | GXml provides a GObject API for manipulating XML and a Serializable framework from GObject to XML. | [GXML](https://gitlab.gnome.org/GNOME/gxml) |
+| JSON-GLib | 1.52 | [JSON-GLib](https://gitlab.gnome.org/GNOME/json-glib) | JSON-GLib 使用 GLib and GObject 实现了一个完整的 JSON 解析器和生成器，集成支持各种 GLib 类型，属于 GLib 友好型库  |
+| GXML    | 0.20 | [GXML](https://gitlab.gnome.org/GNOME/gxml) | GXML 实现了对象化的 API 接口操作 XML 文档，支持对象序列化和反序列化 |
 
-### Which library is suitable for this problem?
-
-let us list a checklist to check which library is better for our problem:
-| Key item       | GXML                  | json-glib             | Remark                |
-|----------------|-----------------------|-----------------------|-----------------------|
-| Basic types    | [x] Supported         | [x] Supported         |                       |
-| Boxed types    | [ ] Unsupported       | [x] Supported         |                       |
-| Object         | [x] Supported         | [x] Supported         |                       |
-| Vala Array     | [x] Supported         | [ ] Unsupported       |                       |
-| Gee.ArrayList  | [x] Supported         | [ ] Unsupported       |                       |
-| Gee.HashMap    | [x] Supported         | [ ] Unsupported       |                       |
-| Gee.TreeMap    | [x] Supported         | [ ] Unsupported       |                       |
-| Gee.LinkedList | [ ] Unsupported       | [ ] Unsupported       |                       |
-| GLib.Array     | [ ] Unsupported       | [ ] Unsupported       |                       |
-| GLib.List      | [ ] Unsupported       | [ ] Unsupported       |                       |
-| GLib.SList     | [ ] Unsupported       | [ ] Unsupported       |                       |
-| GLib.Queue     | [ ] Unsupported       | [ ] Unsupported       |                       |
-| GLib.HastTable | [ ] Unsupported       | [ ] Unsupported       |                       |
+### JSON-GLib vs GXML, 哪个库才是解决问题的最佳选择？
+让我们通过一个清单来对比分析两个库对具体类型的支持程度，从而判断出哪个库是解决问题的最佳选择：
+| 关键项目        | GXML           | JSON-GLib       | 说明       |
+|----------------|:--------------:|:---------------:|------------|
+| 基本类型        | [x] 已支持      | [x] 已支持      | char/int/double/... |
+| 包装类型        | [ ] 未支持      | [x] 已支持      | Value/Variant/...   |
+| 对象           | [x] 已支持      | [x] 已支持      | GObject 子类型对象    |
+| Vala 数组      | [x] 已支持      | [ ] 未支持      | 容器类型    |
+| Gee.ArrayList  | [x] 已支持      | [ ] 未支持      | 容器类型    |
+| Gee.HashMap    | [x] 已支持      | [ ] 未支持      | 容器类型    |
+| Gee.TreeMap    | [x] 已支持      | [ ] 未支持      | 容器类型    |
+| Gee.LinkedList | [ ] 未支持      | [ ] 未支持      | 容器类型    |
+| GLib.Array     | [ ] 未支持      | [ ] 未支持      | 容器类型    |
+| GLib.List      | [ ] 未支持      | [ ] 未支持      | 容器类型    |
+| GLib.SList     | [ ] 未支持      | [ ] 未支持      | 容器类型    |
+| GLib.Queue     | [ ] 未支持      | [ ] 未支持      | 容器类型    |
+| GLib.HastTable | [ ] 未支持      | [ ] 未支持      | 容器类型    |
 
 <div>
     <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
@@ -49,25 +49,28 @@ let us list a checklist to check which library is better for our problem:
     </script2>
 </div>
 
-### Advantage / Disadvantage of GXML
-__Advantage__
-1. Vala friendly 
-2. Support four kinds of Gee container.
+### GXML 的优势和劣势
+__优势__
+1. Vala 友好
+2. 支持各种 Gee 容器类型.
 
-__Disadvantage__
-1. Missing GLib built-in container support.
-2. Missing boxed type support
+__劣势__
+1. 缺乏 GLib 的各种内置容器类型支持
+2. 缺乏 GLib 包装类型 支持
 
-### Advantage / Disadvantage of json-glib
-__Advantage__
-1. support to register new type function to serialize / deserialize unsupported types, both boxed types and complex objects.
-2. Boxed type and container friendly.
+### JSON-GLib 的优势和劣势
+__优势__
+1. 支持注册类型序列化/反序列化函数来处理未支持的类型，无论是包装类型还是复合类型
+2. 包装类型和容器类型友好
 
-__Disadvantage__
-1. Missing GLib built-in container support.
+__劣势__
+1. 缺乏对 GLib 内建容器类型的支持
 
-## Example
-### Example of json-glib, support GLib container
+### 袋鼠项目的选择
+最终在袋鼠项目中选择了 JSON-GLib 来实现对象的序列化和反序列化，因为它对包装类型和容器类型友好，且支持注册类型序列化/反序列化函数来处理未支持的类型，使得我们有能力自己完成对自定义对象的序列化和反序列化；
+
+## 序列化和反序列化案例
+### GLib 容器类型的序列化
 ```vala
     public class DbObject : GLib.Object, Json.Serializable
     {
@@ -186,7 +189,7 @@ __Disadvantage__
     </script2>
 </div>
 
-## Reference
+## 参考资料
 [GXml: Objects and Collections to XML and back](https://blogs.gnome.org/despinosa/2016/11/06/gxml-objects-and-collections-to-xml-and-back/)
 
 [GXml 0.14 and Serialization](https://blogs.gnome.org/despinosa/2016/11/03/gxml-0-14-and-serialization/)

@@ -6,11 +6,12 @@ lang: zh-CN
 # 袋鼠数据库工具 版本更新记录
 
 ## [袋鼠数据库工具 2020(Beta 2)](/zh/download/v0.99.2.200907)
-1. 修复: 提示 MySQL server has done away 后，没有自动\手动重连 #63
-2. 修复: plugin caching sha2 password could not be loaded #64
-3. 更新打包脚本: 制作 Mac OS X 安装程序包和便携式安装包
-4. 改进工具页面本地化支持
-5. 更新中文语言包(zh-CN/zh-TW/zh-HK/zh-SG)
+1. 更新打包脚本: 制作 Mac OS X 安装程序包和便携式安装包
+2. 改进工具页面本地化支持
+3. 更新中文语言包(zh-CN/zh-TW/zh-HK/zh-SG)
+4. 修复: 提示 MySQL server has done away 后，没有自动\手动重连 #63
+5. 修复: 无法加载认证插件 caching_sha2_password #64
+6. 修复: 控制台警告消息
 
 ## [袋鼠数据库工具 2020(Beta)](/zh/download/v0.99.1.200824)
 1. 改进表设计器通知用户保存修改

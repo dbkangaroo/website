@@ -1,11 +1,12 @@
 #Kangaroo change timeline
 
 ##Kangaroo v0.99.2.200907
-1. Fixed: 提示 MySQL server has done away 后，没有自动\手动重连 #63
-2. Fixed: plugin caching sha2 password could not be loaded #64
-3. Make Mac OS X installer and portable packages
-4. Improve tools page locale support
-5. Update Chinese(zh-CN/zh-TW/zh-HK/zh-SG)
+1. Improve Mac OS X installer and portable packages
+2. Improve tools page locale support
+3. Update Chinese(zh-CN/zh-TW/zh-HK/zh-SG)
+4. Fixed: 提示 MySQL server has done away 后，没有自动\手动重连 #63
+5. Fixed: plugin caching sha2 password could not be loaded #64
+6. Fixed: console warning message
 
 ##Kangaroo v0.99.1.200824
 1. Improve designer to notify user save change

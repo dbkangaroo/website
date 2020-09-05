@@ -12,29 +12,29 @@ I don't know which library is the best way to solve this problem,  So I start to
 
 ## Solution
 In GLib framework, there are two libraries support to serialize / deserialize object, there are:
-| Library        | Latest version | Description        | Website    |
-|----------------|----------------|----------------|----------------|
-| json-glib | 1.44 | JSON-GLib implements a full JSON parser and generator using GLib and GObject, and integrates JSON with GLib data types. | [json-glib](https://gitlab.gnome.org/GNOME/json-glib) |
-| GXML    | 0.16 | GXml provides a GObject API for manipulating XML and a Serializable framework from GObject to XML. | [GXML](https://gitlab.gnome.org/GNOME/gxml) |
+| Library        | Latest version | Website    | Description        |
+|----------------|----------------|------------|--------------------|
+| JSON-GLib | 1.44 | [JSON-GLib](https://gitlab.gnome.org/GNOME/json-glib) | JSON-GLib implements a full JSON parser and generator using GLib and GObject, and integrates JSON with GLib data types. |
+| GXML    | 0.16 | [GXML](https://gitlab.gnome.org/GNOME/gxml) | GXml provides a GObject API for manipulating XML and a Serializable framework from GObject to XML. |
 
 ### Which library is suitable for this problem?
 
 let us list a checklist to check which library is better for our problem:
-| Key item       | GXML                  | json-glib             | Remark                |
-|----------------|-----------------------|-----------------------|-----------------------|
-| Basic types    | [x] Supported         | [x] Supported         |                       |
-| Boxed types    | [ ] Unsupported       | [x] Supported         |                       |
-| Object         | [x] Supported         | [x] Supported         |                       |
-| Vala Array     | [x] Supported         | [ ] Unsupported       |                       |
-| Gee.ArrayList  | [x] Supported         | [ ] Unsupported       |                       |
-| Gee.HashMap    | [x] Supported         | [ ] Unsupported       |                       |
-| Gee.TreeMap    | [x] Supported         | [ ] Unsupported       |                       |
-| Gee.LinkedList | [ ] Unsupported       | [ ] Unsupported       |                       |
-| GLib.Array     | [ ] Unsupported       | [ ] Unsupported       |                       |
-| GLib.List      | [ ] Unsupported       | [ ] Unsupported       |                       |
-| GLib.SList     | [ ] Unsupported       | [ ] Unsupported       |                       |
-| GLib.Queue     | [ ] Unsupported       | [ ] Unsupported       |                       |
-| GLib.HastTable | [ ] Unsupported       | [ ] Unsupported       |                       |
+| Key item       | GXML                  | JSON-GLib             | Remark                |
+|----------------|:---------------------:|:---------------------:|-----------------------|
+| Basic types    | [x] Supported         | [x] Supported         | char/int/double/...   |
+| Boxed types    | [ ] Unsupported       | [x] Supported         | Value/Variant/...     |
+| Object         | [x] Supported         | [x] Supported         | GObject based object  |
+| Vala Array     | [x] Supported         | [ ] Unsupported       | container type        |
+| Gee.ArrayList  | [x] Supported         | [ ] Unsupported       | container type        |
+| Gee.HashMap    | [x] Supported         | [ ] Unsupported       | container type        |
+| Gee.TreeMap    | [x] Supported         | [ ] Unsupported       | container type        |
+| Gee.LinkedList | [ ] Unsupported       | [ ] Unsupported       | container type        |
+| GLib.Array     | [ ] Unsupported       | [ ] Unsupported       | container type        |
+| GLib.List      | [ ] Unsupported       | [ ] Unsupported       | container type        |
+| GLib.SList     | [ ] Unsupported       | [ ] Unsupported       | container type        |
+| GLib.Queue     | [ ] Unsupported       | [ ] Unsupported       | container type        |
+| GLib.HastTable | [ ] Unsupported       | [ ] Unsupported       | container type        |
 
 <div>
     <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
@@ -58,7 +58,7 @@ __Disadvantage__
 1. Missing GLib built-in container support.
 2. Missing boxed type support
 
-### Advantage / Disadvantage of json-glib
+### Advantage / Disadvantage of JSON-GLib
 __Advantage__
 1. support to register new type function to serialize / deserialize unsupported types, both boxed types and complex objects.
 2. Boxed type and container friendly.
@@ -66,8 +66,11 @@ __Advantage__
 __Disadvantage__
 1. Missing GLib built-in container support.
 
+### JSON-GLib is the choice
+For Kangaroo project, the final choice is JSON-GLib, because it is boxed type and container friendly, and support to register new type function to serialize/deserialize unsupported types, so the user could handle all new GObject based type.
+
 ## Example
-### Example of json-glib, support GLib container
+### GLib container serialization
 ```vala
     public class DbObject : GLib.Object, Json.Serializable
     {
