@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /kangaroo.png
-actionText: 下载 袋鼠 2020(Beta 2)
-actionLink: /zh/download/v0.99.2.200907
+actionText: 下载 袋鼠 2020(Beta 3)
+actionLink: /zh/download/v0.99.3.200921
 footer: 版权所有 ©2018-present 袋鼠开发组
 ---
 
@@ -58,7 +58,7 @@ footer: 版权所有 ©2018-present 袋鼠开发组
 
 | 版本类型    | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |-------------|-------------------|-------------------|-----------------|
-| 稳定版本 | [袋鼠 2020(Beta 2)](./download/v0.99.2.200907) | [袋鼠 2020(Beta 2)](./download/v0.99.2.200907) | [袋鼠 2020(Beta 2)](./download/v0.99.2.200907) |
+| 稳定版本 | [袋鼠 2020(Beta 3)](./download/v0.99.3.200921) | [袋鼠 2020(Beta 3)](./download/v0.99.3.200921) | [袋鼠 2020(Beta 3)](./download/v0.99.3.200921) |
 | 开发版本 | [v0.33.1.200817](./download/v0.33.1.200817) | [v0.33.1.200817](./download/v0.33.1.200817) | [v0.33.1.200817](./download/v0.33.1.200817) |
 
 

@@ -5,6 +5,12 @@ lang: en-US
 
 # Kangaroo change timeline
 
+## [Kangaroo 2020(Beta 3)](/download/v0.99.3.200921)
+1. Refactor container and service module
+2. Improve the performance of content and query view
+3. Update datagrid toolbar icon
+4. Fixed: can't open mariadb database
+
 ## [Kangaroo 2020(Beta 2)](/download/v0.99.2.200907)
 1. Improve Mac OS X installer and portable packages
 2. Improve tools page locale support
