@@ -93,8 +93,8 @@ module.exports = {
             {
                 disabled: true,
                 authorName: {
-                    'zh-CN': 'DBKangaroo development team ',
-                    'en-US': '袋鼠数据库工具开发组',
+                    'zh-CN': ' 袋鼠数据库工具开发组 ',
+                    'en-US': 'DBKangaroo development team',
                 },
             },
         ],

@@ -6,10 +6,6 @@ actionLink: /zh/download/v0.99.3.200921
 footer: 版权所有 ©2018-present 袋鼠开发组
 ---
 
-<div style="text-align: center">
-  <Bit/>
-</div>
-
 <div class="features">
   <div class="feature">
     <h2>简捷、强大</h2>

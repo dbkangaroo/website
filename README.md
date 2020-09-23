@@ -6,10 +6,6 @@ actionLink: /download/v0.99.3.200921
 footer: Copyright © 2018-present Kangaroo development team
 ---
 
-<div style="text-align: center">
-  <Bit/>
-</div>
-
 <div class="features">
   <div class="feature">
     <h2>Simple & Powerful</h2>
