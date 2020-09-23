@@ -1,6 +1,9 @@
 ---
 title: MySQL security and authentication
 lang: zh-CN
+sidebarDepth: 2
+copyright:
+  minLength: 32
 ---
 
 # MySQL security and authentication

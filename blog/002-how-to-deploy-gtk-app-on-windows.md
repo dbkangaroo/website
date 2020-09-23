@@ -2,6 +2,8 @@
 title: How to deploy GTK based app on windows?(Updated at 08/03/2020)
 lang: en-US
 sidebarDepth: 2
+copyright:
+  minLength: 32
 ---
 
 # How to deploy GTK based app on windows?(Updated at 08/03/2020)

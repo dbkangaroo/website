@@ -1,6 +1,9 @@
 ---
 title: Why choose Vala to build Kangaroo?
 lang: en-US
+sidebarDepth: 2
+copyright:
+  minLength: 32
 ---
 
 # Why choose Vala to build Kangaroo?

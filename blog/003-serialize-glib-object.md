@@ -2,6 +2,8 @@
 title: How to serialize / deserialize GLib object
 lang: en-US
 sidebarDepth: 2
+copyright:
+  minLength: 32
 ---
 
 # How to serialize / deserialize GLib object(Will update later)

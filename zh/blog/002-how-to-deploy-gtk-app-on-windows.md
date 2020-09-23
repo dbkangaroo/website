@@ -2,6 +2,8 @@
 title: 如何快速有效部署GTK应用程序到Windows平台？(08/03/2020 更新)
 lang: zh-CN
 sidebarDepth: 2
+copyright:
+  minLength: 32
 ---
 
 # 如何快速有效部署GTK应用程序到Windows平台？(08/03/2020 更新)

@@ -1,6 +1,9 @@
 ---
 title: 为什么选择 Vala 语言打造袋鼠数据库工具？
 lang: zh-CN
+sidebarDepth: 2
+copyright:
+  minLength: 32
 ---
 
 # 为什么选择 Vala 语言打造袋鼠数据库工具？

@@ -2,6 +2,8 @@
 title: 苹果系统 GTK 应用打包新思路
 lang: zh-CN
 sidebarDepth: 2
+copyright:
+  minLength: 32
 ---
 
 # 苹果系统 GTK 应用打包新思路

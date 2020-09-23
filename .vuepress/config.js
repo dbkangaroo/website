@@ -88,6 +88,18 @@ module.exports = {
             noGlobalSocialShare: true,
             extendsNetworks,
         }],
+        [
+            'vuepress-plugin-copyright',
+            {
+                disabled: true,
+                authorName: {
+                    'zh-CN': 'DBKangaroo development team ',
+                    'en-US': '袋鼠数据库工具开发组',
+                },
+            },
+        ],
+        ['flowchart'],
+        ['vuepress-plugin-zooming'],
     ],
     extraWatchFiles: [
         '.vuepress/nav/en.js',

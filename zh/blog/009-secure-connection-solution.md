@@ -1,6 +1,9 @@
 ---
 title: Kangaroo secure connection solution
 lang: zh-CN
+sidebarDepth: 2
+copyright:
+  minLength: 32
 ---
 
 # Kangaroo Secure connection (SSL or SSH) solution

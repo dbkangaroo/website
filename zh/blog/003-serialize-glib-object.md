@@ -2,6 +2,8 @@
 title: GLib 对象序列化和反序列化
 lang: zh-CN
 sidebarDepth: 2
+copyright:
+  minLength: 32
 ---
 
 # GLib 对象序列化和反序列化
