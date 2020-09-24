@@ -43,7 +43,6 @@ lang: zh-CN
 3. 更新导入 / 导出 功能图标
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -80,7 +79,6 @@ lang: zh-CN
 2. 更新中文语言翻译(zh-CN/zh-TW/zh-HK/zh-SG)
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -124,7 +122,6 @@ lang: zh-CN
 3. 新增 苹果平台 安装器
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -178,7 +175,6 @@ lang: zh-CN
 9. 改进数据网格中文本处理性能.
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -232,7 +228,6 @@ lang: zh-CN
 5. 修复: 日志文件序号问题
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -274,7 +269,6 @@ lang: zh-CN
 4. 使用新配置模型重构连接开始页面
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -319,7 +313,6 @@ lang: zh-CN
 6. 初步实现导出格式、导出表选择页面
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -366,7 +359,6 @@ lang: zh-CN
 2. 支持导出为JSON和DSV格式
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -403,7 +395,6 @@ lang: zh-CN
 6. 修复:  数据表单加载失败 #11
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"

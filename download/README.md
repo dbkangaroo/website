@@ -19,7 +19,6 @@ Stable and LTS(Long-term Support) version depend on test result and stabilizatio
 | 2020-05-04   | [v0.21.1.200504](./v0.21.1.200504) | [v0.21.1.200504](./v0.21.1.200504) | [v0.21.1.200504](./v0.21.1.200504) |
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -72,7 +71,6 @@ Development version will be released weekly, talent be changed daily, keep your 
 | 2019-09-16   | [v0.7.2.190916](./v0.7.2.190916) | [v0.7.2.190916](./v0.7.2.190916) |  |
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"

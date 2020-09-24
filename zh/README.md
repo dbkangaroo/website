@@ -36,7 +36,6 @@ footer: 版权所有 ©2018-present 袋鼠开发组
 
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -70,7 +69,6 @@ footer: 版权所有 ©2018-present 袋鼠开发组
 ![数据网格（条件查询）](./images/kangaroo-grid2.png)
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -88,7 +86,6 @@ footer: 版权所有 ©2018-present 袋鼠开发组
 ![表设计器代码预览](./images/kangaroo-designer2.png)
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"

@@ -38,7 +38,6 @@ To deploy GTK based app, the app must follow the directory structure like linux:
 ```
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -108,7 +107,6 @@ Execute the app under user environment and the app under dev environment in full
 Runtime dependency dll view tool [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"

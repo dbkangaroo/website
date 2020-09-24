@@ -37,7 +37,6 @@ Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 **Hint**: Code intellisense or Code autocomplete
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -71,7 +70,6 @@ If you like Kangaroo and you want to support its development, you could __buy me
 ![Kangaroo grid view in table with where statement](./images/kangaroo-grid2.png)
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -89,7 +87,6 @@ If you like Kangaroo and you want to support its development, you could __buy me
 ![Kangaroo schema designer form with preview](./images/kangaroo-designer2.png)
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"

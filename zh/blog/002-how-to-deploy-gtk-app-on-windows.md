@@ -38,7 +38,6 @@ copyright:
 ```
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
@@ -105,7 +104,6 @@ ldd /mingw64/bin/libpq.dll | grep '\/mingw64\/bin\/.*dll' -o | xargs -I{} cp -f 
 在全功能模式下，分别在用户环境和测试环境启动应用，用工具 [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) 查看运行时依赖视图（加载的DLL清单），对比依赖库数量是否一致，通过比较打包目录内的dll查漏补缺；
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"

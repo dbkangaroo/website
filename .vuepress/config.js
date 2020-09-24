@@ -17,7 +17,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/kangaroo_small.png' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-        ['meta', { name: 'keywords', content: 'KangarooDB,DBKangaroo,MySQL,MariaDB,SQLite,PostgreSQL,Redis,袋鼠数据库,数据库袋鼠,袋鼠数据库管理工具,袋鼠数据库工具,袋鼠数据库系统,袋鼠数据库客户端' }],
+        ['meta', { name: 'keywords', content: 'database,sql,dangaroo,kangaroodb,dbkangaroo,mysql,mariadb,sqlite,postgresql,redis,袋鼠,蓝色袋鼠,袋鼠数据库,数据库袋鼠,袋鼠数据库管理工具,袋鼠数据库工具,袋鼠数据库客户端' }],
         ['script', { 'data-ad-client': 'ca-pub-3975819313740938', async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' }],
     ],
     locales: {
@@ -94,8 +94,8 @@ module.exports = {
             {
                 disabled: true,
                 authorName: {
-                    'zh-CN': ' 袋鼠数据库工具开发组 ',
-                    'en-US': 'DBKangaroo development team',
+                    'zh-CN': ' 陶祖洪 ',
+                    'en-US': 'TAOZUHONG',
                 },
             },
         ],
