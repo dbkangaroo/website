@@ -1,5 +1,11 @@
 #Kangaroo change timeline
 
+##Kangaroo v0.99.4.200930
+1. Improve text view for cell value, support to detect charset and convert to UTF-8
+2. Improve mysql connection stability
+3. Fixed: fail to change cell value viewer
+4. Fixed: copy short and full name invalid
+
 ##Kangaroo v0.99.3.200921
 1. Refactor container and service module
 2. Improve the performance of content and query view

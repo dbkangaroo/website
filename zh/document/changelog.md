@@ -5,6 +5,24 @@ lang: zh-CN
 
 # 袋鼠数据库工具 版本更新记录
 
+## [袋鼠数据库工具 2020(Beta 4)](/zh/download/v0.99.4.200930)
+1. 改进单元格数据文本视图，支持编码检测和转换
+2. 提升 MySQL/MariaDB 连接稳定性
+3. 修复: 切换单元格数据查看视图错误
+4. 修复: 复制数据列长短名错误
+
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [袋鼠数据库工具 2020(Beta 3)](/zh/download/v0.99.3.200921)
 1. 重构了底层容器和服务模块
 2. 改善了查看数据表和SQL查询性能

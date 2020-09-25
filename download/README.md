@@ -9,6 +9,7 @@ Stable and LTS(Long-term Support) version depend on test result and stabilizatio
 
 | Release date | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |--------------|-------------------|-----------------|-----------------|
+| 2020-09-30   | [Kangaroo 2020(Beta 4)](./v0.99.4.200930) | [Kangaroo 2020(Beta 3)](./v0.99.4.200930) | [Kangaroo 2020(Beta 3)](./v0.99.4.200930) |
 | 2020-09-21   | [Kangaroo 2020(Beta 3)](./v0.99.3.200921) | [Kangaroo 2020(Beta 3)](./v0.99.3.200921) | [Kangaroo 2020(Beta 3)](./v0.99.3.200921) |
 | 2020-09-07   | [Kangaroo 2020(Beta 2)](./v0.99.2.200907) | [Kangaroo 2020(Beta 2)](./v0.99.2.200907) | [Kangaroo 2020(Beta 2)](./v0.99.2.200907) |
 | 2020-08-24   | [Kangaroo 2020(Beta)](./v0.99.1.200824) | [Kangaroo 2020(Beta)](./v0.99.1.200824) | [Kangaroo 2020(Beta)](./v0.99.1.200824) |
