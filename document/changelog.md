@@ -7,9 +7,10 @@ lang: en-US
 
 ## [Kangaroo 2020(Beta 4)](/download/v0.99.4.200930)
 1. Improve text view for cell value, support to detect charset and convert to UTF-8
-2. Improve mysql connection stability
-3. Fixed: fail to change cell value viewer
-4. Fixed: copy short and full name invalid
+2. Improve the China mainland user accessibility: show changelog
+3. Improve mysql connection stability
+4. Fixed: fail to change cell value viewer
+5. Fixed: copy short and full name invalid
 
 <div>
     <ins class="adsbygoogle"
