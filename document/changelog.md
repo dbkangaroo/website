@@ -5,12 +5,14 @@ lang: en-US
 
 # Kangaroo change timeline
 
-## [Kangaroo 2020(Beta 4)](/download/v0.99.4.200930)
-1. Improve text view for cell value, support to detect charset and convert to UTF-8
-2. Improve the China mainland user accessibility: show changelog
-3. Improve mysql connection stability
-4. Fixed: fail to change cell value viewer
-5. Fixed: copy short and full name invalid
+## [Kangaroo 2020(Beta 5)](/download/v1.0.5.201019)
+1. Implement context menu for cell value
+2. Improve database null value support
+3. Improve text view for cell value, support to detect charset and convert to UTF-8
+4. Improve the China mainland user accessibility: show changelog
+5. Improve mysql connection stability
+6. Fixed: fail to change cell value viewer
+7. Fixed: copy short and full name invalid
 
 <div>
     <ins class="adsbygoogle"

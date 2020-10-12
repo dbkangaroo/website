@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /kangaroo.png
-actionText: Download Kangaroo 2020(Beta 4)
-actionLink: /download/v0.99.4.200930
+actionText: Download Kangaroo 2020(Beta 5)
+actionLink: /download/v1.0.5.201019
 footer: Copyright © 2018-present Kangaroo development team
 ---
 
@@ -54,7 +54,7 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 
 | Platform    | Windows(64 bit)   | Linux(64 bit)     | MacOS(64 bit)   |
 |-------------|-------------------|-------------------|-----------------|
-| Stable      | [Kangaroo 2020(Beta 4)](./download/v0.99.4.200930) | [Kangaroo 2020(Beta 4)](./download/v0.99.4.200930) | [Kangaroo 2020(Beta 4)](./download/v0.99.4.200930) |
+| Stable      | [Kangaroo 2020(Beta 5)](./download/v1.0.5.201019) | [Kangaroo 2020(Beta 5)](./download/v1.0.5.201019) | [Kangaroo 2020(Beta 5)](./download/v1.0.5.201019) |
 | Development | [v0.33.1.200817](./download/v0.33.1.200817) | [v0.33.1.200817](./download/v0.33.1.200817) | [v0.33.1.200817](./download/v0.33.1.200817) |
 
 
