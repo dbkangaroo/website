@@ -9,6 +9,7 @@
         "@vuepress/plugin-google-analytics": "^1.2.0",
         "vue-script2": "^2.1.0",
         "vuepress": "^1.2.0",
+        "vuepress-plugin-baidu-autopush": "^1.0.1",
         "vuepress-plugin-copyright": "^1.0.2",
         "vuepress-plugin-flowchart": "^1.4.3",
         "vuepress-plugin-social-share": "^0.3.2",

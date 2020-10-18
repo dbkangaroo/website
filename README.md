@@ -3,7 +3,7 @@ home: true
 heroImage: /kangaroo.png
 actionText: Download Kangaroo 2020(Beta 5)
 actionLink: /download/v1.0.5.201019
-footer: Copyright © 2018-present Kangaroo development team
+# footer: 粤ICP备2020100158号 MIT Licensed Copyright © 2018-present taozuhong
 ---
 
 <div class="features">
@@ -101,3 +101,7 @@ If you like Kangaroo and you want to support its development, you could __buy me
 ![Kangaroo export assistant](./images/kangaroo-export.png)
 ![Kangaroo import assistant](./images/kangaroo-import.png)
 ![Kangaroo setting dialog with dark theme](./images/kangaroo-setting.png)
+
+<div class="footer">
+    <a target="_blank" href="http://beian.miit.gov.cn/">粤ICP备2020100158号</a> Copyright © 2018-present taozuhong
+</div>

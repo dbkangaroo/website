@@ -3,7 +3,7 @@ home: true
 heroImage: /kangaroo.png
 actionText: 下载 袋鼠 2020(Beta 5)
 actionLink: /zh/download/v1.0.5.201019
-footer: 版权所有 ©2018-present 袋鼠开发组
+# footer: 粤ICP备2020100158号 MIT Licensed 版权所有 © 2018-present taozuhong
 ---
 
 <div class="features">
@@ -100,3 +100,7 @@ footer: 版权所有 ©2018-present 袋鼠开发组
 ![数据导出界面](./images/kangaroo-export.png)
 ![数据导入界面](./images/kangaroo-import.png)
 ![工具配置界面](./images/kangaroo-setting.png)
+
+<div class="footer">
+    <a target="_blank" href="http://beian.miit.gov.cn/">粤ICP备2020100158号</a> 版权所有 © 2018-present taozuhong
+</div>
