@@ -21,8 +21,8 @@ module.exports = {
         ['script', { 'data-ad-client': 'ca-pub-3975819313740938', async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' }],
     ],
     locales: {
-        '/': {
-            lang: 'English',
+        '/en/': {
+            lang: 'en-US',
             title: 'Kangaroo',
             description: 'SQL client and admin tool for popular databases',
         },
@@ -41,16 +41,16 @@ module.exports = {
         search: true,
         searchMaxSuggestions: 10,
         locales: {
-            '/': {
+            '/en/': {
                 label: 'English',
                 selectText: 'Languages',
                 editLinkText: 'Edit this page on GitHub',
                 lastUpdated: 'Last Updated',
                 nav: require('./nav/en'),
                 sidebar: {
-                    '/blog/': get_sidebar_blogs(),
-                    '/document/': get_sidebar_documents(),
-                    '/download/': get_sidebar_versions(),
+                    '/en/blog/': get_sidebar_blogs(),
+                    '/en/document/': get_sidebar_documents(),
+                    '/en/download/': get_sidebar_versions(),
                 }
             },
             '/zh/': {
@@ -99,6 +99,17 @@ module.exports = {
                 },
             },
         ],
+        ['@vuepress/last-updated', {
+            transformer: timestamp => {
+              return new Date(timestamp).toISOString()
+            }
+        }],
+        ['sitemap', {
+            hostname: 'https://datatable.online'
+        }],
+        ['vuepress-plugin-redirect', {
+            locales: true,
+        }],
         ['flowchart'],
         ['vuepress-plugin-zooming'],
         ['vuepress-plugin-baidu-autopush'],
