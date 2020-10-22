@@ -26,6 +26,6 @@ MacOS 平台提供了两种安装方式：安装程序 和 手工安装，您可
 ```bash
 tar -xvf <Kangaroo-......tar.gz>
 ```
-2. 双击应用启动袋鼠
+2. 双击袋鼠应用(kangaroo.app)启动袋鼠
 
 <Vssue :issue-id="6" :title="$title" />
