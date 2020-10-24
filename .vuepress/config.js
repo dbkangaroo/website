@@ -21,6 +21,11 @@ module.exports = {
         ['script', { 'data-ad-client': 'ca-pub-3975819313740938', async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' }],
     ],
     locales: {
+        '/': {
+            lang: 'en',
+            title: 'Kangaroo',
+            description: 'SQL client and admin tool for popular databases',
+        },
         '/en/': {
             lang: 'en-US',
             title: 'Kangaroo',
@@ -41,6 +46,13 @@ module.exports = {
         search: true,
         searchMaxSuggestions: 10,
         locales: {
+            '/': {
+                label: 'Default',
+                selectText: 'Languages',
+                editLinkText: 'Edit this page on GitHub',
+                lastUpdated: 'Last Updated',
+                nav: require('./nav/en'),
+            },
             '/en/': {
                 label: 'English',
                 selectText: 'Languages',

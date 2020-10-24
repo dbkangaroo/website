@@ -1,9 +1,9 @@
 ---
 home: true
-lang: en-US
+lang: en
 heroImage: /kangaroo.png
 actionText: Download Kangaroo 2020(Beta 5)
-actionLink: /download/v1.0.5.201019
+actionLink: ./download/v1.0.5.201019
 # footer: 粤ICP备2020100158号 MIT Licensed Copyright © 2018-present taozuhong
 ---
 
@@ -61,14 +61,14 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 
 # Support the Project
 If you like Kangaroo and you want to support its development, you could __buy me a coffee__ or __scan QR code__ to donate via PayPal / Wechat / Alipay.<br/>
-[![./images/pay_wide.png](./images/buymeacoffee.png)](https://www.buymeacoffee.com/dbkangaroo) ![Support project](./images/pay_wide.png)
+[![./en/images/pay_wide.png](./en/images/buymeacoffee.png)](https://www.buymeacoffee.com/dbkangaroo) ![Support project](./en/images/pay_wide.png)
 
 
 # Screenshots
-![Start page of connection](./images/kangaroo-start.png)
-![Tools page of connection](./images/kangaroo-tools.png)
-![Kangaroo grid view in table with custom columns](./images/kangaroo-grid.png)
-![Kangaroo grid view in table with where statement](./images/kangaroo-grid2.png)
+![Start page of connection](./en/images/kangaroo-start.png)
+![Tools page of connection](./en/images/kangaroo-tools.png)
+![Kangaroo grid view in table with custom columns](./en/images/kangaroo-grid.png)
+![Kangaroo grid view in table with where statement](./en/images/kangaroo-grid2.png)
 
 <div>
     <ins class="adsbygoogle"
@@ -82,10 +82,10 @@ If you like Kangaroo and you want to support its development, you could __buy me
     </script2>
 </div>
 
-![Kangaroo grid view in form](./images/kangaroo-form.png)
-![Kangaroo query view](./images/kangaroo-query.png)
-![Kangaroo schema designer form](./images/kangaroo-designer.png)
-![Kangaroo schema designer form with preview](./images/kangaroo-designer2.png)
+![Kangaroo grid view in form](./en/images/kangaroo-form.png)
+![Kangaroo query view](./en/images/kangaroo-query.png)
+![Kangaroo schema designer form](./en/images/kangaroo-designer.png)
+![Kangaroo schema designer form with preview](./en/images/kangaroo-designer2.png)
 
 <div>
     <ins class="adsbygoogle"
@@ -99,9 +99,9 @@ If you like Kangaroo and you want to support its development, you could __buy me
     </script2>
 </div>
 
-![Kangaroo export assistant](./images/kangaroo-export.png)
-![Kangaroo import assistant](./images/kangaroo-import.png)
-![Kangaroo setting dialog with dark theme](./images/kangaroo-setting.png)
+![Kangaroo export assistant](./en/images/kangaroo-export.png)
+![Kangaroo import assistant](./en/images/kangaroo-import.png)
+![Kangaroo setting dialog with dark theme](./en/images/kangaroo-setting.png)
 
 <div class="footer">
     <a target="_blank" href="http://beian.miit.gov.cn/">粤ICP备2020100158号</a> Copyright © 2018-present taozuhong
