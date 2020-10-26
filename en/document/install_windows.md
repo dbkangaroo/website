@@ -4,6 +4,9 @@ lang: en-US
 ---
 
 ## Install Kangaroo via Official website
+::: tip
+Recommended installation method, support windows 7 and all above version(64 bit)
+:::
 
 ### Download Kangaroo
 Download the latest version of Kangaroo from [Download](../download), recommend **installer** for normal users.
