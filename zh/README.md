@@ -4,7 +4,6 @@ lang: zh-CN
 heroImage: /kangaroo.png
 actionText: 下载 袋鼠 2020(Beta 5)
 actionLink: /zh/download/v1.0.5.201019
-# footer: 粤ICP备2020100158号 MIT Licensed 版权所有 © 2018-present taozuhong
 ---
 
 <div class="features">
@@ -22,7 +21,7 @@ actionLink: /zh/download/v1.0.5.201019
   </div>
 </div>
 
-# 支持的数据库系统
+## 支持的数据库系统
 数据库支持能力级别: __已计划__ / __部分__ / __支持(:100:)__
 
 | 数据库       | 支持版本 | SQL 查询     | 数据编辑   | 表设计器  | 导出    | 导入    | 智能提示      | 模型化 | 数据同步 |
@@ -49,7 +48,7 @@ actionLink: /zh/download/v1.0.5.201019
 </div>
 
 
-# 版本发布
+## 版本发布
 开发版本按周发布，计划一周或两周发布一个, 稳定版本和长周期支持版本(LTS) 根据版本质量评估情况不定期发布。
 
 | 版本类型    | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
@@ -58,12 +57,12 @@ actionLink: /zh/download/v1.0.5.201019
 | 开发版本 | [v0.33.1.200817](./download/v0.33.1.200817) | [v0.33.1.200817](./download/v0.33.1.200817) | [v0.33.1.200817](./download/v0.33.1.200817) |
 
 
-# 支持和赞助项目
+## 支持和赞助项目
 如果您觉得袋鼠数据库工具有用且愿意支持它持续丰富功能，您可以通过如下方式支持和赞助项目（点击链接或扫码即可通过 PayPal / 微信支持 / 支付宝付款）.<br/>
 ![支持项目](./images/pay_wide.png) [![./images/pay_wide.png](./images/buymeacoffee.png)](https://www.buymeacoffee.com/dbkangaroo) 
 
 
-# 工具界面快照
+## 工具界面快照
 ![链接首页](./images/kangaroo-start.png)
 ![链接登录后页面](./images/kangaroo-tools.png)
 ![数据网格（自定义列）](./images/kangaroo-grid.png)

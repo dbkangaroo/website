@@ -4,7 +4,6 @@ lang: en
 heroImage: /kangaroo.png
 actionText: Download Kangaroo 2020(Beta 5)
 actionLink: ./download/v1.0.5.201019
-# footer: 粤ICP备2020100158号 MIT Licensed Copyright © 2018-present taozuhong
 ---
 
 <div class="features">
@@ -22,7 +21,7 @@ actionLink: ./download/v1.0.5.201019
   </div>
 </div>
 
-# Support database
+## Support database
 Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 
 | Database    | Version | Query     | Editing   | Designer  | Export    | Import    | Hint      | Modeling | DB Sync |
@@ -50,7 +49,7 @@ Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 </div>
 
 
-# Release
+## Release
 Development version will be released weekly, Stable and LTS(Long-term Support) version depend on test result and stabilization.
 
 | Platform    | Windows(64 bit)   | Linux(64 bit)     | MacOS(64 bit)   |
@@ -59,12 +58,12 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 | Development | [v0.33.1.200817](./download/v0.33.1.200817) | [v0.33.1.200817](./download/v0.33.1.200817) | [v0.33.1.200817](./download/v0.33.1.200817) |
 
 
-# Support the Project
+## Support the Project
 If you like Kangaroo and you want to support its development, you could __buy me a coffee__ or __scan QR code__ to donate via PayPal / Wechat / Alipay.<br/>
 [![./en/images/pay_wide.png](./en/images/buymeacoffee.png)](https://www.buymeacoffee.com/dbkangaroo) ![Support project](./en/images/pay_wide.png)
 
 
-# Screenshots
+## Screenshots
 ![Start page of connection](./en/images/kangaroo-start.png)
 ![Tools page of connection](./en/images/kangaroo-tools.png)
 ![Kangaroo grid view in table with custom columns](./en/images/kangaroo-grid.png)
