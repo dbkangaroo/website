@@ -5,7 +5,7 @@ lang: en-US
 
 # Kangaroo change timeline
 
-## [Kangaroo 2021(Developer preview 1)](/en/download/v1.3.1.201102)
+## [Kangaroo 2021(Preview 1)](/en/download/v1.3.1.201102)
 1. Implement hex editor (completed)
 2. Add data chart support(in progress)
 3. Add workspace tab ui support(in progress)

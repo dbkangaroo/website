@@ -1,5 +1,10 @@
 #Kangaroo change timeline
 
+##Kangaroo v1.3.1.201102
+1. Implement hex editor (completed)
+2. Add data chart support(in progress)
+3. Add workspace tab ui support(in progress)
+
 ##Kangaroo v1.0.5.201019
 1. Implement context menu for cell value
 2. Improve database null value support
