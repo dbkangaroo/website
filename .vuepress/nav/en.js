@@ -1,19 +1,19 @@
 module.exports = [
     {
         text: 'Download',
-        link: '/download/'
+        link: '/en/download/'
     }, {
         text: 'License',
-        link: '/document/license'
+        link: '/en/document/license'
     }, {
         text: 'Changelog',
-        link: '/document/changelog'
+        link: '/en/document/changelog'
     }, {
         text: 'Documents',
-        link: '/document/'
+        link: '/en/document/'
     }, {
         text: 'Blog',
-        link: '/blog/'
+        link: '/en/blog/'
     }, {
         text: 'Github',
         link: 'https://github.com/dbkangaroo/kangaroo'
