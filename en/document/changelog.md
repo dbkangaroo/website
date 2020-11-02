@@ -5,7 +5,12 @@ lang: en-US
 
 # Kangaroo change timeline
 
-## [Kangaroo 2020(Beta 5)](/download/v1.0.5.201019)
+## [Kangaroo 2021(Developer preview 1)](/en/download/v1.3.1.201102)
+1. Implement hex editor (completed)
+2. Add data chart support(in progress)
+3. Add workspace tab ui support(in progress)
+
+## [Kangaroo 2020(Beta 5)](/en/download/v1.0.5.201019)
 1. Implement context menu for cell value
 2. Improve database null value support
 3. Improve text view for cell value, support to detect charset and convert to UTF-8
@@ -26,13 +31,13 @@ lang: en-US
     </script2>
 </div>
 
-## [Kangaroo 2020(Beta 3)](/download/v0.99.3.200921)
+## [Kangaroo 2020(Beta 3)](/en/download/v0.99.3.200921)
 1. Refactor container and service module
 2. Improve the performance of content and query view
 3. Update datagrid toolbar icon
 4. Fixed: can't open mariadb database
 
-## [Kangaroo 2020(Beta 2)](/download/v0.99.2.200907)
+## [Kangaroo 2020(Beta 2)](/en/download/v0.99.2.200907)
 1. Improve Mac OS X installer and portable packages
 2. Improve tools page locale support
 3. Update Chinese(zh-CN/zh-TW/zh-HK/zh-SG)
@@ -40,7 +45,7 @@ lang: en-US
 5. Fixed: plugin caching sha2 password could not be loaded #64
 6. Fixed: console warning message
 
-## [Kangaroo 2020(Beta)](/download/v0.99.1.200824)
+## [Kangaroo 2020(Beta)](/en/download/v0.99.1.200824)
 1. Improve designer to notify user save change
 2. Improve message dialog to show title
 3. Improve preview tab to show change only
@@ -48,7 +53,7 @@ lang: en-US
 5. Improve windows installer to add license and language support
 6. Make kangaroo portable #59
 
-## [Kangaroo v0.33.1.200817](/download/v0.33.1.200817)
+## [Kangaroo v0.33.1.200817](/en/download/v0.33.1.200817)
 1. Update title bar and tab bar CSS style
 2. Improve date&time picker
 3. Improve date&time renderer
@@ -58,7 +63,7 @@ lang: en-US
 7. Update meson script to improve debug support
 8. Fixed: can't show animation image(.gif)
 
-## [Kangaroo v0.32.1.200810](/download/v0.32.1.200810)
+## [Kangaroo v0.32.1.200810](/en/download/v0.32.1.200810)
 1. Implement to generate W3C html document
 1. Implement to generate markdown document
 3. Update import/export icon image
@@ -75,7 +80,7 @@ lang: en-US
     </script2>
 </div>
 
-## [Kangaroo v0.31.1.200803](/download/v0.31.1.200803)
+## [Kangaroo v0.31.1.200803](/en/download/v0.31.1.200803)
 1. Implement BLOB content identity
 2. Implement SQLite BLOB column handle(import / export / set null)
 3. Implement MySQL BLOB column handle(import / export / set null)
@@ -83,19 +88,19 @@ lang: en-US
 5. Implement view BLOB data as string
 6. Apply tight style for find and replace box
 
-## [Kangaroo v0.30.1.200727](/download/v0.30.1.200727)
+## [Kangaroo v0.30.1.200727](/en/download/v0.30.1.200727)
 1. Add app relate plugin search path
 2. Add data viewer pane and button
 3. Implement text and image vierer
 4. Update button with flat style
 
-## [Kangaroo v0.29.1.200713](/download/v0.29.1.200713)
+## [Kangaroo v0.29.1.200713](/en/download/v0.29.1.200713)
 1. Implement plugin system
 2. Implement a example plugin
 3. Update ArchLinux and MacOSX installer
 4. Update protable package(more *nixable)
 
-## [Kangaroo v0.28.1.200629](/download/v0.28.1.200629)
+## [Kangaroo v0.28.1.200629](/en/download/v0.28.1.200629)
 1. Implement search and replace function
 2. Update Chinese translation
 
@@ -111,7 +116,7 @@ lang: en-US
     </script2>
 </div>
 
-## [Kangaroo v0.27.1.200622](/download/v0.27.1.200622)
+## [Kangaroo v0.27.1.200622](/en/download/v0.27.1.200622)
 1. Improve intellisense data for PostgreSQL
 2. Improve auto-completion style(icon/filter by input)
 3. Add function's call tip(highlighting/bold/auto location/data)
@@ -120,11 +125,11 @@ lang: en-US
 6. Update package name
 7. Update Chinese translation
 
-## [Kangaroo v0.26.1.200615](/download/v0.26.1.200615)
+## [Kangaroo v0.26.1.200615](/en/download/v0.26.1.200615)
 1. Add intellisense data support(SQLite/MySQL/PostgreSQL)
 2. Add auto completion for code view(v1)
 
-## [Kangaroo v0.25.1.200601](/download/v0.25.1.200601)
+## [Kangaroo v0.25.1.200601](/en/download/v0.25.1.200601)
 1. Add context menu for workspace notebook widget
 2. Add new query menu for object tree item(database/schema).
 3. Update Chinese translation(zh-CN/zh-TW/zh-HK/zh-SG).
@@ -137,7 +142,7 @@ lang: en-US
 11. Fixed: PostgreSQL: invalid schemas in database
 12. Fixed: display invalid while column name has underline(_)
 
-## [Kangaroo v0.24.1.200525](/download/v0.24.1.200525)
+## [Kangaroo v0.24.1.200525](/en/download/v0.24.1.200525)
 1. Add SQL Formatter to beautify and minify sql code.
 2. Add archlinux installer(based on HowardZorn's working).
 3. Add macos installer
@@ -154,7 +159,7 @@ lang: en-US
     </script2>
 </div>
 
-## [Kangaroo v0.23.1.200518](/download/v0.23.1.200518)
+## [Kangaroo v0.23.1.200518](/en/download/v0.23.1.200518)
 1. Improve date / datetime picker widget.
 2. Improve app title bar to add background image(color).
 3. Improve data grid column title.
@@ -166,7 +171,7 @@ lang: en-US
 9. Fixed: PostgreSQL: invalid object name in sql
 10. Fixed: invalid toolbar state while swtich to grid.
 
-## [Kangaroo v0.22.1.200511](/download/v0.22.1.200511)
+## [Kangaroo v0.22.1.200511](/en/download/v0.22.1.200511)
 1. Add Chinese(zh-CN/zh-TW/zh-HK/zh-SG) translation.
 2. SQLite: add file extension(.sqlite) for new database.
 3. Improve experience for designer / fresh / delete operation
@@ -177,14 +182,14 @@ lang: en-US
 8. Fixed: can't append row on the empty table
 9. Fixed: can't save appended row in live mode
 
-## [Kangaroo v0.21.1.200504](/download/v0.21.1.200504)
+## [Kangaroo v0.21.1.200504](/en/download/v0.21.1.200504)
 1. Refactor the entire datagrid to make great experience.
 2. Support 3 kind of mode: LIVE / CACHE / TRANSACTION
 3. Support copy and paste multi rows in data grid.
 4. Chnage mode automatically while paste multi rows.
 5. fixed: where statement error in query builder
 
-## [Kangaroo v0.20.1.200420](/download/v0.20.1.200420)
+## [Kangaroo v0.20.1.200420](/en/download/v0.20.1.200420)
 1. Implement copy function in the datagrid.
 2. refactor context menu of structure designer.
 3. Implement clone function for designer form.
@@ -207,7 +212,7 @@ lang: en-US
     </script2>
 </div>
 
-## [Kangaroo v0.19.1.200413](/download/v0.19.1.200413)
+## [Kangaroo v0.19.1.200413](/en/download/v0.19.1.200413)
 1. Implement copy object name menu on dbtree.
 2. Implement copy as SQL(Insert/Update/Delete) in the datagrid.
 3. Implement copy as TSV in the datagrid
@@ -221,7 +226,7 @@ lang: en-US
 11. fixed: warning message while column with empty value
 12. fixed: warning message while invalid calling(to_string)
 
-## [Kangaroo v0.18.1.200406](/download/v0.18.1.200406)
+## [Kangaroo v0.18.1.200406](/en/download/v0.18.1.200406)
 1. encrypt user password to keep user passwords safe.
 2. Implement insert, clone and delete functionality in the datagrid.
 3. Implement connection clone functionality in the start view
@@ -232,7 +237,7 @@ lang: en-US
 8. fixed: return key behavior invalid on the dbtree
 9. fixed: crashed while open table with null value
 
-## [Kangaroo v0.17.0.200323](/download/v0.17.0.200323)
+## [Kangaroo v0.17.0.200323](/en/download/v0.17.0.200323)
 1. Support connection over SSH tunnel (Windows, Linux/Unix and MacOS)
 2. Add testing support for connection dialog
 3. Refactor context menu of datagrid
@@ -241,7 +246,7 @@ lang: en-US
 6. Implement goto cell menu of datagrid
 7. Fixed: crashed while switching grid to form.
 
-## [Kangaroo v0.16.0.200316](/download/v0.16.0.200316)
+## [Kangaroo v0.16.0.200316](/en/download/v0.16.0.200316)
 1. Support SSH tunnel(Windows not yet pass test). 
 2. Support input page number to switch page
 3. Improve: update layout of switch widget on dialog
@@ -260,7 +265,7 @@ lang: en-US
     </script2>
 </div>
 
-## [Kangaroo v0.15.0.200302](/download/v0.15.0.200302)
+## [Kangaroo v0.15.0.200302](/en/download/v0.15.0.200302)
 1. Update and share openssl.vapi to keep user data safe. 
 2. Improve language support(kangaroo.pot, zh_Hans and zh_Hant)
 3. Improve home view's web resource load performance
@@ -268,14 +273,14 @@ lang: en-US
 5. Linux: change browser view to timeline text view
 6. Use combobox widget instead entry for log file size
 
-## [Kangaroo v0.14.0.200217](/download/v0.14.0.200217)
+## [Kangaroo v0.14.0.200217](/en/download/v0.14.0.200217)
 1. SQLite: support to create new database
 2. refactor database tree context menu
 3. integrated with openssl to keep user's password safe
 4. add pointer cursor for right panel icon
 5. fixed: update workbench default size while first run
 
-## [Kangaroo v0.13.0.200210](/download/v0.13.0.200210)
+## [Kangaroo v0.13.0.200210](/en/download/v0.13.0.200210)
 1. apply data grid style setting
 2. apply sql editor style setting
 3. windows 32bit version support
@@ -283,7 +288,7 @@ lang: en-US
 5. minor change for connection dialog UI
 6. fixed: tool's icon incorrect on release version
 
-## [Kangaroo v0.12.1.200120](/download/v0.12.1.200120)
+## [Kangaroo v0.12.1.200120](/en/download/v0.12.1.200120)
 1. add setting dialog
 2. add dark theme support
 3. bind connection dialog with new setting model
@@ -301,14 +306,14 @@ lang: en-US
     </script2>
 </div>
 
-## [Kangaroo v0.11.1.200113](/download/v0.11.1.200113)
+## [Kangaroo v0.11.1.200113](/en/download/v0.11.1.200113)
 1. redesign connection dialog to support SSH and SSL
 2. add donate icon on home page(Paypal/Wechat/Alipay)
 3. redesign configuration model and file(init --> json)
 4. Use symbolic icons in the Header Bar(#25)
 5. fixed: edit data in grid will update all rows
 
-## [Kangaroo v0.11.0.200106](/download/v0.11.0.200106)
+## [Kangaroo v0.11.0.200106](/en/download/v0.11.0.200106)
 1. add app home page
 2. reimplement DSV format engine
 3. improve DSV compatible with other tools.
@@ -319,13 +324,13 @@ lang: en-US
 8. fixed: can't save data while editting on data grid
 9. fixed: warning message about db tree
 
-## [Kangaroo v0.10.0.191223](/download/v0.10.0.191223)
+## [Kangaroo v0.10.0.191223](/en/download/v0.10.0.191223)
 1. add export assistant UI
 2. batch export table to file.
 3. support data formats(DSV/JSON/XML/HTML/Markdown/SQL)
 4. support title for column(rename)
 
-## [Kangaroo v0.9.5.191216](/download/v0.9.5.191216)
+## [Kangaroo v0.9.5.191216](/en/download/v0.9.5.191216)
 1. import data from DSV format
 2. import data from JSON format
 3. import data from XML format
@@ -345,16 +350,16 @@ lang: en-US
     </script2>
 </div>
 
-## [Kangaroo v0.9.4.191209](/download/v0.9.4.191209)
+## [Kangaroo v0.9.4.191209](/en/download/v0.9.4.191209)
 1. add import summary page
 2. add five kinds of import mode
 3. import csv format data to table
 4. fixed logo can't show on linux and macos platform
 
-## [Kangaroo v0.9.3.191202](/download/v0.9.3.191202)
+## [Kangaroo v0.9.3.191202](/en/download/v0.9.3.191202)
 1. implement column mapping function
 
-## [Kangaroo v0.9.2.191125](/download/v0.9.2.191125)
+## [Kangaroo v0.9.2.191125](/en/download/v0.9.2.191125)
 1. Import data from file(dsv/xml/json) #19
     - implement the import UI(format, encoding and preview)
     - implement the import UI(DSV format option)
@@ -363,7 +368,7 @@ lang: en-US
     - implement the import UI(process progress)
     - implement DSV format parse and preview
 
-## [Kangaroo v0.9.1.191118](/download/v0.9.1.191118)
+## [Kangaroo v0.9.1.191118](/en/download/v0.9.1.191118)
 1. Export data to file(dsv(csv/tsv/...)/xml/json/sql/md/html) #18
     - Export data to DSV format(CSV/TSV/...)
     - Export data to JSON format
@@ -373,7 +378,7 @@ lang: en-US
     - Export data to Markdown format
 2. Improve file filter of save dialog
 
-## [Kangaroo v0.9.0.191111](/download/v0.9.0.191111)
+## [Kangaroo v0.9.0.191111](/en/download/v0.9.0.191111)
 1. Edit table schema and save to database #5
 2. Export data to JSON and DSV format
 
@@ -389,24 +394,24 @@ lang: en-US
     </script2>
 </div>
 
-## [Kangaroo v0.8.5.191104](/download/v0.8.5.191104)
+## [Kangaroo v0.8.5.191104](/en/download/v0.8.5.191104)
 1. Edit table schema and save to database(SQLite and PostgreSQL preview) #5
 2. Add export data formats UI and interfaces
 3. Update tab's title while save the new table
 
-## [Kangaroo v0.8.4.191028](/download/v0.8.4.191028)
+## [Kangaroo v0.8.4.191028](/en/download/v0.8.4.191028)
 1. Rearrange db tree and UI #17
 2. Add refresh menu on db tree
 3. Implement multiple databases support
 4. Edit table schema and save to database(MySQL Preview) #5
 
-## [Kangaroo v0.8.3.191021](/download/v0.8.3.191021)
+## [Kangaroo v0.8.3.191021](/en/download/v0.8.3.191021)
 1.  新建连接时出现插件未加载错误 #12 <br/>
 Load plugin failed while create new connection #12
 2. Add MacOS compilation support #13
 3. refactor database model to improve interoperability
 
-## [Kangaroo v0.8.2.191014](/download/v0.8.2.191014)
+## [Kangaroo v0.8.2.191014](/en/download/v0.8.2.191014)
 1. improve: field selection dialog support to select fields by value(#9)
 2. improve: schema designer support to navigate with Tab key(#3)
 3. fixed: fields expression dialog reload value failed(#10)
@@ -426,7 +431,7 @@ Load plugin failed while create new connection #12
     </script2>
 </div>
 
-## [Kangaroo v0.8.1.190930](/download/v0.8.1.190930)
+## [Kangaroo v0.8.1.190930](/en/download/v0.8.1.190930)
 1. improve: generate exact correct editing sql
 2. refactor: add source code editor module
 3. improve SQLite schema sql builder
@@ -434,7 +439,7 @@ Load plugin failed while create new connection #12
 5. fixed: get string failed while create data row(console)
 6. fixed: console critical message while editing schema
 
-## [Kangaroo v0.8.0.190923](/download/v0.8.0.190923)
+## [Kangaroo v0.8.0.190923](/en/download/v0.8.0.190923)
 1. implement the builder of PostgreSQL(11.0)
 2. save table schema to database(create only)
 3. update build script: hide app console window
@@ -443,7 +448,7 @@ Load plugin failed while create new connection #12
 6. improve single line edit control(auto focus)
 7. update gui cursor while busy
 
-## [Kangaroo v0.7.2.190916](/download/v0.7.2.190916)
+## [Kangaroo v0.7.2.190916](/en/download/v0.7.2.190916)
 1. Implement loader of PostgreSQL 11(full version)
 2. Improve designer form of PostgreSQL 11
 3. refactor content of Kangaroo repo
