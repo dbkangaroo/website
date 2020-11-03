@@ -7,6 +7,9 @@ lang: zh-CN
 ## 许可证
 [袋鼠数据库工具许可证](license.md)
 
+## 功能特性
+[完整功能清单](feature-matrix.md)
+
 ## 发布更新记录
 [袋鼠数据库工具更新时间线](changelog.md)
 

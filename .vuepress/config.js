@@ -2,7 +2,7 @@ const extendsNetworks = {
     pinterest: {
       sharer: 'https://pinterest.com/pin/create/button/?url=@url&media=@media&description=@title',
       type: 'popup',
-      icon: '/pinterest.png',
+      icon: '/images/pinterest.png',
     },
     linkedin: {
       sharer: 'https://www.linkedin.com/shareArticle?mini=true&url=@url&title=@title&summary=@description',
@@ -38,7 +38,7 @@ module.exports = {
           }
     },
     themeConfig: {
-        logo: '/kangaroo_small.png',
+        logo: '/images/kangaroo.svg',
         // repo: 'dbkangaroo/kangaroo',
         docsRepo: 'dbkangaroo/dbkangaroo.github.io',
         docsBranch: 'dev',
@@ -198,14 +198,15 @@ function get_sidebar_documents()
     return [
         '',
         'license',
+        'feature-matrix',
         'changelog',
         'faq',
         'connection',
         'schema',
         'datagrid',
         'editor',
-        'install_windows',
-        'install_linux',
-        'install_macos',
+        'install-windows',
+        'install-linux',
+        'install-macos',
     ]
 }

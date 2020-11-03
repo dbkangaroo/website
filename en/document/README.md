@@ -7,6 +7,9 @@ lang: en-US
 ## License
 [Kangaroo's license](license.md)
 
+## Features
+[Feature matrix](feature-matrix.md)
+
 ## Change timeline
 [Kangaroo's change timeline](changelog.md)
 

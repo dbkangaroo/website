@@ -6,8 +6,8 @@ module.exports = [
         text: 'License',
         link: '/en/document/license'
     }, {
-        text: 'Changelog',
-        link: '/en/document/changelog'
+        text: 'Features',
+        link: '/en/document/feature-matrix'
     }, {
         text: 'Documents',
         link: '/en/document/'

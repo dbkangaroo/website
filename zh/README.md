@@ -1,7 +1,7 @@
 ---
 home: true
 lang: zh-CN
-heroImage: /kangaroo.png
+heroImage: /images/kangaroo.svg
 actionText: 下载 袋鼠 2020(Beta 5)
 actionLink: /zh/download/v1.0.5.201019
 ---

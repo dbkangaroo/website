@@ -1,7 +1,7 @@
 ---
 home: true
 lang: en
-heroImage: /kangaroo.png
+heroImage: /images/kangaroo.svg
 actionText: Download Kangaroo 2020(Beta 5)
 actionLink: ./en/download/v1.0.5.201019
 ---
