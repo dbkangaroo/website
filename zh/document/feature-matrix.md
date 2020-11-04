@@ -1,495 +1,495 @@
 ---
-title: 完整功能列表
+title: 功能列表
 lang: zh-CN
 ---
 
-# 完整功能列表
+# 功能列表
 <div>
     <table>
         <tbody>
             <tr>
                 <td>&nbsp;</td>
-                <td>Kangaroo v2020</td>
-                <td style="border-top: 5px solid #734f96; border-left: 5px solid #734f96; border-right: 5px solid #734f96;">Kangaroo v2021</td>
+                <td>袋鼠 v2020</td>
+                <td style="border-top: 5px solid #734f96; border-left: 5px solid #734f96; border-right: 5px solid #734f96;">袋鼠 v2021</td>
             </tr>
             <!--section-->
             <tr style="background-color: #67C23A;">
-                <td><b>General</b></td>
+                <td><b>数据库系统</b></td>
                 <td></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <tr>
-                <td>MySQL 3.21 or later</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>MySQL 3.21 或以上</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>MariaDB 5.1 or later</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>MariaDB 5.1 或以上</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
-                <td>MongoDB 3.0 or later</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>MongoDB 3.0 或以上</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Oracle 8.1 or later ( macOS Edition starts from Oracle 9i )</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>Oracle 8.1 或以上 ( macOS Edition starts from Oracle 9i )</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <tr>
-                <td>PostgreSQL 7.3 or later</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>PostgreSQL 7.3 或以上</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>SQLite 2 and 3</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
-                <td>SQL Server 2000 or later</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>SQL Server 2000 或以上</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Amazon RDS, Amazon Aurora, Amazon Redshift, Microsoft Azure, Oracle Cloud, Google Cloud, Alibaba Cloud, Tencent Cloud, MongoDB Atlas, Huawei Cloud</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>Amazon RDS、Amazon Aurora、Amazon Redshift、Microsoft Azure、Oracle Cloud、Google Cloud、阿里云、腾讯云、 MongoDB Atlas、华为云</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <!--section-->
             <!--section-->
             <tr style="background-color: #67C23A;">
-                <td><b>Connection</b></td>
+                <td><b>连接</b></td>
                 <td></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <tr>
-                <td>Secure connection: SSH/HTTP/SSL</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>安全连接: SSH/HTTP/SSL</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
-                <td>PAM and GSSAPI authentication</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>PAM 和 GSSAPI 验证</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Kerberos and LDAP authentication</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>Kerberos 和 LDAP 验证</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>x.509 certificate authentication</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>x.509 证书验证</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->              
             <tr>
-                <td>Export/import connection settings</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>导出或导入连接设置</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--section-->
             <!--tr style="background-color: #67C23A;">
-                <td><b>Cloud support</b></td>
+                <td><b>云端支持</b></td>
                 <td></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <tr>
-                <td>Collaboration: create projects, add members</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>协同合作：创建项目、添加成员</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Synchronize connections and queries</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>同步连接和查询</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Synchronize models and virtual groups</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>同步模型和虚拟组</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <!--section-->
             <!--section-->
             <tr style="background-color: #67C23A;">
-                <td><b>Data Viewer and Editor</b></td>
+                <td><b>数据查看器和编辑器</b></td>
                 <td></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <tr>
-                <td>Grid view</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>网格视图</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Form view</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>表单视图</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Foreign key data selection</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>图表视图</td>
+                <td style="text-align: center;"><img src=""></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Generate cell value</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>地图视图</td>
+                <td style="text-align: center;"><img src=""></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Text, Hex, Image, Web viewer/editor</td>
-                <td><img src=""></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>自动生成单元值</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Raw mode editing</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>文本、图片查看和编辑</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>二进制、网页查看和编辑</td>
+                <td style="text-align: center;"><img src=""></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>原始数据模式编辑</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
                 <td>Data Validation</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <tr>
-                <td>Customize data type colorings</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>自定义数据类型颜色</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>              
             <!--tr>
                 <td>Find and replace</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <tr>
-                <td>Filter records</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>筛选记录</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--section-->
             <!--section-->
             <tr style="background-color: #67C23A;">
-                <td><b>SQL/Script Processing</b></td>
+                <td><b>SQL 或脚本处理</b></td>
                 <td></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <!--tr>
                 <td>PL/SQL and PL/PGSQL Debugger</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <tr>
-                <td>SQL/Script Editor</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>SQL 或脚本编辑器</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>SQL keyword auto-completion</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>SQL 关键字自动完成</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>User schema auto-completion</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>用户数据自动完成</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>可视化 SQL 或脚本创建工具</td>
+                <td style="text-align: center;"><img src=""></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
-                <td>Visual SQL/Script Builder</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>查找创建工具</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Find Builder</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
-            </tr>
-            <tr>
-                <td>Aggregate Builder</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>聚合创建工具</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>              
             <tr>
-                <td>Code Snippet and Completion</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>代码段和自动完成代码</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <tr>
-                <td>SQL/Script Beautifier and Minifier</td>
-                <td><img src=""></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>SQL 代码或脚本美化或简化</td>
+                <td style="text-align: center;"><img src=""></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Find and replace</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>查找和替换</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
-                <td>Create parameter queries</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>创建参数查询</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <tr>
-                <td>Open query files in an external editor</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>在外部编辑器中打开查询文件</td>
+                <td style="text-align: center;"><img src=""></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
-                <td>Console</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>控制台界面</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <!--section-->
             <!--section-->
             <!--tr style="background-color: #67C23A;">
-                <td><b>Data Visualization</b></td>
+                <td><b>数据可视化</b></td>
                 <td></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <tr>
-                <td>Support 20 chart types</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>支持多种图表类型</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Visualize live data</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
-            </tr>
-            <tr>
-                <td>Customize multiple pages dashboard</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
-            </tr>
-            <tr>
-                <td>Add interactive controls</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>可视化实时数据</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <!--section-->
             <!--section-->
             <!--tr style="background-color: #67C23A;">
-                <td><b>Data Modeling</b></td>
+                <td><b>数据模型</b></td>
                 <td></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <tr>
-                <td>Conceptual, Logical and Physical model</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>概念、逻辑和物理模型</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Reverse/forward engineering</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>逆向或正向工程</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Auto layout</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>自动布局</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Add vertices, layers, images, notes, labels and shapes</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>添加顶点、层、图像、笔记、标签和形状</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Print database diagrams to PDF and graphic files</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>打印数据库图表到 PDF 和图形文件</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <!--section-->
             <!--section-->
             <tr style="background-color: #67C23A;">
-                <td><b>Import/Export</b></td>
+                <td><b>导入或导出</b></td>
                 <td></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <tr>
-                <td>Import from file formats: TXT, CSV, XML, JSON</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>从文件导入数据: TXT, CSV, XML, JSON</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Export to file formats: TXT, CSV, XML, JSON</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>导出数据为文件: TXT, CSV, XML, JSON</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
-                <td>Import/export data from/to most popular formats: DBF etc</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>导入或导出数据 - 最普及的格式：DBF 等</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Import data from ODBC, MS Excel, MS Access</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>从 ODBC、MS Excel、MS Access 导入数据</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Export data to MS Excel</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>导出数据到 MS Excel</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <tr>
-                <td>Export data to Markdown, HTML</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>导出数据到格式：Markdown、HTML</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Generate design document(Markdown, HTML)</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>生成设计文档: Markdown、HTML</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
-                <td>Export data to MS Access (Windows Edition only)</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>导出数据到 MS Access （仅限 Windows 版）</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>MongoImport and MongoExport</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>MongoImport 和 MongoExport</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->              
             <!--section-->
             <!--section-->
             <!--tr style="background-color: #67C23A;">
-                <td><b>Data Manipulation</b></td>
+                <td><b>数据操作</b></td>
                 <td></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <tr>
-                <td>Data Transfer (Same or cross server type)</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>数据传输 （同服或跨服）</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Data/Structure Synchronization</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>数据或结构同步</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <!--section-->
             <!--section-->
             <!--tr style="background-color: #67C23A;">
-                <td><b>Backup/Restore</b></td>
+                <td><b>备份或还原</b></td>
                 <td></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <tr>
-                <td>Backup/restore MySQL/MariaDB/PostgreSQL/SQLite database</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>备份或还原 MySQL、MariaDB、PostgreSQL 或 SQLite 数据库</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Convert backup file into SQL script</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>转换备份文件为 SQL 脚本</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>MongoDump and MongoRestore</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>MongoDump 和 MongoRestore</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>              
             <tr>
-                <td>Oracle Data Pump</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>Oracle 数据泵</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>SQL Server Backup/Restore</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>SQL Server 备份或还原</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Dump/Execute SQL file</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>转储或运行 SQL 或脚本文件</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <!--section-->
             <!--section-->
             <!--tr style="background-color: #67C23A;">
-                <td><b>Automation</b></td>
+                <td><b>自动运行</b></td>
                 <td></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <tr>
-                <td>Set schedule on backup, MongoDump, MongoImport, MongoExport, MapReduce, query execution, import/export, data transfer and data synchronization</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>设置计划备份、MongoDump、MongoImport、MongoExport、MapReduce、查询运行、导入、导出、数据传输和数据同步</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Run profiles from different servers in a single batch job</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>在单一批处理作业运行不同服务器的配置文件</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Include attachment for export file in notification email</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>在通知电子邮件中附加导出文件</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <!--section-->
             <!--section-->
             <!--tr style="background-color: #67C23A;">
-                <td><b>Server Security</b></td>
+                <td><b>服务器安全性</b></td>
                 <td></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <tr>
-                <td>Manage user</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>用户管理</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Server Monitor</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>服务器监控</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <!--section-->
             <!--section-->
             <tr style="background-color: #67C23A;">
-                <td><b>Other Useful Features</b></td>
+                <td><b>其他实用功能</b></td>
                 <td></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <!--tr>
-                <td>Schema Analysis</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>模式分析</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>              
             <tr>
-                <td>ER Diagram view</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>ER 图表视图</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Virtual grouping</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>虚拟组</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Customize connection colorings</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>自定义连接颜色</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Database wide search</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>数据库范围搜索</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Favorites list</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>收藏夹列表</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Print database/schema/table structure</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>打印数据库、模式或表结构</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <tr>
-                <td>Dark mode</td>
-                <td><img src="/images/icon-check.svg"></td>
-                <td style="border-bottom: 5px solid #734f96; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+                <td>深色模式</td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center; border-bottom: 5px solid #734f96; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--section-->
         </tbody>
