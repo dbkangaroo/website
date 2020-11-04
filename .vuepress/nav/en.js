@@ -1,15 +1,18 @@
 module.exports = [
     {
+        text: 'Features',
+        link: '/en/document/feature-matrix'
+    }, {
         text: 'Download',
         link: '/en/download/'
     }, {
         text: 'License',
         link: '/en/document/license'
     }, {
-        text: 'Features',
-        link: '/en/document/feature-matrix'
+        text: 'News',
+        link: '/en/document/changelog'
     }, {
-        text: 'Documents',
+        text: 'Guide',
         link: '/en/document/'
     }, {
         text: 'Blog',
