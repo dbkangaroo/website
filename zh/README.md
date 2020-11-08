@@ -2,8 +2,8 @@
 home: true
 lang: zh-CN
 heroImage: /images/kangaroo.svg
-actionText: 下载 袋鼠 2020(Beta 5)
-actionLink: /zh/download/v1.0.5.201019
+actionText: 下载 袋鼠 2020(Beta 6)
+actionLink: /zh/download/v1.0.6.201109
 ---
 
 <div class="features">
@@ -53,7 +53,7 @@ actionLink: /zh/download/v1.0.5.201019
 
 | 版本类型    | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |-------------|-------------------|-------------------|-----------------|
-| 稳定版本 | [袋鼠 2020(Beta 5)](./download/v1.0.5.201019) | [袋鼠 2020(Beta 5)](./download/v1.0.5.201019) | [袋鼠 2020(Beta 5)](./download/v1.0.5.201019) |
+| 稳定版本 | [袋鼠 2020(Beta 6)](./download/v1.0.6.201109) | [袋鼠 2020(Beta 6)](./download/v1.0.6.201109) | [袋鼠 2020(Beta 6)](./download/v1.0.6.201109) |
 | 开发版本 | [袋鼠 2021(Preview 1)](./download/v1.3.1.201102) | [袋鼠 2021(Preview 1)](./download/v1.3.1.201102) | [袋鼠 2021(Preview 1)](./download/v1.3.1.201102) |
 
 

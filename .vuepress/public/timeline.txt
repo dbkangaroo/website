@@ -1,5 +1,8 @@
 #Kangaroo change timeline
 
+##Kangaroo v1.0.6.201109
+1. Update domain to www.datatable.online
+
 ##Kangaroo v1.3.1.201102
 1. Implement hex editor (completed)
 2. Add data chart support(in progress)

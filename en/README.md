@@ -2,8 +2,8 @@
 home: true
 lang: en-US
 heroImage: /images/kangaroo.svg
-actionText: Download Kangaroo 2020(Beta 5)
-actionLink: /download/v1.0.5.201019
+actionText: Download Kangaroo 2020(Beta 6)
+actionLink: /download/v1.0.6.201109
 ---
 
 <div class="features">
@@ -54,7 +54,7 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 
 | Platform    | Windows(64 bit)   | Linux(64 bit)     | MacOS(64 bit)   |
 |-------------|-------------------|-------------------|-----------------|
-| Stable      | [Kangaroo 2020(Beta 5)](./download/v1.0.5.201019) | [Kangaroo 2020(Beta 5)](./download/v1.0.5.201019) | [Kangaroo 2020(Beta 5)](./download/v1.0.5.201019) |
+| Stable      | [Kangaroo 2020(Beta 6)](./download/v1.0.6.201109) | [Kangaroo 2020(Beta 6)](./download/v1.0.6.201109) | [Kangaroo 2020(Beta 6)](./download/v1.0.6.201109) |
 | Development | [Kangaroo 2021(Preview 1)](./download/v1.3.1.201102) | [Kangaroo 2021(Preview 1)](./download/v1.3.1.201102) | [Kangaroo 2021(Preview 1)](./download/v1.3.1.201102) |
 
 

@@ -5,6 +5,9 @@ lang: en-US
 
 # Kangaroo change timeline
 
+## [Kangaroo 2020(Beta 6)](/en/download/v1.0.6.201109)
+1. Update domain to www.datatable.online
+
 ## [Kangaroo 2021(Preview 1)](/en/download/v1.3.1.201102)
 1. Implement hex editor (completed)
 2. Add data chart support(in progress)
