@@ -15,7 +15,7 @@ const extendsNetworks = {
 module.exports = {
     base: '/',
     head: [
-        ['link', { rel: 'icon', href: '/kangaroo_small.png' }],
+        ['link', { rel: 'icon', href: '/images/kangaroo.svg' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'keywords', content: 'database,sql,dangaroo,kangaroodb,dbkangaroo,mysql,mariadb,sqlite,postgresql,redis,袋鼠,蓝色袋鼠,袋鼠数据库,数据库袋鼠,袋鼠数据库管理工具,袋鼠数据库工具,袋鼠数据库客户端' }],
         ['script', { 'data-ad-client': 'ca-pub-3975819313740938', async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' }],
@@ -117,7 +117,7 @@ module.exports = {
             }
         }],
         ['sitemap', {
-            hostname: 'https://datatable.online'
+            hostname: 'https://www.datatable.online'
         }],
         ['vuepress-plugin-redirect', {
             locales: true,
