@@ -3,6 +3,10 @@ title: Download
 lang: en-US
 ---
 
+# Download Kangaroo
+For all users, recommend to download the latest stable version, if you are developers and master GTK technology stack, you could download the latest developer version and experience the new features.
+
+
 ## Stable version
 Stable and LTS(Long-term Support) version depend on test result and stabilization. <br/>
 <span style="font-weight:bold;color:red;">【Notice】: only the latest versions available for download.</span>

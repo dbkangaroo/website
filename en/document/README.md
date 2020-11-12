@@ -4,6 +4,8 @@ lang: en-US
 ---
 
 # Documents for Kangaroo
+Here is the center of documents, could find documents you need, if could not found, please submit your request in the repo's issue, we will improve and add new documents as soon as possible. 
+
 ## License
 [Kangaroo's license](license.md)
 
