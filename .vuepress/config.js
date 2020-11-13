@@ -24,17 +24,17 @@ module.exports = {
         '/': {
             lang: 'en',
             title: 'Kangaroo',
-            description: 'SQL client and admin tool for popular databases',
+            description: 'SQL client and admin tool for popular databases. focus on great experience and complete modeling, query, analysis, deployment, report, and automation quickly.',
         },
         '/en/': {
             lang: 'en-US',
             title: 'Kangaroo',
-            description: 'SQL client and admin tool for popular databases',
+            description: 'SQL client and admin tool for popular databases. focus on great experience and complete modeling, query, analysis, deployment, report, and automation quickly.',
         },
         '/zh/': {
             lang: 'zh-CN',
             title: '袋鼠数据库工具',
-            description: '为热门数据库系统打造的 SQL 客户端和管理工具'
+            description: '为热门数据库系统打造的 SQL 客户端和管理工具，专注于卓越的用户体验和快捷高效的完成建模、查询、分析、部署、报表和自动化等工作'
           }
     },
     themeConfig: {
