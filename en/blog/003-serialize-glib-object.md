@@ -39,6 +39,7 @@ let us list a checklist to check which library is better for our problem:
 | GLib.HastTable | [ ] Unsupported       | [ ] Unsupported       | container type        |
 
 <div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"

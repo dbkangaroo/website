@@ -38,6 +38,7 @@ To deploy GTK based app, the app must follow the directory structure like linux:
 ```
 
 <div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
