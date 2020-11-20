@@ -1,7 +1,9 @@
 ---
 home: true
 lang: zh-CN
+heroText: 袋鼠数据库工具
 heroImage: /images/kangaroo.svg
+tagline: 为热门数据库系统打造的 SQL 客户端和管理工具
 actionText: 下载 袋鼠 2020(Beta 6)
 actionLink: /zh/download/v1.0.6.201109
 ---

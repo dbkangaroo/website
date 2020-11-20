@@ -1,7 +1,9 @@
 ---
 home: true
 lang: en-US
+heroText: Kangaroo
 heroImage: /images/kangaroo.svg
+tagline: SQL client and admin tool for popular databases
 actionText: Download Kangaroo 2020(Beta 6)
 actionLink: /download/v1.0.6.201109
 ---
