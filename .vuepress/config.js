@@ -79,8 +79,14 @@ module.exports = {
         }
     },
     plugins: [
+        ['@vuepress/back-to-top'],
         [ '@vuepress/google-analytics', {
             'ga': 'UA-149848419-1'
+        }],
+        ['@vuepress/last-updated', {
+            transformer: timestamp => {
+              return new Date(timestamp).toISOString()
+            }
         }],
         ['@vssue/vuepress-plugin-vssue', {
             platform: 'github',
@@ -110,11 +116,6 @@ module.exports = {
                 },
             },
         ],
-        ['@vuepress/last-updated', {
-            transformer: timestamp => {
-              return new Date(timestamp).toISOString()
-            }
-        }],
         ['sitemap', {
             hostname: 'https://www.datatable.online'
         }],

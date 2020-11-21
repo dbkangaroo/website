@@ -106,5 +106,6 @@ If you like Kangaroo and you want to support its development, you could __buy me
 ![Kangaroo setting dialog with dark theme](./en/images/kangaroo-setting.png)
 
 <div class="footer">
-    <a target="_blank" href="http://beian.miit.gov.cn/">粤ICP备2020100158号</a> Copyright © 2018-present taozuhong
+    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030602005092"><img src="/images/beian.png"/>粤公网安备 44030602005092号</a>
+    <a target="_blank" href="http://beian.miit.gov.cn/" style="margin: 0px 10px 0px 10px;">粤ICP备2020100158号</a> Copyright © 2018-present taozuhong
 </div>
