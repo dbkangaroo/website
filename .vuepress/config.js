@@ -59,9 +59,9 @@ module.exports = {
                 lastUpdated: 'Last Updated',
                 nav: require('./nav/en'),
                 sidebar: {
-                    '/en/blog/': get_sidebar_blogs(),
-                    '/en/document/': get_sidebar_documents(),
-                    '/en/download/': get_sidebar_versions(),
+                    '/en/blog/': require('./nav/blogs'),
+                    '/en/document/': require('./nav/docs'),
+                    '/en/download/': require('./nav/versions'),
                 }
             },
             '/zh/': {
@@ -71,9 +71,9 @@ module.exports = {
                 lastUpdated: '上次更新',
                 nav: require('./nav/zh'),
                 sidebar: {
-                    '/zh/blog/': get_sidebar_blogs(),
-                    '/zh/document/': get_sidebar_documents(),
-                    '/zh/download/': get_sidebar_versions(),
+                    '/zh/blog/': require('./nav/blogs'),
+                    '/zh/document/': require('./nav/docs'),
+                    '/zh/download/': require('./nav/versions'),
                 }
             },
         }
@@ -129,85 +129,5 @@ module.exports = {
     extraWatchFiles: [
         '.vuepress/nav/en.js',
         '.vuepress/nav/zh.js'
-    ]
-}
-
-function get_sidebar_versions()
-{
-    return [
-        '',
-        'v1.0.6.201109',
-        'v1.3.1.201102',
-        'v1.0.5.201019',
-        'v0.99.3.200921',
-        'v0.99.2.200907',
-        'v0.99.1.200824',
-        'v0.33.1.200817',
-        'v0.32.1.200810',
-        'v0.31.1.200803',
-        'v0.30.1.200727',
-        'v0.29.1.200713',
-        'v0.28.1.200629',
-        'v0.27.1.200622',
-        'v0.26.1.200615',
-        'v0.25.1.200601',
-        'v0.24.1.200525',
-        'v0.23.1.200518',
-        'v0.22.1.200511',
-        'v0.21.1.200504',
-        'v0.20.1.200420',
-        'v0.19.1.200413',
-        'v0.18.1.200406',
-        'v0.17.0.200323',
-        'v0.16.0.200316',
-        'v0.15.0.200302',
-        'v0.14.0.200217',
-        'v0.13.0.200210',
-        'v0.12.1.200120',
-        'v0.11.1.200113',
-        'v0.11.0.200106',
-        'v0.10.0.191223',
-        'v0.9.5.191216',
-        'v0.9.4.191209',
-        'v0.9.3.191202',
-        'v0.9.2.191125',
-        'v0.9.1.191118',
-        'v0.9.0.191111',
-        'v0.8.5.191104',
-        'v0.8.4.191028',
-        'v0.8.3.191021',
-        'v0.8.2.191014',
-        'v0.8.1.190930',
-        'v0.8.0.190923',
-        'v0.7.2.190916',
-    ]
-}
-
-function get_sidebar_blogs()
-{
-    return [
-        '',
-        '004-how-to-deploy-gtk-app-on-mac',
-        '003-serialize-glib-object',
-        '002-how-to-deploy-gtk-app-on-windows',
-        '001-why-choose-vala',
-    ]
-}
-
-function get_sidebar_documents()
-{
-    return [
-        '',
-        'license',
-        'feature-matrix',
-        'changelog',
-        'faq',
-        'connection',
-        'schema',
-        'datagrid',
-        'editor',
-        'install-windows',
-        'install-linux',
-        'install-macos',
     ]
 }

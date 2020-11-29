@@ -5,6 +5,10 @@ lang: zh-CN
 
 # 袋鼠数据库工具 版本更新记录
 
+## [袋鼠数据库工具 2020(Beta 7)](/zh/download/v1.0.7.201130)
+1. 数据网格中非标准类型排序未支持(Decimal/DateTime/Date/Time/Timestamp)
+2. 导出表结构时提示：No Database selected #61
+
 ## [袋鼠数据库工具 2020(Beta 6)](/zh/download/v1.0.6.201109)
 1. 更新域名为 www.datatable.online
 
