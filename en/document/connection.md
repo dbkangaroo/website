@@ -3,6 +3,8 @@ title: Connection management
 lang: en-US
 ---
 
+# Connection management
+
 ## Connection limitations
 The connection have some limitations as follow:
 - connection with SSL not yet support.
