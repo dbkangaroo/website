@@ -60,11 +60,6 @@ actionLink: /zh/download/v1.0.6.201109
 | 开发版本 | [袋鼠 2021(Preview 2)](./download/v1.5.1.201231) | [袋鼠 2021(Preview 2)](./download/v1.5.1.201231) | [袋鼠 2021(Preview 2)](./download/v1.5.1.201231) |
 
 
-## 支持和赞助项目
-如果您觉得袋鼠数据库工具有用且愿意支持它持续丰富功能，您可以通过如下方式支持和赞助项目（点击链接或扫码即可通过 PayPal / 微信支持 / 支付宝付款）.<br/>
-![支持项目](./images/pay_wide.png) [![./images/pay_wide.png](./images/buymeacoffee.png)](https://www.buymeacoffee.com/dbkangaroo) 
-
-
 ## 工具界面快照
 ![链接首页](./images/kangaroo-start.png)
 ![链接登录后页面](./images/kangaroo-tools.png)

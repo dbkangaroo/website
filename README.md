@@ -61,11 +61,6 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 | Development | [Kangaroo 2021(Preview 2)](./en/download/v1.5.1.201231) | [Kangaroo 2021(Preview 2)](./en/download/v1.5.1.201231) | [Kangaroo 2021(Preview 2)](./en/download/v1.5.1.201231) |
 
 
-## Support the Project
-If you like Kangaroo and you want to support its development, you could __buy me a coffee__ or __scan QR code__ to donate via PayPal / Wechat / Alipay.<br/>
-[![./en/images/pay_wide.png](./en/images/buymeacoffee.png)](https://www.buymeacoffee.com/dbkangaroo) ![Support project](./en/images/pay_wide.png)
-
-
 ## Screenshots
 ![Start page of connection](./en/images/kangaroo-start.png)
 ![Tools page of connection](./en/images/kangaroo-tools.png)
