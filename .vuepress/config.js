@@ -59,9 +59,9 @@ module.exports = {
                 lastUpdated: 'Last Updated',
                 nav: require('./nav/en'),
                 sidebar: {
-                    '/en/blog/': require('./nav/blogs'),
-                    '/en/document/': require('./nav/docs'),
-                    '/en/download/': require('./nav/versions'),
+                    '/en/blog/': require('./markdown/blogs'),
+                    '/en/document/': require('./markdown/docs'),
+                    '/en/download/': require('./markdown/versions'),
                 }
             },
             '/zh/': {
@@ -71,9 +71,9 @@ module.exports = {
                 lastUpdated: '上次更新',
                 nav: require('./nav/zh'),
                 sidebar: {
-                    '/zh/blog/': require('./nav/blogs'),
-                    '/zh/document/': require('./nav/docs'),
-                    '/zh/download/': require('./nav/versions'),
+                    '/zh/blog/': require('./markdown/blogs'),
+                    '/zh/document/': require('./markdown/docs'),
+                    '/zh/download/': require('./markdown/versions'),
                 }
             },
         }

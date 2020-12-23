@@ -5,9 +5,11 @@ lang: en-US
 
 # Kangaroo change timeline
 
-## [Kangaroo 2020(Beta 7)](/en/download/v1.0.7.201130)
-1. 数据网格中非标准类型排序未支持(Decimal/DateTime/Date/Time/Timestamp)
-2. 导出表结构时提示：No Database selected #61
+## [Kangaroo 2021(Preview 2)](/en/download/v1.5.1.201231)
+1. Implement hex editor support (completed)
+2. Add workspace tab UI support (completed)
+3. Add data chart support (in progress)
+4. Add database modeling support (in progress)
 
 ## [Kangaroo 2020(Beta 6)](/en/download/v1.0.6.201109)
 1. Update domain to www.datatable.online
