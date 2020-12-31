@@ -55,6 +55,7 @@ json-glib-1.0
 libsoup-2.4 >= 2.64
 libssh2 >= 1.8
 libxml-2.0 >= 2.9
+libhandy-1 >= 1.1
 openssl >= 1.1.0
 libpeas-1.0 >= 1.20.0
 libpeas-gtk-1.0 >= 1.20.0

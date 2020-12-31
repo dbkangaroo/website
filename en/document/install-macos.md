@@ -3,6 +3,8 @@ title: Install on MacOS
 lang: en-US
 ---
 
+# Install on MacOS
+
 ## Need your help
 DBKangaroo is not ready on MacOS yet, because libgda 5.2.9 providers(MySQL / PostgreSQL / JDBC) are still missing, and crashed while exeuting the SQL.
 

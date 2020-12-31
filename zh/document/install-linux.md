@@ -3,6 +3,8 @@ title: Linux 平台安装
 lang: zh-CN
 ---
 
+# Linux 平台安装
+
 ## 下载 袋鼠数据库工具
 点击链接下载最新版的袋鼠数据库工具 [下载](../download)
 

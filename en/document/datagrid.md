@@ -3,6 +3,8 @@ title: Data grid in content view
 lang: en-US
 ---
 
+# Data grid in content view
+
 ## Show the top builder pane
 ![Datagrid Builder](../images/kangaroo-grid-builder.png)
 click __SQL builder tools__ icon in the lower left corner of workspace, then __Builder__ pane will show on the top

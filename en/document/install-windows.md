@@ -3,6 +3,8 @@ title: Install on Windows
 lang: en-US
 ---
 
+# Install on Windows
+
 ## Install Kangaroo via Official website
 ::: tip
 Recommended installation method, support windows 7 and all above version(64 bit)

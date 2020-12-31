@@ -3,6 +3,8 @@ title: Install on Linux
 lang: en-US
 ---
 
+# Install on Linux
+
 ## Download Kangaroo
 
 Download the latest version of Kangaroo from [Download](../download).

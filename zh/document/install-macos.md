@@ -3,6 +3,8 @@ title: MacOS 平台安装
 lang: zh-CN
 ---
 
+# MacOS 平台安装
+
 ## 需要您的帮助
 MacOS 版袋鼠数据库工具还未准备好，因为依赖库 libgda 5.2.9 的提供程序缺失的原因导致(MySQL / PostgreSQL / JDBC), 在执行 SQL 时也会奔溃......
 

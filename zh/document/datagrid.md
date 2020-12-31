@@ -3,6 +3,8 @@ title: 数据编辑器
 lang: zh-CN
 ---
 
+# 数据编辑器
+
 ## 显示顶部的SQL构建面板
 ![Datagrid Builder](../images/kangaroo-grid-builder.png)
 点击视图底部工具栏的 __SQL构建工具__ 图标, 可显示或隐藏 __SQL构建__ 面板，如图所示。

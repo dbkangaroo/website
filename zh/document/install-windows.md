@@ -3,6 +3,8 @@ title: Windows 平台安装
 lang: zh-CN
 ---
 
+# Windows 平台安装
+
 ## 通过官网下载安装
 ::: tip
 推荐安装方式，支持 Windows 7 / Windows 10 以上版本(x64)
