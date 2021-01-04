@@ -1,8 +1,9 @@
 ---
-title: License
+title: Kangaroo Services Agreement
 lang: en-US
 ---
 
+# Kangaroo Services Agreement
 Copyright (c) 2020 ZUHONG TAO
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of

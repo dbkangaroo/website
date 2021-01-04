@@ -1,8 +1,9 @@
 ---
-title: 许可证
+title: 袋鼠服务协议
 lang: zh-CN
 ---
 
+# 袋鼠服务协议
 Copyright (c) 2020 ZUHONG TAO
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
