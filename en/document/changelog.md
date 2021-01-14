@@ -5,6 +5,14 @@ lang: en-US
 
 # Kangaroo change timeline
 
+## [Kangaroo 2021(Preview 3)](/en/download/v1.6.1.210131)
+1. Implement hex editor support (completed)
+2. Add workspace tab UI support (completed)
+3. Add independent history support(completed)
+4. Add shortcut customeize support(completed)
+5. Add data chart support (in progress)
+6. Add database model support (in progress)
+
 ## [Kangaroo 2021(Preview 2)](/en/download/v1.5.1.201231)
 1. Implement hex editor support (completed)
 2. Add workspace tab UI support (completed)

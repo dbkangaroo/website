@@ -50,14 +50,14 @@ module.exports = {
                 selectText: 'Languages',
                 editLinkText: 'Edit this page on GitHub',
                 lastUpdated: 'Last Updated',
-                nav: require('./nav/en'),
+                nav: require('./navigation/en'),
             },
             '/en/': {
                 label: 'English',
                 selectText: 'Languages',
                 editLinkText: 'Edit this page on GitHub',
                 lastUpdated: 'Last Updated',
-                nav: require('./nav/en'),
+                nav: require('./navigation/en'),
                 sidebar: {
                     '/en/blog/': require('./markdown/blogs'),
                     '/en/document/': require('./markdown/docs'),
@@ -69,7 +69,7 @@ module.exports = {
                 selectText: '选择语言',
                 editLinkText: '在 GitHub 上编辑此页',
                 lastUpdated: '上次更新',
-                nav: require('./nav/zh'),
+                nav: require('./navigation/zh'),
                 sidebar: {
                     '/zh/blog/': require('./markdown/blogs'),
                     '/zh/document/': require('./markdown/docs'),
@@ -127,7 +127,7 @@ module.exports = {
         ['vuepress-plugin-baidu-autopush'],
     ],
     extraWatchFiles: [
-        '.vuepress/nav/en.js',
-        '.vuepress/nav/zh.js'
+        '.vuepress/navigation/en.js',
+        '.vuepress/navigation/zh.js'
     ]
 }
