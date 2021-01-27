@@ -1,14 +1,14 @@
 module.exports = [
     '',
+    'install-windows',
+    'install-linux',
+    'install-macos',
     'license',
     'feature-matrix',
     'changelog',
-    'faq',
     'connection',
     'schema',
     'datagrid',
     'editor',
-    'install-windows',
-    'install-linux',
-    'install-macos',
+    'faq',
 ]
