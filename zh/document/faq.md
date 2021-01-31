@@ -27,16 +27,24 @@ lang: zh-CN
 您可以按如下步骤对安装包进行校验：
 1. 下载 SHA256 哈希值文件和签名文件(SHA256SUM and SHA256SUM.asc)
 2. 获取签名用的公匙<br/>
-签名用公匙ID: 702F717E0A17659D (当前有效，生成于 2020)<br/>
-签名用公匙: 33E5119C5781C1B37E56E580702F717E0A17659D <br/>
-`gpg --keyserver hkp://hkps.pool.sks-keyservers.net --receive-keys 702F717E0A17659D`
+    __1.6.1 及更新版本适用__<br/>
+    签名用公匙ID: 8C0C55F7DEC8FC52 (当前有效, 生成于 2021)<br/>
+    签名用公匙: E4F02524471B195CCEFBD7158C0C55F7DEC8FC52 <br/>
+
+    __1.6.1 以前的版本适用__<br/>
+    签名用公匙ID: 702F717E0A17659D (已归档, 生成于 2020)<br/>
+    签名用公匙: 33E5119C5781C1B37E56E580702F717E0A17659D <br/>
+
+    `gpg --keyserver hkp://hkps.pool.sks-keyservers.net --receive-keys 8C0C55F7DEC8FC52`
+
 3. 校验哈希值文件签名<br/>
-`gpg --verify kangaroo-0.32.1.sha256sum.asc`
+`gpg --verify kangaroo-1.6.1.210131.sha256sum.asc`
+
 4. 校验安装包文件哈希值<br/>
 在安装包下载目录内执行命令行获得安装包文件哈希：<br/>
-`sha256sum kangaroo-0.32.1.<else>` <br/>
+`sha256sum kangaroo-1.6.1.<else>` <br/>
 然后在 SHA256SUM 文件内搜索是否存在相同的哈希：<br/>
-`grep <sha256sum output> kangaroo-0.32.1.sha256sum`
+`grep <sha256sum output> kangaroo-1.6.1.sha256sum`
 
 
 ## 技术支持

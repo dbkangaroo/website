@@ -1,5 +1,14 @@
 #Kangaroo change timeline
 
+##Kangaroo v1.6.1.210131
+1. Implement hex editor support (completed)
+2. Add workspace tab UI support (completed)
+3. Add independent history support(completed)
+4. Add shortcut customeize support(completed)
+5. Add data chart support (in progress)
+6. Add database model support (in progress)
+7. Drag and drop SQLite file on the app to open it #76
+
 ##Kangaroo v1.5.1.201231
 1. Implement hex editor support (completed)
 2. Add workspace tab UI support (completed)

@@ -57,7 +57,7 @@ actionLink: /zh/download/v1.6.1.210131
 | 版本类型    | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |-------------|-------------------|-------------------|-----------------|
 | 稳定版本 | [袋鼠 2020(Beta 6)](./download/v1.0.6.201109) | [袋鼠 2020(Beta 6)](./download/v1.0.6.201109) | [袋鼠 2020(Beta 6)](./download/v1.0.6.201109) |
-| 开发版本 | [袋鼠 2021(Preview 2)](./download/v1.6.1.210131) | [袋鼠 2021(Preview 2)](./download/v1.6.1.210131) | [袋鼠 2021(Preview 2)](./download/v1.6.1.210131) |
+| 开发版本 | [袋鼠 2021(Preview 3)](./download/v1.6.1.210131) | [袋鼠 2021(Preview 3)](./download/v1.6.1.210131) | [袋鼠 2021(Preview 3)](./download/v1.6.1.210131) |
 
 
 ## 工具界面快照
