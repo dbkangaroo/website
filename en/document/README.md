@@ -19,9 +19,6 @@ Kangaroo has full function support on MacOS:<br/>
 ## Features
 [Feature matrix](feature-matrix.md)
 
-## License
-[Kangaroo's license](license.md)
-
 ## Change timeline
 [Kangaroo's change timeline](changelog.md)
 

@@ -7,18 +7,12 @@ module.exports = [
         link: '/en/download/'
     }, {
         text: 'License',
-        link: '/en/document/license'
-    }, {
-        text: 'News',
-        link: '/en/document/changelog'
+        link: '/en/license/'
     }, {
         text: 'Guide',
         link: '/en/document/'
     }, {
         text: 'Blog',
         link: '/en/blog/'
-    }, {
-        text: 'Github',
-        link: 'https://github.com/dbkangaroo/kangaroo'
     },
 ]

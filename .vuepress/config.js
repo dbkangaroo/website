@@ -62,6 +62,7 @@ module.exports = {
                     '/en/blog/': require('./markdown/blogs'),
                     '/en/document/': require('./markdown/docs'),
                     '/en/download/': require('./markdown/versions'),
+                    '/en/license/': require('./markdown/license'),
                 }
             },
             '/zh/': {
@@ -74,6 +75,7 @@ module.exports = {
                     '/zh/blog/': require('./markdown/blogs'),
                     '/zh/document/': require('./markdown/docs'),
                     '/zh/download/': require('./markdown/versions'),
+                    '/zh/license/': require('./markdown/license'),
                 }
             },
         }
@@ -121,6 +123,10 @@ module.exports = {
         }],
         ['vuepress-plugin-redirect', {
             locales: true,
+        }],
+        ['qrcode',{
+            labelText:'扫码分享',
+            size:'small'
         }],
         ['flowchart'],
         ['vuepress-plugin-zooming'],
