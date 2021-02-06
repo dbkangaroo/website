@@ -9,5 +9,6 @@ module.exports = [
     'schema',
     'datagrid',
     'editor',
+    'sqlite',
     'faq',
 ]

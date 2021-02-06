@@ -34,6 +34,9 @@ MacOS 版本袋鼠数据库工具具有完整的功能支持，安装体验正�
 ## 查询分析器
 [SQL 编辑查询视图](editor.md)
 
+## SQLite 特色功能
+[SQLite 特色功能](sqlite.md)
+
 ## 常用问题列表
 [常用问题列表](faq.md)
 

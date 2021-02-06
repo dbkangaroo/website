@@ -34,6 +34,9 @@ Kangaroo has full function support on MacOS:<br/>
 ## SQL programming
 [Editing sql in code view](editor.md)
 
+## SQLite support
+[SQLite support](sqlite.md)
+
 ## Frequently Asked Questions
 [General frequently asked questions](faq.md)
 
