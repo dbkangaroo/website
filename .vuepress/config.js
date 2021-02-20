@@ -124,9 +124,14 @@ module.exports = {
         ['vuepress-plugin-redirect', {
             locales: true,
         }],
-        ['qrcode',{
-            labelText:'扫码分享',
-            size:'small'
+        ['qrcode', {
+            labelText: {
+                '/': 'QRCode',
+                '/en/': 'QRCode',
+                '/zh/': '扫码阅读',
+            },
+            size: 'small',
+            channel: true,
         }],
         ['flowchart'],
         ['vuepress-plugin-zooming'],
