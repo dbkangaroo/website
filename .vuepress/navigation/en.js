@@ -7,7 +7,7 @@ module.exports = [
         link: '/en/download/'
     }, {
         text: 'License',
-        link: '/en/license/'
+        link: '/en/license/license'
     }, {
         text: 'Guide',
         link: '/en/document/'
