@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 VERSION=1.0.0
+REBUILD="SKIP"
 
 function version {
 	echo "v${VERSION}"
@@ -8,7 +9,7 @@ function version {
 
 while :; do
   case $1 in
-    -S | --skip )    BUILD_WEB="SKIP";;
+    -B | --build )   unset REBUILD;;
     -V | --version ) version;;
     -- )             shift; break ;;
     * )              break ;;
@@ -20,7 +21,7 @@ done
 set -e
 
 # build
-if [ -z ${BUILD_WEB+nil} ]; then
+if [ -z ${REBUILD+nil} ]; then
 	npm run build
 fi
 
@@ -28,4 +29,4 @@ fi
 cd .vuepress/dist
 
 # start http server
-http-server . --ssl --cert ../cert.pem --key ../key.pem
+http-server . --ssl --port 443 --cert ../cert.pem --key ../key.pem
