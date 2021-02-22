@@ -14,23 +14,23 @@
         }
     },
     "advertise": {
-        "interval": 300,
+        "interval": 120,
         "ads": [
             {
                 "id": "0",
                 "type": "image",
                 "locale": "zh-CN",
                 "tooltip": "袋鼠数据库工具官方网站",
-                "show": "https://www.datatable.online/cases/ads-sample.png",
-                "url": "https://www.datatable.online/zh/"
+                "showcase": "https://www.datatable.online/cases/ads-sample.svg",
+                "location": "https://www.datatable.online/zh/"
             },
             {
                 "id": "0",
                 "type": "html",
                 "locale": "zh-CN",
                 "tooltip": "袋鼠数据库工具官方网站",
-                "show": "https://www.datatable.online/zh/",
-                "url": ""
+                "showcase": "https://www.datatable.online/zh/",
+                "location": ""
             }
         ]
     }
