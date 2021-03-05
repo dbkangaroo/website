@@ -42,6 +42,7 @@ Development version will be released weekly, talent be changed daily, keep your 
 
 | Release date | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |--------------|-------------------|-----------------|-----------------|
+| 2021-03-31   | [v2021(Preview 4)](./v1.7.1.210331) | [v2021(Preview 4)](./v1.7.1.210331) | [v2021(Preview 4)](./v1.7.1.210331) |
 | 2021-01-31   | [v2021(Preview 3)](./v1.6.1.210131) | [v2021(Preview 3)](./v1.6.1.210131) | [v2021(Preview 3)](./v1.6.1.210131) |
 | 2020-12-31   | [v2021(Preview 2)](./v1.5.1.201231) | [v2021(Preview 2)](./v1.5.1.201231) | [v2021(Preview 2)](./v1.5.1.201231) |
 | 2020-11-02   | [v2021(Preview 1)](./v1.3.1.201102) | [v2021(Preview 1)](./v1.3.1.201102) | [v2021(Preview 1)](./v1.3.1.201102) |

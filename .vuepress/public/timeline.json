@@ -1,37 +1,64 @@
 {
-    "version": {
-        "stable": {
-            "version": "1.0.6",
-            "build": "201109",
-            "url": "https://www.datatable.online/zh/download/v1.0.6.201109.html",
-            "force": false
+    "advertise": [
+        {
+            "id": 0,
+            "group": "image",
+            "locale": "zh",
+            "datetime": "2021-02-24T18:35:50.000Z",
+            "title": "袋鼠数据库工具官方网站",
+            "tooltip": "袋鼠数据库工具官方网站",
+            "showcase": "https://www.datatable.online/cases/ads-sample.gif",
+            "location": "https://www.datatable.online/zh/"
         },
-        "devel": {
-            "version": "1.6.1",
-            "build": "210131",
-            "url": "https://www.datatable.online/zh/download/v1.6.1.210131.html",
+        {
+            "id": 0,
+            "group": "image",
+            "locale": "en",
+            "datetime": "2021-02-24T18:35:50.000Z",
+            "title": "袋鼠数据库工具官方网站",
+            "tooltip": "袋鼠数据库工具官方网站",
+            "showcase": "https://www.datatable.online/cases/ads-laugh.gif",
+            "location": "https://www.datatable.online/en/"
+        }
+    ],
+    "broadcast": [
+        {
+            "id": 0,
+            "group": "hyperlink",
+            "locale": "zh",
+            "datetime": "2021-02-25T18:35:50.000Z",
+            "title": "袋鼠数据库工具官方网站",
+            "tooltip": "袋鼠数据库工具官方网站",
+            "showcase": "官方网站已更新，敬请关注",
+            "location": "https://www.datatable.online/zh/"
+        }, {
+            "id": 0,
+            "group": "dialog",
+            "locale": "en",
+            "datetime": "2021-02-24T18:35:50.000Z",
+            "title": "Kangaroo official website",
+            "tooltip": "Kangaroo official website",
+            "showcase": "Official website has been updated, welcome to visit.",
+            "location": "https://www.datatable.online/en/"
+        }
+    ],
+    "version": [
+        {
+            "group": "stable",
+            "version": "1.0.6.201109",
+            "datetime": "2021-02-24T18:35:50.000Z",
+            "windows": "https://d4.injdk.cn/dbkangaroo/v1.0.6.201109/kangaroo-1.0.6.201109-AMD64.exe",
+            "darwin": "https://d4.injdk.cn/dbkangaroo/v1.0.6.201109/kangaroo-1.0.6.201109-macos.dmg",
+            "linux": "https://d4.injdk.cn/dbkangaroo/v1.0.6.201109/kangaroo-1.0.6.201109-ubuntu.tar.gz",
+            "force": false
+        }, {
+            "group": "devel",
+            "version": "1.6.1.210131",
+            "datetime": "2021-02-24T18:35:50.000Z",
+            "windows": "https://d4.injdk.cn/dbkangaroo/v1.6.1.210131/kangaroo-1.6.1.210131-AMD64.exe",
+            "darwin": "https://d4.injdk.cn/dbkangaroo/v1.6.1.210131/kangaroo-1.6.1.210131-macos.dmg",
+            "linux": "https://d4.injdk.cn/dbkangaroo/v1.6.1.210131/kangaroo-1.6.1.210131-ubuntu.tar.gz",
             "force": false
         }
-    },
-    "advertise": {
-        "interval": 120,
-        "ads": [
-            {
-                "id": "0",
-                "type": "image",
-                "locale": "zh-CN",
-                "tooltip": "袋鼠数据库工具官方网站",
-                "showcase": "https://www.datatable.online/cases/ads-sample.svg",
-                "location": "https://www.datatable.online/zh/"
-            },
-            {
-                "id": "0",
-                "type": "html",
-                "locale": "zh-CN",
-                "tooltip": "袋鼠数据库工具官方网站",
-                "showcase": "https://www.datatable.online/zh/",
-                "location": ""
-            }
-        ]
-    }
+    ]
 }
