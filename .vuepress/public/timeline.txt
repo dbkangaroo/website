@@ -14,10 +14,13 @@
 8. Refactor app home page to improve experience
 9. Copy data as LUA table
 10. improve object tree experience
-11. Fixed: Access denied: you need the SUPER privilege(s) for this operation
-12. Backup and restore workspace layout
-13. Add more language support
-14. Improve log support(add database and connection name)
+11. Backup and restore workspace layout
+12. Add more language support
+13. Improve log support(add database and connection name)
+14. File monitor support for sql script file
+15. Fixed: Access denied: you need the SUPER privilege(s) for this operation
+16. Fixed: close tab view after deleted the database object.
+17. Fixed: update tab view after renamed the database object.
 
 ##Kangaroo v1.6.1.210131
 1. Implement hex editor support (completed)

@@ -64,20 +64,20 @@
     ],
     "version": [
         {
+            "group": "devel",
+            "version": "1.7.1.210331",
+            "datetime": "2021-02-24T18:35:50.000Z",
+            "windows": "https://d4.injdk.cn/dbkangaroo/v1.7.1.210331/kangaroo-1.7.1.210331-AMD64.exe",
+            "darwin": "https://d4.injdk.cn/dbkangaroo/v1.7.1.210331/kangaroo-1.7.1.210331-macos.dmg",
+            "linux": "https://d4.injdk.cn/dbkangaroo/v1.7.1.210331/kangaroo-1.7.1.210331-ubuntu.tar.gz",
+            "force": false
+        }, {
             "group": "stable",
             "version": "1.0.6.201109",
             "datetime": "2021-02-24T18:35:50.000Z",
             "windows": "https://d4.injdk.cn/dbkangaroo/v1.0.6.201109/kangaroo-1.0.6.201109-AMD64.exe",
             "darwin": "https://d4.injdk.cn/dbkangaroo/v1.0.6.201109/kangaroo-1.0.6.201109-macos.dmg",
             "linux": "https://d4.injdk.cn/dbkangaroo/v1.0.6.201109/kangaroo-1.0.6.201109-ubuntu.tar.gz",
-            "force": false
-        }, {
-            "group": "devel",
-            "version": "1.6.1.210131",
-            "datetime": "2021-02-24T18:35:50.000Z",
-            "windows": "https://d4.injdk.cn/dbkangaroo/v1.6.1.210131/kangaroo-1.6.1.210131-AMD64.exe",
-            "darwin": "https://d4.injdk.cn/dbkangaroo/v1.6.1.210131/kangaroo-1.6.1.210131-macos.dmg",
-            "linux": "https://d4.injdk.cn/dbkangaroo/v1.6.1.210131/kangaroo-1.6.1.210131-ubuntu.tar.gz",
             "force": false
         }
     ]
