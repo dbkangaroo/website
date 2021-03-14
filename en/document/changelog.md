@@ -5,6 +5,29 @@ lang: en-US
 
 # Kangaroo change timeline
 
+## [Kangaroo 2021(Preview 4)](/en/download/v1.7.1.210331)
+1. Implement hex editor support (completed)
+2. Add workspace tab UI support (completed)
+3. Add independent history support(completed)
+4. Add shortcut customize support(completed)
+5. Add data chart support (in progress)
+6. Add database model support (in progress)
+   - Add load and save model support
+   - Add node copy and paste support
+   - Add multi-selection support
+7. Drag and drop SQLite file on the workspace to open it #76
+8. Refactor app home page to improve experience
+9. Copy data as LUA table
+10. improve object tree experience
+11. Backup and restore workspace layout
+12. Add more language support
+13. Improve log support(add database and connection name)
+14. File monitor support for sql script file
+15. refactor content view to show feature lbar
+16. Fixed: Access denied: you need the SUPER privilege(s) for this operation
+17. Fixed: close tab view after deleted the database object.
+18. Fixed: update tab view after renamed the database object.
+
 ## [Kangaroo 2021(Preview 3)](/en/download/v1.6.1.210131)
 1. Implement hex editor support (completed)
 2. Add workspace tab UI support (completed)
