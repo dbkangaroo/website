@@ -23,10 +23,11 @@ lang: zh-CN
 12. 增加更多语言支持
 13. 改进日志支持（日志消息中增加数据库名和连接名）
 14. 增加SQL脚本文件监测支持
-15. 重构数据表视图，用于显示特性工具栏
-16. 修复: Access denied: you need the SUPER privilege(s) for this operation
-17. 修复: 删除对象后同步关闭其打开的视图
-18. 修复: 重命名对象后同步更新打开的视图
+15. 重构数据表视图支持显示特性工具栏
+16. 重构对象树视图支持直接显示全部数据表
+17. 修复: Access denied: you need the SUPER privilege(s) for this operation
+18. 修复: 删除对象后同步关闭其打开的视图
+19. 修复: 重命名对象后同步更新打开的视图
 
 ## [袋鼠数据库工具 2021(Preview 3)](/zh/download/v1.6.1.210131)
 1. 实现十六进制编辑器支持 (已完成)

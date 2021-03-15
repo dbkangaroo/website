@@ -23,10 +23,11 @@ lang: en-US
 12. Add more language support
 13. Improve log support(add database and connection name)
 14. File monitor support for sql script file
-15. refactor content view to show feature lbar
-16. Fixed: Access denied: you need the SUPER privilege(s) for this operation
-17. Fixed: close tab view after deleted the database object.
-18. Fixed: update tab view after renamed the database object.
+15. refactor content view to show feature bar
+16. refactor object tree to show database's tables directly
+17. Fixed: Access denied: you need the SUPER privilege(s) for this operation
+18. Fixed: close tab view after deleted the database object.
+19. Fixed: update tab view after renamed the database object.
 
 ## [Kangaroo 2021(Preview 3)](/en/download/v1.6.1.210131)
 1. Implement hex editor support (completed)
