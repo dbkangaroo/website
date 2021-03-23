@@ -19,10 +19,15 @@
 13. Improve log support(add database and connection name)
 14. File monitor support for sql script file
 15. refactor content view to show feature bar
-16. refactor object tree to show database's tables directly
-17. Fixed: Access denied: you need the SUPER privilege(s) for this operation
-18. Fixed: close tab view after deleted the database object.
-19. Fixed: update tab view after renamed the database object.
+16. all data tables are displayed by default    
+17. refactor object panel to improve UI experience
+18. Add shortcut dialog for search and setup;
+19. Improve app title bar style, more fun now.
+20. Add shell notification support
+21. Fixed: Access denied: you need the SUPER privilege(s) for this operation
+22. Fixed: close tab view after deleted the database object.
+23. Fixed: update tab view after renamed the database object.
+24. Fixed: can't get system name on MacOS platform
 
 ##Kangaroo v1.6.1.210131
 1. Implement hex editor support (completed)
