@@ -4,7 +4,7 @@ lang: en-US
 ---
 
 # Kangaroo user services agreement
-Copyright (c) 2020 ZUHONG TAO
+Copyright (c) 2020 taozuhong
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software(Binary version, not include source code) and associated documentation files (the "Software"), 

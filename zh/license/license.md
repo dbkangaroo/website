@@ -4,7 +4,7 @@ lang: zh-CN
 ---
 
 # 袋鼠用户服务协议
-Copyright (c) 2020 ZUHONG TAO
+Copyright (c) 2020 taozuhong
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software(Binary version, not include source code) and associated documentation files (the "Software"), 

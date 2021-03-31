@@ -22,7 +22,7 @@
 16. all data tables are displayed by default    
 17. refactor object panel to improve UI experience
 18. Add shortcut dialog for search and setup;
-19. Improve app title bar style, more fun now.
+19. Improve app title bar style, add color and image support.
 20. Add shell notification support
 21. Add confirm dialog while closing pages
 22. Refactor tool bar with GtkToolbar widget

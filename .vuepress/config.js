@@ -114,7 +114,7 @@ module.exports = {
                 disabled: true,
                 authorName: {
                     'zh-CN': ' 陶祖洪 ',
-                    'en-US': 'TAOZUHONG',
+                    'en-US': 'taozuhong',
                 },
             },
         ],
