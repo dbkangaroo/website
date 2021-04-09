@@ -25,6 +25,7 @@ Stable and LTS(Long-term Support) version depend on test result and stabilizatio
 | 2020-05-04   | [v0.21.1.200504](./v0.21.1.200504) | [v0.21.1.200504](./v0.21.1.200504) | [v0.21.1.200504](./v0.21.1.200504) |
 
 <div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"

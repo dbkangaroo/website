@@ -36,6 +36,18 @@ lang: en-US
 25. Fixed: update tab view after renamed the database object.
 26. Fixed: can't get system name on MacOS platform
 
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [Kangaroo 2021(Preview 3)](/en/download/v1.6.1.210131)
 1. Implement hex editor support (completed)
 2. Add workspace tab UI support (completed)
@@ -522,3 +534,16 @@ Load plugin failed while create new connection #12
 2. add connection manager
 3. show database structure tree in data panel
 4. show data in tree view
+
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>

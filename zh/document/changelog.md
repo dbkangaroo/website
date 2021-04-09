@@ -36,6 +36,17 @@ lang: zh-CN
 25. 修复: 重命名对象后同步更新打开的视图
 26. 修复：苹果系统无法获得系统名称的错误
 
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
 
 ## [袋鼠数据库工具 2021(Preview 3)](/zh/download/v1.6.1.210131)
 1. 实现十六进制编辑器支持 (已完成)
@@ -524,3 +535,16 @@ lang: zh-CN
 2. 增加连接管理模块
 3. 实现加载并显示数据库对象树
 4. 实现打开并显示表数据
+
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
