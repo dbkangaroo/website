@@ -4,7 +4,7 @@ lang: zh-CN
 heroText: 袋鼠数据库工具
 heroImage: /images/kangaroo.svg
 tagline: 为热门数据库系统打造的 SQL 客户端和管理工具
-actionText: 下载 袋鼠 2021(Preview 4)
+actionText: 下载 袋鼠 v1.7.1.210331
 actionLink: /zh/download/v1.7.1.210331
 ---
 
@@ -56,8 +56,8 @@ actionLink: /zh/download/v1.7.1.210331
 
 | 版本类型    | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |-------------|-------------------|-------------------|-----------------|
-| 稳定版本 | [袋鼠 2020(Beta 6)](./download/v1.0.6.201109) | [袋鼠 2020(Beta 6)](./download/v1.0.6.201109) | [袋鼠 2020(Beta 6)](./download/v1.0.6.201109) |
-| 开发版本 | [袋鼠 2021(Preview 4)](./download/v1.7.1.210331) | [袋鼠 2021(Preview 4)](./download/v1.7.1.210331) | [袋鼠 2021(Preview 4)](./download/v1.7.1.210331) |
+| 稳定版本 | [Kangaroo v1.0.6.201109](./download/v1.0.6.201109) | [Kangaroo v1.0.6.201109](./download/v1.0.6.201109) | [Kangaroo v1.0.6.201109](./download/v1.0.6.201109) |
+| 开发版本 | [Kangaroo v1.7.1.210331](./download/v1.7.1.210331) | [Kangaroo v1.7.1.210331](./download/v1.7.1.210331) | [Kangaroo v1.7.1.210331](./download/v1.7.1.210331) |
 
 
 ## 工具界面快照

@@ -5,7 +5,7 @@ lang: en-US
 
 # Kangaroo change timeline
 
-## [Kangaroo 2021(Preview 4)](/en/download/v1.7.1.210331)
+## [Kangaroo v1.7.1.210331](/en/download/v1.7.1.210331)
 1. Implement hex editor support (completed)
 2. Add workspace tab UI support (completed)
 3. Add independent history support(completed)
@@ -48,7 +48,7 @@ lang: en-US
     </script2>
 </div>
 
-## [Kangaroo 2021(Preview 3)](/en/download/v1.6.1.210131)
+## [Kangaroo v1.6.1.210131](/en/download/v1.6.1.210131)
 1. Implement hex editor support (completed)
 2. Add workspace tab UI support (completed)
 3. Add independent history support(completed)
@@ -56,21 +56,21 @@ lang: en-US
 5. Add data chart support (in progress)
 6. Add database model support (in progress)
 
-## [Kangaroo 2021(Preview 2)](/en/download/v1.5.1.201231)
+## [Kangaroo v1.5.1.201231](/en/download/v1.5.1.201231)
 1. Implement hex editor support (completed)
 2. Add workspace tab UI support (completed)
 3. Add data chart support (in progress)
 4. Add database modeling support (in progress)
 
-## [Kangaroo 2020(Beta 6)](/en/download/v1.0.6.201109)
+## [Kangaroo v1.0.6.201109](/en/download/v1.0.6.201109)
 1. Update domain to www.datatable.online
 
-## [Kangaroo 2021(Preview 1)](/en/download/v1.3.1.201102)
+## [Kangaroo v1.3.1.201102](/en/download/v1.3.1.201102)
 1. Implement hex editor (completed)
 2. Add data chart support(in progress)
 3. Add workspace tab ui support(in progress)
 
-## [Kangaroo 2020(Beta 5)](/en/download/v1.0.5.201019)
+## [Kangaroo v1.0.5.201019](/en/download/v1.0.5.201019)
 1. Implement context menu for cell value
 2. Improve database null value support
 3. Improve text view for cell value, support to detect charset and convert to UTF-8
@@ -91,13 +91,13 @@ lang: en-US
     </script2>
 </div>
 
-## [Kangaroo 2020(Beta 3)](/en/download/v0.99.3.200921)
+## [Kangaroo v0.99.3.200921](/en/download/v0.99.3.200921)
 1. Refactor container and service module
 2. Improve the performance of content and query view
 3. Update datagrid toolbar icon
 4. Fixed: can't open mariadb database
 
-## [Kangaroo 2020(Beta 2)](/en/download/v0.99.2.200907)
+## [Kangaroo v0.99.2.200907)](/en/download/v0.99.2.200907)
 1. Improve Mac OS X installer and portable packages
 2. Improve tools page locale support
 3. Update Chinese(zh-CN/zh-TW/zh-HK/zh-SG)
@@ -105,7 +105,7 @@ lang: en-US
 5. Fixed: plugin caching sha2 password could not be loaded #64
 6. Fixed: console warning message
 
-## [Kangaroo 2020(Beta)](/en/download/v0.99.1.200824)
+## [Kangaroo v0.99.1.200824](/en/download/v0.99.1.200824)
 1. Improve designer to notify user save change
 2. Improve message dialog to show title
 3. Improve preview tab to show change only
