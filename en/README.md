@@ -4,8 +4,8 @@ lang: en-US
 heroText: Kangaroo
 heroImage: /images/kangaroo.svg
 tagline: SQL client and admin tool for popular databases
-actionText: Download Kangaroo v1.7.1.210331
-actionLink: /download/v1.7.1.210331
+actionText: Download Kangaroo v1.8.1.210430
+actionLink: /download/v1.8.1.210430
 ---
 
 <div class="features">
@@ -58,7 +58,7 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 | Platform    | Windows(64 bit)   | Linux(64 bit)     | MacOS(64 bit)   |
 |-------------|-------------------|-------------------|-----------------|
 | Stable      | [Kangaroo v1.0.6.201109](./download/v1.0.6.201109) | [Kangaroo v1.0.6.201109](./download/v1.0.6.201109) | [Kangaroo v1.0.6.201109](./download/v1.0.6.201109) |
-| Development | [Kangaroo v1.7.1.210331](./download/v1.7.1.210331) | [Kangaroo v1.7.1.210331](./download/v1.7.1.210331) | [Kangaroo v1.7.1.210331](./download/v1.7.1.210331) |
+| Development | [Kangaroo v1.8.1.210430](./download/v1.8.1.210430) | [Kangaroo v1.8.1.210430](./download/v1.8.1.210430) | [Kangaroo v1.8.1.210430](./download/v1.8.1.210430) |
 
 
 ## Screenshots
@@ -99,6 +99,7 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 ![Kangaroo export assistant](./images/kangaroo-export.png)
 ![Kangaroo import assistant](./images/kangaroo-import.png)
 ![Kangaroo setting dialog with dark theme](./images/kangaroo-setting.png)
+![Kangaroo shortcut setting dialog](./images/kangaroo-shortcut.png)
 
 <div class="footer">
     <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030602005092"><img src="/images/beian.png" alt="粤公网安备44030602005092号" />粤公网安备44030602005092号</a>

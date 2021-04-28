@@ -9,8 +9,7 @@ For all users, recommend to download the latest stable version, if you are devel
 
 ## Stable version
 Stable and LTS(Long-term Support) version depend on test result and stabilization. <br/>
-<span style="font-weight:bold;color:red;">【Notice】: only the latest versions available for download.</span>
-
+<span style="font-weight:bold;color:red;">【Notice】: due to the space limitation, only the latest versions available for download.</span>
 | Release date | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |--------------|-------------------|-----------------|-----------------|
 | 2020-11-09   | [v1.0.6.201109](./v1.0.6.201109) | [v1.0.6.201109](./v1.0.6.201109) | [v1.0.6.201109](./v1.0.6.201109) |
@@ -38,11 +37,12 @@ Stable and LTS(Long-term Support) version depend on test result and stabilizatio
 </div>
 
 ## Development version
-Development version will be released weekly, talent be changed daily, keep your eyes on it. <br/>
-<span style="font-weight:bold;color:red;">【Notice】: only the latest versions available for download.</span>
+Development version will be released monthly, talents be changed daily, keep your eyes on it. <br/>
+<span style="font-weight:bold;color:red;">【Notice】: due to the space limitation, only the latest versions available for download.</span>
 
 | Release date | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |--------------|-------------------|-----------------|-----------------|
+| 2021-04-30   | [v1.8.1.210430](./v1.8.1.210430) | [v1.8.1.210430](./v1.8.1.210430) | [v1.8.1.210430](./v1.8.1.210430) |
 | 2021-03-31   | [v1.7.1.210331](./v1.7.1.210331) | [v1.7.1.210331](./v1.7.1.210331) | [v1.7.1.210331](./v1.7.1.210331) |
 | 2021-01-31   | [v1.6.1.210131](./v1.6.1.210131) | [v1.6.1.210131](./v1.6.1.210131) | [v1.6.1.210131](./v1.6.1.210131) |
 | 2020-12-31   | [v1.5.1.201231](./v1.5.1.201231) | [v1.5.1.201231](./v1.5.1.201231) | [v1.5.1.201231](./v1.5.1.201231) |

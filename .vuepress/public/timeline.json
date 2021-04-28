@@ -43,33 +43,33 @@
     ],
     "broadcast": [
         {
-            "id": 21022501,
+            "id": 21050501,
             "group": "hyperlink",
             "locale": "zh",
-            "datetime": "2021-02-25T18:35:50.000Z",
-            "title": "袋鼠数据库工具官方网站",
-            "tooltip": "袋鼠数据库工具官方网站",
-            "showcase": "官方网站已更新，敬请关注",
-            "location": "https://www.datatable.online/zh/"
+            "datetime": "2021-05-05T10:00:00.000Z",
+            "title": "袋鼠数据库工具 v1.8.1 上线",
+            "tooltip": "袋鼠数据库工具 v1.8.1 上线",
+            "showcase": "袋鼠数据库工具 v1.8.1 上线",
+            "location": "https://www.datatable.online/zh/download/v1.8.1.210430.html"
         }, {
-            "id": 21022502,
-            "group": "dialog",
+            "id": 21050502,
+            "group": "hyperlink",
             "locale": "en",
-            "datetime": "2021-02-24T18:35:50.000Z",
-            "title": "Kangaroo official website",
-            "tooltip": "Kangaroo official website",
-            "showcase": "Official website has been updated, welcome to visit.",
-            "location": "https://www.datatable.online/en/"
+            "datetime": "2021-05-05T10:00:00.000Z",
+            "title": "Kangaroo v1.8.1 released",
+            "tooltip": "Kangaroo v1.8.1 released",
+            "showcase": "Kangaroo v1.8.1 released",
+            "location": "https://www.datatable.online/en/download/v1.8.1.210430.html"
         }
     ],
     "version": [
         {
             "group": "devel",
-            "version": "1.7.1.210331",
-            "datetime": "2021-02-24T18:35:50.000Z",
-            "windows": "https://d4.injdk.cn/dbkangaroo/v1.7.1.210331/kangaroo-1.7.1.210331-AMD64.exe",
-            "darwin": "https://d4.injdk.cn/dbkangaroo/v1.7.1.210331/kangaroo-1.7.1.210331-macos.dmg",
-            "linux": "https://d4.injdk.cn/dbkangaroo/v1.7.1.210331/kangaroo-1.7.1.210331-ubuntu.tar.gz",
+            "version": "1.8.1.210430",
+            "datetime": "2021-05-05T10:00:00.000Z",
+            "windows": "https://d4.injdk.cn/dbkangaroo/v1.8.1.210430/kangaroo-1.8.1.210430-AMD64.exe",
+            "darwin": "https://d4.injdk.cn/dbkangaroo/v1.8.1.210430/kangaroo-1.8.1.210430-macos.dmg",
+            "linux": "https://d4.injdk.cn/dbkangaroo/v1.8.1.210430/kangaroo-1.8.1.210430-ubuntu.tar.gz",
             "force": false
         }, {
             "group": "stable",

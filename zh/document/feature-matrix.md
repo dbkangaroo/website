@@ -269,36 +269,36 @@ lang: zh-CN
             </tr-->
             <!--section-->
             <!--section-->
-            <!--tr style="background-color: #67C23A;">
+            <tr style="background-color: #67C23A;">
                 <td><b>数据模型</b></td>
                 <td></td>
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <tr>
                 <td>概念、逻辑和物理模型</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"></td>
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>逆向或正向工程</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"></td>
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
-            <tr>
+            <!--tr>
                 <td>自动布局</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
-            </tr>
-            <tr>
-                <td>添加顶点、层、图像、笔记、标签和形状</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
-            </tr>
-            <tr>
-                <td>打印数据库图表到 PDF 和图形文件</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"></td>
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
+            <tr>
+                <td>添加线、层、图像、笔记、艺术文本和形状</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>导出数据库图表到 PDF 和图形文件</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+            </tr>
             <!--section-->
             <!--section-->
             <tr style="background-color: #67C23A;">

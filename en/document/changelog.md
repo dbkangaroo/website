@@ -5,6 +5,21 @@ lang: en-US
 
 # Kangaroo change timeline
 
+## [Kangaroo v1.8.1.210430](/en/download/v1.8.1.210430)
+1. Improve toolbar effect(show label and large icon default)
+2. Improve the tab title for Query view
+3. Open one instance of the same view only
+4. Update app desktop entry's category
+5. Add import/generate buttons for the model toolbar
+6. Model: implement import entity models from the database
+7. Model: load and save data of the table and view node
+8. Model: implement change and close notification
+9. Model: Add entity dialog
+10. Model: improve effect of node(table / view / shape)
+11. Fixed: can't show columns on the non-column page
+12. Fixed: can't load libgda's plugin
+13. Fixed: can't show node while loading large model file
+
 ## [Kangaroo v1.7.1.210331](/en/download/v1.7.1.210331)
 1. Implement hex editor support (completed)
 2. Add workspace tab UI support (completed)

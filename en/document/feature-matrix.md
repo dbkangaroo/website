@@ -279,36 +279,36 @@ lang: en-US
             </tr-->
             <!--section-->
             <!--section-->
-            <!--tr style="background-color: #67C23A;">
+            <tr style="background-color: #67C23A;">
                 <td><b>Data Modeling</b></td>
                 <td></td>
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"></td>
             </tr>
             <tr>
                 <td>Conceptual, Logical and Physical model</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"></td>
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>Reverse/forward engineering</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"></td>
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
-            <tr>
+            <!--tr>
                 <td>Auto layout</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
-            </tr>
-            <tr>
-                <td>Add vertices, layers, images, notes, labels and shapes</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
-            </tr>
-            <tr>
-                <td>Print database diagrams to PDF and graphic files</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"></td>
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr-->
+            <tr>
+                <td>Add lines, layers, images, notes, art-texts and shapes</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>Export database diagrams to PDF and graphic files</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+            </tr>
             <!--section-->
             <!--section-->
             <tr style="background-color: #67C23A;">

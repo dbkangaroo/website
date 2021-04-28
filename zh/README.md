@@ -4,8 +4,8 @@ lang: zh-CN
 heroText: 袋鼠数据库工具
 heroImage: /images/kangaroo.svg
 tagline: 为热门数据库系统打造的 SQL 客户端和管理工具
-actionText: 下载 袋鼠 v1.7.1.210331
-actionLink: /zh/download/v1.7.1.210331
+actionText: 下载 袋鼠 v1.8.1.210430
+actionLink: /zh/download/v1.8.1.210430
 ---
 
 <div class="features">
@@ -57,7 +57,7 @@ actionLink: /zh/download/v1.7.1.210331
 | 版本类型    | Windows(64 bit)   | Linux(64 bit)   | MacOS(64 bit)   |
 |-------------|-------------------|-------------------|-----------------|
 | 稳定版本 | [Kangaroo v1.0.6.201109](./download/v1.0.6.201109) | [Kangaroo v1.0.6.201109](./download/v1.0.6.201109) | [Kangaroo v1.0.6.201109](./download/v1.0.6.201109) |
-| 开发版本 | [Kangaroo v1.7.1.210331](./download/v1.7.1.210331) | [Kangaroo v1.7.1.210331](./download/v1.7.1.210331) | [Kangaroo v1.7.1.210331](./download/v1.7.1.210331) |
+| 开发版本 | [Kangaroo v1.8.1.210430](./download/v1.8.1.210430) | [Kangaroo v1.8.1.210430](./download/v1.8.1.210430) | [Kangaroo v1.8.1.210430](./download/v1.8.1.210430) |
 
 
 ## 工具界面快照
@@ -98,6 +98,7 @@ actionLink: /zh/download/v1.7.1.210331
 ![数据导出界面](./images/kangaroo-export.png)
 ![数据导入界面](./images/kangaroo-import.png)
 ![工具配置界面](./images/kangaroo-setting.png)
+![快捷键配置](./images/kangaroo-shortcut.png)
 
 <div class="footer">
     <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030602005092"><img src="/images/beian.png" alt="粤公网安备44030602005092号" />粤公网安备44030602005092号</a>
