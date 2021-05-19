@@ -135,7 +135,6 @@ module.exports = {
         }],
         ['flowchart'],
         ['vuepress-plugin-zooming'],
-        ['vuepress-plugin-baidu-autopush'],
     ],
     extraWatchFiles: [
         '.vuepress/navigation/en.js',
