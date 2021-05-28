@@ -21,6 +21,8 @@
 18. Fixed: can't show view's columns in the model view
 19. Fixed: enlarge model view while importing objects.
 20. Fixed: can't load index entries (MySQL)
+21. Fixed: can't modify boolean data
+22. Fixed: warning message while loading intellisense data.
 
 ##Kangaroo v1.8.1.210430
 1. Improve toolbar effect(show label and large icon default)
