@@ -65,7 +65,6 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 ![Start page of connection](./images/kangaroo-start.png)
 ![Tools page of connection](./images/kangaroo-tools.png)
 ![Kangaroo grid view in table with custom columns](./images/kangaroo-grid.png)
-![Kangaroo grid view in table with where statement](./images/kangaroo-grid2.png)
 
 <div>
     <ins class="adsbygoogle"
@@ -79,10 +78,9 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
     </script2>
 </div>
 
+![Kangaroo grid view in table with where statement](./images/kangaroo-grid2.png)
 ![Kangaroo grid view in form](./images/kangaroo-form.png)
 ![Kangaroo query view](./images/kangaroo-query.png)
-![Kangaroo schema designer form](./images/kangaroo-designer.png)
-![Kangaroo schema designer form with preview](./images/kangaroo-designer2.png)
 
 <div>
     <ins class="adsbygoogle"
@@ -96,8 +94,38 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
     </script2>
 </div>
 
+![Kangaroo schema designer form](./images/kangaroo-designer.png)
+![Kangaroo schema designer form with preview](./images/kangaroo-designer2.png)
+![Kangaroo view designer](./images/kangaroo-view.png)
+
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
+![Kangaroo visual builder](./images/kangaroo-sql-builder.png)
 ![Kangaroo export assistant](./images/kangaroo-export.png)
 ![Kangaroo import assistant](./images/kangaroo-import.png)
+
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ![Kangaroo setting dialog with dark theme](./images/kangaroo-setting.png)
 ![Kangaroo shortcut setting dialog](./images/kangaroo-shortcut.png)
 
