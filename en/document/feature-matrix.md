@@ -144,6 +144,16 @@ lang: en-US
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
+                <td>Update cell value with algorithm</td>
+                <td style="text-align: center;"><img src=""></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>Copy cell value with algorithm</td>
+                <td style="text-align: center;"><img src=""></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+            </tr>            
+            <tr>
                 <td>Text, Image viewer/editor</td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>

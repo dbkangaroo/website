@@ -1,5 +1,16 @@
 #Kangaroo change timeline
 
+##Kangaroo v1.10.1.210731
+1. Add visual sql builder dialog
+2. Add values window
+3. Add icon for datagrid context menu
+4. Add copy cell value with algorithm
+5. Add update cell value with algorithm
+6. Improve connection naming schema
+7. Update Chinese translation
+8. Fixed: invalid sql while large text type(PostgreSQL)
+9. Fixed: designer's checkbox not response.
+
 ##Kangaroo v1.9.1.210531
 1. Add view designer
 2. Add Toolbar control

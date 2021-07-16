@@ -144,6 +144,16 @@ lang: zh-CN
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
+                <td>单元值算法更新</td>
+                <td style="text-align: center;"><img src=""></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>单元值算法复制</td>
+                <td style="text-align: center;"><img src=""></td>
+                <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
                 <td>文本、图片查看和编辑</td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
