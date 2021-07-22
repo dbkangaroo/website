@@ -7,9 +7,12 @@
 4. Add copy cell value with algorithm
 5. Add update cell value with algorithm
 6. Improve connection naming schema
-7. Update Chinese translation
-8. Fixed: invalid sql while large text type(PostgreSQL)
-9. Fixed: designer's checkbox not response.
+7. Improve toolbar layout
+8. Update Chinese translation
+9. Fixed: invalid sql while large text type(PostgreSQL)
+10. Fixed: designer's checkbox not response.
+11. Fixed: connection crashed(MySQL/PostgreSQL)
+12. Fixed: can't load source of view(PostgreSQL)
 
 ##Kangaroo v1.9.1.210531
 1. Add view designer
