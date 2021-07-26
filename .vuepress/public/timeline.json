@@ -43,33 +43,33 @@
     ],
     "broadcast": [
         {
-            "id": 21050501,
+            "id": 21080501,
             "group": "hyperlink",
             "locale": "zh",
-            "datetime": "2021-06-05T10:00:00.000Z",
-            "title": "袋鼠数据库工具 v1.9.1 上线",
-            "tooltip": "袋鼠数据库工具 v1.9.1 上线",
-            "showcase": "袋鼠数据库工具 v1.9.1 上线",
-            "location": "https://www.datatable.online/zh/download/v1.9.1.210531.html"
+            "datetime": "2021-08-05T10:00:00.000Z",
+            "title": "袋鼠数据库工具 v1.10.1 上线",
+            "tooltip": "袋鼠数据库工具 v1.10.1 上线",
+            "showcase": "袋鼠数据库工具 v1.10.1 上线",
+            "location": "https://www.datatable.online/zh/download/v1.10.1.210731.html"
         }, {
-            "id": 21050502,
+            "id": 21080502,
             "group": "hyperlink",
             "locale": "en",
-            "datetime": "2021-06-05T10:00:00.000Z",
-            "title": "Kangaroo v1.9.1 released",
-            "tooltip": "Kangaroo v1.9.1 released",
-            "showcase": "Kangaroo v1.9.1 released",
-            "location": "https://www.datatable.online/en/download/v1.9.1.210531.html"
+            "datetime": "2021-08-05T10:00:00.000Z",
+            "title": "Kangaroo v1.10.1 released",
+            "tooltip": "Kangaroo v1.10.1 released",
+            "showcase": "Kangaroo v1.10.1 released",
+            "location": "https://www.datatable.online/en/download/v1.10.1.210731.html"
         }
     ],
     "version": [
         {
             "group": "devel",
-            "version": "1.9.1.210531",
-            "datetime": "2021-06-05T10:00:00.000Z",
-            "windows": "https://d4.injdk.cn/dbkangaroo/v1.9.1.210531/kangaroo-1.9.1.210531-AMD64.exe",
-            "darwin": "https://d4.injdk.cn/dbkangaroo/v1.9.1.210531/kangaroo-1.9.1.210531-macos.dmg",
-            "linux": "https://d4.injdk.cn/dbkangaroo/v1.9.1.210531/kangaroo-1.9.1.210531-ubuntu.tar.gz",
+            "version": "1.10.1.210731",
+            "datetime": "2021-08-05T10:00:00.000Z",
+            "windows": "https://d4.injdk.cn/dbkangaroo/v1.10.1.210731/kangaroo-1.10.1.210731-AMD64.exe",
+            "darwin": "https://d4.injdk.cn/dbkangaroo/v1.10.1.210731/kangaroo-1.10.1.210731-macos.dmg",
+            "linux": "https://d4.injdk.cn/dbkangaroo/v1.10.1.210731/kangaroo-1.10.1.210731-ubuntu.tar.gz",
             "force": false
         }, {
             "group": "stable",

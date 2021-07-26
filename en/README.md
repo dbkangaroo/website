@@ -4,7 +4,7 @@ lang: en-US
 heroText: Kangaroo
 heroImage: /images/kangaroo.svg
 tagline: SQL client and admin tool for popular databases
-actionText: Download Kangaroo v1.10.1.210731
+actionText: Download Kangaroo v1.10.1
 actionLink: /download/v1.10.1.210731
 ---
 
@@ -55,10 +55,10 @@ Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 ## Release
 Development version will be released weekly, Stable and LTS(Long-term Support) version depend on test result and stabilization.
 
-| Platform    | Windows(64 bit)   | Linux(64 bit)     | MacOS(64 bit)   |
-|-------------|-------------------|-------------------|-----------------|
-| Stable      | [Kangaroo v1.0.6.201109](./download/v1.0.6.201109) | [Kangaroo v1.0.6.201109](./download/v1.0.6.201109) | [Kangaroo v1.0.6.201109](./download/v1.0.6.201109) |
-| Development | [Kangaroo v1.10.1.210731](./download/v1.10.1.210731) | [Kangaroo v1.10.1.210731](./download/v1.10.1.210731) | [Kangaroo v1.10.1.210731](./download/v1.10.1.210731) |
+| Platform    | Windows   | Linux     | MacOS   | iOS             | Android         |
+|-------------|-------------------|-------------------|-----------------|-----------------|-----------------|
+| Stable      | [v1.0.6](./download/v1.0.6.201109) | [v1.0.6](./download/v1.0.6.201109) | [v1.0.6](./download/v1.0.6.201109) |
+| Development | [v1.10.1](./download/v1.10.1.210731) | [v1.10.1](./download/v1.10.1.210731) | [v1.10.1](./download/v1.10.1.210731) |
 
 
 ## Screenshots
