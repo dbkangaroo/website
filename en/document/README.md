@@ -26,7 +26,7 @@ Kangaroo has full function support on MacOS:<br/>
 [Make a connection](connection.md)
 
 ## Create a new table
-[Table schema designer](schema.md)
+[Table schema designer](designer-schema.md)
 
 ## Browse and edit data
 [Data grid in content view](datagrid.md)

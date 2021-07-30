@@ -1,9 +1,9 @@
 ---
-title: Data grid in content view
+title: Data view
 lang: en-US
 ---
 
-# Data grid in content view
+# Data view
 
 ## Show the top builder pane
 ![Datagrid Builder](../images/kangaroo-grid-builder.png)

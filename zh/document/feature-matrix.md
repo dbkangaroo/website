@@ -1,9 +1,9 @@
 ---
-title: 功能列表
+title: 功能特性列表
 lang: zh-CN
 ---
 
-# 功能列表
+# 功能特性列表
 <div>
     <table>
         <tbody>
@@ -144,12 +144,12 @@ lang: zh-CN
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>单元值算法更新</td>
+                <td style="color: #ffd700;">单元值算法更新</td>
                 <td style="text-align: center;"><img src=""></td>
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>单元值算法复制</td>
+                <td style="color: #ffd700;">单元值算法复制</td>
                 <td style="text-align: center;"><img src=""></td>
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>

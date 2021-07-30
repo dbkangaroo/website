@@ -6,11 +6,15 @@ lang: en-US
 # Download Kangaroo
 For all users, recommend to download the latest stable version, if you are developers and master GTK technology stack, you could download the latest developer version and experience the new features.
 
+::: danger Download Tip
+By the project limitation, only the latest version is available for download.
+:::
+
 
 ## Stable version
 Stable and LTS(Long-term Support) version depend on test result and stabilization. <br/>
-<span style="font-weight:bold;color:red;">【Notice】: due to the space limitation, only the latest versions available for download.</span>
-| Release date | Windows   | Linux   | MacOS   | iOS             | Android         |
+
+| Release date | Windows           | Linux           | MacOS           | iOS             | Android         |
 |--------------|-------------------|-----------------|-----------------|-----------------|-----------------|
 | 2020-11-09   | [v1.0.6](./v1.0.6.201109) | [v1.0.6](./v1.0.6.201109) | [v1.0.6](./v1.0.6.201109) |
 | 2020-10-19   | [v1.0.5](./v1.0.5.201019) | [v1.0.5](./v1.0.5.201019) | [v1.0.5](./v1.0.5.201019) |
@@ -38,9 +42,8 @@ Stable and LTS(Long-term Support) version depend on test result and stabilizatio
 
 ## Development version
 Development version will be released monthly, talents be changed daily, keep your eyes on it. <br/>
-<span style="font-weight:bold;color:red;">【Notice】: due to the space limitation, only the latest versions available for download.</span>
 
-| Release date | Windows   | Linux   | MacOS   | iOS             | Android         |
+| Release date | Windows           | Linux           | MacOS           | iOS             | Android         |
 |--------------|-------------------|-----------------|-----------------|-----------------|-----------------|
 | 2021-07-31   | [v1.10.1](./v1.10.1.210731) | [v1.10.1](./v1.10.1.210731) | [v1.10.1](./v1.10.1.210731) |
 | 2021-05-31   | [v1.9.1](./v1.9.1.210531) | [v1.9.1](./v1.9.1.210531) | [v1.9.1](./v1.9.1.210531) |

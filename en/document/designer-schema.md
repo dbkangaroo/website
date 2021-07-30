@@ -1,8 +1,8 @@
 ---
-title: Table schema designer
+title: Schema designer
 lang: en-US
 ---
 
-# Table schema designer
+# Schema designer
 
 <Vssue :issue-id="8" :title="$title" />

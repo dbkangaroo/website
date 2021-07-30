@@ -1,9 +1,9 @@
 ---
-title: SQLite support
+title: SQLite enhancements
 lang: en-US
 ---
 
-# SQLite support
+# SQLite enhancements
 
 ## Create database connection quickly
 Drag and drop a sqlite database file from file manager into connection home page, the connection is created quickly.

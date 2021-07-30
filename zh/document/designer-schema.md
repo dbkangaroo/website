@@ -1,8 +1,8 @@
 ---
-title: 对象设计器
+title: 表结构设计器
 lang: zh-CN
 ---
 
-# 对象设计器
+# 表结构设计器
 
 <Vssue :issue-id="8" :title="$title" />

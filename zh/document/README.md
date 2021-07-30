@@ -26,7 +26,7 @@ MacOS 版本袋鼠数据库工具具有完整的功能支持，安装体验正�
 [建立一个数据库连接](connection.md)
 
 ## 新建数据表
-[表对象设计器](schema.md)
+[表对象设计器](designer-schema.md)
 
 ## 数据编辑器
 [数据浏览及编辑视图](datagrid.md)

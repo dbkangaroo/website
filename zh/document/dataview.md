@@ -1,9 +1,9 @@
 ---
-title: 数据编辑器
+title: 数据视图
 lang: zh-CN
 ---
 
-# 数据编辑器
+# 数据视图
 
 ## 显示顶部的SQL构建面板
 ![Datagrid Builder](../images/kangaroo-grid-builder.png)

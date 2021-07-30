@@ -1,9 +1,9 @@
 ---
-title: Feature matrix
+title: Feature List
 lang: en-US
 ---
 
-# Feature matrix
+# Feature List
 <div>
     <table>
         <tbody>
@@ -144,12 +144,12 @@ lang: en-US
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Update cell value with algorithm</td>
+                <td style="color: #ffd700;">Update cell value with algorithm</td>
                 <td style="text-align: center;"><img src=""></td>
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>Copy cell value with algorithm</td>
+                <td style="color: #ffd700;">Copy cell value with algorithm</td>
                 <td style="text-align: center;"><img src=""></td>
                 <td style="text-align: center; border-left: 5px solid #734f96; border-right: 5px solid #734f96;"><img src="/images/icon-check.svg"></td>
             </tr>            

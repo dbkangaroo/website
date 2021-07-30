@@ -1,9 +1,9 @@
 ---
-title: SQLite 数据库特色功能
+title: SQLite 特色功能
 lang: zh-CN
 ---
 
-# SQLite 数据库特色功能
+# SQLite 特色功能
 
 ## 快速建立数据库连接
 把已经存在的 SQLite 数据库文件拖放到连接首页，即可一步到位创建数据库连接
