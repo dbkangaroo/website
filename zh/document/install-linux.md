@@ -8,7 +8,7 @@ lang: zh-CN
 ## 下载 袋鼠数据库工具
 点击链接下载最新版的袋鼠数据库工具 [下载](../download)
 
-::: danger 面向使用版本 1.9.1(libgda 6.0.1) 的关键提示
+::: danger 面向使用 1.9.1 以上版本的关键提示
 因为 libgda 6.0 的关键补丁未合入主线且未出安装包，所以需要我们手工完成 libgda 6.0.1的编译和安装，步骤如下：
 ```bash
 git clone -b mysql https://gitlab.gnome.org/taozuhong/libgda.git

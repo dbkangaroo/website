@@ -8,7 +8,7 @@ lang: en-US
 ## Download Kangaroo
 Download the latest version of Kangaroo from [Download](../download).
 
-::: danger Critical tips for 1.9.1 with libgda 6.0.1
+::: danger Critical tips for 1.9.1 and above with libgda 6.0.1
 Due to the critical MR for libgda 6.0 not yet be merged and build the package, so we must do it manually as follow:
 ```bash
 git clone -b mysql https://gitlab.gnome.org/taozuhong/libgda.git
