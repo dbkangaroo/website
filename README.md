@@ -57,8 +57,7 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 
 | Platform    | Windows   | Linux     | MacOS   | iOS             | Android         |
 |-------------|-------------------|-------------------|-----------------|-----------------|-----------------|
-| Stable      | [v1.0.6](./en/download/v1.0.6.201109) | [v1.0.6](./en/download/v1.0.6.201109) | [v1.0.6](./en/download/v1.0.6.201109) |
-| Development | [v1.10.1](./en/download/v1.10.1.210731) | [v1.10.1](./en/download/v1.10.1.210731) | [v1.10.1](./en/download/v1.10.1.210731) |
+| Stable | [v1.10.1](./en/download/v1.10.1.210731) | [v1.10.1](./en/download/v1.10.1.210731) | [v1.10.1](./en/download/v1.10.1.210731) |
 
 
 ## Screenshots
