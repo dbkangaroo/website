@@ -14,5 +14,8 @@ module.exports = [
     }, {
         text: '博客',
         link: '/zh/blog/'
+    },{
+        text: '仓库',
+        link: 'https://gitee.com/dbkangaroo/kangaroo'
     },
 ]

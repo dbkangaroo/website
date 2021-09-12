@@ -14,5 +14,8 @@ module.exports = [
     }, {
         text: 'Blog',
         link: '/en/blog/'
+    },{
+        text: 'GitHub',
+        link: 'https://github.com/dbkangaroo/kangaroo'
     },
 ]

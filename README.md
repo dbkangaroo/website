@@ -39,7 +39,7 @@ Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 **Hint**: Code intellisense or Code autocomplete
 
 <div>
-    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3975819313740938" crossorigin="anonymous" />
     <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
