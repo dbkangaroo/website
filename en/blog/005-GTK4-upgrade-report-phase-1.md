@@ -104,23 +104,45 @@ if (clipboard.content.get_value(ref value)) {
 
 Some useful Vala code snippets for upgrading mouse and key inputs in GTK3:
 ```vala
-button.press.connect(button_press_handler);
+treeview.button_press_event.connect(button_press_handler);
+treeview.button_release_event.connect(button_release_handler);
+
+treeview.key_press_event.connect(key_press_handler);
+treeview.key_release_event.connect(key_release_handler);
+
+treeview.motion_notify_event.connect(mouse_move_handler);
+treeview.enter_notify_event.connect(enter_event_handler);
+treeview.leave_notify_event.connect(leave_event_handler);
+
+treeview.scroll_event.connect(scroll_event_handler);
+
+treeview.focus_in_event.connect(focus_enter_event_handler);
+treeview.focus_out_event.connect(focus_leave_event_handler);
 ```
 
 ```vala
-var button_press_event = new Gtk.GestureClick();
-button_press_event.pressed.connect(button_press_handler);
-add_conn_box.add_controller(button_press_event);
+var mouse_button_event = new Gtk.GestureClick();
+mouse_button_event.pressed.connect(button_press_handler);
+mouse_button_event.released.connect(button_release_handler);
+treeview.add_controller(mouse_button_event);
 
-var key_press_event = new Gtk.EventControllerKey();
-key_press_event.key_pressed.connect(key_press_handler);
-add_conn_box.add_controller(key_press_event);
+var key_input_event = new Gtk.EventControllerKey();
+key_input_event.key_pressed.connect(key_press_handler);
+key_input_event.key_released.connect(key_release_handler);
+treeview.add_controller(key_input_event);
 
 var mouse_motion_event = new Gtk.EventControllerMotion();
-mouse_motion_event.motion.connect(mouse_motion_handler);
-add_conn_box.add_controller(mouse_motion_event);
+mouse_motion_event.motion.connect(mouse_move_handler);
+mouse_motion_event.enter.connect(enter_event_handler);
+mouse_motion_event.leave.connect(leave_event_handler);
+treeview.add_controller(mouse_motion_event);
 
 var view_scroll_event = new Gtk.EventControllerScroll();
-view_scroll_event.scroll.connect(view_scroll_handler);
-add_conn_box.add_controller(view_scroll_event);
+view_scroll_event.scroll.connect(scroll_event_handler);
+treeview.add_controller(view_scroll_event);
+
+var view_focus_event = new Gtk.EventControllerFocus();
+view_focus_event.enter.connect(focus_enter_event_handler);
+view_focus_event.leave.connect(focus_leave_event_handler);
+treeview.add_controller(view_focus_event);
 ```
