@@ -27,4 +27,4 @@ lang: zh-CN
 | HTTP通讯库    | [libsoup](https://gitlab.gnome.org/GNOME/libsoup) | [LGPL 2](https://gitlab.gnome.org/GNOME/libsoup/-/blob/master/COPYING) |
 | 地图支持库    | [libshumate](https://gitlab.gnome.org/GNOME/libshumate) | [LGPL 2](https://gitlab.gnome.org/GNOME/libshumate/-/blob/master/COPYING) |
 | 数据图表库    | [live-chart](https://github.com/lcallarec/live-chart) | [MIT](https://github.com/lcallarec/live-chart/blob/master/LICENSE) |
-| 模板处理库    | [template-glib](https://gitlab.gnome.org/GNOME/json-glib) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/template-glib/-/blob/master/COPYING) |
+| 模板处理库    | [template-glib](https://gitlab.gnome.org/GNOME/template-glib) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/template-glib/-/blob/master/COPYING) |

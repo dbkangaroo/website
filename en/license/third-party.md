@@ -27,4 +27,4 @@ lang: en-US
 | HTTP         | [libsoup](https://gitlab.gnome.org/GNOME/libsoup) | [LGPL 2](https://gitlab.gnome.org/GNOME/libsoup/-/blob/master/COPYING) |
 | Map          | [libshumate](https://gitlab.gnome.org/GNOME/libshumate) | [LGPL 2](https://gitlab.gnome.org/GNOME/libshumate/-/blob/master/COPYING) |
 | Chart        | [live-chart](https://github.com/lcallarec/live-chart) | [MIT](https://github.com/lcallarec/live-chart/blob/master/LICENSE) |
-| Template     | [template-glib](https://gitlab.gnome.org/GNOME/json-glib) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/template-glib/-/blob/master/COPYING) |
+| Template     | [template-glib](https://gitlab.gnome.org/GNOME/template-glib) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/template-glib/-/blob/master/COPYING) |
