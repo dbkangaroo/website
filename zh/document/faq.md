@@ -52,11 +52,16 @@ lang: zh-CN
 您可以从以下渠道获得袋鼠数据库工具的最新信息:
 [Twitter](https://twitter.com/Kangaroo)
 [Github](https://github.com/dbkangaroo/kangaroo)
-[官方网站](https://dbkangaroo.github.io/zh/)
+[Gitee(码云)](https://gitee.com/dbkangaroo/kangaroo)
+[官方网站](https://www.datatable.online/zh/)
 
 ### 如何获得技术支持？
-您可以在 StackOverflow 之类的平台提问和搜索答案，也可以在项目仓库提交缺陷和需求来获得官方支持；
+您可以在项目仓库 [Github](https://github.com/dbkangaroo/kangaroo) / 
+[Gitee(码云)](https://gitee.com/dbkangaroo/kangaroo) 提交缺陷和需求来获得官方支持，也可以分享您的解决方案；
 
-如果您试图联系作者以获得支持，您可以加入官方 QQ 群： [袋鼠宝宝交流群 - 706676886](//shang.qq.com/wpa/qunwpa?idkey=90d913b2da6cd408f4f2fbec5c9167c5f1aea36eafbd3cf01ca9fd715e123f88), 他每周都会在群里回答宝宝们的问题。
+
+### 微信公众号
+为即时推送关于袋鼠的大篇幅文章和视频，故开通了微信公众号： 袋鼠数据库工具 (DataTableOnline)，有兴趣的同学可关注。 <br/>
+![袋鼠微信公众号](../images/kangaroo_mp.png)
 
 <Vssue :issue-id="3" :title="$title" />
