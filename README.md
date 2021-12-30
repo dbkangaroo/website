@@ -4,7 +4,7 @@ lang: en
 heroText: Kangaroo
 heroImage: /images/kangaroo.svg
 tagline: SQL client and admin tool for popular databases
-actionText: Download Kangaroo v1.10.1
+actionText: Download Kangaroo v1.10.1 (Beta)
 actionLink: ./en/download/v1.10.1.210731
 ---
 
@@ -50,14 +50,6 @@ Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script2>
 </div>
-
-
-## Release
-Development version will be released weekly, Stable and LTS(Long-term Support) version depend on test result and stabilization.
-
-| Platform    | Windows   | Linux     | MacOS   | iOS             | Android         |
-|-------------|-------------------|-------------------|-----------------|-----------------|-----------------|
-| Stable | [v1.10.1](./en/download/v1.10.1.210731) | [v1.10.1](./en/download/v1.10.1.210731) | [v1.10.1](./en/download/v1.10.1.210731) |
 
 
 ## Screenshots
@@ -128,7 +120,4 @@ Development version will be released weekly, Stable and LTS(Long-term Support) v
 ![Kangaroo setting dialog with dark theme](./en/images/kangaroo-setting.png)
 ![Kangaroo shortcut setting dialog](./en/images/kangaroo-shortcut.png)
 
-<div class="footer">
-    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030602005092"><img src="/images/beian.png" alt="粤公网安备44030602005092号" />粤公网安备44030602005092号</a>
-    <a target="_blank" href="http://beian.miit.gov.cn/" style="margin: 0px 10px 0px 10px;">粤ICP备2020100158号</a> Copyright © 2018-present taozuhong
-</div>
+[Privacy Policy](./en/license/privacy-policy) | [Service Agreement](./en/license/service-agreement) | | [粤公网安备44030602005092号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030602005092) | [粤ICP备2020100158号](http://beian.miit.gov.cn/) <br/> Copyright © 2018-present taozuhong

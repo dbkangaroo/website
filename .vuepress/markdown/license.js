@@ -1,5 +1,6 @@
 module.exports = [
     '',
-    'license',
+    'privacy-policy',
+    'service-agreement',
     'third-party',
 ]

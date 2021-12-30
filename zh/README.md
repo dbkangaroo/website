@@ -4,7 +4,7 @@ lang: zh-CN
 heroText: 袋鼠数据库工具
 heroImage: /images/kangaroo.svg
 tagline: 为热门数据库系统打造的 SQL 客户端和管理工具
-actionText: 下载 袋鼠 v1.10.1
+actionText: 下载 袋鼠 v1.10.1 (Beta)
 actionLink: /zh/download/v1.10.1.210731
 ---
 
@@ -49,14 +49,6 @@ actionLink: /zh/download/v1.10.1.210731
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script2>
 </div>
-
-
-## 版本发布
-开发版本按周发布，计划一周或两周发布一个, 稳定版本和长周期支持版本(LTS) 根据版本质量评估情况不定期发布。
-
-| 版本类型     | Windows   | Linux     | MacOS   | iOS             | Android         |
-|-------------|-------------------|-------------------|-----------------|-----------------|-----------------|
-| 稳定版本 | [v1.10.1](./download/v1.10.1.210731) | [v1.10.1](./download/v1.10.1.210731) | [v1.10.1](./download/v1.10.1.210731) |
 
 
 ## 工具界面快照
@@ -128,7 +120,4 @@ actionLink: /zh/download/v1.10.1.210731
 ![工具配置界面](./images/kangaroo-setting.png)
 ![快捷键配置](./images/kangaroo-shortcut.png)
 
-<div class="footer">
-    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030602005092"><img src="/images/beian.png" alt="粤公网安备44030602005092号" />粤公网安备44030602005092号</a>
-    <a target="_blank" href="http://beian.miit.gov.cn/" style="margin: 0px 10px 0px 10px;">粤ICP备2020100158号</a> 版权所有 © 2018-present taozuhong
-</div>
+[隐私政策](./license/privacy-policy) | [用户协议](./license/service-agreement) | [粤公网安备44030602005092号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030602005092") | [粤ICP备2020100158号](http://beian.miit.gov.cn/)<br/>版权所有 © 2018-present taozuhong
