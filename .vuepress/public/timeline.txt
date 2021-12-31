@@ -1,5 +1,17 @@
 #Kangaroo change timeline
 
+##Kangaroo v1.90.1.211231
+1. Update UI toolkit from GTK3 to GTK4
+2. Update UI library to GTK4 version
+3. Update GtkSoureceView from 4 to 5
+4. Merge setting and shortcut dialog
+5. Add document overview map
+6. Add style scheme support
+7. Add development support
+8. MySQL: Add user and privilege management support
+9. MariaDB: Add user and privilege management support
+10. PostgreSQL: Add user and privilege management support
+
 ##Kangaroo v1.10.1.210731
 1. Add visual sql builder dialog
 2. Add values window
