@@ -4,11 +4,10 @@ lang: en-US
 ---
 
 # Download Kangaroo
-For all users, recommend upgrading to the latest version, new features and bug fixed will landing the new version. some versions have a time limitation(3 - 12 months) due to uncompleted features, so please mind the app's message.
+For all users, recommend upgrading to the latest version, new features and bug fixed will landing the new version. some versions(with Dev flag) have a time limitation(3 - 12 months) due to uncompleted features, so please mind the app's message.
 
 ::: danger Important information
-1. The latest version is available for downloading only.
-2. The stable version released in the future will be a paid app.
+The latest version is available for downloading only.
 :::
 
 ## Kangaroo versions

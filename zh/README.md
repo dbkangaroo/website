@@ -19,7 +19,7 @@ actionLink: /zh/download/v1.10.1.210731
   </div>
   <div class="feature">
     <h2>就是快</h2>
-    <p>基于<a target="_blank" href="https://gitlab.gnome.org/GNOME/vala">Vala</a>、<a target="_blank" href="https://www.gtk.org/">GTK3</a> 和 <a target="_blank" href="https://gitlab.gnome.org/GNOME/libgda">libgda</a> 构建的原生应用，获得 C 语言的原生性能，就是为了快。</p>
+    <p>基于<a target="_blank" href="https://gitlab.gnome.org/GNOME/vala">Vala</a>、<a target="_blank" href="https://www.gtk.org/">GTK</a> 和 <a target="_blank" href="https://gitlab.gnome.org/GNOME/libgda">libgda</a> 构建的原生应用，获得 C 语言的原生性能，就是为了快。</p>
   </div>
 </div>
 
