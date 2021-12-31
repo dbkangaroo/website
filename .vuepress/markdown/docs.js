@@ -1,5 +1,6 @@
 module.exports = [
     '',
+    'system-requirements',
     'install-windows',
     'install-linux',
     'install-macos',

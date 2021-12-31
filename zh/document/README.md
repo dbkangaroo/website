@@ -10,6 +10,8 @@ lang: zh-CN
 为即时推送关于袋鼠的大篇幅文章和视频，故开通了微信公众号： 袋鼠数据库工具 (DataTableOnline)，有兴趣的同学可关注。 <br/>
 ![袋鼠微信公众号](../images/kangaroo_mp.png)
 
+## 系统需求
+[最低系统需求](system-requirements.md)
 
 ## 安装袋鼠数据库工具
 Windows 版本袋鼠数据库工具具有完整的功能支持，且具有最佳用户体验：<br/>

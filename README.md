@@ -120,4 +120,4 @@ Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 ![Kangaroo setting dialog with dark theme](./en/images/kangaroo-setting.png)
 ![Kangaroo shortcut setting dialog](./en/images/kangaroo-shortcut.png)
 
-[Privacy Policy](./en/license/privacy-policy) | [Service Agreement](./en/license/service-agreement) | | [粤公网安备44030602005092号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030602005092) | [粤ICP备2020100158号](http://beian.miit.gov.cn/) <br/> Copyright © 2018-present taozuhong
+[Privacy Policy](./en/license/privacy-policy) | [Service Agreement](./en/license/service-agreement) | | [粤公网安备44030602005092号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030602005092) | [粤ICP备2020100158号](http://beian.miit.gov.cn/) <br/> Copyright © 2019 - present Kangaroo. All Rights Reserved.

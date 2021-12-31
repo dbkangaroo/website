@@ -1,5 +1,5 @@
 ---
-title: End User License Agreement
+title: 软件许可及服务协议
 lang: zh-CN
 ---
 
@@ -21,13 +21,13 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 - “**We**” a.k.a. “us”, or “datatable.online”. Developer(s) of Kangaroo.
 - “**Documentation**” the detailed information about the Software, its features and the system requirements as made available on the website of datatable.online, as amended from time to time.
 - “**Open Source Software**” any software that requires as a condition of use, copying, modification and/or distribution of such software that such software or other software incorporated into, derived from or distributed with such software (a) be disclosed or distributed in source code form, and (b) be licensed for the purpose of making and/or distributing derivative works, and (c) be redistributable at no charge;
-- “**Beta version**” the license for the Software for public testing before version 1.0.
-- “**Stable version**” versions with version number equal or greater than 1.0, exclude Beta versions.
-- “**Dev version**” versions with version number ending with ““-dev”, those versions are used for public testing purpose after v1.0.
-- “**Full version**” the license for the Software for the term specified on the webpage of the store where You purchase the license, or in any applicable agreement concerning the purchase of the license (as stand-alone product or as part of a subscription) to Use the Software. This license is when Kangaroo reaches v1.0.
-- “**Trial version**” the license for the Software for the term of N days to Use the Stable version of Software for the sole purpose of testing and evaluating the Software. (N will be decided by us in future). This license is when Kangaroo reaches v1.0.
+- “**Beta version**” the license for the Software for public testing before version v2.0.
+- “**Stable version**” versions with version number equal or greater than v2.0, exclude Beta versions.
+- “**Dev version**” versions marked with “Dev” flag, those versions are used for public testing purpose after v2.0.
+- “**Full version**” the license for the Software for the term specified on the webpage of the store where You purchase the license, or in any applicable agreement concerning the purchase of the license (as stand-alone product or as part of a subscription) to Use the Software. This license is when Kangaroo reaches v2.0.
+- “**Trial version**” the license for the Software for the term of N days to Use the Stable version of Software for the sole purpose of testing and evaluating the Software. (N will be decided by us in future). This license is when Kangaroo reaches v2.0.
 - “**Updates**” any modified versions and updates of, and additions to the Software (excluding upgrades of the Software);
-- “**Major Update**” updates that introduce major version number changes, for example, from 1.x to 2.x is a Major Update, from 1.1.x to 1.2.x is not.
+- “**Major Update**” updates that introduce major version number changes, for example, from v2.x to v3.x is a Major Update, from v2.1.x to v2.2.x is not.
 - “**Use**” the access, download, install, copy or get benefit from using the Software in accordance with the documentation.
 - “**You**” you, the final and ultimate user of the Software or the authorized representative of a company or other legal entity that will be the final and ultimate user of the Software, and the company or other legal entity that will be the final and ultimate user of the Software, if applicable.
 
@@ -45,18 +45,18 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 2. We are and remain the owner of any intellectual property rights with respect to the Software. You shall not acquire any ownership to the Software as result of Your purchase of the License Key or Your Use of the Software.
 
 ## 4. Permitted use and restrictions
-1. In order to be able to install the Software and receive Updates and upgrades, Your computer shall have access to the Internet and shall meet the system requirements described in the Documentation that can be found on the webpage: https://support.datatable.online/System-Requirements. The system requirements may be changed in future updates.
+1. In order to be able to install the Software and receive Updates and upgrades, Your computer shall have access to the Internet and shall meet the system requirements described in the Documentation that can be found on the webpage: [System Requirements](../document/system-requirements). The system requirements may be changed in future updates.
 2. You shall Use the Beta version, Full version, or Trial version in accordance with applicable laws and shall not:
     1. Use the Trial version on any system where the Trial version was previously Used and expired;
     2. Rent, lease, lend, sell, redistribute, sublicense or otherwise commercially exploit the License Key, the Full version or the Trial version;
     3. Assign the License Key, the Full version or the Trial version without prior written approval of us;
     4. Use the Beta version, Full version or Trial version for any unlawful or illegal activity, or to facilitate an unlawful or illegal activity;
-    5. After 15 days evaluation passed, continue uses versions after 1.0 for commercial usage, without a license code;
+    5. After 14 days evaluation passed, continue uses the versions for commercial usage, without a license code;
     6. Delete or alter any disclaimers, warnings, copyright or other proprietary notices accompanying the Software; or
     7. Adapt (except as otherwise provided in this EULA), decompile, reverse engineer, disassemble, attempt to derive the source code of, modify or create derivative works of the Software and the License Key or any parts thereof, except to the extent permitted by applicable law.
     8. Exception: repackage (provide installation packages/scripts) Kangaroo on Linux system is allowed if all contents (includes all binaries, resources files, scripts, etc) of Kangaroo are not modified or deleted.
 3. We may modify the Software at any time at its sole discretion and without notice to You, for example to comply with applicable law or a court order, to avoid a third party infringement claim or to provide Updates and upgrades.
-4. Certain components of the Software are Open Source Software and licensed under the terms of the applicable license(s) of the Open Source Software. You shall adhere to these terms and conditions, which can be found via the webpage: http://support.datatable.online/Acknowledgement/.
+4. Certain components of the Software are Open Source Software and licensed under the terms of the applicable license(s) of the Open Source Software. You shall adhere to these terms and conditions, which can be found via the webpage: [Acknowledgement](../license/acknowledgement).
 
 ## 5. Maintenance and support
 1. We will notify You of any available Updates and upgrades.

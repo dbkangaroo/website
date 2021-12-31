@@ -12,5 +12,5 @@ lang: zh-CN
 ## 用户协议
 [袋鼠数据库工具软件许可及服务协议](./service-agreement)
 
-## 第三方库许可证
-[第三方库许可协议(证)](third-party.md)
+## 致谢
+[致谢](./acknowledgement)

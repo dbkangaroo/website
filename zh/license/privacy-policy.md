@@ -1,5 +1,5 @@
 ---
-title: Privacy Policy
+title: 隐私保护指引
 lang: zh-CN
 ---
 
@@ -34,8 +34,8 @@ Kangaroo can call and execute other apps for higher usability, which may collect
 
 The 3rd party apps that Kangaroo may launch includes:
 
-- iPic (optional installation on macOS). It may be automatically launched by Kangaroo when you choose to upload images into could server via iPic. Target image path or data will be provided to iPic from Kangaroo during this process.
-- Pandoc (optional installation). It may be automatically launched by Kangaroo when you import/export docx, epub, LaTeX, and other file formats. Data of your current file will be provided to Pandoc from Kangaroo in a converted format that Pandoc accepts.
+- gdbus . It may be automatically launched by Kangaroo when you launch Kangaroo. it allows communication between multiple processes running concurrently on the same machine.
+
 None of them will be installed automatically by Kangaroo, nor launched automatically when user is not doing related operations.
 
 We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party services or apps.

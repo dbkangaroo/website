@@ -120,4 +120,4 @@ actionLink: /zh/download/v1.10.1.210731
 ![工具配置界面](./images/kangaroo-setting.png)
 ![快捷键配置](./images/kangaroo-shortcut.png)
 
-[隐私政策](./license/privacy-policy) | [用户协议](./license/service-agreement) | [粤公网安备44030602005092号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030602005092") | [粤ICP备2020100158号](http://beian.miit.gov.cn/)<br/>版权所有 © 2018-present taozuhong
+[隐私政策](./license/privacy-policy) | [用户协议](./license/service-agreement) | [粤公网安备44030602005092号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030602005092") | [粤ICP备2020100158号](http://beian.miit.gov.cn/)<br/>Copyright © 2019 - present Kangaroo. All Rights Reserved. 袋鼠工具 版权所有

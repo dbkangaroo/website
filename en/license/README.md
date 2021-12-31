@@ -12,5 +12,5 @@ You could find out Kangaroo's license and third-party library license here.
 ## End User License Agreement
 [End User License Agreement](./service-agreement)
 
-## Third-party library license
-[Third-party library license](./third-party)
+## Acknowledgement
+[Acknowledgement](./acknowledgement)
