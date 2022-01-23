@@ -1,5 +1,23 @@
 #Kangaroo change timeline
 
+##Kangaroo v1.91.1.220128
+1. Refactor workbench and workspace
+2. Refactor import/export
+3. Refactor intellisense
+4. Refactor toolbars
+5. Refactor app expire notification
+6. Improve titlebar skin support
+7. Improve dialog style
+8. Split setting into app setting and server setting
+9. Move intellisense data to user document folder
+10. Update Chinese translation
+11. Fixed: can't open url with default app
+12. Fixed: insert sql error(user_name -> user__name)
+13. Fixed: model view crashed
+14. Fixed: DSV formats has a extra column
+15. Fixed: scalable image size issue
+16. Fixed: warning messages
+
 ##Kangaroo v1.90.1.211231
 1. Update UI toolkit from GTK3 to GTK4
 2. Update UI library to GTK4 version
