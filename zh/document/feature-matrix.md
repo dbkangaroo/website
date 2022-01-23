@@ -595,6 +595,18 @@ lang: zh-CN
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
+            <tr>
+                <td style="color: #ffd700;">快捷键自定义</td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td style="color: #ffd700;">编辑器样式</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
             <!--section-->
         </tbody>
     </table>

@@ -99,7 +99,7 @@ module.exports = {
             clientSecret: '2c3a55d0763abd0abde569e17ba5c40b2134b5de',
         }],
         ['social-share', {
-            networks: ['facebook', 'qq', 'twitter', 'line', 'reddit', 'skype', 'douban', 'whatsapp', 'telegram', 'weibo', 'linkedin', 'pinterest'],
+            networks: ['facebook', 'wechat', 'qq', 'twitter', 'line', 'reddit', 'skype', 'douban', 'whatsapp', 'telegram', 'weibo', 'linkedin', 'pinterest'],
             email: 'dbkangaroo@hotmail.com',
             twitterUser: 'DBKangaroo',
             fallbackImage: '/social-share.png',

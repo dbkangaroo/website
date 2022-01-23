@@ -607,6 +607,18 @@ lang: en-US
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
+            <tr>
+                <td style="color: #ffd700;">Shortcut customize</td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td style="color: #ffd700;">Editor scheme</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
             <!--section-->
         </tbody>
     </table>
