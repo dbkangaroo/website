@@ -19,7 +19,7 @@ lang: zh-CN
 | 加密解密      | [OpenSSL](https://www.openssl.org/) | [Apache License v2](https://www.openssl.org/source/license.html) |
 | 编码检测      | [uchardet](https://gitlab.freedesktop.org/uchardet/uchardet) | [LGPL 2.1](https://gitlab.freedesktop.org/uchardet/uchardet/-/blob/master/COPYING) |
 |-|-|-|
-| 图形界面库    | [GTK3](https://gitlab.gnome.org/GNOME/gtk) | [LGPL 2](https://gitlab.gnome.org/GNOME/gtk/-/blob/master/COPYING) |
+| 图形界面库    | [GTK](https://gitlab.gnome.org/GNOME/gtk) | [LGPL 2](https://gitlab.gnome.org/GNOME/gtk/-/blob/master/COPYING) |
 | 触摸图像库    | [libhandy](https://gitlab.gnome.org/GNOME/libhandy) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/libhandy/-/blob/master/COPYING) |
 | 插件支持库    | [libpeas](https://gitlab.gnome.org/GNOME/libpeas) | [LGPL 2.1+](https://gitlab.gnome.org/GNOME/libpeas/-/blob/master/COPYING) |
 | 代码编辑器    | [GtkSourceView](https://gitlab.gnome.org/GNOME/gtksourceview) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/gtksourceview/-/blob/master/COPYING) |

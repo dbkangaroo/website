@@ -19,7 +19,7 @@ lang: en-US
 | cryptography | [OpenSSL](https://www.openssl.org/) | [Apache License v2](https://www.openssl.org/source/license.html) |
 | Encoding     | [uchardet](https://gitlab.freedesktop.org/uchardet/uchardet) | [LGPL 2.1](https://gitlab.freedesktop.org/uchardet/uchardet/-/blob/master/COPYING) |
 |-|-|-|
-| GUI Toolkit  | [GTK3](https://gitlab.gnome.org/GNOME/gtk) | [LGPL 2](https://gitlab.gnome.org/GNOME/gtk/-/blob/master/COPYING) |
+| GUI Toolkit  | [GTK](https://gitlab.gnome.org/GNOME/gtk) | [LGPL 2](https://gitlab.gnome.org/GNOME/gtk/-/blob/master/COPYING) |
 | GUI adaptive | [libhandy](https://gitlab.gnome.org/GNOME/libhandy) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/libhandy/-/blob/master/COPYING) |
 | Plugin       | [libpeas](https://gitlab.gnome.org/GNOME/libpeas) | [LGPL 2.1+](https://gitlab.gnome.org/GNOME/libpeas/-/blob/master/COPYING) |
 | Code editor  | [GtkSourceView](https://gitlab.gnome.org/GNOME/gtksourceview) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/gtksourceview/-/blob/master/COPYING) |

@@ -4,6 +4,37 @@ lang: en-US
 ---
 
 # Kangaroo change 
+## [Kangaroo v1.91.1 (Dev)](/en/download/v1.91.1.220128)
+1. Refactor workbench and workspace
+2. Refactor import/export
+3. Refactor intellisense
+4. Refactor toolbars
+5. Refactor sql builder 
+6. Refactor app expire notification
+7. Improve titlebar skin support
+8. Improve dialog style
+9. Split setting into app setting and server setting
+10. Move intellisense data to user document folder
+11. Update Chinese translation
+12. Fixed: can't open url with default app
+13. Fixed: insert sql error(user_name -> user__name)
+14. Fixed: model view crashed
+15. Fixed: DSV formats has a extra column
+16. Fixed: scalable image size issue
+17. Fixed: warning messages
+
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [Kangaroo v1.90.1 (Dev)](/en/download/v1.90.1.211231)
 1. Update UI toolkit from GTK3 to GTK4
 2. Update UI library to GTK4 version
@@ -56,6 +87,18 @@ lang: en-US
 20. Fixed: can't load index entries (MySQL)
 21. Fixed: can't modify boolean data
 22. Fixed: warning message while loading intellisense data.
+
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
 
 ## [Kangaroo v1.8.1 (Dev)](/en/download/v1.8.1.210430)
 1. Improve toolbar effect(show label and large icon default)

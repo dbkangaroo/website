@@ -4,6 +4,37 @@ lang: zh-CN
 ---
 
 # 袋鼠数据库工具 版本更新记录
+## [袋鼠数据库工具 v1.91.1 (Dev)](/zh/download/v1.91.1.220128)
+1. 重构主界面
+2. 重构导入导出界面
+3. 重构智能提示
+4. 重构工具栏
+5. 重构可视化SQL构建器 
+6. 重构过期消息通知功能
+7. 改进标题栏皮肤支持
+8. 改进对话框样式
+9. 拆分设置文件为界面配置文件和用户连接配置文件
+10. 移动智能提示文件到用户文档目录
+11. 更新中文语言翻译(zh-CN/zh-TW/zh-SG/zh-HK)
+12. 修复: 无法打开链接
+13. 修复: 生成无效插入SQL(user_name -> user__name)
+14. 修复: 模型视图点击崩溃
+15. 修复: DSV 格式额外列
+16. 修复: 可伸缩图片尺寸问题
+17. 修复: 修复控制台警告消息
+
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [袋鼠数据库工具 v1.90.1 (Dev)](/zh/download/v1.90.1.211231)
 1. 升级核心界面库为 GTK4 (GTK3 -> GTK4 4.5)
 2. 升级组件界面库为 GTK4 (libhandy -> libadwaita 1.0 beta)
@@ -56,6 +87,18 @@ lang: zh-CN
 20. 修复: 无法加载索引条目(MySQL)
 21. 修复：无法编辑布尔类型数据
 22. 修复：加载智能提示数据时的告警消息
+
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
 
 ## [袋鼠数据库工具 v1.8.1 (Dev)](/zh/download/v1.8.1.210430)
 1. 改进工具栏支持（默认显示文本和大图标）

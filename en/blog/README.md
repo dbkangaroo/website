@@ -5,7 +5,7 @@ lang: en-US
 
 # Techs, skills and notes
 
-[20210-10-31: Kangaroo GTK4 upgrade report (Phase 1)](./005-GTK4-upgrade-report-phase-1)<Badge text="New"/>
+[2021-10-31: Kangaroo GTK4 upgrade report (Phase 1)](./005-GTK4-upgrade-report-phase-1)<Badge text="New"/>
 
 [2020-09-01: How to deploy GTK based app on Mac OS X?](./004-how-to-deploy-gtk-app-on-mac)
 
