@@ -53,7 +53,7 @@ actionLink: /zh/download/v1.10.1.210731
 
 ## 工具界面快照
 ![链接首页](./images/kangaroo-start.png)
-![链接登录后页面](./images/kangaroo-tools.png)
+![链接登录后页面](./images/kangaroo-explorer.png)
 ![数据网格（自定义列）](./images/kangaroo-grid.png)
 
 <div>
@@ -85,7 +85,6 @@ actionLink: /zh/download/v1.10.1.210731
 </div>
 
 ![表设计器](./images/kangaroo-designer.png)
-![表设计器代码预览](./images/kangaroo-designer2.png)
 ![视图设计器](./images/kangaroo-view.png)
 
 <div>
