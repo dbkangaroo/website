@@ -21,13 +21,13 @@ lang: en-US
                 <td></td>
             </tr>
             <tr>
-                <td>MySQL 3.21 or later</td>
+                <td>MySQL 5.1 or later</td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>MariaDB 5.1 or later</td>
+                <td>MariaDB 10.0 or later</td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
@@ -45,13 +45,13 @@ lang: en-US
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr-->
             <tr>
-                <td>PostgreSQL 7.3 or later</td>
+                <td>PostgreSQL 9.5 or later</td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
-                <td>SQLite 2 and 3</td>
+                <td>SQLite 3.0</td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
