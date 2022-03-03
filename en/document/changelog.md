@@ -4,6 +4,19 @@ lang: en-US
 ---
 
 # Kangaroo change 
+## [Kangaroo v1.92.1 (Dev)](/en/download/v1.92.1.220228)
+1. Add explorer view(Table + Iconic)
+2. Add search and sort support
+3. SQLite: load objects for explorer
+4. MariaDB: load objects for explorer
+5. MySQL: load objects for explorer
+6. PostgreSQL: load objects for explorer
+7. Add context menu for objects
+8. Implement context menu for table and view
+9. Refactor workspace toolbar
+10. Update database object icon
+11. Update Chinese translation
+
 ## [Kangaroo v1.91.1 (Dev)](/en/download/v1.91.1.220128)
 1. Refactor workbench and workspace
 2. Refactor import/export
