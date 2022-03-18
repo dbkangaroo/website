@@ -28,3 +28,5 @@ lang: en-US
 | Map          | [libshumate](https://gitlab.gnome.org/GNOME/libshumate) | [LGPL 2](https://gitlab.gnome.org/GNOME/libshumate/-/blob/main/COPYING) |
 | Chart        | [live-chart](https://github.com/lcallarec/live-chart) | [MIT](https://github.com/lcallarec/live-chart/blob/master/LICENSE) |
 | Template     | [template-glib](https://gitlab.gnome.org/GNOME/template-glib) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/template-glib/-/blob/main/COPYING) |
+|-|-|-|
+| Icons        | [IconPark](https://github.com/bytedance/IconPark) | [Apache License 2.0](https://github.com/bytedance/IconPark/blob/master/LICENSE) |

@@ -16,7 +16,7 @@ lang: zh-CN
 | 数据容器      | [libgee](https://gitlab.gnome.org/GNOME/libgee) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/libgee/-/blob/master/COPYING) |
 | SSH支持库     | [libssh2](https://github.com/libssh2/libssh2) | [BSD-3-Clause](https://github.com/libssh2/libssh2/blob/master/COPYING) |
 | XML支持库     | [libxml2](https://gitlab.gnome.org/GNOME/libxml2) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/libxml2/-/blob/master/Copyright) |
-| 加密解密      | [OpenSSL](https://www.openssl.org/) | [Apache License v2](https://www.openssl.org/source/license.html) |
+| 加密解密      | [OpenSSL](https://www.openssl.org/) | [Apache License 2.0](https://www.openssl.org/source/license.html) |
 | 编码检测      | [uchardet](https://gitlab.freedesktop.org/uchardet/uchardet) | [LGPL 2.1](https://gitlab.freedesktop.org/uchardet/uchardet/-/blob/master/COPYING) |
 |-|-|-|
 | 图形界面库    | [GTK](https://gitlab.gnome.org/GNOME/gtk) | [LGPL 2](https://gitlab.gnome.org/GNOME/gtk/-/blob/main/COPYING) |
@@ -28,3 +28,5 @@ lang: zh-CN
 | 地图支持库    | [libshumate](https://gitlab.gnome.org/GNOME/libshumate) | [LGPL 2](https://gitlab.gnome.org/GNOME/libshumate/-/blob/main/COPYING) |
 | 数据图表库    | [live-chart](https://github.com/lcallarec/live-chart) | [MIT](https://github.com/lcallarec/live-chart/blob/master/LICENSE) |
 | 模板处理库    | [template-glib](https://gitlab.gnome.org/GNOME/template-glib) | [LGPL 2.1](https://gitlab.gnome.org/GNOME/template-glib/-/blob/main/COPYING) |
+|-|-|-|
+| 图标          | [IconPark](https://github.com/bytedance/IconPark) | [Apache License 2.0](https://github.com/bytedance/IconPark/blob/master/LICENSE) |

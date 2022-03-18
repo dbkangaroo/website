@@ -17,23 +17,28 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/images/kangaroo.svg' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-        ['meta', { name: 'keywords', content: 'database,sql,dangaroo,kangaroodb,dbkangaroo,mysql,mariadb,sqlite,postgresql,redis,袋鼠,蓝色袋鼠,袋鼠数据库,数据库袋鼠,袋鼠数据库管理工具,袋鼠数据库工具,袋鼠数据库客户端' }],
+        ['meta', { name: 'keywords', content: 'database,sql,kangaroo,kangaroodb,dbkangaroo,mysql,mariadb,sqlite,postgresql,redis,袋鼠,袋鼠下载,袋鼠工具,蓝色袋鼠,袋鼠数据库,数据库袋鼠,袋鼠数据库管理工具,袋鼠数据库工具,袋鼠数据库客户端' }],
+        ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-04H2JF332Q' }],
+        ['script', {}, [
+                "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-04H2JF332Q');",
+            ],
+        ],
     ],
     locales: {
         '/': {
             lang: 'en',
             title: 'Kangaroo',
-            description: 'SQL client and admin tool for popular databases. focus on great experience and complete modeling, query, analysis, deployment, report, and automation quickly.',
+            description: 'SQL client and admin tool for popular databases. focus on great experience and complete data edit, query, analysis, deployment, report, automation and modeling quickly.',
         },
         '/en/': {
             lang: 'en-US',
             title: 'Kangaroo',
-            description: 'SQL client and admin tool for popular databases. focus on great experience and complete modeling, query, analysis, deployment, report, and automation quickly.',
+            description: 'SQL client and admin tool for popular databases. focus on great experience and complete data edit, query, analysis, deployment, report, automation and modeling quickly.',
         },
         '/zh/': {
             lang: 'zh-CN',
             title: '袋鼠数据库工具',
-            description: '为热门数据库打造的SQL客户端和管理工具，专注于快捷高效的完成建模、查询、分析、部署、报表和自动化等工作'
+            description: '为热门数据库打造的SQL客户端和管理工具，专注于快捷高效的完成编辑、查询、分析、部署、报表、自动化和建模等工作'
           }
     },
     themeConfig: {

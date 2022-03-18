@@ -4,6 +4,9 @@ lang: en-US
 ---
 
 # Kangaroo change 
+## [Kangaroo v1.93.1 (Dev)](/en/download/v1.93.1.220401)
+
+
 ## [Kangaroo v1.92.1 (Dev)](/en/download/v1.92.1.220228)
 1. Add explorer view(Table + Iconic)
 2. Add search and sort support
