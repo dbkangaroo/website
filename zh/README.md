@@ -14,7 +14,7 @@ actionLink: /zh/download/v1.10.1.210731
     <p>简捷、直观的操作界面，帮助您聚焦数据和快速完成工作。</p>
   </div>
   <div class="feature">
-    <h2>卓越体验</h2>
+    <h2>触摸友好</h2>
     <p>聚焦改善数据和 SQL 编辑体验, 让您完成工作的同时收获愉悦的体验。</p>
   </div>
   <div class="feature">

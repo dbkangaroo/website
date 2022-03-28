@@ -5,7 +5,31 @@ lang: en-US
 
 # Kangaroo change 
 ## [Kangaroo v1.93.1 (Dev)](/en/download/v1.93.1.220401)
-
+- SQLite: Add index designer
+- SQLite: Add trigger designer
+- SQLite: Refactor data view designer to improve support
+- MySQL: Add index object support
+- MySQL: Add trigger object support
+- MySQL: Add index designer
+- MySQL: Add trigger designer
+- MySQL: Refactor data view designer to improve support
+- MariaDB: Add index object support
+- MariaDB: Add trigger object support
+- MariaDB: Add index designer
+- MariaDB: Add trigger designer
+- MariaDB: Refactor data view designer to improve support
+- PostgreSQL: Add index designer
+- PostgreSQL: Add trigger designer
+- PostgreSQL: Refactor data view designer to improve support
+- Add connection detail view for workspace
+- Update repository tree icon
+- Update Chinese translation
+- Refactor starter view
+- Fixed: data view designer's restore issue
+- Fixed: workspace menu loading issue
+- Fixed: crash while active_id is null
+- Fixed: editor input issue while having selection
+- Fixed: can't load schema views for MySQL/MariaDB
 
 ## [Kangaroo v1.92.1 (Dev)](/en/download/v1.92.1.220228)
 1. Add explorer view(Table + Iconic)

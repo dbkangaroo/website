@@ -14,7 +14,7 @@ actionLink: ./en/download/v1.10.1.210731
     <p>Simple and Intuitive GUI helps you focus on data and finishing your work quickly.</p>
   </div>
   <div class="feature">
-    <h2>Great Experience</h2>
+    <h2>Touch friendly</h2>
     <p>Focus on the experience of editting, make you feel smoothly when working with it.</p>
   </div>
   <div class="feature">

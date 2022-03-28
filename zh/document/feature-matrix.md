@@ -107,6 +107,38 @@ lang: zh-CN
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--section-->
+            <!--section-->
+            <tr style="background-color: #67C23A;">
+                <td><b>数据库对象支持</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>数据表</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>视图</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>索引</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>触发器</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <!--section-->
             <!--tr style="background-color: #67C23A;">
                 <td><b>云端支持</b></td>
                 <td></td>

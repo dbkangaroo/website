@@ -134,6 +134,38 @@ lang: en-US
             <!--section-->
             <!--section-->
             <tr style="background-color: #67C23A;">
+                <td><b>Database object support</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Table</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>View</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>Index</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>Trigger</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <!--section-->
+            <!--section-->
+            <tr style="background-color: #67C23A;">
                 <td><b>Data Viewer and Editor</b></td>
                 <td></td>
                 <td></td>
