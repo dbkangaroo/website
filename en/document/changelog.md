@@ -25,11 +25,13 @@ lang: en-US
 - Update repository tree icon
 - Update Chinese translation
 - Refactor starter view
+- Refactor repository view
 - Fixed: data view designer's restore issue
 - Fixed: workspace menu loading issue
 - Fixed: crash while active_id is null
 - Fixed: editor input issue while having selection
 - Fixed: can't load schema views for MySQL/MariaDB
+- Fixed: crashed while PostgreSQL database is empty
 
 ## [Kangaroo v1.92.1 (Dev)](/en/download/v1.92.1.220228)
 1. Add explorer view(Table + Iconic)
