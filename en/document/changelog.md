@@ -4,6 +4,8 @@ lang: en-US
 ---
 
 # Kangaroo change 
+## [Kangaroo v1.94.1 (Dev)](/en/download/v1.94.1.220501)
+
 ## [Kangaroo v1.93.1 (Dev)](/en/download/v1.93.1.220401)
 - SQLite: Add index designer
 - SQLite: Add trigger designer
