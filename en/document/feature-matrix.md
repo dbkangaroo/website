@@ -163,6 +163,12 @@ lang: en-US
                 <td></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
+            <tr>
+                <td>Function/procedure</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
             <!--section-->
             <!--section-->
             <tr style="background-color: #67C23A;">

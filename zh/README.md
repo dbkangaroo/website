@@ -86,6 +86,7 @@ actionLink: /zh/download/v1.10.1.210731
 
 ![表设计器](./images/kangaroo-designer.png)
 ![视图设计器](./images/kangaroo-view.png)
+![函数设计器](./images/kangaroo-function.png)
 
 <div>
     <ins class="adsbygoogle"

@@ -87,6 +87,7 @@ Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 
 ![Kangaroo schema designer form](./en/images/kangaroo-designer.png)
 ![Kangaroo view designer](./en/images/kangaroo-view.png)
+![Kangaroo function designer](./en/images/kangaroo-function.png)
 
 <div>
     <ins class="adsbygoogle"

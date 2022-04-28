@@ -138,6 +138,12 @@ lang: zh-CN
                 <td></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
+            <tr>
+                <td>函数/存储过程</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
             <!--section-->
             <!--tr style="background-color: #67C23A;">
                 <td><b>云端支持</b></td>

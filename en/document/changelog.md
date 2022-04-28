@@ -5,6 +5,17 @@ lang: en-US
 
 # Kangaroo change 
 ## [Kangaroo v1.94.1 (Dev)](/en/download/v1.94.1.220501)
+- MySQL: Add function designer
+- MySQL: Add procedure designer
+- MySQL: Add user designer
+- MariaDB: Add function designer
+- MariaDB: Add procedure designer
+- MariaDB: Add user designer
+- PostgreSQL: Add function designer
+- PostgreSQL: Add procedure designer
+- PostgreSQL: Add user designer
+- Add runtime version support on About window
+- Update Chinese translation
 
 ## [Kangaroo v1.93.1 (Dev)](/en/download/v1.93.1.220401)
 - SQLite: Add index designer
