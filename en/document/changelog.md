@@ -15,7 +15,9 @@ lang: en-US
 - PostgreSQL: Add procedure designer
 - PostgreSQL: Add user designer
 - Add runtime version support on About window
-- Update Chinese translation
+- Update the Chinese translation
+- Fixed: workspace view issue
+- Fixed: autosave cache file issue
 
 ## [Kangaroo v1.93.1 (Dev)](/en/download/v1.93.1.220401)
 - SQLite: Add index designer
@@ -36,7 +38,7 @@ lang: en-US
 - PostgreSQL: Refactor data view designer to improve support
 - Add connection detail view for workspace
 - Update repository tree icon
-- Update Chinese translation
+- Update the Chinese translation
 - Refactor starter view
 - Refactor repository view
 - Fixed: data view designer's restore issue
@@ -57,7 +59,7 @@ lang: en-US
 8. Implement context menu for table and view
 9. Refactor workspace toolbar
 10. Update database object icon
-11. Update Chinese translation
+11. Update the Chinese translation
 
 ## [Kangaroo v1.91.1 (Dev)](/en/download/v1.91.1.220128)
 1. Refactor workbench and workspace
@@ -70,7 +72,7 @@ lang: en-US
 8. Improve dialog style
 9. Split setting into app setting and server setting
 10. Move intellisense data to user document folder
-11. Update Chinese translation
+11. Update the Chinese translation
 12. Fixed: can't open url with default app
 13. Fixed: insert sql error(user_name -> user__name)
 14. Fixed: model view crashed
@@ -111,7 +113,7 @@ lang: en-US
 6. Improve connection naming schema
 7. Improve toolbar layout
 8. Improve float type support
-9. Update Chinese translation
+9. Update the Chinese translation
 10. Fixed: invalid sql while large text type(PostgreSQL)
 11. Fixed: designer's checkbox not response.
 12. Fixed: connection crashed(MySQL/PostgreSQL)
@@ -129,7 +131,7 @@ lang: en-US
 7. Implement rename function for MySQL/MariaDB
 8. Implement new/edit/source/rename/dump/copy names function for view
 9. Refactor query view's toolbar
-10. Update Chinese translation(zh-CN/zh-TW/zh-SG/zh-HK)
+10. Update the Chinese translation(zh-CN/zh-TW/zh-SG/zh-HK)
 11. Add column reorder support for data grid
 12. Improve format of DataTime/TimeStamp
 13. Add geometric point type support
@@ -327,7 +329,7 @@ lang: en-US
 
 ## [Kangaroo v0.28.1 (Dev)](/en/download/v0.28.1.200629)
 1. Implement search and replace function
-2. Update Chinese translation
+2. Update the Chinese translation
 
 <div>
     <ins class="adsbygoogle"
@@ -348,7 +350,7 @@ lang: en-US
 4. Implement copy focused column name(short/full)
 5. Implement copy datagrid column name(TSV/CSV)
 6. Update package name
-7. Update Chinese translation
+7. Update the Chinese translation
 
 ## [Kangaroo v0.26.1 (Dev)](/en/download/v0.26.1.200615)
 1. Add intellisense data support(SQLite/MySQL/PostgreSQL)
@@ -357,7 +359,7 @@ lang: en-US
 ## [Kangaroo v0.25.1 (Beta)](/en/download/v0.25.1.200601)
 1. Add context menu for workspace notebook widget
 2. Add new query menu for object tree item(database/schema).
-3. Update Chinese translation(zh-CN/zh-TW/zh-HK/zh-SG).
+3. Update the Chinese translation(zh-CN/zh-TW/zh-HK/zh-SG).
 5. Fixed: PostgreSQL 12: tables not visible #46
 6. Fixed: MariaDB 10.5: Unknown column 'cons.ENFORCED' in 'field list' #47
 7. Fixed: PostgreSQL 12: column c.consrc does not exist #48
