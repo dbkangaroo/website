@@ -1,20 +1,20 @@
 ---
-title: Why choose Vala to build Kangaroo?
+title: Why choose Vala to build Kangaroo?(Updated at 5/20/2022)
 lang: en-US
 sidebarDepth: 2
 copyright:
   minLength: 32
 ---
 
-# Why choose Vala to build Kangaroo?
+# Why choose Vala to build Kangaroo?(Updated at 5/20/2022)
 
 ## Some thoughts about building Kangaroo
-While I decide to build my own app, giving the talent to app is the most important thing, what kind of talent the new app must have? I think they are:
-1. __Performance__: native app's speed is the best.
-2. __Keep code safe__: the app must have capability to against reverse-engineering or modification, by making it difficult for a third-party to access your source code.
-3. __Platform independent__: one copy of code can compile all of platforms.
+While I decided to build my own app, the most important thing is that what kind of talents of the new app should have? I think they are:
+1. __Performance__: native performance is the best.
+2. __Keep code safe__: the app must be safe to against to be cracked.
+3. __Platform independent__: support all platforms like Windows / macOS / Linux.
 4. __Technology maturity__: the technology stack could support to gain the business purpose, I need the money to continue the work.
-5. __Master it easily__: Language must be simple and powerful, sure it is musts familiar by me. 
+5. __Master it easily__: Language must be simple and powerful, sure it is familiar by yourself. 
 
 I had reviewed some kind of framework and languages like: 
 QT / C++ vs WxWidget / C++ vs GTK-mm / C++ vs GTK-rs / Rust / Go-GTK / Go vs GTK / Vala
@@ -35,59 +35,45 @@ finally, I chosen GTK / Vala combination to  be the Kangaroo's tech stack.
 </div>
 
 ## Benefits and strength from Vala
-1. __语法兼容C#和Java，表达能力强，生产力高__
-
-有C#/Java 的强大表达能力，又有原生编译的性能和速度，更有接地气的独特特性；
-
+1. __Syntax compatible with C# and Java__<br/>
+It gives your apps the performance of C/C++ with the productivity of C# and Java; pls see:<br/>
 [Vala for Java Programmers](https://wiki.gnome.org/Projects/Vala/ValaForJavaProgrammers)
-
 [Vala for C# Programmers](https://wiki.gnome.org/Projects/Vala/ValaForCSharpProgrammers)
 
-2. __内存所有权和使用引用计数管理，内存使用安全无烦恼__
+2. __Automatic memory management without GC__<br/>
+Vala's memory management is based on automatic reference counting, no GC, no GC performance issue.
 
-3. __支持接口：支持抽象接口，也支持接口实现__
+3. __Mixin interface support__<br/>
+Vala's interface like PHP's traits and JavaScript's mixin.
 
-接口实现类似于PHP traits 和 JavaScript 的 MIXIN 的功能；
+4. __Dot(.) connect every thing__<br/>
+DBKangaroo project has more than 400 source code files, divide them as three subproject with many namespaces and many levels, all of them connect with the character dot(.), and they work greatly and smoothly.
 
-4. __点分名字空间支持大型应用开发__
+5. __First class regex expression support__<br/>
+Regex expression treat as first class member, simple and powerful. Regex expression be used everywhere in DBKangaroo.
+```vala
+GLib.MatchInfo regex_match;
+Regex regex = /(?<x>[\d\.\-]+),(?<y>[\s]*[\-\d\.]+)/mi;
+if (regex.match(text, 0, out regex_match)) {
+    point_new.set_x(double.parse(regex_match.fetch_named("x")));
+    point_new.set_y(double.parse(regex_match.fetch_named("y")));
+} 
+```
+Special gift: a powerful regex online tool： [Regex101](https://regex101.com/)
 
-DBKangaroo 工具编写了 210 多个源码模块，至今用起来很顺，一个点(.)搞定；
+6. __Performance of C/C++ with great interoperability__<br/>
+Vala produces C code as intermediate language to support all platforms, Vala code and  C code could be compiled in the same project。
 
-5. __语言级别的正则表达式支持__
+7. __Rich and powerful libraries__<br/>
+There are 300+ Vala bindings for GNOME foundation and other populary project. [VAPIs @ Github](https://github.com/nemequ/vala-girs/tree/master/vala/vapi) [VAPIs @ Project](https://gitlab.gnome.org/GNOME/vala/-/tree/main/vapi)
 
-正则表达式给予了我强大的力量，在我的代码中无处不在，越用越熟练。<br/>
-顺便推荐在线好工具： [Regex101](https://regex101.com/)
+8. __Excellent documentation__<br/>
+Vala has excellent documentation, be it in the form of [tutorials](https://chebizarro.gitbooks.io/the-vala-tutorial/content/), [code samples](https://wiki.gnome.org/Projects/Vala/Examples) or a [very easy-to-use API Reference](https://valadoc.org/).<br/>
+[Vala projects at GNOME](https://wiki.gnome.org/Projects/Vala/Documentation#Projects_Developed_in_Vala)
+[Vala projects at Github](https://github.com/search?l=Vala&q=Vala&type=Repositories)
 
-6. __有C的速度和良好的互操作性支持__
+9. __Visual Studio Code with Vala language server support__<br/>
+The best Vala IDE is [Visual Studio Code](https://code.visualstudio.com/Download) + [Vala plugin](https://marketplace.visualstudio.com/items?itemName=prince781.vala) + [Vala language server](https://github.com/vala-lang/vala-language-server) + Meson(Ninja)/MSYS2, enjoy them, comtribute them, we can.
 
-可以生成C头文件和C代码并获得全平台支持，也可以Vala与C混合编译。
-
-7. __强大且成熟的类库支持（官方支持约250个库）__
-
-基于GLib的强大类库体系，有工业级成熟度的各种库和GUI框架。<br/>
-默认基于 GObject 的对象系统，也支持构建自己的单根对象体系。
-
-
-8. __有丰富且完善的文档支持，也有大量开源项目可供参考学习__
-
-[Vala 官方在线文档](https://valadoc.org/)
-
-[Vala 项目集合 1(GNOME)](https://wiki.gnome.org/Projects/Vala/Documentation#Projects_Developed_in_Vala)
-
-[Vala 项目集合 2(Github)](https://github.com/search?l=Vala&q=Vala&type=Repositories)
-
-9. __有多种语言服务器【LSP】实现，支持各种编辑器和IDE__
-
-[Vala Language Server on GNOME by Daniel Espinosa](https://gitlab.gnome.org/esodan/gvls)<br/>
-最新版本为0.14.1，已实现Vala 语言服务器（LSP 1.4） ，支持代码自动完成，并快速演进中......
-
-[Vala Language Server on Github by Ben Iofel / Princeton Ferro](https://github.com/benwaffle/vala-language-server)<br/>
-正在开发中，还未发布版本，已支持跳转到定义，代码自动完成正在实现中......
-
-[Visual Studio Code](https://code.visualstudio.com/Download) + [Vala](https://github.com/Prince781/vala-vscode)<br/>
-VSCode 仍然是最值得推荐的IDE
-
-10. __Gnome 和 Elementary OS官方钦定语言，并获得IBM公司研究机构采用__
-
-有大型机构和大公司采用 Vala 能给予普通开发者更大的信心加持，
-[采用 Vala 的完整公司列表](https://wiki.gnome.org/Projects/Vala/Documentation#Companies_that_use.2Fhave_used__Vala)
+10. __Elementary OS team's primary language__<br/>
+Elementary's blog will tell you the truth: [Why we write elementary apps in Vala](https://blog.elementary.io/why-we-write-elementary-apps-in-vala/)

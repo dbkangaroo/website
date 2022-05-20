@@ -4,6 +4,21 @@ lang: en-US
 ---
 
 # Kangaroo change 
+## [Kangaroo v1.95.1 (Dev)](/en/download/v1.95.1.220601)
+- MySQL: Add role designer
+- MySQL: Add schema designer
+- MySQL: Add database designer
+- MariaDB: Add role designer
+- MariaDB: Add schema designer
+- MariaDB: Add database designer
+- PostgreSQL: Add role designer
+- PostgreSQL: Add schema designer
+- PostgreSQL: Add database designer
+- Update explorer view with database and schema support
+- Refactor object tree context menu
+- Bind tab title with explorer title
+- Update the Chinese translation
+
 ## [Kangaroo v1.94.1 (Dev)](/en/download/v1.94.1.220501)
 - MySQL: Add function designer
 - MySQL: Add procedure designer

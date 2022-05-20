@@ -19,7 +19,7 @@ actionLink: ./en/download/v1.10.1.210731
   </div>
   <div class="feature">
     <h2>Performance</h2>
-    <p><a target="_blank" href="https://gitlab.gnome.org/GNOME/vala">Vala</a>, <a target="_blank" href="https://www.gtk.org/">GTK</a> and <a target="_blank" href="https://gitlab.gnome.org/GNOME/libgda">libgda</a> based native application, more responsible speed than others.</p>
+    <p><a target="_blank" href="https://www.gtk.org/">GTK</a> and <a target="_blank" href="https://gitlab.gnome.org/GNOME/libadwaita">Adwaita</a> with <a target="_blank" href="https://gitlab.gnome.org/GNOME/vala">Vala</a> based native application, focus on performance, focus on responsible.</p>
   </div>
 </div>
 
