@@ -22,14 +22,14 @@ lang: en-US
             </tr>
             <tr>
                 <td>MySQL 5.1 or later</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>MariaDB 10.0 or later</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -46,14 +46,14 @@ lang: en-US
             </tr-->
             <tr>
                 <td>PostgreSQL 9.5 or later</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>SQLite 3.0</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -78,8 +78,8 @@ lang: en-US
             </tr>
             <tr>
                 <td>Secure connection: SSH/HTTP/SSL</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -102,8 +102,8 @@ lang: en-US
             </tr-->              
             <tr>
                 <td>Export/import connection settings</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--section-->
@@ -191,62 +191,62 @@ lang: en-US
             </tr>
             <tr>
                 <td>Grid view</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>Form view</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>Chart view</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>Map view</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>Generate cell value</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td style="color: #ffd700;">Update cell value with algorithm</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td style="color: #ffd700;">Copy cell value with algorithm</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>            
             <tr>
                 <td>Text, Image viewer/editor</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>Hex, Web viewer/editor</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>Raw mode editing</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -257,8 +257,8 @@ lang: en-US
             </tr-->
             <tr>
                 <td>Customize data type colorings</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>              
             <!--tr>
@@ -269,8 +269,8 @@ lang: en-US
             </tr-->
             <tr>
                 <td>Filter records</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--section-->
@@ -289,26 +289,26 @@ lang: en-US
             </tr-->
             <tr>
                 <td>SQL/Script Editor</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>SQL keyword auto-completion</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>User schema auto-completion</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>Visual SQL/Script Builder</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -332,13 +332,13 @@ lang: en-US
             <tr>
                 <td>SQL/Script Beautifier and Minifier</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>Find and replace</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -350,7 +350,7 @@ lang: en-US
             <tr>
                 <td>Open query files in an external editor</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -402,13 +402,13 @@ lang: en-US
             <tr>
                 <td>Conceptual, Logical and Physical model</td>
                 <td style="text-align: center;"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>Reverse/forward engineering</td>
                 <td style="text-align: center;"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -420,13 +420,13 @@ lang: en-US
             <tr>
                 <td>Add lines, layers, images, notes, art-texts and shapes</td>
                 <td style="text-align: center;"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>Export database diagrams to PDF and graphic files</td>
                 <td style="text-align: center;"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--section-->
@@ -439,14 +439,14 @@ lang: en-US
             </tr>
             <tr>
                 <td>Import from file formats: TXT, CSV, XML, JSON</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>Export to file formats: TXT, CSV, XML, JSON</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -469,14 +469,14 @@ lang: en-US
             </tr-->
             <tr>
                 <td>Export data to Markdown, HTML</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>Generate design document(Markdown, HTML)</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -660,13 +660,13 @@ lang: en-US
             <tr>
                 <td>Dark mode</td>
                 <td></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td style="color: #ffd700;">Shortcut customize</td>
                 <td></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>

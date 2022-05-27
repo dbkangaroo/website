@@ -22,14 +22,14 @@ lang: zh-CN
             </tr>
             <tr>
                 <td>MySQL 5.1 或以上</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>MariaDB 10.0 或以上</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -46,14 +46,14 @@ lang: zh-CN
             </tr-->
             <tr>
                 <td>PostgreSQL 9.5 或以上</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>SQLite 3.0</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -78,8 +78,8 @@ lang: zh-CN
             </tr>
             <tr>
                 <td>安全连接: SSH/HTTP/SSL</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -102,8 +102,8 @@ lang: zh-CN
             </tr-->              
             <tr>
                 <td>导出或导入连接设置</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--section-->
@@ -191,62 +191,62 @@ lang: zh-CN
             </tr>
             <tr>
                 <td>网格视图</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>表单视图</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>图表视图</td>
                 <td></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>地图视图</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>自动生成单元值</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td style="color: #ffd700;">单元值算法更新</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td style="color: #ffd700;">单元值算法复制</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>文本、图片查看和编辑</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>二进制、网页查看和编辑</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>原始数据模式编辑</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -257,8 +257,8 @@ lang: zh-CN
             </tr-->
             <tr>
                 <td>自定义数据类型颜色</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>              
             <!--tr>
@@ -269,8 +269,8 @@ lang: zh-CN
             </tr-->
             <tr>
                 <td>筛选记录</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--section-->
@@ -289,26 +289,26 @@ lang: zh-CN
             </tr-->
             <tr>
                 <td>SQL 或脚本编辑器</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>SQL 关键字自动完成</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>用户数据自动完成</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>可视化 SQL 或脚本创建工具</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -332,13 +332,13 @@ lang: zh-CN
             <tr>
                 <td>SQL 代码或脚本美化或简化</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>查找和替换</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -350,7 +350,7 @@ lang: zh-CN
             <tr>
                 <td>在外部编辑器中打开查询文件</td>
                 <td style="text-align: center;"><img src=""></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -390,13 +390,13 @@ lang: zh-CN
             <tr>
                 <td>概念、逻辑和物理模型</td>
                 <td style="text-align: center;"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>逆向或正向工程</td>
                 <td style="text-align: center;"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -408,13 +408,13 @@ lang: zh-CN
             <tr>
                 <td>添加线、层、图像、笔记、艺术文本和形状</td>
                 <td style="text-align: center;"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>导出数据库图表到 PDF 和图形文件</td>
                 <td style="text-align: center;"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--section-->
@@ -427,14 +427,14 @@ lang: zh-CN
             </tr>
             <tr>
                 <td>从文件导入数据: TXT, CSV, XML, JSON</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>导出数据为文件: TXT, CSV, XML, JSON</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -457,14 +457,14 @@ lang: zh-CN
             </tr-->
             <tr>
                 <td>导出数据到格式：Markdown、HTML</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>生成设计文档: Markdown、HTML</td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2020.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <!--tr>
@@ -648,13 +648,13 @@ lang: zh-CN
             <tr>
                 <td>深色模式</td>
                 <td></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td style="color: #ffd700;">快捷键自定义</td>
                 <td></td>
-                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+                <td style="text-align: center;"><img src="/images/icon-2021.svg"></td>
                 <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
