@@ -140,6 +140,18 @@ lang: en-US
                 <td></td>
             </tr>
             <tr>
+                <td>Database</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>Schema</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
                 <td>Table</td>
                 <td></td>
                 <td></td>
@@ -576,6 +588,12 @@ lang: en-US
                 <td></td>
                 <td></td>
                 <td></td>
+            </tr>
+            <tr>
+                <td>Manage role</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>Manage user</td>

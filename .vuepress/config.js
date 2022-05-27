@@ -111,6 +111,9 @@ module.exports = {
             autoQuote: true,
             isPlain: false,
             noGlobalSocialShare: true,
+            qrcodeOptions: {
+                width: 240,
+            },
             extendsNetworks,
         }],
         [

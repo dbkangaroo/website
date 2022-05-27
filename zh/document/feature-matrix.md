@@ -115,6 +115,18 @@ lang: zh-CN
                 <td></td>
             </tr>
             <tr>
+                <td>数据库</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
+                <td>架构</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
+            </tr>
+            <tr>
                 <td>数据表</td>
                 <td></td>
                 <td></td>
@@ -564,6 +576,12 @@ lang: zh-CN
                 <td></td>
                 <td></td>
                 <td></td>
+            </tr>
+            <tr>
+                <td>角色管理</td>
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><img src="/images/icon-check.svg"></td>
             </tr>
             <tr>
                 <td>用户管理</td>

@@ -16,7 +16,7 @@
         "vuepress-plugin-qrcode": "^1.0.7",
         "vuepress-plugin-redirect": "^1.2.5",
         "vuepress-plugin-sitemap": "^2.3.1",
-        "vuepress-plugin-social-share": "^1.1.0",
+        "vuepress-plugin-social-share": "^1.2.1",
         "vuepress-plugin-zooming": "^1.1.8"
     }
 }
