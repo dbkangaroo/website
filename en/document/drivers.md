@@ -54,10 +54,10 @@ LogonAuth = password_for_LogonUser
 The most important is that the driver name in datasource should be same as the driver name in the file: `odbcinst.ini`
 
 3. Setup file data sources<br/>
-default path: /etc/ODBCDataSources, the syntax same as 
+default path: `/etc/ODBCDataSources`, the syntax same as 
 
 5. Setup user data sources<br/>
-default path: /home/auser/.odbc.ini
+default path: `/home/auser/.odbc.ini`
 
 finaly, You can list user and system data sources with:
 `odbcinst -q -s`

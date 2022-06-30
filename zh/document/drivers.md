@@ -55,9 +55,9 @@ LogonAuth = password_for_LogonUser
 ODBC 数据源配置最重要的注意事项是数据源中的驱动(Driver)必需保持和驱动配置文件（odbcinst.ini）中的驱动名(DRIVER_NAME)一致。
 
 3. 文件数据源配置<br/>
-配置文件默认路径： /etc/ODBCDataSources, ODBC 数据源配置模板如前所示；
+配置文件默认路径： `/etc/ODBCDataSources`, ODBC 数据源配置模板如前所示；
 
 5. 用户独享数据源配置<br/>
-配置文件默认路径： /home/auser/.odbc.ini, ODBC 数据源配置模板如前所示；
+配置文件默认路径： `/home/auser/.odbc.ini`, ODBC 数据源配置模板如前所示；
 
 最后，您可以使用命令行列出所有已配置好的数据源: `odbcinst -q -s`
