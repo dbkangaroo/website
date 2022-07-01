@@ -4,6 +4,11 @@ lang: en-US
 ---
 
 # Kangaroo change 
+## [Kangaroo v1.96.1 (Dev)](/en/download/v1.96.1.220701)
+- Replace libgda with ODBC
+- Add general database support
+- Update the Chinese translation
+
 ## [Kangaroo v1.95.1 (Dev)](/en/download/v1.95.1.220601)
 - MySQL: Add role designer
 - MySQL: Add schema designer
