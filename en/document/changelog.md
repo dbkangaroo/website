@@ -4,6 +4,10 @@ lang: en-US
 ---
 
 # Kangaroo change 
+## [Kangaroo v1.10.2 (Beta)](/en/download/v1.10.2.220701)
+- Remove app expire date
+- Windows: update library to the latest.
+
 ## [Kangaroo v1.96.1 (Dev)](/en/download/v1.96.1.220701)
 - Replace libgda with ODBC
 - Add general database support

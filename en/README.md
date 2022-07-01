@@ -4,8 +4,8 @@ lang: en-US
 heroText: Kangaroo
 heroImage: /images/kangaroo.svg
 tagline: SQL client and admin tool for popular databases
-actionText: Download Kangaroo v1.10.1
-actionLink: /download/v1.10.1.210731
+actionText: Download Kangaroo v1.10.2
+actionLink: /download/v1.10.2.220701
 ---
 
 <div class="features">
