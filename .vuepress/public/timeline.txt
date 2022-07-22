@@ -1,5 +1,21 @@
 #Kangaroo change timeline
 
+##Kangaroo v1.97.1.220731
+- Update windows deploy script
+- Update ArchLinux build script
+- Upgrade close confirm dialog
+- Refactor datagrid with ColumnView
+- Windows installer support ODBC drivers
+- Improve Windows installer l10n support
+- Improve object explorer sort support
+- Improve content builder
+- Update the Chinese translation
+
+##Kangaroo v1.96.1.220701
+- Replace libgda with ODBC
+- Add general database support
+- Update the Chinese translation
+
 ##Kangaroo v1.95.1.220601
 - MySQL: Add role designer
 - MySQL: Add schema designer
