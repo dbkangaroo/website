@@ -3,7 +3,21 @@ title: Change timeline
 lang: en-US
 ---
 
-# Kangaroo change 
+# Kangaroo change
+## [Kangaroo v1.97.1 (Dev)](/en/download/v1.97.1.220731)
+- Update windows deploy script
+- Update ArchLinux build script
+- Upgrade close confirm dialog
+- Refactor datagrid with ColumnView
+- Windows installer support ODBC drivers
+- Improve Windows installer l10n support
+- Improve object explorer sort support
+- Improve content builder
+- Improve SQL builder
+- Improve DBNull value support
+- Update the Chinese translation
+- Fixed ODBC connection issues
+
 ## [Kangaroo v1.10.2 (Beta)](/en/download/v1.10.2.220701)
 - Remove app expire date
 - Windows: update library to the latest.
@@ -27,6 +41,18 @@ lang: en-US
 - Refactor object tree context menu
 - Bind tab title with explorer title
 - Update the Chinese translation
+
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
 
 ## [Kangaroo v1.94.1 (Dev)](/en/download/v1.94.1.220501)
 - MySQL: Add function designer

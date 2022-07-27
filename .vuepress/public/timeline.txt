@@ -9,7 +9,10 @@
 - Improve Windows installer l10n support
 - Improve object explorer sort support
 - Improve content builder
+- Improve SQL builder
+- Improve DBNull value support
 - Update the Chinese translation
+- Fixed ODBC connection issues
 
 ##Kangaroo v1.96.1.220701
 - Replace libgda with ODBC

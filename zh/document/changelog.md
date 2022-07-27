@@ -4,6 +4,20 @@ lang: zh-CN
 ---
 
 # 袋鼠数据库工具 版本更新记录
+## [袋鼠数据库工具 v1.97.1 (Dev)](/zh/download/v1.97.1.220731)
+- 更新 Windows 打包脚本，修复依赖库缺失问题
+- 更新 ArchLinux 打包脚本，修复依赖库缺失问题
+- 升级关闭确认对话框
+- 重构网格组件（GtkColumnView）
+- Windows 安装脚本增加 ODBC 驱动支持
+- 改进 Windows 安装包本地化支持
+- 改进对象浏览视图的排序支持
+- 完善内容视图查询构建器
+- 改进 SQL 构建器
+- 改进 DBNull 支持
+- 更新中文语言支持
+- 修复 ODBC 连接相关问题
+
 ## [袋鼠数据库工具 v1.10.2 (Beta)](/zh/download/v1.10.2.220701)
 1. 删除版本过期时间
 2. Windows： 依赖库升级到最新版
@@ -27,6 +41,18 @@ lang: zh-CN
 - 重构对象树上下文菜单
 - 动态绑定页签图标和标题为对象浏览器标题和图标
 - 更新中文语言支持
+
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
 
 ## [袋鼠数据库工具 v1.94.1 (Dev)](/zh/download/v1.94.1.220501)
 - MySQL: 增加函数设计器
