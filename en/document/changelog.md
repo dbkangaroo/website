@@ -4,6 +4,12 @@ lang: en-US
 ---
 
 # Kangaroo change
+## [Kangaroo v1.98.1 (Dev)](/en/download/v1.98.1.220904)
+- DataGrid add style for current cell
+- SQLite: refactor table designer
+- MySQL: refactor table designer
+- PostgreSQL: refactor table designer
+
 ## [Kangaroo v1.97.1 (Dev)](/en/download/v1.97.1.220731)
 - Update windows deploy script
 - Update ArchLinux build script
