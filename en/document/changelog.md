@@ -9,6 +9,9 @@ lang: en-US
 - SQLite: refactor table designer
 - MySQL: refactor table designer
 - PostgreSQL: refactor table designer
+- Update the Chinese translation
+- Fixed connection dialog issue
+- Fixed starter drop action issue
 
 ## [Kangaroo v1.97.1 (Dev)](/en/download/v1.97.1.220731)
 - Update windows deploy script
