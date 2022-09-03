@@ -11,6 +11,7 @@ lang: en-US
 - PostgreSQL: refactor table designer
 - Normalize column's length/precision/scale
 - Update the Chinese translation
+- Fixed ODBC CHAR/WCHAR data type issue
 - Fixed connection's driver missed issue
 - Fixed drop SQLite file to create connection issue
 - Fixed MySQL/MariaDB encoding(Chinese) issue

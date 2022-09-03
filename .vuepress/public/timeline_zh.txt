@@ -7,6 +7,7 @@
 - PostgreSQL: 重构表设计器
 - 规范化字段的长度/精度/小数位支持
 - 更新中文语言支持(zh-CN/zh-TW/zh-SG/zh-HK)
+- 修复：ODBC CHAR/WCHAR 类型读取问题
 - 修复：连接对话框丢失驱动问题
 - 修复：修复起始页拖放建立连接问题
 - 修复：MySQL/MariaDB 乱码问题
