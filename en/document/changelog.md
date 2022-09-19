@@ -4,6 +4,8 @@ lang: en-US
 ---
 
 # Kangaroo change
+## [Kangaroo v1.99.1 (Dev)](/en/download/v1.99.1.221001)
+
 ## [Kangaroo v1.98.1 (Dev)](/en/download/v1.98.1.220904)
 - DataGrid add style for current cell
 - SQLite: refactor table designer
