@@ -54,8 +54,9 @@ Database support capability level: __Planned__ / __Partial__ / __Full(:100:)__
 
 
 ## Screenshots
-![Start page of connection](./images/kangaroo-start.png)
-![Tools page of connection](./images/kangaroo-explorer.png)
+![Start page](./images/kangaroo-start.png)
+![Object explorer](./images/kangaroo-explorer.png)
+![Object search](./images/kangaroo-search.png)
 ![Kangaroo grid view in table with custom columns](./images/kangaroo-grid.png)
 
 <div>

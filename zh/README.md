@@ -52,8 +52,9 @@ actionLink: /zh/download/v1.99.1.221001
 
 
 ## 工具界面快照
-![链接首页](./images/kangaroo-start.png)
-![链接登录后页面](./images/kangaroo-explorer.png)
+![袋鼠首页](./images/kangaroo-start.png)
+![对象浏览视图](./images/kangaroo-explorer.png)
+![对象搜索视图](./images/kangaroo-search.png)
 ![数据网格（自定义列）](./images/kangaroo-grid.png)
 
 <div>
