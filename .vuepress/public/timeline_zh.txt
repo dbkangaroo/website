@@ -9,6 +9,9 @@
 - 重构连接对话框
 - 添加附加数据库对话框
 - 添加通用数据库支持
+- 添加 ODBC 帮助入口
+- 添加对象搜索支持
+- 更新 Windows 和 Arch Linux 的打包与安装脚本
 - SQLite: 附加和卸载数据库
 - SQLite: 加载扩展支持
 - 更新中文语言支持(zh-CN/zh-TW/zh-SG/zh-HK)

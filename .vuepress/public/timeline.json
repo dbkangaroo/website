@@ -1,7 +1,7 @@
 {
     "advertise": [
         {
-            "id": 21022401,
+            "id": 22100103,
             "group": "image",
             "locale": "zh",
             "datetime": "2021-02-24T18:35:50.000Z",
@@ -11,7 +11,7 @@
             "location": "https://www.datatable.online/zh/"
         },
         {
-            "id": 21022404,
+            "id": 22100104,
             "group": "image",
             "locale": "en",
             "datetime": "2021-02-24T18:35:50.000Z",
@@ -23,41 +23,41 @@
     ],
     "broadcast": [
         {
-            "id": 21080501,
+            "id": 22100101,
             "group": "hyperlink",
             "locale": "zh",
-            "datetime": "2022-07-01T10:00:00.000Z",
-            "title": "袋鼠数据库工具 v1.10.2 上线",
-            "tooltip": "袋鼠数据库工具 v1.10.2 上线",
-            "showcase": "袋鼠数据库工具 v1.10.2 上线",
-            "location": "https://www.datatable.online/zh/download/v1.10.2.220701.html"
+            "datetime": "2022-10-01T10:00:00.000Z",
+            "title": "袋鼠数据库工具 v1.99.1 上线",
+            "tooltip": "袋鼠数据库工具 v1.99.1 上线",
+            "showcase": "袋鼠数据库工具 v1.99.1 上线",
+            "location": "https://www.datatable.online/zh/download/v1.99.1.221001.html"
         }, {
-            "id": 21080502,
+            "id": 22100102,
             "group": "hyperlink",
             "locale": "en",
-            "datetime": "2022-07-01T10:00:00.000Z",
-            "title": "Kangaroo v1.10.2 released",
-            "tooltip": "Kangaroo v1.10.2 released",
-            "showcase": "Kangaroo v1.10.2 released",
-            "location": "https://www.datatable.online/en/download/v1.10.2.220701.html"
+            "datetime": "2022-10-01T10:00:00.000Z",
+            "title": "Kangaroo v1.99.1 released",
+            "tooltip": "Kangaroo v1.99.1 released",
+            "showcase": "Kangaroo v1.99.1 released",
+            "location": "https://www.datatable.online/en/download/v1.99.1.221001.html"
         }
     ],
     "version": [
         {
             "group": "devel",
-            "version": "1.97.1.220731",
-            "datetime": "2022-07-31T10:00:00.000Z",
-            "windows": "https://d4.injdk.cn/dbkangaroo/v1.97.1.220731/kangaroo-1.97.1.220731-AMD64.exe",
-            "darwin": "https://d4.injdk.cn/dbkangaroo/v1.97.1.220731/kangaroo-1.97.1.220731-macos.dmg",
-            "linux": "https://d4.injdk.cn/dbkangaroo/v1.97.1.220731/kangaroo-1.97.1.220731-ubuntu.tar.gz",
+            "version": "1.99.1.221001",
+            "datetime": "2022-10-01T10:00:00.000Z",
+            "windows": "https://d4.injdk.cn/dbkangaroo/v1.99.1.221001/kangaroo-1.99.1.221001-AMD64.exe",
+            "darwin": "https://d4.injdk.cn/dbkangaroo/v1.99.1.221001/kangaroo-1.99.1.221001-macos.dmg",
+            "linux": "https://d4.injdk.cn/dbkangaroo/v1.99.1.221001/kangaroo-1.99.1.221001-ubuntu.tar.gz",
             "force": false
         }, {
             "group": "stable",
-            "version": "1.10.2.220701",
-            "datetime": "2022-07-01T10:00:00.000Z",
-            "windows": "https://d4.injdk.cn/dbkangaroo/v1.10.2.220701/kangaroo-1.10.2.220701-AMD64.exe",
-            "darwin": "https://d4.injdk.cn/dbkangaroo/v1.10.2.220701/kangaroo-1.10.2.220701-macos.dmg",
-            "linux": "https://d4.injdk.cn/dbkangaroo/v1.10.2.220701/kangaroo-1.10.2.220701-ubuntu.tar.gz",
+            "version": "1.99.1.221001",
+            "datetime": "2022-10-01T10:00:00.000Z",
+            "windows": "https://d4.injdk.cn/dbkangaroo/v1.99.1.221001/kangaroo-1.99.1.221001-AMD64.exe",
+            "darwin": "https://d4.injdk.cn/dbkangaroo/v1.99.1.221001/kangaroo-1.99.1.221001-macos.dmg",
+            "linux": "https://d4.injdk.cn/dbkangaroo/v1.99.1.221001/kangaroo-1.99.1.221001-ubuntu.tar.gz",
             "force": false
         }
     ]

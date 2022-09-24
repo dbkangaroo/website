@@ -5,6 +5,21 @@ lang: en-US
 
 # Kangaroo change
 ## [Kangaroo v1.99.1 (Dev)](/en/download/v1.99.1.221001)
+- Normalize DataModel and MetaModel
+- Refactor documents dialog
+- Refactor export pages
+- Refactor import pages
+- Refactor connection dialog
+- Add attach database dialog
+- Upgrade libsoup2 to libsoup3
+- Add ODBC general support
+- Add ODBC help entry point
+- Add object search support
+- Update Windows and ArchLinux installer and deploy script
+- SQLite: attach and detach database
+- SQLite: load extension support
+- Update Chinese translation
+- Fixed shortcut file issue
 
 ## [Kangaroo v1.98.1 (Dev)](/en/download/v1.98.1.220904)
 - DataGrid add style for current cell
