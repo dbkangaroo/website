@@ -18,6 +18,7 @@ lang: en-US
 - Update Windows and ArchLinux installer and deploy script
 - SQLite: attach and detach database
 - SQLite: load extension support
+- Improve the way to create new connection
 - Update Chinese translation
 - Fixed shortcut file issue
 

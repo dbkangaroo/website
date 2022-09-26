@@ -18,6 +18,7 @@ lang: zh-CN
 - 更新 Windows 和 Arch Linux 的打包与安装脚本
 - SQLite: 附加和卸载数据库
 - SQLite: 加载扩展支持
+- 改进新连接创建方式
 - 更新中文语言支持(zh-CN/zh-TW/zh-SG/zh-HK)
 - 修复：快捷键加载和保存问题
 
