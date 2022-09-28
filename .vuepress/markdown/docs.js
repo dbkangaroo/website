@@ -15,5 +15,6 @@ module.exports = [
     'editor',
     'visual-sql-builder',
     'sqlite',
+    'scale',
     'faq',
 ]
