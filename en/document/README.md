@@ -40,6 +40,9 @@ Kangaroo has full function support on MacOS:<br/>
 ## SQLite support
 [SQLite support](sqlite.md)
 
+## ODBC Drivers
+[ODBC Drivers](drivers)
+
 ## 2K/3K/4K monitor scale
 [Hi-DPI scale setting](scale.md)
 

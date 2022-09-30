@@ -26,6 +26,19 @@ lang: zh-CN
 [CData Software ODBC Drivers](https://www.cdata.com/odbc/)<br/>
 [Devart ODBC Drivers](https://www.devart.com/odbc/)
 
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## UnixODBC / iODBC 安装与配置
 1. 安装 UnixODBC / iODBC
 ```bash
@@ -63,3 +76,16 @@ ODBC 数据源配置最重要的注意事项是数据源中的驱动(Driver)必�
 配置文件默认路径： `/home/auser/.odbc.ini`, ODBC 数据源配置模板如前所示；
 
 最后，您可以使用命令行列出所有已配置好的数据源: `odbcinst -q -s`
+
+<div>
+    <script2 type="text/javascript" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>

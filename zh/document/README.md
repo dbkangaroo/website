@@ -44,6 +44,9 @@ MacOS 版本袋鼠数据库工具具有完整的功能支持，安装体验正�
 ## SQLite特色功能
 [SQLite 特色功能](sqlite.md)
 
+## ODBC 驱动程序
+[ODBC 驱动程序](drivers)
+
 ## 2K/3K/4K 显示器设置
 [高分辨率缩放设置](scale.md)
 
