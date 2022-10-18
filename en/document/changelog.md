@@ -4,6 +4,8 @@ lang: en-US
 ---
 
 # Kangaroo change
+## [Kangaroo v2.0.1 (Beta)](/en/download/v2.0.1.221101)
+
 ## [Kangaroo v1.99.1 (Dev)](/en/download/v1.99.1.221001)
 - Normalize DataModel and MetaModel
 - Refactor documents dialog
