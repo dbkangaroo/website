@@ -5,6 +5,29 @@ lang: en-US
 
 # Kangaroo change
 ## [Kangaroo v2.0.0 (Beta)](/en/download/v2.0.0.221101)
+- Refactor importer page (columns/preview)
+- Refactor columns selection dialog
+- Refactor SQLite columns dialog
+- Refactor PostgreSQL columns dialog
+- Refactor MySQL columns dialog
+- Refactor type values dialog (Enum/set)
+- Refactor documents dialog
+- Refactor DataGrid events and context menu
+- Implement form view edit and save support
+- Implement table view edit and save support
+- Implement Binary/BLOB import/export/save support
+- Improve SQLite schema support
+- Form view navigation support
+- Update Chinese translation
+- Fixed numeric value lost its decimal issue
+- Fixed toolbar icon size issue
+- Fixed explorer DataGrid issue
+- Fixed import data failure issue
+- Fixed index loading crash issue
+- Fixed repo tree node change issue
+- Fixed SQLite function crash issue
+- Fixed application warning messages
+- Fixed compiler warning messages
 
 ## [Kangaroo v1.99.1 (Dev)](/en/download/v1.99.1.221001)
 - Normalize DataModel and MetaModel

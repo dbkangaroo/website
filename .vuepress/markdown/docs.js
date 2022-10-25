@@ -5,6 +5,7 @@ module.exports = [
     'install-linux',
     'install-macos',
     'feature-matrix',
+    'screenshots',
     'drivers',
     'changelog',
     'connection',

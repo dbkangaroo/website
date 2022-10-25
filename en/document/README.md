@@ -22,6 +22,9 @@ Kangaroo has full function support on MacOS:<br/>
 ## Features
 [Feature matrix](feature-matrix.md)
 
+## Screenshots 
+[Screenshots](screenshots)
+
 ## Change timeline
 [Kangaroo's change timeline](changelog.md)
 
