@@ -13,6 +13,7 @@ lang: en-US
 - Refactor type values dialog (Enum/set)
 - Refactor documents dialog
 - Refactor DataGrid events and context menu
+- Replace icon with symbolic icon
 - Implement form view edit and save support
 - Implement table view edit and save support
 - Implement Binary/BLOB import/export/save support
@@ -28,6 +29,7 @@ lang: en-US
 - Fixed SQLite function crash issue
 - Fixed application warning messages
 - Fixed compiler warning messages
+- Fixed context menu dump action issue
 
 ## [Kangaroo v1.99.1 (Dev)](/en/download/v1.99.1.221001)
 - Normalize DataModel and MetaModel
