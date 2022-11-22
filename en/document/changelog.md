@@ -4,6 +4,21 @@ lang: en-US
 ---
 
 # Kangaroo change
+## [Kangaroo v2.1.1 (Beta)](/en/download/v2.1.1.221201)
+- Add dynamic QR code support
+- Add debian package support
+- Implement designer's clone menu action
+- Implement designer's copy/paste action
+- Add designer's cut menu item
+- Add SQL `EXPLAIN` statement with format support
+- Add SQL `ANALYZE` statement support
+- Refactor SQL beautify and minify
+- Improve editor undo support
+- Update linux package script
+- Update Chinese translation
+- Fixed: app crashed while closing book page
+- Fixed: SSH label issue
+
 ## [Kangaroo v2.0.0 (Beta)](/en/download/v2.0.0.221101)
 - Refactor importer page (columns/preview)
 - Refactor columns selection dialog
