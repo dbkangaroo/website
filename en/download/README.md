@@ -4,10 +4,10 @@ lang: en-US
 ---
 
 # Download Kangaroo
-For all users, recommend upgrading to the latest version, new features and bug fixed will landing the new version. some versions(with Dev flag) have a time limitation(3 - 12 months) due to uncompleted features, so please mind the app's message.
+Recommend all users to download or upgrade the latest version always, new features and bug fixed will landing the new version. __Some servers have space limitation, only the latest version is available for download.__ 
 
 ::: danger Important information
-Only the latest version of Kangaroo is available for download.
+Kangaroo versions with <Badge text="Development" /> <Badge text="Beta"/> for free, others need be paid.
 :::
 
 ## Kangaroo versions
