@@ -30,7 +30,7 @@
             "title": "袋鼠数据库工具 v2.0.0 上线",
             "tooltip": "袋鼠数据库工具 v2.0.0 上线",
             "showcase": "袋鼠数据库工具 v2.0.0 上线",
-            "location": "https://www.datatable.online/zh/download/v2.0.0.221101.html"
+            "location": "https://www.datatable.online/zh/download/v2.1.1.221201.html"
         }, {
             "id": 22100102,
             "group": "hyperlink",
@@ -39,25 +39,25 @@
             "title": "Kangaroo v2.0.0 released",
             "tooltip": "Kangaroo v2.0.0 released",
             "showcase": "Kangaroo v2.0.0 released",
-            "location": "https://www.datatable.online/en/download/v2.0.0.221101.html"
+            "location": "https://www.datatable.online/en/download/v2.1.1.221201.html"
         }
     ],
     "version": [
         {
             "group": "devel",
-            "version": "2.0.0.221101",
-            "datetime": "2022-10-01T10:00:00.000Z",
-            "windows": "https://d4.injdk.cn/dbkangaroo/v2.0.0.221101/kangaroo-2.0.0.221101-AMD64.exe",
-            "darwin": "https://d4.injdk.cn/dbkangaroo/v2.0.0.221101/kangaroo-2.0.0.221101-macos.dmg",
-            "linux": "https://d4.injdk.cn/dbkangaroo/v2.0.0.221101/kangaroo-2.0.0.221101-ubuntu.tar.gz",
+            "version": "2.1.1.221201",
+            "datetime": "2022-12-01T10:00:00.000Z",
+            "windows": "https://d4.injdk.cn/dbkangaroo/v2.1.1.221201/kangaroo-2.1.1.221201-x86_64.exe",
+            "darwin": "https://d4.injdk.cn/dbkangaroo/v2.1.1.221201/kangaroo-2.1.1.221201-macos.dmg",
+            "linux": "https://d4.injdk.cn/dbkangaroo/v2.1.1.221201/kangaroo-2.1.1.221201-x86_64.tar.zst",
             "force": false
         }, {
             "group": "stable",
-            "version": "2.0.0.221101",
-            "datetime": "2022-10-01T10:00:00.000Z",
-            "windows": "https://d4.injdk.cn/dbkangaroo/v2.0.0.221101/kangaroo-2.0.0.221101-AMD64.exe",
-            "darwin": "https://d4.injdk.cn/dbkangaroo/v2.0.0.221101/kangaroo-2.0.0.221101-macos.dmg",
-            "linux": "https://d4.injdk.cn/dbkangaroo/v2.0.0.221101/kangaroo-2.0.0.221101-ubuntu.tar.gz",
+            "version": "2.1.1.221201",
+            "datetime": "2022-12-01T10:00:00.000Z",
+            "windows": "https://d4.injdk.cn/dbkangaroo/v2.1.1.221201/kangaroo-2.1.1.221201-x86_64.exe",
+            "darwin": "https://d4.injdk.cn/dbkangaroo/v2.1.1.221201/kangaroo-2.1.1.221201-macos.dmg",
+            "linux": "https://d4.injdk.cn/dbkangaroo/v2.1.1.221201/kangaroo-2.1.1.221201-x86_64.tar.zst",
             "force": false
         }
     ]
