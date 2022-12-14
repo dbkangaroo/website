@@ -8,51 +8,30 @@ lang: zh-CN
 ## 下载 袋鼠数据库工具
 点击链接下载最新版的袋鼠数据库工具 [下载](../download)
 
-::: danger 面向使用 1.9.1 以上版本的关键提示
-因为 libgda 6.X 仍未发布稳定版本，所以需要我们手工完成 libgda 6.0 的编译和安装，步骤如下：
-```bash
-git clone https://gitlab.gnome.org/GNOME/libgda.git
-meson --buildtype=release build
-meson compile -C build
-sudo meson install -C build
-```
-:::
-
-::: danger 面向使用 1.91.1 版本的关键提示
-袋鼠 1.91.1 编辑器使用了未发布的 GtkSoureView 5.4，体验该版本的用户需要自行编译和安装，步骤如下：
-```bash
-git clone https://gitlab.gnome.org/GNOME/gtksourceview.git
-meson --buildtype=release build
-meson compile -C build
-sudo meson install -C build
-```
-:::
-
 ## 在 Ubuntu 发行版上安装
-下面的安装脚本预设您的系统已经默认安装了核心组件 GLib / GTK 4.0
+下面的安装脚本预设您的系统已经默认安装了核心组件 GLib / GTK4 / GDK-Pixbuf :
 1. 安装第三方依赖库
 ```bash
-sudo apt install libgtk-4-0 libgee-0.8 libsoup2.4 libjson-glib-1.0
-sudo apt install libsqlite3-0 mysql-client mariadb-client libpq5
-# sudo apt install libgda-5.0-4 libgda-5.0-mysql libgda-5.0-postgtes
-sudo apt install libgtksourceview-5-0 libwebkit2gtk-4.0 libssh2-1 openssl 
-sudo apt install libadwaita-1-0 libuchardet libarchive13 libpeas-1.0-0
+sudo apt install libadwaita-1-0 libgtksourceview-5-0 libpeas-1.0-0 
+sudo apt install libxml2 libgee-0.8 libsoup-3.0 libjson-glib-1.0 libssh2-1 openssl 
+sudo apt install libuchardet libarchive13 libqrencode4
+sudo apt install sqlite3 mysql-client mariadb-client libpq5
+sudo apt install unixodbc libsqliteodbc odbc-mariadb odbc-postgresql
 ```
 2. 解压缩便携式安装包到指定目录
 ```bash
 tar -xvf <Kangaroo-......tar.gz>
 ```
 
-
 ## 在 Fedora 发行版上安装
-下面的安装脚本预设您的系统已经默认安装了核心组件 GLib / GTK 4.0 :
+下面的安装脚本预设您的系统已经默认安装了核心组件 GLib / GTK4 / GDK-Pixbuf :
 1. 安装第三方依赖库
 ```bash
-sudo dnf install gtk4 libgee json-glib libsoup
+sudo dnf install libadwaita gtksourceview5 libpeas
+sudo dnf install libgee json-glib libsoup3 libxml2 libssh2 openssl
+sudo dnf install libuchardet libarchive qrencode-libs
 sudo dnf install sqlite mysql mariadb postgresql
-# sudo dnf install libgda libgda-mysql libgda-postgres
-sudo dnf install gtksourceview5 webkit2gtk3 libssh2 openssl
-sudo dnf install libadwaita libuchardet libarchive libpeas
+sudo dnf install unixODBC sqliteodbc mysql-connector-odbc mariadb-connector-odbc postgresql-odbc
 ```
 2. 解压缩便携式安装包到指定目录
 ```bash
@@ -60,13 +39,13 @@ tar -xvf <Kangaroo-......tar.gz>
 ```
 
 ## 在 RHEL/CentOS 发行版上安装
-下面的安装脚本预设您的系统已经默认安装了核心组件 GLib / GTK 4.0 :
+下面的安装脚本预设您的系统已经默认安装了核心组件 GLib / GTK4 / GDK-Pixbuf :
 ```bash
-sudo yum install libgee json-glib libsoup
+sudo yum install gtksourceview5 libadwaita libpeas
+sudo yum install libxml2 libgee json-glib libsoup libssh2 openssl
+sudo yum install libuchardet libarchive qrencode-libs
 sudo yum install sqlite mysql mariadb postgresql
-# sudo yum install libgda libgda-mysql libgda-postgres
-sudo yum install gtksourceview5 webkit2gtk3 libssh2 openssl
-sudo yum install libadwaita libuchardet libarchive libpeas
+sudo yum install unixODBC sqliteodbc mysql-connector-odbc mariadb-connector-odbc postgresql-odbc
 ```
 2. 解压缩便携式安装包到指定目录
 ```bash
@@ -81,15 +60,17 @@ ArchLinux 发行版提供了两种安装方式：安装程序 和 手工安装�
 2. 检查应用中心是否存在袋鼠数据库工具图标
 
 ### 手工安装
-下面的安装脚本预设您的系统已经默认安装了核心组件 GLib / GTK 4.0 :
+下面的安装脚本预设您的系统已经默认安装了核心组件 GLib / GTK4 / GDK-Pixbuf :
 ```bash
 sudo pacman -Syu
-sudo pacman -S libgee json-glib libsoup
-sudo pacman -S sqlite mysql++ mariadb-libs postgresql-libs
-# sudo pacman -S libgda libgda-mysql libgda-postgres
-sudo pacman -S gtksourceview5 webkit2gtk3 libssh2 openssl
-sudo pacman -S libadwaita libuchardet libarchive libpeas
+sudo pacman -S gtksourceview5 libadwaita libpeas 
+sudo pacman -S libxml2 libgee json-glib libsoup3 libssh2 openssl
+sudo pacman -S libuchardet libarchive qrencode
+sudo pacman -S sqlite mysql-clients mariadb-clients postgresql-libs
+sudo pacman -S unixodbc sqliteodbc myodbc mariadb-connector-odbc psqlodbc
 ```
+ODBC 驱动候选安装：`msodbcsql oracle-instantclient-odbc`
+
 2. 解压缩便携式安装包到指定目录
 ```bash
 tar -xvf <Kangaroo-......tar.gz>
