@@ -7,10 +7,10 @@ lang: en-US
 
 ## License
 ### Is Kangaroo free?
-Yes, Kangaroo is free for private or commercial use. See the [product license](../license/service-agreement.md) for details.
+February 1st, 2022, Kangaroo upgrade its __End User License Agreemen__ (a.k.a “EULA”, “License Agreement”), based on this license agreement, the versions marked with <Badge text="Dev" /> <Badge text="Beta"/> are free for private or commercial use, __others shoud be paid__. See the [product license](../license/service-agreement.md) for details.
 
 ### Is Kangaroo open source?
-Not yet now, open source is an option on the desktop.
+We will put it as a priority task if the project gain donation and support enough to make it be sustainable development.
 
 ## Version
 ### How do I find the version?
@@ -19,6 +19,13 @@ You can find the Kangaroo version information in the About dialog box.
 On right of Kangaroo title bar, click the main menu button, then go to Help > About.
 
 The Kangaroo version is the first Version number listed and has the version format 'major.minor.release.build', for example '0.8.5.191108'
+
+## When to release stable version?
+Kangaroo is working hard to make it be done, the stable version depends two point:
+1. Dependencies（GLib/GTK4）'s maturity and stability；
+2. Kangaroo's features' maturity and stability；
+
+Based on all the information, the first stable version to be released at the fourth anniversary of the Kangaroo (2023.4.1).
 
 ## Language
 ### What languages does Kangaroo support?
