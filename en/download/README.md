@@ -6,13 +6,11 @@ lang: en-US
 # Download Kangaroo
 Recommend all users to download or upgrade the latest version always, new features and bug fixed will landing the new version. __Some servers have space limitation, only the latest version is available for download.__ 
 
-::: danger Important information
-Kangaroo versions with <Badge text="Development" /> <Badge text="Beta"/> for free, others need be paid.
-:::
 
 ## Kangaroo versions
 | Release date | Windows           | Linux           | MacOS           | iOS             | Android         |
 |--------------|-------------------|-----------------|-----------------|-----------------|-----------------|
+| 2023-01-01   | [v2.2.1 (Beta)](./v2.2.1.230101) | [v2.2.1 (Beta)](./v2.2.1.230101) | [v2.2.1 (Beta)](./v2.2.1.230101) |
 | 2022-12-01   | [v2.1.1 (Beta)](./v2.1.1.221201) | [v2.1.1 (Beta)](./v2.1.1.221201) | [v2.1.1 (Beta)](./v2.1.1.221201) |
 | 2022-11-01   | [v2.0.0 (Beta)](./v2.0.0.221101) | [v2.0.0 (Beta)](./v2.0.0.221101) | [v2.0.0 (Beta)](./v2.0.0.221101) |
 | 2022-10-01   | [v1.99.1 (Dev)](./v1.99.1.221001) | [v1.99.1 (Dev)](./v1.99.1.221001) | [v1.99.1 (Dev)](./v1.99.1.221001) |

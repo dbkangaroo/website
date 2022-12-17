@@ -4,6 +4,8 @@ lang: en-US
 ---
 
 # Kangaroo change
+## [Kangaroo v2.2.1 (Beta)](/en/download/v2.2.1.230101)
+
 ## [Kangaroo v2.1.1 (Beta)](/en/download/v2.1.1.221201)
 - Add dynamic QR code support
 - Add debian package support
