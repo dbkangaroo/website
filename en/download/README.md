@@ -6,6 +6,9 @@ lang: en-US
 # Download Kangaroo
 Recommend all users to download or upgrade the latest version always, new features and bug fixed will landing the new version. __Some servers have space limitation, only the latest version is available for download.__ 
 
+::: danger Important information
+Kangaroo stable version is coming soon, versions with <Badge text="Dev" /> <Badge text="Beta"/> for free, others must be paid.
+:::
 
 ## Kangaroo versions
 | Release date | Windows           | Linux           | MacOS           | iOS             | Android         |

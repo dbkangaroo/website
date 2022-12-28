@@ -5,6 +5,18 @@ lang: en-US
 
 # Kangaroo change
 ## [Kangaroo v2.2.1 (Beta)](/en/download/v2.2.1.230101)
+- Add executor dialog
+- Add dump & tranform dialog
+- Add time cost for query
+- SQLite: fixed index load issue
+- SQLite: fixed backup name issue
+- MariaDB: fixed schema scope issue
+- MySQL: fixed schema scope issue
+- PostgreSQL: fixed v15 user info issue
+- Update intellisense proposal's icon
+- Update Chinese translation
+- Update Windows installer to select drivers defaultly
+- Update GTK library to 4.9.2
 
 ## [Kangaroo v2.1.1 (Beta)](/en/download/v2.1.1.221201)
 - Add dynamic QR code support
