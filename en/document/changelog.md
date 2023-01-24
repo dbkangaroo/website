@@ -4,6 +4,9 @@ lang: en-US
 ---
 
 # Kangaroo change
+## [Kangaroo v2.3.1 (Beta)](/en/download/v2.3.1.230201)
+
+
 ## [Kangaroo v2.2.1 (Beta)](/en/download/v2.2.1.230101)
 - Add executor dialog
 - Add dump & tranform dialog

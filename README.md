@@ -5,7 +5,7 @@ heroText: Kangaroo
 heroImage: /images/kangaroo.svg
 tagline: SQL client and admin tool for popular databases
 actionText: Download Kangaroo v2023
-actionLink: /download/v2.2.1.230101
+actionLink: /download/v2.3.1.230201
 ---
 
 <div class="features">
