@@ -5,7 +5,22 @@ lang: en-US
 
 # Kangaroo change
 ## [Kangaroo v2.3.1 (Beta)](/en/download/v2.3.1.230201)
-
+- Add query file pane
+- Add model file pane
+- Update toolbar style
+- Workspace add split support (vertical or horizontal)
+- Workspace add status bar
+- Workspace add language support
+- Workspace add line ending support
+- Workspace add file encoding support
+- Workspace add word wrap support
+- Workspace add indentation support
+- Workspace add position support
+- Workspace add pane switching support
+- Workspace add worksheet message support
+- Update RPM installer script
+- Update Chinese translation
+- Remove view submenu from main menu
 
 ## [Kangaroo v2.2.1 (Beta)](/en/download/v2.2.1.230101)
 - Add executor dialog
