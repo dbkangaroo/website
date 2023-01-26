@@ -18,6 +18,7 @@ lang: en-US
 - Workspace add position support
 - Workspace add pane switching support
 - Workspace add worksheet message support
+- Update about window(System information)
 - Update RPM installer script
 - Update Chinese translation
 - Remove view submenu from main menu
