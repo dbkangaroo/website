@@ -3,6 +3,9 @@ module.exports = [
         text: '功能',
         link: '/zh/document/feature-matrix'
     }, {
+        text: '界面',
+        link: '/zh/document/screenshots'
+    }, {
         text: '下载',
         link: '/zh/download/'
     }, {

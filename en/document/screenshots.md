@@ -7,6 +7,7 @@ lang: en-US
 ![Start page](../images/kangaroo-start.png)
 ![Object explorer](../images/kangaroo-explorer.png)
 ![Object search](../images/kangaroo-search.png)
+![Workspace split view](../images/kangaroo-workspace.png)
 
 <div>
     <ins class="adsbygoogle"

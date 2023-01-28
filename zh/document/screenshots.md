@@ -7,6 +7,7 @@ lang: zh-CN
 ![袋鼠首页](../images/kangaroo-start.png)
 ![对象浏览视图](../images/kangaroo-explorer.png)
 ![对象搜索视图](../images/kangaroo-search.png)
+![工作空间分割视图](../images/kangaroo-workspace.png)
 
 <div>
     <ins class="adsbygoogle"
