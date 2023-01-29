@@ -79,6 +79,18 @@ lang: en-US
 - Fixed compiler warning messages
 - Fixed context menu dump action issue
 
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [Kangaroo v1.99.1 (Dev)](/en/download/v1.99.1.221001)
 - Normalize DataModel and MetaModel
 - Refactor documents dialog

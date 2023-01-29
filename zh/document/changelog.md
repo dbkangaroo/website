@@ -79,6 +79,18 @@ lang: zh-CN
 - 修复： 编译器控制台告警消息
 - 修复： 上下文菜单导出操作问题
 
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [袋鼠数据库工具 v1.99.1 (Dev)](/zh/download/v1.99.1.221001)
 - 更新依赖库到新版本
 - 规范化数据模型和元模型
