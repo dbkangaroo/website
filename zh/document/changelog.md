@@ -4,6 +4,26 @@ lang: zh-CN
 ---
 
 # 袋鼠数据库工具 版本更新记录
+## [Kangaroo v2.3.2 (Beta)](/zh/download/v2.3.2.230301)
+- MySQL: 增加执行器菜单入口
+- MariaDB: 增加执行器菜单入口
+- PostgreSQL: 增加执行器菜单入口
+- 更新 DataGrid 常规样式背景色
+- 修复: 未知字段 SCHEMA_COMMENT （< MariaDB 10.5)
+- 修复: 执行器文件对话框问题
+
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [袋鼠数据库工具 v2.3.1 (Beta)](/zh/download/v2.3.1.230201)
 - 增加用户查询文件面板
 - 增加用户模型文件面板

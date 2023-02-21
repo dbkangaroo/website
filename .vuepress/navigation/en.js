@@ -9,7 +9,7 @@ module.exports = [
         text: 'Download',
         link: '/en/download/'
     }, {
-        text: 'Guide',
+        text: 'Docs',
         link: '/en/document/'
     }, {
         text: 'Blog',

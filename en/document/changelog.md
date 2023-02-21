@@ -4,6 +4,26 @@ lang: en-US
 ---
 
 # Kangaroo change
+## [Kangaroo v2.3.2 (Beta)](/en/download/v2.3.2.230301)
+- MySQL: Add executor menu item
+- MariaDB: Add executor menu item
+- PostgreSQL: Add executor menu item
+- Update datagrid normal style bg color
+- Fixed: Unknown SCHEMA_COMMENT （< MariaDB 10.5)
+- Fixed: executor's file dialog issue
+
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
+
 ## [Kangaroo v2.3.1 (Beta)](/en/download/v2.3.1.230201)
 - Add query file pane
 - Add model file pane
