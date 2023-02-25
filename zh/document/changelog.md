@@ -11,6 +11,8 @@ lang: zh-CN
 - 更新 DataGrid 常规样式背景色
 - 修复: 未知字段 SCHEMA_COMMENT （< MariaDB 10.5)
 - 修复: 执行器文件对话框问题
+- 修复: 智能提示小写输入时无法响应问题
+- 修复: 网格相关的崩溃问题
 
 <div>
     <ins class="adsbygoogle"

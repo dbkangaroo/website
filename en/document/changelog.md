@@ -11,6 +11,8 @@ lang: en-US
 - Update datagrid normal style bg color
 - Fixed: Unknown SCHEMA_COMMENT （< MariaDB 10.5)
 - Fixed: executor's file dialog issue
+- Fixed: intellisense issue
+- Fixed: datagrid craches
 
 <div>
     <ins class="adsbygoogle"
