@@ -9,6 +9,7 @@ lang: en-US
 - MariaDB: Add executor menu item
 - PostgreSQL: Add executor menu item
 - Update datagrid normal style bg color
+- Update Chinese translation
 - Fixed: Unknown SCHEMA_COMMENT （< MariaDB 10.5)
 - Fixed: executor's file dialog issue
 - Fixed: intellisense issue

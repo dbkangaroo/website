@@ -9,6 +9,7 @@ lang: zh-CN
 - MariaDB: 增加执行器菜单入口
 - PostgreSQL: 增加执行器菜单入口
 - 更新 DataGrid 常规样式背景色
+- 更新中文语言支持(zh-CN/zh-TW/zh-SG/zh-HK)
 - 修复: 未知字段 SCHEMA_COMMENT （< MariaDB 10.5)
 - 修复: 执行器文件对话框问题
 - 修复: 智能提示小写输入时无法响应问题
