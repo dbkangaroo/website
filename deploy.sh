@@ -18,7 +18,7 @@ cd .vuepress/dist
 # if you are deploying to a custom domain
 # echo 'www.datatable.online' > CNAME
 
-git init
+git init -b master
 git add -A
 git commit -m 'deploy'
 
