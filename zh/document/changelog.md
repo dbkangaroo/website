@@ -4,6 +4,14 @@ lang: zh-CN
 ---
 
 # 袋鼠数据库工具 版本更新记录
+## [Kangaroo v2.99.1 (Beta)](/zh/download/v2.99.1.230402)
+- SQLite: 添加数据库直接访问支持
+- MySQL: 添加数据库直接访问支持
+- MariaDB: 添加数据库直接访问支持
+- PostgreSQL: 添加数据库直接访问支持
+- 更新中文语言支持(zh-CN/zh-TW/zh-SG/zh-HK)
+
+
 ## [Kangaroo v2.3.2 (Beta)](/zh/download/v2.3.2.230301)
 - MySQL: 增加执行器菜单入口
 - MariaDB: 增加执行器菜单入口

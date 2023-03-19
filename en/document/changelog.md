@@ -4,6 +4,13 @@ lang: en-US
 ---
 
 # Kangaroo change
+## [Kangaroo v2.99.1 (Beta)](/en/download/v2.99.1.230402)
+- SQLite: add direct access support
+- MySQL: add direct access support
+- MariaDB: add direct access support
+- PostgreSQL: add direct access support
+- Update Chinese translation
+
 ## [Kangaroo v2.3.2 (Beta)](/en/download/v2.3.2.230301)
 - MySQL: Add executor menu item
 - MariaDB: Add executor menu item
