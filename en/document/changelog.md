@@ -4,7 +4,7 @@ lang: en-US
 ---
 
 # Kangaroo change
-## [Kangaroo v2.99.1 (Beta)](/en/download/v2.99.1.230402)
+## [Kangaroo v2.99.1 (Beta)](/en/download/v2.99.1.230331)
 - SQLite: add direct access support
 - MySQL: add direct access support
 - MariaDB: add direct access support
