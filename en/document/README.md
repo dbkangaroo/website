@@ -9,6 +9,12 @@ Here is the center of documents, could find documents you need, if could not fou
 ## System Requirements
 [Minimal system requirements](system-requirements.md)
 
+## Pricing plan
+[Kangaroo pricing plan](pricing.md)
+
+## Change timeline
+[Kangaroo's change timeline](changelog.md)
+
 ## Install Kangaroo
 Kangaroo has full function support on Windows, the user experience is best:<br/>
 [Install Kangaroo on Windows](install-windows.md)
@@ -24,9 +30,6 @@ Kangaroo has full function support on MacOS:<br/>
 
 ## Screenshots 
 [Screenshots](screenshots)
-
-## Change timeline
-[Kangaroo's change timeline](changelog.md)
 
 ## Connect to database
 [Make a connection](connection.md)

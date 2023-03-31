@@ -13,6 +13,12 @@ lang: zh-CN
 ## 系统需求
 [最低系统需求](system-requirements.md)
 
+## 价格方案
+[袋鼠价格方案](pricing.md)
+
+## 更新记录
+[袋鼠数据库工具更新时间线](changelog.md)
+
 ## 安装袋鼠
 Windows 版本袋鼠数据库工具具有完整的功能支持，且具有最佳用户体验：<br/>
 [Windows 平台安装袋鼠数据库工具](install-windows.md)
@@ -26,11 +32,8 @@ MacOS 版本袋鼠数据库工具具有完整的功能支持，安装体验正�
 ## 功能特性
 [完整功能清单](feature-matrix.md)
 
-## 工具界面快照 
+## 界面快照 
 [工具界面快照](screenshots)
-
-## 发布更新记录
-[袋鼠数据库工具更新时间线](changelog.md)
 
 ## 连接数据库
 [建立一个数据库连接](connection.md)

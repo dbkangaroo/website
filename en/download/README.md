@@ -7,7 +7,7 @@ lang: en-US
 Recommend all users to download or upgrade the latest version always, new features and bug fixed will landing the new version. __Some servers have space limitation, only the latest version is available for download.__ 
 
 ::: danger Important information
-The Kangaroo stable version (3.x) will be released soon. For pricing, please refer to: [Price Plan](../document/price.md).<br/><br/>
+The Kangaroo stable version (3.x) will be released soon. For pricing, please refer to: [pricing Plan](../document/pricing.md).<br/><br/>
 You are welcome to search for WeChat small store（微信小商店）【袋鼠工具小店】 to pre-order and enjoy the first discount. <br/><br/>
 Versions marked with <Badge text="Dev" /> <Badge text="Beta"/> can be used for free, other versions require payment.
 :::

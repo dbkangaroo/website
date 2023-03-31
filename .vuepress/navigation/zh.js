@@ -7,7 +7,7 @@ module.exports = [
         link: '/zh/document/screenshots'
     }, {
         text: '价格',
-        link: '/zh/document/price'
+        link: '/zh/document/pricing'
     }, {
         text: '下载',
         link: '/zh/download/'

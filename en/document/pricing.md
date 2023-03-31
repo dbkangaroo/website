@@ -1,11 +1,11 @@
 ---
-title: Price plan
+title: pricing plan
 lang: en-US
 ---
 
-# Kangaroo price plan
+# Kangaroo pricing plan
 
-## Features price plan
+## Features pricing plan
 The prices below are annual subscription prices and include one year of free upgrades and support.
 | Features plan | Enterprise license    | Non-commercial license | License extension | 
 |-------------|:-----------:|:-----------:|-------------|
