@@ -4,7 +4,7 @@
             "id": 23040201,
             "group": "image",
             "locale": "zh",
-            "datetime": "2023-04-02T18:35:50.000Z",
+            "datetime": "2023-05-02T18:35:50.000Z",
             "title": "袋鼠数据库工具官方网站",
             "tooltip": "袋鼠数据库工具官方网站",
             "showcase": "https://www.datatable.online/cases/ads-sample.gif",
@@ -14,7 +14,7 @@
             "id": 23040202,
             "group": "image",
             "locale": "en",
-            "datetime": "2023-04-02T18:35:50.000Z",
+            "datetime": "2023-05-02T18:35:50.000Z",
             "title": "Kangaroo official website",
             "tooltip": "Kangaroo official website",
             "showcase": "https://www.datatable.online/cases/ads-sample.gif",
@@ -26,38 +26,38 @@
             "id": 23040203,
             "group": "hyperlink",
             "locale": "zh",
-            "datetime": "2023-04-02T10:00:00.000Z",
-            "title": "袋鼠数据库工具 v2.3.2 上线",
-            "tooltip": "袋鼠数据库工具 v2.3.2 上线",
-            "showcase": "袋鼠数据库工具 v2.3.2 上线",
-            "location": "https://www.datatable.online/zh/download/v2.99.1.230402.html"
+            "datetime": "2023-05-02T10:00:00.000Z",
+            "title": "袋鼠数据库工具 v2.99.2 上线",
+            "tooltip": "袋鼠数据库工具 v2.99.2 上线",
+            "showcase": "袋鼠数据库工具 v2.99.2 上线",
+            "location": "https://www.datatable.online/zh/download/v2.99.2.230428.html"
         }, {
             "id": 23040204,
             "group": "hyperlink",
             "locale": "en",
-            "datetime": "2023-04-02T10:00:00.000Z",
-            "title": "Kangaroo v2.3.2 released",
-            "tooltip": "Kangaroo v2.3.2 released",
-            "showcase": "Kangaroo v2.3.2 released",
-            "location": "https://www.datatable.online/en/download/v2.99.1.230402.html"
+            "datetime": "2023-05-02T10:00:00.000Z",
+            "title": "Kangaroo v2.99.2 released",
+            "tooltip": "Kangaroo v2.99.2 released",
+            "showcase": "Kangaroo v2.99.2 released",
+            "location": "https://www.datatable.online/en/download/v2.99.2.230428.html"
         }
     ],
     "version": [
         {
             "group": "devel",
-            "version": "2.99.1.230402",
-            "datetime": "2023-04-02T10:00:00.000Z",
-            "windows": "https://kangaroo.awaysoft.com/downloads/v2.99.1.230402/kangaroo-2.99.1.230402-x86_64.exe",
-            "darwin": "https://kangaroo.awaysoft.com/downloads/v2.99.1.230402/kangaroo-2.99.1.230402-x86_64.dmg",
-            "linux": "https://kangaroo.awaysoft.com/downloads/v2.99.1.230402/kangaroo-2.99.1.230402-x86_64.deb",
+            "version": "2.99.2.230428",
+            "datetime": "2023-05-02T10:00:00.000Z",
+            "windows": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230428-x86_64.exe",
+            "darwin": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230428-x86_64.dmg",
+            "linux": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230428-x86_64.deb",
             "force": false
         }, {
             "group": "stable",
-            "version": "2.99.1.230402",
-            "datetime": "2023-04-02T10:00:00.000Z",
-            "windows": "https://kangaroo.awaysoft.com/downloads/v2.99.1.230402/kangaroo-2.99.1.230402-x86_64.exe",
-            "darwin": "https://kangaroo.awaysoft.com/downloads/v2.99.1.230402/kangaroo-2.99.1.230402-x86_64.dmg",
-            "linux": "https://kangaroo.awaysoft.com/downloads/v2.99.1.230402/kangaroo-2.99.1.230402-x86_64.deb",
+            "version": "2.99.2.230428",
+            "datetime": "2023-05-02T10:00:00.000Z",
+            "windows": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230428-x86_64.exe",
+            "darwin": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230428-x86_64.dmg",
+            "linux": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230428-x86_64.deb",
             "force": false
         }
     ]

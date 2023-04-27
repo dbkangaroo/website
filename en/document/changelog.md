@@ -4,6 +4,11 @@ lang: en-US
 ---
 
 # Kangaroo change
+## [Kangaroo v2.99.2 (Beta)](/en/download/v2.99.2.230428)
+- Add sandbox support(Windows only)
+- GTK4 upgrade to 4.10.3
+- libadwaita upgrade to 1.3.1
+
 ## [Kangaroo v2.99.1 (Beta)](/en/download/v2.99.1.230331)
 - SQLite: add direct access support
 - MySQL: add direct access support
