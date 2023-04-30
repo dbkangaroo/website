@@ -45,19 +45,19 @@
     "version": [
         {
             "group": "devel",
-            "version": "2.99.2.230428",
+            "version": "2.99.2.230430",
             "datetime": "2023-05-02T10:00:00.000Z",
-            "windows": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230428-x86_64.exe",
-            "darwin": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230428-x86_64.dmg",
-            "linux": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230428-x86_64.deb",
+            "windows": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230430-x86_64.exe",
+            "darwin": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230430-x86_64.dmg",
+            "linux": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230430-x86_64.deb",
             "force": false
         }, {
             "group": "stable",
-            "version": "2.99.2.230428",
+            "version": "2.99.2.230430",
             "datetime": "2023-05-02T10:00:00.000Z",
-            "windows": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230428-x86_64.exe",
-            "darwin": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230428-x86_64.dmg",
-            "linux": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230428-x86_64.deb",
+            "windows": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230430-x86_64.exe",
+            "darwin": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230430-x86_64.dmg",
+            "linux": "https://kangaroo.awaysoft.com/downloads/v2.99.2.230428/kangaroo-2.99.2.230430-x86_64.deb",
             "force": false
         }
     ]
