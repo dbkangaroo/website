@@ -4,6 +4,10 @@ lang: en-US
 ---
 
 # Kangaroo change
+## [Kangaroo v1.10.3 (Beta)](/en/download/v1.10.3.230508)
+- Windows: update library to the latest.
+- Fixed：Chinese support issue
+
 ## [Kangaroo v2.99.2 (Beta)](/en/download/v2.99.2.230428)
 - Add sandbox support(Windows only)
 - GTK4 upgrade to 4.10.3
