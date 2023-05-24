@@ -4,6 +4,9 @@ lang: en-US
 ---
 
 # Kangaroo change
+## [Kangaroo v2.99.3 (Beta)](/en/download/v2.99.3.230602)
+- Windows: update library to the latest.
+
 ## [Kangaroo v1.10.3 (Beta)](/en/download/v1.10.3.230508)
 - Windows: update library to the latest.
 - Fixed：Chinese support issue
