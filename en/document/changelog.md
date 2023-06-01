@@ -5,10 +5,12 @@ lang: en-US
 
 # Kangaroo change
 ## [Kangaroo v2.99.3 (Beta)](/en/download/v2.99.3.230602)
-- Windows: update library to the latest.
+- Windows: GTK4 upgrade to 4.11.2
+- MySQL: fixed TINYTEXT/TEXT/MEDIUMTEXT/LONGTEXT show issue
+- MariaDB: fixed TINYTEXT/TEXT/MEDIUMTEXT/LONGTEXT show issue
 
 ## [Kangaroo v1.10.3 (Beta)](/en/download/v1.10.3.230508)
-- Windows: update library to the latest.
+- Windows: GTK4 upgrade to 4.11.1
 - Fixed：Chinese support issue
 
 ## [Kangaroo v2.99.2 (Beta)](/en/download/v2.99.2.230428)

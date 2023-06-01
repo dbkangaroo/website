@@ -5,10 +5,12 @@ lang: zh-CN
 
 # 袋鼠数据库工具 版本更新记录
 ## [袋鼠数据库工具 v2.99.3 (Beta)](/zh/download/v2.99.3.230602)
-- Windows： 依赖库升级到最新版
+- Windows: GTK4 升级为 4.11.2
+- MySQL: 修复 TINYTEXT/TEXT/MEDIUMTEXT/LONGTEXT 显示问题
+- MariaDB: 修复 TINYTEXT/TEXT/MEDIUMTEXT/LONGTEXT 显示问题
 
 ## [袋鼠数据库工具 v1.10.3 (Beta)](/zh/download/v1.10.3.230508)
-- Windows： 依赖库升级到最新版
+- Windows: GTK4 升级为 4.11.1
 - Fixed: 中文支持问题
 
 ## [袋鼠数据库工具 v2.99.2 (Beta)](/zh/download/v2.99.2.230428)
