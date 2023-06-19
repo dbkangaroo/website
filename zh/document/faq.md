@@ -28,6 +28,23 @@ lang: zh-CN
 ### 袋鼠数据库工具支持哪些语言？
 袋鼠数据库工具官方支持英语和中文，其它语言得依靠社区支持；
 
+### 如何切换支持其它语言？
+设置环境变量后启动应用即可切换，环境变量请参考平台文档。
+【温馨提示】完整的本地化变量清单如下
+```
+LANG=zh_CN.UTF-8
+LC_CTYPE=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_TIME=zh_CN.UTF-8
+LC_COLLATE=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MESSAGES=zh_CN.UTF-8
+LC_ALL=zh_CN.UTF-8
+
+LC_PAPER=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+```
+
 ## 安装包校验
 ### 如何校验下载的安装包是否完整？
 您可以按如下步骤对安装包进行校验：

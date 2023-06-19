@@ -31,6 +31,23 @@ Based on all the information, the first stable version to be released at the fou
 ### What languages does Kangaroo support?
 English, Chinese will be support default, other languages depend on user contributation.
 
+### How to switch for other languages?
+Setting the environment variables first, then start the application. please refer to the platform documentation for the environment variables.
+【Tip】The complete list of localized variables is as follows
+```
+LANG=zh_CN.UTF-8
+LC_CTYPE=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_TIME=zh_CN.UTF-8
+LC_COLLATE=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MESSAGES=zh_CN.UTF-8
+LC_ALL=zh_CN.UTF-8
+
+LC_PAPER=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+```
+
 ## Verify package
 ### How to verify the downloaded package?
 Follow the steps:
