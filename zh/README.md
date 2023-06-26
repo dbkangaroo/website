@@ -5,7 +5,7 @@ heroText: 袋鼠数据库工具
 heroImage: /images/kangaroo.svg
 tagline: 为热门数据库系统打造的 SQL 客户端和管理工具
 actionText: 下载 袋鼠数据库工具
-actionLink: /zh/download/v2.99.3.230602
+actionLink: /zh/download/v3.90.1.230701
 ---
 
 <div class="features">
