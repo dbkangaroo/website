@@ -4,6 +4,8 @@ lang: en-US
 ---
 
 # Kangaroo change
+## [Kangaroo v3.90.1 (Beta)](/en/download/v3.90.1.230701)
+
 ## [Kangaroo v2.99.3 (Beta)](/en/download/v2.99.3.230602)
 - Windows: GTK4 upgrade to 4.11.2
 - MySQL: fixed TINYTEXT/TEXT/MEDIUMTEXT/LONGTEXT show issue
