@@ -5,6 +5,17 @@ lang: en-US
 
 # Kangaroo change
 ## [Kangaroo v3.90.1 (Beta)](/en/download/v3.90.1.230701)
+- Add transfer/structure sync/data sync UI
+- Implent transfer bussiness logic
+- Implement structure sync business logic
+- SQLite Encryption Extension support(SQLCipher)
+- MySQL: Improve TEXT/BLOB type support
+- MariaDB: Improve TEXT/BLOB type support
+- Make dialog window stay center
+- Add language switch support
+- Improve preference window performance
+- Updated Chinese translation
+- Fixed MySQL/MariaDB field flag issue
 
 ## [Kangaroo v2.99.3 (Beta)](/en/download/v2.99.3.230602)
 - Windows: GTK4 upgrade to 4.11.2
