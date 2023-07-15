@@ -27,37 +27,37 @@
             "group": "hyperlink",
             "locale": "zh",
             "datetime": "2023-07-01T10:00:00.000Z",
-            "title": "袋鼠数据库工具 v3.90.1 上线",
-            "tooltip": "袋鼠数据库工具 v3.90.1 上线",
-            "showcase": "袋鼠数据库工具 v3.90.1 上线",
-            "location": "https://www.datatable.online/zh/download/v3.90.1.230701.html"
+            "title": "袋鼠数据库工具 v3.91.1 上线",
+            "tooltip": "袋鼠数据库工具 v3.91.1 上线",
+            "showcase": "袋鼠数据库工具 v3.91.1 上线",
+            "location": "https://www.datatable.online/zh/download/v3.91.1.230801.html"
         }, {
             "id": 23040204,
             "group": "hyperlink",
             "locale": "en",
             "datetime": "2023-07-01T10:00:00.000Z",
-            "title": "Kangaroo v3.90.1 released",
-            "tooltip": "Kangaroo v3.90.1 released",
-            "showcase": "Kangaroo v3.90.1 released",
-            "location": "https://www.datatable.online/en/download/v3.90.1.230701.html"
+            "title": "Kangaroo v3.91.1 released",
+            "tooltip": "Kangaroo v3.91.1 released",
+            "showcase": "Kangaroo v3.91.1 released",
+            "location": "https://www.datatable.online/en/download/v3.90.1.230801.html"
         }
     ],
     "version": [
         {
             "group": "devel",
-            "version": "3.90.1.230703",
-            "datetime": "2023-07-01T10:00:00.000Z",
-            "windows": "https://kangaroo.awaysoft.com/downloads/v3.90.1.230703/kangaroo-max-3.90.1.230703-x86_64.exe",
-            "darwin": "https://kangaroo.awaysoft.com/downloads/v3.90.1.230703/kangaroo-max-3.90.1.230703-x86_64.dmg",
-            "linux": "https://kangaroo.awaysoft.com/downloads/v3.90.1.230703/kangaroo-max-3.90.1.230703-x86_64.deb",
+            "version": "3.91.1.230801",
+            "datetime": "2023-08-02T10:00:00.000Z",
+            "windows": "https://kangaroo.awaysoft.com/downloads/v3.91.1.230801/kangaroo-max-3.91.1.230801-x86_64.exe",
+            "darwin": "https://kangaroo.awaysoft.com/downloads/v3.91.1.230801/kangaroo-max-3.91.1.230801-x86_64.dmg",
+            "linux": "https://kangaroo.awaysoft.com/downloads/v3.91.1.230801/kangaroo-max-3.91.1.230801-x86_64.deb",
             "force": false
         }, {
             "group": "stable",
-            "version": "3.90.1.230703",
-            "datetime": "2023-07-01T10:00:00.000Z",
-            "windows": "https://kangaroo.awaysoft.com/downloads/v3.90.1.230703/kangaroo-max-3.90.1.230703-x86_64.exe",
-            "darwin": "https://kangaroo.awaysoft.com/downloads/v3.90.1.230703/kangaroo-max-3.90.1.230703-x86_64.dmg",
-            "linux": "https://kangaroo.awaysoft.com/downloads/v3.90.1.230703/kangaroo-max-3.90.1.230703-x86_64.deb",
+            "version": "3.91.1.230801",
+            "datetime": "2023-08-02T10:00:00.000Z",
+            "windows": "https://kangaroo.awaysoft.com/downloads/v3.91.1.230801/kangaroo-max-3.91.1.230801-x86_64.exe",
+            "darwin": "https://kangaroo.awaysoft.com/downloads/v3.91.1.230801/kangaroo-max-3.91.1.230801-x86_64.dmg",
+            "linux": "https://kangaroo.awaysoft.com/downloads/v3.91.1.230801/kangaroo-max-3.91.1.230801-x86_64.deb",
             "force": false
         }
     ]

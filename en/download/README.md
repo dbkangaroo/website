@@ -7,7 +7,7 @@ lang: en-US
 Recommend all users to download or upgrade the latest version always, new features and bug fixed will landing the new version. __Some servers have space limitation, only the latest version is available for download.__ 
 
 ::: danger Important information
-The Kangaroo stable version (3.x) will be released soon. For pricing, please refer to: [pricing Plan](../document/pricing.md).<br/><br/>
+The Kangaroo stable version (4.x) will be released soon. For pricing, please refer to: [pricing Plan](../document/pricing.md).<br/><br/>
 You are welcome to search for WeChat small store（微信小商店）【袋鼠工具小店】 to pre-order and enjoy the first discount. <br/><br/>
 Versions marked with <Badge text="Dev" /> <Badge text="Beta"/> can be used for free, other versions require payment.
 :::
@@ -15,6 +15,7 @@ Versions marked with <Badge text="Dev" /> <Badge text="Beta"/> can be used for f
 ## Kangaroo versions
 | Release date | Windows           | Linux           | MacOS           | iOS             | Android         |
 |--------------|-------------------|-----------------|-----------------|-----------------|-----------------|
+| 2023-08-01   | [v3.91.1 (Beta)](./v3.91.1.230801) | [v3.91.1 (Beta)](./v3.91.1.230801) | [v3.91.1 (Beta)](./v3.91.1.230801) |
 | 2023-07-01   | [v3.90.1 (Beta)](./v3.90.1.230701) | [v3.90.1 (Beta)](./v3.90.1.230701) | [v3.90.1 (Beta)](./v3.90.1.230701) |
 | 2023-06-02   | [v2.99.3 (Beta)](./v2.99.3.230602) | [v2.99.3 (Beta)](./v2.99.3.230602) | [v2.99.3 (Beta)](./v2.99.3.230602) |
 | 2023-05-08   | [v1.10.3 (Beta)](./v1.10.3.230508) | [v1.10.3 (Beta)](./v1.10.3.230508) | [v1.10.3 (Beta)](./v1.10.3.230508) |
