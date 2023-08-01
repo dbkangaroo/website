@@ -5,6 +5,20 @@ lang: en-US
 
 # Kangaroo change
 ## [Kangaroo v3.91.1 (Beta)](/en/download/v3.91.1.230801)
+- Port to libadwaita 1.4
+- Refactor GtkSwitch.state to active
+- Add database library version for about dialog
+- Add Chinese support(zh_Hans/zh_Hant)
+- Improve workspace status bar
+- Updated Chinese translation
+- MariaDB: add table designer pages
+- MariaDB: fixed foreign key issue
+- MySQL: add missing type: TIMESTAMP
+- PostgreSQL: fixed type and collation issue
+- SQLite: fixed schema issue
+- Data transfer: initialize default options
+- Data transfer: add log output
+- Data transfer: Fixed target connection issue
 
 ## [Kangaroo v3.90.1 (Beta)](/en/download/v3.90.1.230701)
 - Add transfer/structure sync/data sync UI

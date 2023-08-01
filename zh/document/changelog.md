@@ -5,6 +5,20 @@ lang: zh-CN
 
 # 袋鼠数据库工具 版本更新记录
 ## [袋鼠数据库工具 v3.91.1 (Beta)](/zh/download/v3.91.1.230801)
+- 界面适配 libadwaita 1.4
+- 重构切换空间属性（GtkSwitch.state to active）
+- 增加显示数据库驱动库版本
+- 增加中文语言支持(zh_Hans/zh_Hant)
+- 改进工作空间状态栏用户体验
+- 更新中文语言支持
+- MariaDB: 增加表设计器页面
+- MariaDB: 修复外键相关问题
+- MySQL: 增加类型支持 TIMESTAMP
+- PostgreSQL: 修复类型和排序规则问题
+- SQLite: 修复模式相关问题
+- 数据传输: 初始化默认设置
+- 数据传输: 增加日志输出
+- 数据传输: 修复目标连接问题
 
 ## [袋鼠数据库工具 v3.90.1 (Beta)](/zh/download/v3.90.1.230701)
 - 增加数据库传输/结构同步/数据同步界面
