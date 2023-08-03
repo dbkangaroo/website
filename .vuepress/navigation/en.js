@@ -6,8 +6,8 @@ module.exports = [
         text: 'Screenshots',
         link: '/en/document/screenshots'
     }, {
-        text: 'Pricing',
-        link: '/en/document/pricing'
+        text: 'Buy',
+        link: '/en/buy'
     }, {
         text: 'Download',
         link: '/en/download/'

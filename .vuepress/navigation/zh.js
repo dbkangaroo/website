@@ -6,8 +6,8 @@ module.exports = [
         text: '界面',
         link: '/zh/document/screenshots'
     }, {
-        text: '价格',
-        link: '/zh/document/pricing'
+        text: '购买',
+        link: '/zh/buy'
     }, {
         text: '下载',
         link: '/zh/download/'
