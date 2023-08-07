@@ -85,4 +85,4 @@ See our Private Policy.
 5. You acknowledge that the provisions of this EULA, which by their nature are intended to survive termination, will remain in effect after termination of this EULA.
 
 ## 10. Feedback
-We welcome any comment, question and communication at hi@datatable.online
+We welcome any comment, question and communication at dbkangaroo@hotmail.com
