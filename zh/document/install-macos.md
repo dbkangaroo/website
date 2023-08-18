@@ -26,11 +26,4 @@ MacOS 平台提供了两种安装方式：安装程序 和 手工安装，您可
 3. 从应用中心启动袋鼠数据库工具，检查是否一切正常
 
 
-## 手工安装
-1. 解压缩便携式安装包到制定目录中
-```bash
-tar -xvf <Kangaroo-......tar.gz>
-```
-2. 双击袋鼠应用(kangaroo.app)启动袋鼠
-
 <Vssue :issue-id="6" :title="$title" />
