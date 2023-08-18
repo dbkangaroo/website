@@ -4,6 +4,24 @@ lang: en-US
 ---
 
 # Kangaroo change
+## [Kangaroo v3.92.1](/en/download/v3.92.1.230901)
+- GTK4 upgrade to 4.12
+- libadwaita upgrade to 1.4 beta
+- Add Redhat series package support(rpm)
+- Add code snippet support
+  - Code snippet pane(filter/drag and drop)
+  - Code snippet dialog
+  - Code snippet intellisense
+  - Code snippet setting
+- Refactor history view
+- Refactor color text view
+- Refactor minor toolbar style
+- Refactor toolbar setting
+- Updated Chinese translation
+- Fixed: libsoup connection issue
+- Fixed: document UI data display issue
+- Fixed: status bar missing data issue
+
 ## [Kangaroo v3.91.1 (Beta)](/en/download/v3.91.1.230801)
 - Port to libadwaita 1.4
 - Refactor GtkSwitch.state to active
