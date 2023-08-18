@@ -10,6 +10,8 @@ In order to achieve sustainable services, the **Kangaroo** adopts a subscription
 
 ## Subscription plan
 The prices below are annual subscription prices and include one year of free upgrades and support.
+
+All prices(without VAT) are displayed in USD and VAT may apply.
 | Features plan | Enterprise license    | Non-commercial license | License extension | 
 |-------------|:-----------:|:-----------:|-------------|
 | Multiple database | USD 249    | USD 99      | 20% discount |
@@ -42,8 +44,7 @@ E-mail: dbkangaroo@hotmail.com
 
 ## FAQ
 ### How long does it take to receive my license code after payment?
-**Kangaroo** will start the process of license code work within one week after the stable version be released, please pay attention to the version announcement;
-
+**Kangaroo** will start the process of license code work within one week after the license validation feature launched, please pay attention to the version announcement and E-mail notification;
 
 ### Can I get a refund on my license?
 Virtual goods are non-refundable after purchase. Please purchase with caution.
