@@ -13,6 +13,8 @@ lang: en-US
   - Code snippet dialog
   - Code snippet intellisense
   - Code snippet setting
+  - Code snippet context menu for query view
+- Add execute menu item for query view context menu
 - Refactor history view
 - Refactor color text view
 - Refactor minor toolbar style
