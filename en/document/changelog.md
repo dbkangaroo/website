@@ -19,10 +19,16 @@ lang: en-US
 - Refactor color text view
 - Refactor minor toolbar style
 - Refactor toolbar setting
+- Refactor exportor columns page
+- Refactor exportor tables page
+- Refactor exportor option page
+- Refactor model entity dialog
+- QR code add kangaroo logo
 - Updated Chinese translation
 - Fixed: libsoup connection issue
 - Fixed: document UI data display issue
 - Fixed: status bar missing data issue
+- Fixed: connection id issue
 
 ## [Kangaroo v3.91.1 (Beta)](/en/download/v3.91.1.230801)
 - Port to libadwaita 1.4
