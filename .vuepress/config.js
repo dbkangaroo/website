@@ -142,7 +142,9 @@ module.exports = {
             channel: true,
         }],
         ['flowchart'],
-        ['vuepress-plugin-zooming'],
+        ['vuepress-plugin-zooming', {
+            selector: '.theme-default-content p>img',
+        }],
     ],
     extraWatchFiles: [
         '.vuepress/navigation/en.js',

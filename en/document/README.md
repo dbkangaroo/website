@@ -9,9 +9,6 @@ Here is the center of documents, could find documents you need, if could not fou
 ## System Requirements
 [Minimal system requirements](system-requirements.md)
 
-## Pricing plan
-[Kangaroo pricing plan](pricing.md)
-
 ## Change timeline
 [Kangaroo's change timeline](changelog.md)
 

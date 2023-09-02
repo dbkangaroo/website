@@ -1,7 +1,6 @@
 module.exports = [
     '',
     'system-requirements',
-    'pricing',
     'changelog',
     'install-windows',
     'install-linux',

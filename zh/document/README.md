@@ -13,9 +13,6 @@ lang: zh-CN
 ## 系统需求
 [最低系统需求](system-requirements.md)
 
-## 价格方案
-[袋鼠价格方案](pricing.md)
-
 ## 更新记录
 [袋鼠数据库工具更新时间线](changelog.md)
 
