@@ -4,6 +4,8 @@ lang: en-US
 ---
 
 # Kangaroo change
+## [Kangaroo v3.93.1](/en/download/v3.93.1.230928)
+
 ## [Kangaroo v3.92.1](/en/download/v3.92.1.230901)
 - GTK4 upgrade to 4.12
 - libadwaita upgrade to 1.4 beta
