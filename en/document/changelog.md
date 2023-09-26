@@ -5,6 +5,39 @@ lang: en-US
 
 # Kangaroo change
 ## [Kangaroo v3.93.1](/en/download/v3.93.1.230928)
+- Add main toolbar icon setting support
+- Add download link for SSH tool
+- Image view add file drop support
+- Text view add file drop support
+- Refactor object tree view
+- Refactor SQL builder view
+- Refactor model view with UI support
+- Improve content builder column layout
+- Improve binary value display text
+- Improve tree view performance
+- Improve explorer view message text
+- Implement upgrade support
+- Implement model paste action
+- Update app icons
+- Update menu item `Source` to `View source`
+- Update function and procedure menu labels
+- SQLite: add other extensions support
+- SQLite: fixed schema missing issue
+- SQLite: fixed load database issue
+- SQLite: fixed zero length binary data issue
+- MySQL: fixed system view issue
+- MariaDB: fixed system view issue
+- MariaDB: Fixed user and role load issue
+- Fixed: locate the initial database tables
+- Fixed: content builder where page crash
+- Fixed: console warning message
+- Fixed: empty statement issue
+- Fixed: timestamp with zero value issue
+- Fixed: DateTime with ISO8601 format parse issue
+- Fixed: model view can't handle user keyboard input
+- Fixed: history view warning message
+- Fixed: connections sync with multi-workspace
+- Fixed: SQL file extension issue
 
 ## [Kangaroo v3.92.1](/en/download/v3.92.1.230901)
 - GTK4 upgrade to 4.12
@@ -47,6 +80,18 @@ lang: en-US
 - Data transfer: initialize default options
 - Data transfer: add log output
 - Data transfer: Fixed target connection issue
+
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-3975819313740938"
+        data-ad-slot="6760827895"></ins>
+    <script2 type="text/javascript">
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script2>
+</div>
 
 ## [Kangaroo v3.90.1 (Beta)](/en/download/v3.90.1.230701)
 - Add transfer/structure sync/data sync UI
