@@ -23,6 +23,9 @@ module.exports = {
                 "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-04H2JF332Q');",
             ],
         ],
+        ['script', {}, [
+            `var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?985eb201c607a0050a8f1b411008bc94"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })();`
+        ]],
     ],
     locales: {
         '/': {
@@ -44,9 +47,9 @@ module.exports = {
     themeConfig: {
         logo: '/images/kangaroo.svg',
         // repo: 'dbkangaroo/kangaroo',
-        docsRepo: 'dbkangaroo/dbkangaroo.github.io',
-        docsBranch: 'dev',
-        editLinks: true,
+        // docsRepo: 'dbkangaroo/dbkangaroo.github.io',
+        // docsBranch: 'dev',
+        editLinks: false,
         search: true,
         searchMaxSuggestions: 10,
         locales: {
